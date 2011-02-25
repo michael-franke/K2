@@ -1,0 +1,184 @@
+\documentclass[fleqn,reqno,10pt]{article}
+
+
+
+%========================================
+% Packages
+%========================================
+
+\usepackage[]{mypackages}
+
+\bibliography{MyRefGlobal}
+
+%\usepackage[garamond]{mathdesign}
+
+
+
+
+%========================================
+% Theorem Environments
+%========================================
+
+\usepackage{myenvironments}
+
+
+%========================================
+% Commands
+%========================================
+
+\usepackage{mycommands}
+
+
+%========================================
+% Page Layout
+%========================================
+% \renewcommand{\baselinestretch}{1.1} % multiplies vertical distance between lines in a paragraph
+% \setlength{\parskip}{1ex plus 0.4ex minus 0.1ex}
+% \addtolength{\voffset}{-1.7cm} \addtolength{\hoffset}{-1.5cm}
+% \addtolength{\textwidth}{3.1cm} \addtolength{\textheight}{2.3cm}
+% \addtolength{\voffset}{-1cm} \addtolength{\hoffset}{-0.5cm}
+% \addtolength{\textwidth}{1cm} \addtolength{\textheight}{2cm}
+% \setlength{\parindent}{0cm} % set paragraph indentation
+
+%========================================
+% More Layout
+%========================================
+
+% Itemize
+\renewcommand{\labelitemi}{\large{$\mathbf{\cdot}$}}    % itemize symbols
+\renewcommand{\labelitemii}{\large{$\mathbf{\cdot}$}}
+\renewcommand{\labelitemiii}{\large{$\mathbf{\cdot}$}}
+\renewcommand{\labelitemiv}{\large{$\mathbf{\cdot}$}}
+
+% Description
+\renewcommand{\descriptionlabel}[1]{\hspace\labelsep\textsc{#1}}
+
+% Figure Captions
+\usepackage{caption} % use corresponding myfiguresize!
+\setlength{\captionmargin}{20pt}
+\renewcommand{\captionfont}{\small}
+\setlength{\belowcaptionskip}{7pt} % standard is 0pt
+
+% Equationnumbering
+%\numberwithin{equation}{section}
+
+% sectioning
+\usepackage{sectsty}
+\chapterfont{\rmfamily\mdseries\Large\raggedleft}
+\sectionfont{\rmfamily\mdseries\large\nohang\centering}
+\subsectionfont{\rmfamily\mdseries\normalsize\nohang\centering}
+\subsubsectionfont{\rmfamily\mdseries\normalsize\itshape\nohang\centering}
+\paragraphfont{\rmfamily\mdseries\normalsize\textsc}
+
+% for indentation of section headings:
+%\sectionfont{\hspace*{-2.3em}\rmfamily\mdseries\bfseries\large\nohang\raggedright}
+
+
+%========================================
+% Document
+%========================================
+
+
+\title{Sentences for use in Experiment 2}
+
+\date{February 25, 2011 }
+
+\begin{document}
+
+\maketitle
+
+\section{Target Sentences}
+
+\begin{itemize}
+\item target sentences have a scalar item embedded under a quantifier
+  \begin{itemize}
+  \item embedding quantifiers:
+    \begin{enumerate}
+    \item definite article \attrib{(for baseline)}
+    \item ``einige'' \attrib{(upward monotonic)}
+    \item ``alle'' \attrib{(upward monotonic)}
+    \item ``genau ein'' \attrib{(non-monotonic)}
+    \end{enumerate}
+  \item two scalar items in embedded position:
+    \begin{enumerate}
+    \item ``einige''
+    \item ``oder''
+    \end{enumerate}
+  \end{itemize}
+  \begin{exe}
+  \ex \label{bsp:target1} Der \dots ist mit einigen seiner \dots
+    verbunden. \attrib{($\iota\exists$)}
+  \ex Einige der \dots sind  mit einigen ihrer \dots
+    verbunden. \attrib{($\exists\exists$)}
+  \ex Alle der \dots sind  mit einigen ihrer \dots verbunden. \attrib{($\forall\exists$)}
+  \ex Genau einer der \dots ist  mit einigen seiner \dots verbunden. \attrib{($!\exists\exists$)}
+  \ex Der \dots ist mit seinem \dots oder \dots verbunden. \attrib{($\iota\vee$)}
+  \ex Einige der \dots sind  mit ihrem \dots oder \dots verbunden. \attrib{($\exists\vee$)}
+  \ex Alle der \dots sind  mit ihrem \dots oder \dots verbunden. \attrib{($\forall\vee$)}
+  \ex Genau einer der \dots ist  mit seinem \dots oder \dots verbunden. \attrib{($!\exists\vee$)}
+  \end{exe}
+\item each target sentence should occur in four (or three?) versions,
+  e.g.:
+  \begin{exe}
+  \exr{bsp:target1} Der \dots ist mit einigen seiner \dots
+    verbunden. \attrib{($\iota\exists$)}
+    \begin{xlist}
+    \ex Der \dots ist mit einigen seiner \dots
+      verbunden. \attrib{(flat)}
+    \ex Der \dots ist mit \emph{einigen} seiner \dots
+      verbunden. \attrib{(stress)}
+    \ex Der \dots ist nur mit einigen seiner \dots
+      verbunden. \attrib{(only, flat)}
+    \ex Der \dots ist nur mit \emph{einigen} seiner \dots
+      verbunden. \attrib{(only, stress)}
+    \end{xlist}
+  \end{exe}
+
+\end{itemize}
+
+\section{Controls \& Fillers}
+
+\begin{itemize}
+\item to check if \acros{vp}\ understand ``incremental information
+  evaluation'' in general
+\end{itemize}
+
+\medskip
+
+\begin{exe}
+  \ex Genau zwei der \dots sind mit mindestens einem der \dots verbunden.
+  \ex Mindestens zwei der \dots sind mit mindestens eimem der \dots verbunden.
+\end{exe}
+
+\begin{itemize}
+\item to check if \acros{vp}\ behave consistently with genuinely
+  ambiguous sentences
+  \begin{itemize}
+  \item potential problem: disambiguation by intonation
+  \end{itemize}
+\end{itemize}
+
+\medskip
+
+\begin{exe}
+  \ex There are triangles and squares that are connected with all of
+    their circles.
+  \ex There are blue triangles and squares.
+\end{exe}
+
+
+\section{Fillers}
+
+\begin{exe}
+  \ex Alle Quadrate sind rechts von ihrem Stern.
+  \ex Der Stern ist links neben dem Quadrat.
+  \ex Alle blauen Sterne sind unverbunden.
+  \ex Genau ein Stern ist zwischen seinem dem Quadrat und seinem
+    Dreieck. 
+\end{exe}
+
+
+
+% \printbibliography[heading=bibintoc]
+
+\end{document}
