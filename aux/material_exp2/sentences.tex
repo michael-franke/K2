@@ -73,12 +73,12 @@
 %\numberwithin{equation}{section}
 
 % sectioning
-\usepackage{sectsty}
-\chapterfont{\rmfamily\mdseries\Large\raggedleft}
-\sectionfont{\rmfamily\mdseries\large\nohang\centering}
-\subsectionfont{\rmfamily\mdseries\normalsize\nohang\centering}
-\subsubsectionfont{\rmfamily\mdseries\normalsize\itshape\nohang\centering}
-\paragraphfont{\rmfamily\mdseries\normalsize\textsc}
+% \usepackage{sectsty}
+% \chapterfont{\rmfamily\mdseries\Large\raggedleft}
+% \sectionfont{\rmfamily\mdseries\large\nohang\centering}
+% \subsectionfont{\rmfamily\mdseries\normalsize\nohang\centering}
+% \subsubsectionfont{\rmfamily\mdseries\normalsize\itshape\nohang\centering}
+% \paragraphfont{\rmfamily\mdseries\normalsize\textsc}
 
 % for indentation of section headings:
 %\sectionfont{\hspace*{-2.3em}\rmfamily\mdseries\bfseries\large\nohang\raggedright}
@@ -190,6 +190,17 @@
 \begin{exe}
   \ex
     \begin{xlist}
+      \ex Alle der SYMBOLE sind mit einigen ihrer FORM verbunden.
+      \ex Alle der SYMBOLE sind mit \emph{einigen} ihrer FORM
+        verbunden.
+      \ex Alle der SYMBOLE sind nur mit \emph{einigen} ihrer FORM
+        verbunden.
+    \end{xlist}
+\end{exe}
+
+\begin{exe}
+  \ex
+    \begin{xlist}
       \ex Alle der Häkchen ($\checkmark$) sind mit einigen ihrer Kreise verbunden.
       \ex Alle der Kreuze ($\maltese$) sind mit einigen ihrer Vierecke
         verbunden.
@@ -287,6 +298,72 @@
 \subsection{Controls}
 
 \begin{exe}
+\ex (base-line)
+  \begin{xlist}
+  \ex Das SYMBOL ist mit einigen seiner FORM verbunden.
+  \ex Das SYMBOL ist mit seinem SYMBOL2 oder SYMBOL3 verbunden.
+  \end{xlist}
+\ex (control for task)
+  \begin{xlist}
+  \ex Genau zwei der SYMBOLE 1 sind mit SYMBOL2 und SYMBOL3 verbunden.
+  \ex Genau zwei der SYMBOLE 1 sind mit allen ihrer FORM verbunden.
+  \end{xlist}
+\ex (ambige Sätze)
+  \begin{xlist}
+    \ex Es gibt blaue Dreiecke und Vierecke.
+    \ex Es gibt Dreiecke und Vierecke, die mit allen ihren FORMEN
+      verbunden sind.
+  \end{xlist}
+\end{exe}
+
+
+
+
+\subsection{Distractors}
+
+\begin{exe}
+  \ex
+    \begin{xlist}
+    \ex Wenn ein SYMBOL1 mit einem SYMBOL2 verbunden ist, dann ist
+      es auch mit einem SYMBOL3 verbunden.
+    \ex Alle SYMBOLE1 sind mit allen SYMBOLEN2 verbunden.
+    \ex Nur alle \emph{SYMBOLE1} sind mit allen SYMBOLEN2 verbunden.
+    \ex Alle SYMBOLE1 sind mit allen ihrer FORM verbunden.
+    \ex Nur alle \emph{SYMBOLE1} sind mit allen ihrer FORM verbunden.
+    \ex Kein SYMBOL ist mit nur einem SYMBOL2 verbunden.
+    \ex Alle FORMEN, die mit einem SYMBOL verbunden sind, sind FARBE.
+    \ex Nur SYMBOL1 und SYMBOL2 sind mit allen ihren FORMEN
+      verbunden.
+    \ex Nur SYMBOL1 und SYMBOL2 sind mit genau zwei ihrer FORMEN
+      verbunden.
+    \ex Nur alle \emph{FARBE} Sterne sind nicht mit ihren FORMEN
+      verbunden.
+    \ex Alle blauen \emph{SYMBOL} sind mit all ihren FORMEN
+      verbunden.
+    \ex Das SYMBOL1 ist nicht nur mit SYMBOL2 verbunden.
+    \ex Das SYMBOL1 hat \emph{keine} Verbindung.
+    \ex Wenn ein SYMBOL1 nur \emph{eine} Verbindung hat, dann ist es
+      nur mit seinem SYMBOL2 verbunden.
+    \ex Genau ein unverbundenes SYMBOL ist FARBE.
+    \ex Nur wenn ein SYMBOL FARBE ist, dann ist es mit allen seinen
+      FORMEN verbunden.
+    \ex Kein FARBE SYMBOL ist nur mit genau zwei seiner FORMEN
+      verbunden.
+    \ex Nur unverbundene SYMBOLE sind FARBE.
+    \ex Nur genau ein SYMBOL ist FARBE und unverbunden.
+    \ex Es gibt FARBE SYMBOLE, die mit nur genau einer ihrer FORM
+      verbunden ist.
+    \ex Kein SYMBOL ist nur mit SYMBOL1 oder SYMBOL2 verbunden.
+    \ex Kein \emph{SYMBOL}, das unverbunden ist, ist FARBE.
+    \end{xlist}
+\end{exe}
+
+
+
+\subsection{Extra Symbols}
+
+
+\begin{exe}
 \ex
   \begin{xlist}
   \ex Bügeleisen (\IroningIII)
@@ -298,11 +375,6 @@
   \ex Türme (\symrook)
   \end{xlist}
 \end{exe}
-
-
-
-
-\subsection{Filler}
 
 
 
