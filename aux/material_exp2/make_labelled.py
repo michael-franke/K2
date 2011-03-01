@@ -2,10 +2,23 @@ from subprocess import *
 
 # define variable string elements
 
-colors = ["blue","red", "orange","brown","black"]
-plabels = ["\\mathrm{A}", "\\mathrm{B}", "\\mathrm{C}",\
-           "\\mathrm{D}", "\\mathrm{E}", "\\mathrm{F}"]
-clabels = ["\\Box", "\\alpha", "\\omega"]
+#colors = ["blue","red", "yellow","green"]
+#color_names = ["Blau","Rot", "Gelb","Gruen"]
+
+colors = ["blue","red"]
+color_names = ["Blau","Rot"]
+
+#plabels = ["\\text{\\SI}","\\leftmoon","\\text{\\blitze}","\\varheartsuit","\\text{\\ding{96}}","\\text{\epsdice{5}}"]
+#plabel_names = ["Sonne", "Mond","Blitz","Herz", "Blume","Wuerfel"]
+
+plabels = ["\\text{\\SI}","\\leftmoon","\\text{\\blitze}","\\varheartsuit"]
+plabel_names = ["Sonne", "Mond","Blitz","Herz"]
+
+#clabels = ["\\text{\\Letter}","\\text{\\Rightscissors}","\\text{\\ding{46}}","\\star","\\text{\\bell}","\\text{\\clock}"]
+#clabel_names = ["Brief","Schere", "Stifte","Sterne","Glocken","Uhren"]
+
+clabels = ["\\text{\\Letter}","\\text{\\Rightscissors}"]
+clabel_names = ["Brief","Schere"]
 
 # define text blocks
 
