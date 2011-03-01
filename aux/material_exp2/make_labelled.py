@@ -3,7 +3,8 @@ from subprocess import *
 # define variable string elements
 
 colors = ["blue","red", "orange","brown","black"]
-plabels = ["\\mathrm{A}", "\\mathrm{B}", "\\mathrm{C}", "\\mathrm{D}", "\\mathrm{E}", "\\mathrm{F}"]
+plabels = ["\\mathrm{A}", "\\mathrm{B}", "\\mathrm{C}",\
+           "\\mathrm{D}", "\\mathrm{E}", "\\mathrm{F}"]
 clabels = ["\\Box", "\\alpha", "\\omega"]
 
 # define text blocks
