@@ -6,7 +6,7 @@ import itertools
 # define variable string elements
 
 colors = ["blue","red", "yellow","green"]
-color_names = ["Blau","Rot", "Gelb","Gruen"]
+color_names = ["B","R", "Y","G"]
 
 #colors = ["blue","red"]
 #color_names = ["Blau","Rot"]
@@ -72,7 +72,7 @@ def powerset(seq):
     else:
         return [[]]
 
-def make_periphery(hidden=False, labeled = False, connections = [],plabels=[],color_list=[]):
+def make_periphery(hidden=False, labeled = False, connections = [],labels=[],color_list=[]):
 
     if labeled:
         directions = ["above left of = c0", "above right of = c0",\
@@ -84,10 +84,9 @@ def make_periphery(hidden=False, labeled = False, connections = [],plabels=[],co
     periphery = "\\begin{pgfonlayer}{foreground}\n\n"
 
     if labeled:
-        print color_list
         for i in range(4):
             periphery += "\\node [p4type, ,draw=black!70,fill=%s!50,%s]\
-              (p%s)   {\\Huge{$%s$}};\n\n" % (color_list[i],directions[i],i,plabels[i])
+              (p%s)   {\\Huge{$%s$}};\n\n" % (colors[color_list[i]],directions[i],i,plabels[labels[i]])
     else:
         for i in range(6):
             periphery += "\\node [ptype, %s]  (p%s)   {};\n\n" % (directions[i],i)
@@ -149,31 +148,44 @@ file_footer = "\\end{document}"
 #        call(["pdflatex", file_name+".tex"])
 #        #call(["open", "-a", "Skim", file_name+".pdf"])
 
-# Generate Labeled 
 
-out_string = file_header
-for color_permutation in itertools.permutations(colors):
-    for j,clabel in enumerate(clabels):
-        pset6 = powerset(range(4))
-        pset3 = powerset(range(2))
-        for connections in pset6:
-            out_string += make_tikzheader("green") + tikzbackground + make_center(clabel)
-            out_string += make_periphery(hidden=False,labeled=True,\
-                                         connections=connections,plabels=plabels,color_list=color_permutation)
-            out_string += tikzbackground + tikzfooter
-        for connections in pset3:
-            out_string += make_tikzheader("green") + tikzbackground + make_center(clabel)
-            out_string += make_periphery(hidden=True,labeled=True,\
-                                         connections=connections,plabels=plabels,color_list=color_permutation)
-            out_string += tikzbackground + tikzfooter
-        out_string += file_footer
-        file_dir = os.path.join(os.path.dirname(__file__), 'Pics')
-        file_name = os.path.join(file_dir,"Labeled-"+clabel_names[j] + "-" + str(color_permutation))
-        f = open(file_name+'.tex','w')
-        f.write(out_string)
-        f.close()
-        os.chdir(file_dir)
-        call(["pdflatex", file_name+".tex"])
-        #call(["open", "-a", "Skim", file_name+".pdf"])
+########################
+### Generate Labeled ### 
+########################
+
+
+for label_permutation in itertools.permutations(range(len(plabels))):
+    p_permut_name = ""
+    for p in label_permutation:
+        p_permut_name += plabel_names[p]
+    for color_permutation in itertools.permutations(range(len(colors))):
+        c_permut_name = ""
+        for p in color_permutation:
+            c_permut_name += color_names[p]
+        for j,clabel in enumerate(clabels):
+            out_string = file_header
+            pset6 = powerset(range(4))
+            pset3 = powerset(range(2))
+            for connections in pset6:
+                out_string += make_tikzheader("green") + tikzbackground + make_center(clabel)
+                out_string += make_periphery(hidden=False,labeled=True,\
+                                             connections=connections,labels=label_permutation,\
+                                             color_list=color_permutation)
+                out_string += tikzbackground + tikzfooter
+            for connections in pset3:
+                out_string += make_tikzheader("green") + tikzbackground + make_center(clabel)
+                out_string += make_periphery(hidden=True,labeled=True,\
+                                             connections=connections,labels=label_permutation,\
+                                             color_list=color_permutation)
+                out_string += tikzbackground + tikzfooter
+            out_string += file_footer
+            file_dir = os.path.join(os.path.dirname(__file__), 'Pics','Labeled')
+            file_name = os.path.join(file_dir,clabel_names[j] + "-" + c_permut_name + "-" + p_permut_name)
+            f = open(file_name+'.tex','w')
+            f.write(out_string)
+            f.close()
+            os.chdir(file_dir)
+            call(["pdflatex", file_name+".tex"])
+            #call(["open", "-a", "Skim", file_name+".pdf"])
 
 
