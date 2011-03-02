@@ -11,17 +11,22 @@ color_names = ["B","R", "Y","G"]
 #colors = ["blue","red"]
 #color_names = ["Blau","Rot"]
 
-#plabels = ["\\text{\\SI}","\\leftmoon","\\text{\\blitze}","\\varheartsuit","\\text{\\ding{96}}","\\text{\epsdice{5}}"]
-#plabel_names = ["Sonne", "Mond","Blitz","Herz", "Blume","Wuerfel"]
+plabels = ["\\text{\\SI}","\\leftmoon","\\text{\\blitze}","\\varheartsuit","\\text{\\ding{96}}","\\text{\epsdice{5}}"]
+plabel_names = ["Sonne", "Mond","Blitz","Herz", "Blume","Wuerfel"]
 
-plabels = ["\\text{\\SI}","\\leftmoon","\\text{\\blitze}","\\varheartsuit"]
-plabel_names = ["Sonne", "Mond","Blitz","Herz"]
+#plabels = ["\\text{\\SI}","\\leftmoon","\\text{\\blitze}","\\varheartsuit"]
+#plabel_names = ["Sonne", "Mond","Blitz","Herz"]
 
-#clabels = ["\\text{\\Letter}","\\text{\\Rightscissors}","\\text{\\ding{46}}","\\star","\\text{\\bell}","\\text{\\clock}"]
-#clabel_names = ["Brief","Schere", "Stifte","Sterne","Glocken","Uhren"]
+clabels = ["\\text{\\Letter}","\\text{\\Rightscissors}","\\text{\\ding{46}}","\\star","\\text{\\bell}","\\text{\\clock}"]
+clabel_names = ["Brief","Schere", "Stifte","Sterne","Glocken","Uhren"]
 
-clabels = ["\\text{\\Letter}","\\text{\\Rightscissors}"]
-clabel_names = ["Brief","Schere"]
+#clabels = ["\\text{\\Letter}","\\text{\\Rightscissors}"]
+#clabel_names = ["Brief","Schere"]
+
+shapes = ["circle","regular polygon, regular polygon sides=4",\
+          "regular polygon, regular polygon sides=3",\
+          "regular polygon, regular polygon sides=5"]
+shape_names = ["Kreise", "Vierecke", "Dreiecke", "Fuenfecke"]
 
 
 # define text blocks
@@ -54,16 +59,15 @@ file_header = """
 \\begin{document}
 """
 
-def make_tikzheader(color):
+def make_tikzheader():
     return """\\begin{tikzpicture}[rounded corners,node distance = 3cm]
 
     \\tikzset{ctype/.style={circle,thick,minimum
       width=18mm},
       htype/.style={},
-      ptype/.style={circle,draw=black!70,fill=%s!50,thick,minimum
-      width=8mm},
+      p6type/.style={thick,minimum width=8mm},
       p4type/.style={circle,thick,minimum width=14mm},
-      arrow/.style={-,very thick}}\n""" % color
+      arrow/.style={-,very thick}}\n"""
 
 def powerset(seq):
     if len(seq) > 0:
@@ -72,7 +76,7 @@ def powerset(seq):
     else:
         return [[]]
 
-def make_periphery(hidden=False, labeled = False, connections = [],labels=[],color_list=[]):
+def make_periphery(hidden=False, labeled = False, connections = [],labels=[],color_list=[],color="",shape=""):
 
     if labeled:
         directions = ["above left of = c0", "above right of = c0",\
@@ -89,7 +93,8 @@ def make_periphery(hidden=False, labeled = False, connections = [],labels=[],col
               (p%s)   {\\Huge{$%s$}};\n\n" % (colors[color_list[i]],directions[i],i,plabels[labels[i]])
     else:
         for i in range(6):
-            periphery += "\\node [ptype, %s]  (p%s)   {};\n\n" % (directions[i],i)
+            periphery += "\\node [p6type,%s,draw=black!70,fill=%s!50, %s]  (p%s)   {};\n\n"\
+             % (shape,color,directions[i],i)
 
     periphery += "\\end{pgfonlayer}"
 
@@ -122,31 +127,33 @@ tikzfooter = """\\end{tikzpicture}\n\n"""
 
 file_footer = "\\end{document}"
 
+###########################
+### Generate Unlabelled ###
+###########################
 
-# Generate Unlabelled
-
-#for c,color in enumerate(colors):    
-#    for j,clabel in enumerate(clabels):
-#        out_string = file_header
-#        pset6 = powerset(range(6))
-#        pset3 = powerset(range(3))
-#        for connections in pset6:
-#            out_string += make_tikzheader(color) + tikzbackground + make_center(clabel)
-#            out_string += make_periphery(hidden=False,connections=connections)
-#            out_string += tikzbackground + tikzfooter
-#        for connections in pset3:
-#            out_string += make_tikzheader(color) + tikzbackground + make_center(clabel)
-#            out_string += make_periphery(hidden=True,connections=connections)
-#            out_string += tikzbackground + tikzfooter
-#        out_string += file_footer
-#        file_dir = os.path.join(os.path.dirname(__file__), 'Pics')
-#        file_name = os.path.join(file_dir,"Unlabeled-"+clabel_names[j] + "-" +color_names[c])
-#        f = open(file_name+'.tex','w')
-#        f.write(out_string)
-#        f.close()
-#        os.chdir(file_dir)
-#        call(["pdflatex", file_name+".tex"])
-#        #call(["open", "-a", "Skim", file_name+".pdf"])
+for s,shape in enumerate(shapes):
+    for c,color in enumerate(colors):    
+        for j,clabel in enumerate(clabels):
+            out_string = file_header
+            pset6 = powerset(range(6))
+            pset3 = powerset(range(3))
+            for connections in pset6:
+                out_string += make_tikzheader() + tikzbackground + make_center(clabel)
+                out_string += make_periphery(hidden=False,connections=connections,shape=shape)
+                out_string += tikzbackground + tikzfooter
+            for connections in pset3:
+                out_string += make_tikzheader() + tikzbackground + make_center(clabel)
+                out_string += make_periphery(hidden=True,connections=connections,shape=shape)
+                out_string += tikzbackground + tikzfooter
+            out_string += file_footer
+            file_dir = os.path.join(os.path.dirname(__file__), 'Pics','Unlabeled')
+            file_name = os.path.join(file_dir, clabel_names[j] + "-" + shape_names[s] + "-" +color_names[c])
+            f = open(file_name+'.tex','w')
+            f.write(out_string)
+            f.close()
+            os.chdir(file_dir)
+#            call(["pdflatex", file_name+".tex"])
+            #call(["open", "-a", "Skim", file_name+".pdf"])
 
 
 ########################
@@ -154,38 +161,38 @@ file_footer = "\\end{document}"
 ########################
 
 
-for label_permutation in itertools.permutations(range(len(plabels))):
-    p_permut_name = ""
-    for p in label_permutation:
-        p_permut_name += plabel_names[p]
-    for color_permutation in itertools.permutations(range(len(colors))):
-        c_permut_name = ""
-        for p in color_permutation:
-            c_permut_name += color_names[p]
-        for j,clabel in enumerate(clabels):
-            out_string = file_header
-            pset6 = powerset(range(4))
-            pset3 = powerset(range(2))
-            for connections in pset6:
-                out_string += make_tikzheader("green") + tikzbackground + make_center(clabel)
-                out_string += make_periphery(hidden=False,labeled=True,\
-                                             connections=connections,labels=label_permutation,\
-                                             color_list=color_permutation)
-                out_string += tikzbackground + tikzfooter
-            for connections in pset3:
-                out_string += make_tikzheader("green") + tikzbackground + make_center(clabel)
-                out_string += make_periphery(hidden=True,labeled=True,\
-                                             connections=connections,labels=label_permutation,\
-                                             color_list=color_permutation)
-                out_string += tikzbackground + tikzfooter
-            out_string += file_footer
-            file_dir = os.path.join(os.path.dirname(__file__), 'Pics','Labeled')
-            file_name = os.path.join(file_dir,clabel_names[j] + "-" + c_permut_name + "-" + p_permut_name)
-            f = open(file_name+'.tex','w')
-            f.write(out_string)
-            f.close()
-            os.chdir(file_dir)
-            call(["pdflatex", file_name+".tex"])
-            #call(["open", "-a", "Skim", file_name+".pdf"])
+#for label_permutation in itertools.permutations(range(len(plabels))):
+#    p_permut_name = ""
+#    for p in label_permutation:
+#        p_permut_name += plabel_names[p]
+#    for color_permutation in itertools.permutations(range(len(colors))):
+#        c_permut_name = ""
+#        for p in color_permutation:
+#            c_permut_name += color_names[p]
+#        for j,clabel in enumerate(clabels):
+#            out_string = file_header
+#            pset6 = powerset(range(4))
+#            pset3 = powerset(range(2))
+#            for connections in pset6:
+#                out_string += make_tikzheader() + tikzbackground + make_center(clabel)
+#                out_string += make_periphery(hidden=False,labeled=True,\
+#                                             connections=connections,labels=label_permutation,\
+#                                             color_list=color_permutation)
+#                out_string += tikzbackground + tikzfooter
+#            for connections in pset3:
+#                out_string += make_tikzheader() + tikzbackground + make_center(clabel)
+#                out_string += make_periphery(hidden=True,labeled=True,\
+#                                             connections=connections,labels=label_permutation,\
+#                                             color_list=color_permutation)
+#                out_string += tikzbackground + tikzfooter
+#            out_string += file_footer
+#            file_dir = os.path.join(os.path.dirname(__file__), 'Pics','Labeled')
+#            file_name = os.path.join(file_dir,clabel_names[j] + "-" + c_permut_name + "-" + p_permut_name)
+#            f = open(file_name+'.tex','w')
+#            f.write(out_string)
+#            f.close()
+#            os.chdir(file_dir)
+#            call(["pdflatex", file_name+".tex"])
+##            #call(["open", "-a", "Skim", file_name+".pdf"])
 
 
