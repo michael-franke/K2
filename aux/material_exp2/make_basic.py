@@ -23,8 +23,8 @@ plabel_names = ["Sonne", "Mond"]
 clabels = ["\\text{\\Letter}"]
 clabel_names = ["Brief"]
 
-shapes = ["circle","semicircle,shape border rotate=180"]
-shape_names = ["Kreise", "Halbkreise"]
+shapes = ["circle"]
+shape_names = ["Kreise"]
 
 #shapes = ["circle","semicircle,shape border rotate=180",\
 #          "regular polygon, regular polygon sides=4",\
@@ -42,7 +42,7 @@ file_header = """
 \\usepackage[palatino]{mypackages}\\usepackage{mycommands}
 
 \\usepackage[]{mathdesign}
-\\usepackage{MnSymbol}
+%\\usepackage{MnSymbol}
 \\usepackage{ulsy}
 \\usepackage{wasysym}
 \\usepackage{ascii}
@@ -188,22 +188,25 @@ file_footer = "\\end{document}"
 ### Generate Unlabelled ###
 ###########################
 
+counter = 1
+
 for s,shape in enumerate(shapes):
     for c,color in enumerate(colors):    
         for j,clabel in enumerate(clabels):
-            out_string = file_header
             connections = [powerset(range(6)),powerset(range(3)),powerset([0,1,2,5]),powerset([0,1,2,3]),powerset([])]
             for hide_int in range(5):
                 for connect in connections[hide_int]:
+                    out_string = file_header
                     out_string += make_tikzheader() + tikzbackground + make_center(clabel)
                     out_string += make_periphery(hidden=hide_int,connections=connect,shape=shape,color=color)
                     out_string += tikzbackground + tikzfooter
-            out_string += file_footer
-            file_dir = os.path.join(os.path.dirname(__file__), 'Pics','Unlabeled')
-            file_name = os.path.join(file_dir, clabel_names[j] + "-" + shape_names[s] + "-" +color_names[c])
-            f = open(file_name+'.tex','w')
-            f.write(out_string)
-            f.close()
+                    out_string += file_footer
+                    file_dir = os.path.join(os.path.dirname(__file__), 'Pics','Unlabeled')
+                    file_name = os.path.join(file_dir, str(counter))
+                    f = open(file_name+'.tex','w')
+                    f.write(out_string)
+                    f.close()
+                    counter += 1
 #            os.chdir(file_dir)
 #            call(["pdflatex", file_name+".tex"])
 #            call(["open", "-a", "Skim", file_name+".pdf"])
@@ -219,28 +222,28 @@ def combinations_with_replacement(iterable, r):
     for indices in itertools.product(range(n), repeat=r):
             yield tuple(pool[i] for i in indices)
 
-for p_label in range(len(plabels)):
-    for p_label_pos in combinations_with_replacement(range(2),6):
-        for shape_pair in itertools.combinations(range(len(shapes)),2):
-            shape_pos_name = shape_names[shape_pair[0]] + "-" + shape_names[shape_pair[1]] 
-            for shape_pos in combinations_with_replacement(shape_pair,6):
-                shape_pos_name = shape_names[shape_pair[0]] + "-" + shape_names[shape_pair[1]] +"-" + str(shape_pos)
-                for c,color in enumerate(colors):    
-                    for j,clabel in enumerate(clabels):
-                        out_string = file_header
-                        connections = [powerset(range(6)),powerset(range(3)),powerset([0,1,2,5]),powerset([0,1,2,3]),powerset([])]
-                        for hide_int in range(5):
-                            for connect in connections[hide_int]:
-                                out_string += make_tikzheader() + tikzbackground + make_center(clabel)
-                                out_string += make_periphery(hidden=hide_int,labeled = True, connections=connect,\
-                                            color=color,p_label=plabels[p_label],p_label_pos=p_label_pos,shape_pos=shape_pos)
-                                out_string += tikzbackground + tikzfooter
-                        out_string += file_footer
-                        file_dir = os.path.join(os.path.dirname(__file__), 'Pics','Labeled')
-                        file_name = os.path.join(file_dir, clabel_names[j] + "-" + color_names[c] + "-" +plabel_names[p_label] + "-" + str(p_label_pos) + "-" + shape_pos_name)
-                        f = open(file_name+'.tex','w')
-                        f.write(out_string)
-                        f.close()
+#for p_label in range(len(plabels)):
+#    for p_label_pos in combinations_with_replacement(range(2),6):
+#        for shape_pair in itertools.combinations(range(len(shapes)),2):
+#            shape_pos_name = shape_names[shape_pair[0]] + "-" + shape_names[shape_pair[1]] 
+#            for shape_pos in combinations_with_replacement(shape_pair,6):
+#                shape_pos_name = shape_names[shape_pair[0]] + "-" + shape_names[shape_pair[1]] +"-" + str(shape_pos)
+#                for c,color in enumerate(colors):    
+#                    for j,clabel in enumerate(clabels):
+#                        out_string = file_header
+#                        connections = [powerset(range(6)),powerset(range(3)),powerset([0,1,2,5]),powerset([0,1,2,3]),powerset([])]
+#                        for hide_int in range(5):
+#                            for connect in connections[hide_int]:
+#                                out_string += make_tikzheader() + tikzbackground + make_center(clabel)
+#                                out_string += make_periphery(hidden=hide_int,labeled = True, connections=connect,\
+#                                            color=color,p_label=plabels[p_label],p_label_pos=p_label_pos,shape_pos=shape_pos)
+#                                out_string += tikzbackground + tikzfooter
+#                        out_string += file_footer
+#                        file_dir = os.path.join(os.path.dirname(__file__), 'Pics','Labeled')
+#                        file_name = os.path.join(file_dir, clabel_names[j] + "-" + color_names[c] + "-" +plabel_names[p_label] + "-" + str(p_label_pos) + "-" + shape_pos_name)
+#                        f = open(file_name+'.tex','w')
+#                        f.write(out_string)
+#                        f.close()
 #                        os.chdir(file_dir)
 #                        call(["pdflatex", file_name+".tex"])
 #                        call(["open", "-a", "Skim", file_name+".pdf"])
