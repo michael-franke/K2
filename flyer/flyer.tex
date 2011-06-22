@@ -1,0 +1,79 @@
+\documentclass{article}
+
+\usepackage[palatino]{mypackages}\usepackage{mycommands}
+
+\usepackage{eurosym}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+
+\begin{document}
+
+
+\begin{tikzpicture}[rounded corners]
+
+  \node at (0,5.5) (Heading) {{\Huge Versuchspersonen Gesucht!!!}};
+
+  \node[text width = 10cm] at (0,3.5) (Heading) {{\large Für ein
+      Experiment zur Sprachverarbeitung suchen wir ab sofort deutsche
+      Mutterspachler.}};
+
+
+  \node[text width = 10cm] at (0,2) (Heading) {{\large Versuchspersonen werden gefragt, ob bestimmte
+    Sätze bestimmte Bilder angemessen beschreiben.}};
+
+  \node[text width = 10cm] at (0,1.35) (Heading) {{\large In etwa so:}};
+
+  \node at (0,0) (sentence) {``Genau eine Schere ist mit keiner ihrer blauen Formen
+              verbunden.''};
+
+  \node at (0,-5) (graphics) {\includegraphics[scale=0.4]{train_5_6.pdf}};
+
+  \node[draw = black] (wahr) at (-3,-10) {Wahr $\Box$};
+
+  \node[draw = black] (falsch) at (3,-10) {Falsch $\Box$};
+
+    \begin{pgfonlayer}{background}
+      \node [draw=black!35,fill=black!7,fit=(wahr) (falsch) (sentence)
+      (graphics)] {};
+    \end{pgfonlayer}
+
+  \node[text width = 10cm] at (0,-11.5) (Heading) {{\large
+      Dauer: ca.~40\,min}};
+
+  \node[text width = 10cm] at (0,-12) (Heading) {{\large
+      Ort: Wilhelmstraße 19}};
+
+  \node[text width = 10cm] at (0,-12.5) (Heading) {{\large
+      \color{red}{Aufwandsentschädigung: \euro{8}}}};
+
+  \node[text width = 10cm] at (0,-13.5) (Heading) {{\large
+      Termine flexibel nach Absprache.}};
+
+  \node[text width = 10cm] at (0,-14) (Heading) {{\large
+      Bei Interesse bitte melden unter:}};
+
+  \node[text width = 10cm] at (0,-14.5) (Heading) {{\large
+      \url{versucheb1@sfb833.uni-tuebingen.de}}};
+
+\end{tikzpicture}
+
+
+\end{document}
+
+\begin{frame}
+  \begin{block}{Please Join Our Experiment!}
+    \begin{itemize}
+    \item 8 Euro for ca.~40min
+    \item make appointment: \url{versucheb1@sfb833.uni-tuebingen.de}
+    \end{itemize}
+    \begin{center}
+      \framebox{\parbox{0.9\textwidth}{\begin{center} {\footnotesize
+              ``Genau eine Schere ist mit keiner ihrer blauen Formen
+              verbunden.''} \\
+      \includegraphics[height = 0.4\textheight]{train_5_6.pdf}\\
+      {\footnotesize Wahr $\Box$ \hspace{4cm} Falsch $\Box$}
+    \end{center}}}
+\end{center}
