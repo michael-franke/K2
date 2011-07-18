@@ -1,0 +1,168 @@
+\documentclass[fleqn,reqno,10pt]{article}
+
+
+
+%========================================
+% Packages
+%========================================
+
+\usepackage[]{mypackages}
+
+%\usepackage[natbib=true,style=authoryear-comp,backend=bibtex,doi=false,url=false]{biblatex}
+
+\bibliography{MyRefGlobal}
+
+%\usepackage[garamond]{mathdesign}
+
+
+
+
+%========================================
+% Theorem Environments
+%========================================
+
+\usepackage{myenvironments}
+
+
+%========================================
+% Commands
+%========================================
+
+\usepackage{mycommands}
+%========================================
+% Page Layout
+%========================================
+% \renewcommand{\baselinestretch}{1.1} % multiplies vertical distance between lines in a paragraph
+% \setlength{\parskip}{1ex plus 0.4ex minus 0.1ex}
+% \addtolength{\voffset}{-1.7cm} \addtolength{\hoffset}{-1.5cm}
+% \addtolength{\textwidth}{3.1cm} \addtolength{\textheight}{2.3cm}
+% \addtolength{\voffset}{-1cm} \addtolength{\hoffset}{-0.5cm}
+% \addtolength{\textwidth}{1cm} \addtolength{\textheight}{2cm}
+% \setlength{\parindent}{0cm} % set paragraph indentation
+
+%========================================
+% More Layout
+%========================================
+
+% Itemize
+\renewcommand{\labelitemi}{\large{$\mathbf{\cdot}$}}    % itemize symbols
+\renewcommand{\labelitemii}{\large{$\mathbf{\cdot}$}}
+\renewcommand{\labelitemiii}{\large{$\mathbf{\cdot}$}}
+\renewcommand{\labelitemiv}{\large{$\mathbf{\cdot}$}}
+
+% Description
+\renewcommand{\descriptionlabel}[1]{\hspace\labelsep\textsc{#1}}
+
+% Figure Captions
+\usepackage{caption} % use corresponding myfiguresize!
+\setlength{\captionmargin}{20pt}
+\renewcommand{\captionfont}{\small}
+\setlength{\belowcaptionskip}{7pt} % standard is 0pt
+
+% Equationnumbering
+%\numberwithin{equation}{section}
+
+% sectioning
+\usepackage{sectsty}
+\chapterfont{\rmfamily\mdseries\Large\raggedleft}
+\sectionfont{\rmfamily\mdseries\large\nohang\centering}
+\subsectionfont{\rmfamily\mdseries\normalsize\nohang\centering}
+\subsubsectionfont{\rmfamily\mdseries\normalsize\itshape\nohang\centering}
+\paragraphfont{\rmfamily\mdseries\normalsize\textsc}
+
+% for indentation of section headings:
+%\sectionfont{\hspace*{-2.3em}\rmfamily\mdseries\bfseries\large\nohang\raggedright}
+
+
+%========================================
+% Document
+%========================================
+
+
+\title{Processing of Scalar Items in Embedded Positions}
+
+\author{Petra Augurzky, Michael Franke \& Fabian Schlotterbeck}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\textbf{Scalar implicatures} are inferences such as from
+(\ref{bsp:SI_Kiki_Target}) to (\ref{bsp:SI_Kiki_Implicature}). These
+inference hinge on comparing what the speaker \emph{actually} said
+with what she \emph{could have said}. Roughly speaking, since the
+determiner ``all'' is a salient alternative to the determiner ``some''
+that was used in (\ref{bsp:SI_Kiki_Target}), the inference in
+(\ref{bsp:SI_Kiki_Implicature}) is licensed.
+
+\noindent \begin{minipage}{0.5\linewidth}
+  \begin{exe}
+  \ex  \label{bsp:SI_Kiki_Target} Some of my friends are
+    bald.
+  \end{exe}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+  \begin{exe}
+  \ex  \label{bsp:SI_Kiki_Implicature} Not all of my friends are
+    bald.
+  \end{exe}
+\end{minipage}
+
+\noindent Recently there has been renewed interest in the question
+what inferences arise from utterances where scalar items like ``some''
+occur in embedded position
+\citep[cf.][]{Cohen1971:Some-Remarks-on,Landman1998:Plurals-and-Max,Chierchia:2004_ScalarImplicatures,Magri2009:A-Theory-of-Ind}. For
+example, a sentence like (\ref{bsp:AllSome}a) could get a \textbf{global
+enrichment} as in (\ref{bsp:AllSome_Implicature_Global}) by comparing it to the whole alternative utterance in
+(\ref{bsp:AllSome}b), or it could be strengthened to a reading as in
+(\ref{bsp:AllSome}c) where the scalar item ``some'' gets a \textbf{local
+enrichment} in the scope of another logical operator. 
+\noindent \begin{minipage}{0.4\linewidth}
+\begin{exe}
+\ex \label{bsp:AllSome} All of the students read
+\end{exe}
+\end{minipage}
+\begin{minipage}{0.3\linewidth}
+  a. some of the books.
+\end{minipage}
+\begin{minipage}{0.3\linewidth}
+  b. all of the books.
+\end{minipage}
+\noindent \begin{minipage}{0.4\linewidth}
+ $ $ 
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+  c. some but not all of the books.
+\end{minipage}
+\begin{minipage}{1.0\linewidth}
+  \begin{exe}
+  \ex \label{bsp:AllSome_Implicature_Global} All read some and some did
+    not read all. 
+  \end{exe}
+\end{minipage}
+
+\noindent Empirical evidence on the availability of either global and
+local enrichments in relevant constructions is sparse and, where it
+exists, not unanimous
+\citep{GeurtsPouscoulous2009:Embedded-Implic,ChemlaSpector2010:Experimental-Ev}.
+The reason is that global and local enrichments are not locally
+independent and therefore standard picture verification tasks run into
+difficulties because we cannot keep the properties of the visual
+stimuli constant across to-be-compared conditions. In cooperation
+between the \acro{sfb} and the \acro{sfs}, we therefore designed an
+amended picture verification task where subjects had to sequentially
+unveil visual information if necessary for a truth-value judgement. We
+also studied \textbf{the effects of prosody on pragmatic enrichments}
+and found that global enrichments are hardly attested, while local
+enrichments occur seldom with neutral prosody, but more frequent if an
+embedded scalar items is intonationally marked. In future work we
+intend to extend the developed paradigm beyond embedding quantifiers
+``all'' and ``exactly one'' to other quantifiers and also modal
+expressions and to probe more deeply into the effect prosody on
+pragmatic interpretation.
+
+
+\printbibliography[heading=bibintoc]
+
+\end{document}
