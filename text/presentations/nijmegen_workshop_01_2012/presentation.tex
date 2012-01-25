@@ -80,6 +80,9 @@
 
 \renewcommand{\AE}{AE}
 \newcommand{\GE}{GE}
+\newcommand{\LC}{LC}
+\newcommand{\EC}{EC}
+
 
 \newcommand{\mymark}[1]{{\color{blue}{#1}}}
 
@@ -990,7 +993,7 @@
     \item target:
       \begin{center}
         \begin{tabular}{cll}
-          & \multicolumn{2}{c}{prosody-type} \\ \cmidrule(r){2-3}
+          & \multicolumn{2}{c}{prosody-type} \\ 
           sentence-type & neutral & accented \\ \midrule
           \AE & ae-ntr & ae-acc \\
           \GE & ge-ntr & ge-acc\\
@@ -1190,6 +1193,34 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Hypotheses}
+
+  \begin{block}{Traditionalist}
+    \begin{enumerate}
+    \item expect answers ``literal'' and maybe ``global'' in both conditions
+    \item expect answers ``local'' only in accented condition
+    \end{enumerate}
+  \end{block}
+
+  \begin{block}{Heretic}
+    \begin{enumerate}
+    \item expect answers ``literal'' and maybe ``global'' and
+      ``local'' in both conditions
+    \item expect ``local'' answers in accented condition
+    \end{enumerate}
+  \end{block}
+
+  \begin{block}{Nota Bene}
+    \begin{itemize}
+    \item ``local'' readings judged last, but task clearly states to
+      judge sentences as soon as possible
+    \item[$\Rightarrow$] if biased, then \emph{against} ``local'' answers
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
   \frametitle{Results \AE-Condition \hfill (answer types)}
   \begin{center}
     \begin{tikzpicture}
@@ -1239,12 +1270,12 @@
                legend style={at={(0.5,-0.15)},
                  anchor=north,
                  legend columns=-1}, 
-               ylabel={\% of answerer types}, 
+               ylabel={\% of subject types}, 
                symbolic x coords={ae-ntr,dummy,ae-acc}, 
                xtick=data,
                nodes near coords,
                nodes near coords align={vertical},
-               ymin = 15
+               ymin = 8
                ]
 
     \addplot coordinates {(ae-ntr,71) (ae-acc,68)}; 
@@ -1477,7 +1508,7 @@
                xtick=data,
                nodes near coords,
                nodes near coords align={vertical},
-               ymin = 15
+               ymin = 8
                ]
 
     \addplot coordinates {(ge-ntr,55) (ge-acc,58)}; 
@@ -1566,11 +1597,582 @@
 
   \begin{block}{Effect of Prosody}
     \begin{itemize}
-    \item prosody does not seem to change anything
+    \item prosody does not seem to any effect
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Open Issue}
+    \begin{itemize}
+    \item how to interpret data from visually-incremental
+      \acro{tv}-task?
+    \end{itemize}
+
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Target-Related Fillers}
+  \begin{block}{Motivation}
+    \begin{itemize}
+    \item use ambiguous sentences with a clearly preferred reading
+    \item investigate conditions where preferred reading can be judged
+      true or false first or second
+    \item[$\Rightarrow$] do we see both readings in the visually-incremental
+      \acro{tv}-task?
+    \item[$\Rightarrow$] do we see evidence of the preference?
     \end{itemize}
   \end{block}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Target-Related Fillers}
+  \begin{block}{Sentence Material: \LC-\EC\ Ambiguity}
+    \begin{exe}
+      \ex The letter is connected with circles and squares with
+        suns.
+        \begin{xlist}
+          \ex The bell is connected with circles and squares; the latter
+            but not the former contain suns. \hfill (\LC)
+          \ex The bell is connected with circles and squares; both
+            contain suns. \hfill (\EC)
+        \end{xlist}
+    \end{exe}
+  \end{block}
+
+  \begin{block}{Prosodical Cues}
+    \begin{itemize}
+      \item[ntr:] The letter is connected with circles and squares with
+        suns.
+      \item[LC:] The letter is connected with circles \# and squares with
+        suns.
+      \item[EC:] The letter is connected with circles and squares \# with
+        suns.
+    \end{itemize}
+    
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Target-Related Fillers}
+  \begin{block}{Conditions}
+    \begin{center}
+
+      \begin{tabular}{lccc}
+        & \multicolumn{3}{c}{prosodical cue} \\ \cmidrule(r){2-4}
+        1$^{\mathrm{st}}$ in sequence & neutral & \LC & \EC \\ \midrule
+        \LC & e-ntr & l-l & l-e \\
+        \EC & e-ntr & e-l & e-e \\
+      \end{tabular}
+
+    \end{center}
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{\LC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/lc_01_1.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{\LC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/lc_01_2.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{\LC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/lc_01_3.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{LC}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+\begin{frame}
+  \frametitle{\LC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/lc_01_4.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{\LC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/lc_01_5.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{\LC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/lc_01_6.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{EC}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{\LC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/lc_01_7.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Results \LC-Condition \hfill (answer types)}
+
+  \begin{center}
+
+    \begin{tikzpicture}
+
+  \begin{axis}[ybar, 
+               enlargelimits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of answers}, 
+               symbolic x coords={l-ntr,l-l,l-e}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               ymin = 8
+               ]
+
+    \addplot coordinates {(l-ntr, 69) (l-l, 77) (l-e, 52)}; 
+
+    \addplot coordinates {(l-ntr, 24) (l-l, 12) (l-e, 30)}; 
+
+    \addplot coordinates {(l-ntr, 7) (l-l, 11) (l-e, 19)}; 
+
+    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
+    %   (e-l, 100) (e-e, 75)}; 
+
+    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
+    %   (e-l, 16) (e-e, 43)}; 
+
+    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
+    %   (e-l, 15) (e-e, 17)}; 
+
+    \legend{LC, EC, false}
+
+  \end{axis}
+
+\end{tikzpicture}
+
+    
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Results \LC-Condition \hfill (subject types)}
+
+  \begin{center}
+
+    \begin{tikzpicture}
+
+  \begin{axis}[ybar, 
+               enlargelimits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of subject types}, 
+               symbolic x coords={l-ntr,l-l,l-e}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               ymin = 8
+               ]
+
+    \addplot coordinates {(l-ntr, 63) (l-l, 76) (l-e, 55)}; 
+
+    \addplot coordinates {(l-ntr, 11) (l-l, 5) (l-e, 21)}; 
+
+    \addplot coordinates {(l-ntr, 26) (l-l, 18) (l-e, 24)}; 
+
+    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
+    %   (e-l, 100) (e-e, 75)}; 
+
+    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
+    %   (e-l, 16) (e-e, 43)}; 
+
+    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
+    %   (e-l, 15) (e-e, 17)}; 
+
+    \legend{LCist, ECist, inconsistent}
+
+  \end{axis}
+
+\end{tikzpicture}
+
+    
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{\EC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/ec_01_1.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{\EC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/ec_01_2.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{\EC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/ec_01_3.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{EC}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{\EC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/ec_01_4.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{false}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{\EC-Sequence}
+  \begin{center}
+    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+
+    \vspace{0.1cm}
+
+    \includegraphics[width=0.5 \textwidth]{../../pictures/ec_01_5.pdf}
+
+    \vspace{0.1cm}
+
+    \begin{multicols}{3}
+      \begin{itemize} 
+      \item[$\Box$] True\\
+        \onslide<2>{$\leadsto$  \mymark{LC}}
+      \item[$\Box$] False\\
+        \onslide<2>{$\leadsto$ \mymark{false}}
+      \item[$\Box$] Need more info 
+      \end{itemize}
+    \end{multicols}
+
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Results \EC-Condition \hfill (answer types)}
+
+  \begin{center}
+
+    \begin{tikzpicture}
+
+  \begin{axis}[ybar, 
+               enlargelimits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of answers}, 
+               symbolic x coords={e-ntr,e-l,e-e,}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               ymin = 8
+               ]
+
+    \addplot coordinates {(e-ntr, 63)
+      (e-l, 76) (e-e, 56)}; 
+
+    \addplot coordinates {(e-ntr, 25)
+      (e-l, 12) (e-e, 32)}; 
+
+    \addplot coordinates {(e-ntr, 12)
+      (e-l, 11) (e-e, 13)}; 
+
+    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
+    %   (e-l, 100) (e-e, 75)}; 
+
+    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
+    %   (e-l, 16) (e-e, 43)}; 
+
+    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
+    %   (e-l, 15) (e-e, 17)}; 
+
+    \legend{LC, EC, false}
+
+  \end{axis}
+
+\end{tikzpicture}
+
+    
+  \end{center}
+\end{frame}
+
+
+
+\begin{frame}
+  \frametitle{Results \EC-Condition \hfill (subject types)}
+
+  \begin{center}
+
+    \begin{tikzpicture}
+
+  \begin{axis}[ybar, 
+               enlargelimits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of answerer types}, 
+               symbolic x coords={e-ntr,e-l,e-e,}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               ymin = 8
+               ]
+
+    \addplot coordinates {(e-ntr, 58)
+      (e-l, 74) (e-e, 47)}; 
+
+    \addplot coordinates {(e-ntr, 16)
+      (e-l, 11) (e-e, 24)}; 
+
+    \addplot coordinates {(e-ntr, 26)
+      (e-l, 16) (e-e, 29)}; 
+
+    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
+    %   (e-l, 100) (e-e, 75)}; 
+
+    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
+    %   (e-l, 16) (e-e, 43)}; 
+
+    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
+    %   (e-l, 15) (e-e, 17)}; 
+
+    \legend{LCist, ECist, inconsistent}
+
+  \end{axis}
+
+\end{tikzpicture}
+
+    
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Tentative Naive Conclusions}
+  \begin{block}{Lessons from the \LC-\EC-Conditions}
+    \begin{itemize}
+    \item both \LC- and \EC-readings show up 
+    \item the preference for $\LC$-readings shows in more $\LC$-answers
+    \item all of this is irrespective of position
+    \item prosody does seem to have the expected effect
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Embedded Implicatures?!?}
+    \begin{itemize}
+    \item proper statistical analysis is pending, but \dots
+    \item \dots it appears that local readings are dispreffered but
+      \emph{do} exist
+    \item whether local readings are ``implicatures'', we cannot say
+    \end{itemize}
+  \end{block}
+  
+\end{frame}
 
 
 
