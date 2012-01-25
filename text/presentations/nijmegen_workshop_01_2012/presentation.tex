@@ -12,6 +12,7 @@
 
 \usepackage{multicol}
 \usepackage{pgfplots}
+
 %========================================
 % Commands
 %========================================
@@ -127,19 +128,6 @@
 
 \begin{frame}[plain]
   \titlepage
-\end{frame}
-
-\begin{frame}
-  \frametitle{Overview}
-    \begin{enumerate}
-    \item background
-      \begin{itemize}
-      \item theoretical
-      \item experimental
-      \end{itemize}
-    \item design
-    \item results
-    \end{enumerate}
 \end{frame}
 
 \begin{frame}
@@ -481,7 +469,7 @@
 
 \begin{frame}[shrink=2]
   \frametitle{Scalar Items in Embedded Positions}
-  \begin{block}{In non-monotonic position \hfill (Global)}
+  \begin{block}{\GE \hfill (Global)}
     \begin{exe}
       \exr{bsp:GE} Exactly one of the students read {\color{blue}{some}} of the
       papers.
@@ -495,7 +483,7 @@
       \end{xlist}
     \end{exe}
   \end{block}
-  \begin{block}{In upward monotonic position \hfill (Local)}
+  \begin{block}{\GE \hfill (Local)}
     \begin{exe}
       \exr{bsp:GE} Exactly one of the students read {\color{blue}{some}} of the
       papers.
@@ -772,6 +760,26 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Relevance}
+  \begin{block}{Is there a local reading?}
+    \begin{itemize}
+    \item if ``some'' can be enriched locally, it is questionable
+      whether this can be explained as a normal scalar implicature in
+      the vein of Grice
+      \begin{itemize}
+        \item local reading in \GE-condition makes sentence literally false
+      \end{itemize}
+    \item in that case we need to find a different satisfactory and
+      systematic explanation
+      \begin{itemize}
+       \item e.g.~\citet{Chierchia:2004_ScalarImplicatures},  \citet{ChierchiaFox2008:The-Grammatical}
+      \end{itemize}
+
+    \end{itemize}
+  \end{block}
+\end{frame}
+
+\begin{frame}
   \frametitle{Overview}
   brief summary:
   \begin{enumerate}
@@ -954,7 +962,7 @@
   \frametitle{Reflection}
   
   \begin{block}{Conclusion}
-    contradictory evidence for existence of \loc-readings
+    contradictory evidence for/against existence of \loc-readings
   \end{block}
   
   \begin{block}{Potential Problem}
@@ -989,8 +997,15 @@
 \begin{frame}
   \frametitle{Overview: K2}
   \begin{block}{Conditions}
-    \begin{itemize}
-    \item target:
+    \begin{enumerate}
+    \item target
+    \item target-related fillers
+    \item fillers
+    \item controls
+    \end{enumerate}
+  \end{block}
+
+  \begin{block}{Target Conditions}
       \begin{center}
         \begin{tabular}{cll}
           & \multicolumn{2}{c}{prosody-type} \\ 
@@ -999,30 +1014,10 @@
           \GE & ge-ntr & ge-acc\\
         \end{tabular}
       \end{center}
-    \item target-related fillers:
-      \begin{itemize}
-      \item to test method, see later
-      \end{itemize}
-    \item controls
-      \begin{itemize}
-      \item for both targets and target-related fillers
-      \end{itemize}
-    \item fillers
-    \end{itemize}
   \end{block}
+
 \end{frame}
 
-
-\begin{frame}
-  \frametitle{Overview: K2}
-  \begin{block}{Participants}
-    \begin{itemize}
-    \item 41 native speakers of German took part
-    \item we excluded 3 due to insufficient performance on controls
-      ($\le 50\%$ correct answers)
-    \end{itemize}
-  \end{block}
-\end{frame}
 
 \begin{frame}
   \frametitle{\AE-Sequence}
@@ -1193,138 +1188,6 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Hypotheses}
-
-  \begin{block}{Traditionalist}
-    \begin{enumerate}
-    \item expect answers ``literal'' and maybe ``global'' in both conditions
-    \item expect answers ``local'' only in accented condition
-    \end{enumerate}
-  \end{block}
-
-  \begin{block}{Heretic}
-    \begin{enumerate}
-    \item expect answers ``literal'' and maybe ``global'' and
-      ``local'' in both conditions
-    \item expect ``local'' answers in accented condition
-    \end{enumerate}
-  \end{block}
-
-  \begin{block}{Nota Bene}
-    \begin{itemize}
-    \item ``local'' readings judged last, but task clearly states to
-      judge sentences as soon as possible
-    \item[$\Rightarrow$] if biased, then \emph{against} ``local'' answers
-    \end{itemize}
-  \end{block}
-
-\end{frame}
-
-\begin{frame}
-  \frametitle{Results \AE-Condition \hfill (answer types)}
-  \begin{center}
-    \begin{tikzpicture}
-
-      \begin{axis}[ybar, enlargelimits=0.25, legend
-        style={at={(0.5,-0.15)}, anchor=north, legend columns=-1},
-        ylabel={\% of answers}, symbolic x
-        coords={ae-ntr,dummy,ae-acc}, xtick=data, nodes
-        near coords, nodes near coords align={vertical}, ymin = 8 ]
-
-        \addplot coordinates {(ae-ntr,73) (ae-acc,70)};
-
-        \addplot coordinates {(ae-ntr,23) (ae-acc,22)};
-
-        \addplot coordinates {(ae-ntr,1) (ae-acc,2)};
-
-        \addplot coordinates {(ae-ntr,4) (ae-acc,6)};
-
-        % \addplot coordinates {(ae-ntr,83) (ae-acc,80) (ge-ntr,53)
-        % (ge-acc,56)};
-
-        % \addplot coordinates {(ae-ntr,26) (ae-acc,25) (ge-ntr,33)
-        % (ge-acc,26)};
-
-        % \addplot coordinates {(ae-ntr,1) (ae-acc,2) (ge-ntr,0)
-        % (ge-acc,1)};
-
-        % \addplot coordinates {(ae-ntr,4) (ae-acc,7) (ge-ntr,28)
-        % (ge-acc,31)};
-
-        \legend{literal, local, global, false}
-
-      \end{axis}
-
-    \end{tikzpicture}
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Results \AE-Condition \hfill (subject types)}
-  \begin{center}
-\begin{tikzpicture}
-
-  \begin{axis}[ybar, 
-               enlargelimits=0.25, 
-               legend style={at={(0.5,-0.15)},
-                 anchor=north,
-                 legend columns=-1}, 
-               ylabel={\% of subject types}, 
-               symbolic x coords={ae-ntr,dummy,ae-acc}, 
-               xtick=data,
-               nodes near coords,
-               nodes near coords align={vertical},
-               ymin = 8
-               ]
-
-    \addplot coordinates {(ae-ntr,71) (ae-acc,68)}; 
-
-    \addplot coordinates {(ae-ntr,18) (ae-acc,18)}; 
-
-    \addplot coordinates {(ae-ntr,10) (ae-acc,13)};
-
-    % \addplot coordinates {(ae-ntr,83) (ae-acc,80) (ge-ntr,53) (ge-acc,56)}; 
-
-    % \addplot coordinates {(ae-ntr,26) (ae-acc,25) (ge-ntr,33) (ge-acc,26)}; 
-
-    % \addplot coordinates {(ae-ntr,1) (ae-acc,2) (ge-ntr,0) (ge-acc,1)};
-
-    % \addplot coordinates {(ae-ntr,4) (ae-acc,7) (ge-ntr,28) (ge-acc,31)};
-
-    \legend{literalist, localist, inconsistent}
-
-  \end{axis}
-
-\end{tikzpicture}
-
-  \end{center}
-\end{frame}
-
-
-
-
-\begin{frame}
-  \frametitle{Results \AE-Condition}
-  \begin{center}
-    \includegraphics[width=0.7\textwidth]{../../pictures/ae-ntr.png}
-
-    \vspace{0.2cm}
-    \# of true/false judgements on positions in ae-ntr
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Results \AE-Condition}
-  \begin{center}
-    \includegraphics[width=0.7\textwidth]{../../pictures/ae-acc.png}
-
-    \vspace{0.2cm}
-    \# of true/false judgements on positions in ae-acc
-  \end{center}
-\end{frame}
-
-\begin{frame}
   \frametitle{\GE-Sequence}
   \begin{center}
     ``Genau eine der Glocken ist mit einigen ihrer Halbkreise verbunden.''
@@ -1446,9 +1309,97 @@
 \end{frame}
 
 
+\begin{frame}
+  \frametitle{Hypotheses}
+
+  \begin{block}{Traditionalist}
+    \begin{enumerate}
+    \item expect answers ``literal'' and maybe ``global'' in both conditions
+    \item expect answers ``local'' only in accented condition
+    \end{enumerate}
+  \end{block}
+
+  \begin{block}{Heretic}
+    \begin{enumerate}
+    \item expect answers ``literal'' and maybe ``global'' and
+      ``local'' in both conditions
+    \item expect ``local'' answers in accented condition
+    \end{enumerate}
+  \end{block}
+
+  \begin{block}{Nota Bene}
+    \begin{itemize}
+    \item local readings judged last, but task clearly states to
+      judge sentences as soon as possible
+    \item[$\Rightarrow$] if biased, then \emph{against} ``local'' answers
+    \end{itemize}
+  \end{block}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Participants \& Control Performance}
+
+  \begin{block}{Participants}
+    \begin{itemize}
+    \item 41 native speakers of German took part
+    \item we excluded 3 due to insufficient performance on controls
+      ($\le 50\%$ correct answers)
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Controls}
+        \begin{center}
+      \begin{tabular}{lccc}
+        & target & target-related & overall \\ \midrule
+        mean success & 92\% & 87\% & 90\% \\
+      \end{tabular}
+    \end{center}
+  \end{block}
+  
+
+\end{frame}
 
 
 
+\begin{frame}
+  \frametitle{Results \AE-Condition \hfill (answer types)}
+  \begin{center}
+    \begin{tikzpicture}
+
+      \begin{axis}[ybar, enlargelimits=0.25, legend
+        style={at={(0.5,-0.15)}, anchor=north, legend columns=-1},
+        ylabel={\% of answers}, symbolic x
+        coords={ae-ntr,dummy,ae-acc}, xtick=data, nodes
+        near coords, nodes near coords align={vertical}, ymin = 8 ]
+
+        \addplot coordinates {(ae-ntr,73) (ae-acc,70)};
+
+        \addplot coordinates {(ae-ntr,23) (ae-acc,22)};
+
+        \addplot coordinates {(ae-ntr,1) (ae-acc,2)};
+
+        \addplot coordinates {(ae-ntr,4) (ae-acc,6)};
+
+        % \addplot coordinates {(ae-ntr,83) (ae-acc,80) (ge-ntr,53)
+        % (ge-acc,56)};
+
+        % \addplot coordinates {(ae-ntr,26) (ae-acc,25) (ge-ntr,33)
+        % (ge-acc,26)};
+
+        % \addplot coordinates {(ae-ntr,1) (ae-acc,2) (ge-ntr,0)
+        % (ge-acc,1)};
+
+        % \addplot coordinates {(ae-ntr,4) (ae-acc,7) (ge-ntr,28)
+        % (ge-acc,31)};
+
+        \legend{literal, local, global, false}
+
+      \end{axis}
+
+    \end{tikzpicture}
+  \end{center}
+\end{frame}
 
 \begin{frame}
   \frametitle{Results \GE-Condition \hfill (answer types)}
@@ -1493,6 +1444,49 @@
   \end{center}
 \end{frame}
 
+
+\begin{frame}
+  \frametitle{Results \AE-Condition \hfill (subject types)}
+  \begin{center}
+\begin{tikzpicture}
+
+  \begin{axis}[ybar, 
+               enlargelimits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of subject types}, 
+               symbolic x coords={ae-ntr,dummy,ae-acc}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               ymin = 8
+               ]
+
+    \addplot coordinates {(ae-ntr,71) (ae-acc,68)}; 
+
+    \addplot coordinates {(ae-ntr,18) (ae-acc,18)}; 
+
+    \addplot coordinates {(ae-ntr,10) (ae-acc,13)};
+
+    % \addplot coordinates {(ae-ntr,83) (ae-acc,80) (ge-ntr,53) (ge-acc,56)}; 
+
+    % \addplot coordinates {(ae-ntr,26) (ae-acc,25) (ge-ntr,33) (ge-acc,26)}; 
+
+    % \addplot coordinates {(ae-ntr,1) (ae-acc,2) (ge-ntr,0) (ge-acc,1)};
+
+    % \addplot coordinates {(ae-ntr,4) (ae-acc,7) (ge-ntr,28) (ge-acc,31)};
+
+    \legend{literalist, localist, inconsistent}
+
+  \end{axis}
+
+\end{tikzpicture}
+
+  \end{center}
+\end{frame}
+
+
 \begin{frame}
   \frametitle{Results \GE-Condition \hfill (subject types)}
     \begin{center}
@@ -1535,29 +1529,10 @@
 \end{frame}
 
 
-\begin{frame}
-  \frametitle{Results \GE-Condition}
-  \begin{center}
-    \includegraphics[width=0.7\textwidth]{../../pictures/ge-ntr.png}
-
-    \vspace{0.2cm}
-    \# of true/false judgements on positions in ge-ntr
-  \end{center}
-\end{frame}
-
-\begin{frame}
-  \frametitle{Results \GE-Condition}
-  \begin{center}
-    \includegraphics[width=0.7\textwidth]{../../pictures/ge-acc.png}
-
-    \vspace{0.2cm}
-    \# of true/false judgements on positions in ge-acc
-  \end{center}
-\end{frame}
 
 
 \begin{frame}
-  \frametitle{Comparing \AE\ and \GE\ Answer Types}
+  \frametitle{Comparing \AE\ and \GE\ Subject Types}
 
   \begin{center}
     \begin{tabular}{lccc}
@@ -1626,7 +1601,7 @@
 
 \begin{frame}
   \frametitle{Target-Related Fillers}
-  \begin{block}{Sentence Material: \LC-\EC\ Ambiguity}
+  \begin{block}{Sentence Material: Late-/Early-Closure Ambiguity}
     \begin{exe}
       \ex The letter is connected with circles and squares with
         suns.
@@ -1639,6 +1614,26 @@
     \end{exe}
   \end{block}
 
+  \begin{center}
+    \includegraphics[width=0.35\textwidth]{../../pictures/LC-EC-Contrast.png}
+  \end{center}
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Target-Related Fillers}
+
+  \begin{block}{Conditions}
+    \begin{center}
+      \begin{tabular}{lccc}
+        & \multicolumn{3}{c}{prosodical cue} \\ \cmidrule(r){2-4}
+        1$^{\mathrm{st}}$ in sequence & neutral & \LC & \EC \\ \midrule
+        \LC & e-ntr & l-l & l-e \\
+        \EC & e-ntr & e-l & e-e \\
+      \end{tabular}
+    \end{center}
+  \end{block}
+
   \begin{block}{Prosodical Cues}
     \begin{itemize}
       \item[ntr:] The letter is connected with circles and squares with
@@ -1648,25 +1643,8 @@
       \item[EC:] The letter is connected with circles and squares \# with
         suns.
     \end{itemize}
-    
   \end{block}
 
-\end{frame}
-
-\begin{frame}
-  \frametitle{Target-Related Fillers}
-  \begin{block}{Conditions}
-    \begin{center}
-
-      \begin{tabular}{lccc}
-        & \multicolumn{3}{c}{prosodical cue} \\ \cmidrule(r){2-4}
-        1$^{\mathrm{st}}$ in sequence & neutral & \LC & \EC \\ \midrule
-        \LC & e-ntr & l-l & l-e \\
-        \EC & e-ntr & e-l & e-e \\
-      \end{tabular}
-
-    \end{center}
-  \end{block}
 \end{frame}
 
 \begin{frame}
@@ -1839,97 +1817,6 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Results \LC-Condition \hfill (answer types)}
-
-  \begin{center}
-
-    \begin{tikzpicture}
-
-  \begin{axis}[ybar, 
-               enlargelimits=0.25, 
-               legend style={at={(0.5,-0.15)},
-                 anchor=north,
-                 legend columns=-1}, 
-               ylabel={\% of answers}, 
-               symbolic x coords={l-ntr,l-l,l-e}, 
-               xtick=data,
-               nodes near coords,
-               nodes near coords align={vertical},
-               ymin = 8
-               ]
-
-    \addplot coordinates {(l-ntr, 69) (l-l, 77) (l-e, 52)}; 
-
-    \addplot coordinates {(l-ntr, 24) (l-l, 12) (l-e, 30)}; 
-
-    \addplot coordinates {(l-ntr, 7) (l-l, 11) (l-e, 19)}; 
-
-    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
-    %   (e-l, 100) (e-e, 75)}; 
-
-    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
-    %   (e-l, 16) (e-e, 43)}; 
-
-    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
-    %   (e-l, 15) (e-e, 17)}; 
-
-    \legend{LC, EC, false}
-
-  \end{axis}
-
-\end{tikzpicture}
-
-    
-  \end{center}
-\end{frame}
-
-
-\begin{frame}
-  \frametitle{Results \LC-Condition \hfill (subject types)}
-
-  \begin{center}
-
-    \begin{tikzpicture}
-
-  \begin{axis}[ybar, 
-               enlargelimits=0.25, 
-               legend style={at={(0.5,-0.15)},
-                 anchor=north,
-                 legend columns=-1}, 
-               ylabel={\% of subject types}, 
-               symbolic x coords={l-ntr,l-l,l-e}, 
-               xtick=data,
-               nodes near coords,
-               nodes near coords align={vertical},
-               ymin = 8
-               ]
-
-    \addplot coordinates {(l-ntr, 63) (l-l, 76) (l-e, 55)}; 
-
-    \addplot coordinates {(l-ntr, 11) (l-l, 5) (l-e, 21)}; 
-
-    \addplot coordinates {(l-ntr, 26) (l-l, 18) (l-e, 24)}; 
-
-    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
-    %   (e-l, 100) (e-e, 75)}; 
-
-    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
-    %   (e-l, 16) (e-e, 43)}; 
-
-    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
-    %   (e-l, 15) (e-e, 17)}; 
-
-    \legend{LCist, ECist, inconsistent}
-
-  \end{axis}
-
-\end{tikzpicture}
-
-    
-  \end{center}
-\end{frame}
-
-\begin{frame}
   \frametitle{\EC-Sequence}
   \begin{center}
     ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
@@ -2054,6 +1941,53 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Results \LC-Condition \hfill (answer types)}
+
+  \begin{center}
+
+    \begin{tikzpicture}
+
+  \begin{axis}[ybar, 
+               enlargelimits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of answers}, 
+               symbolic x coords={l-ntr,l-l,l-e}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               ymin = 8
+               ]
+
+    \addplot coordinates {(l-ntr, 69) (l-l, 77) (l-e, 52)}; 
+
+    \addplot coordinates {(l-ntr, 24) (l-l, 12) (l-e, 30)}; 
+
+    \addplot coordinates {(l-ntr, 7) (l-l, 11) (l-e, 19)}; 
+
+    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
+    %   (e-l, 100) (e-e, 75)}; 
+
+    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
+    %   (e-l, 16) (e-e, 43)}; 
+
+    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
+    %   (e-l, 15) (e-e, 17)}; 
+
+    \legend{LC, EC, false}
+
+  \end{axis}
+
+\end{tikzpicture}
+
+    
+  \end{center}
+\end{frame}
+
+
+
+\begin{frame}
   \frametitle{Results \EC-Condition \hfill (answer types)}
 
   \begin{center}
@@ -2101,7 +2035,50 @@
   \end{center}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Results \LC-Condition \hfill (subject types)}
 
+  \begin{center}
+
+    \begin{tikzpicture}
+
+  \begin{axis}[ybar, 
+               enlargelimits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of subject types}, 
+               symbolic x coords={l-ntr,l-l,l-e}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               ymin = 8
+               ]
+
+    \addplot coordinates {(l-ntr, 63) (l-l, 76) (l-e, 55)}; 
+
+    \addplot coordinates {(l-ntr, 11) (l-l, 5) (l-e, 21)}; 
+
+    \addplot coordinates {(l-ntr, 26) (l-l, 18) (l-e, 24)}; 
+
+    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
+    %   (e-l, 100) (e-e, 75)}; 
+
+    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
+    %   (e-l, 16) (e-e, 43)}; 
+
+    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
+    %   (e-l, 15) (e-e, 17)}; 
+
+    \legend{LCist, ECist, inconsistent}
+
+  \end{axis}
+
+\end{tikzpicture}
+
+    
+  \end{center}
+\end{frame}
 
 \begin{frame}
   \frametitle{Results \EC-Condition \hfill (subject types)}
@@ -2115,7 +2092,7 @@
                legend style={at={(0.5,-0.15)},
                  anchor=north,
                  legend columns=-1}, 
-               ylabel={\% of answerer types}, 
+               ylabel={\% of subject types}, 
                symbolic x coords={e-ntr,e-l,e-e,}, 
                xtick=data,
                nodes near coords,
@@ -2146,7 +2123,6 @@
   \end{axis}
 
 \end{tikzpicture}
-
     
   \end{center}
 \end{frame}
@@ -2157,7 +2133,7 @@
   \begin{block}{Lessons from the \LC-\EC-Conditions}
     \begin{itemize}
     \item both \LC- and \EC-readings show up 
-    \item the preference for $\LC$-readings shows in more $\LC$-answers
+    \item the preference for \LC-readings shows in more \LC-answers
     \item all of this is irrespective of position
     \item prosody does seem to have the expected effect
     \end{itemize}
@@ -2166,12 +2142,9 @@
   \begin{block}{Embedded Implicatures?!?}
     \begin{itemize}
     \item proper statistical analysis is pending, but \dots
-    \item \dots it appears that local readings are dispreffered but
-      \emph{do} exist
-    \item whether local readings are ``implicatures'', we cannot say
+    \item \dots it appears that local readings exist but are dispreferred
     \end{itemize}
   \end{block}
-  
 \end{frame}
 
 
@@ -2184,4 +2157,45 @@
 \end{document}
 
 
+\appendix
+
+\begin{frame}
+  \frametitle{Results \AE-Condition}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{../../pictures/ae-ntr.png}
+
+    \vspace{0.2cm}
+    \# of true/false judgements on positions in ae-ntr
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Results \AE-Condition}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{../../pictures/ae-acc.png}
+
+    \vspace{0.2cm}
+    \# of true/false judgements on positions in ae-acc
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Results \GE-Condition}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{../../pictures/ge-ntr.png}
+
+    \vspace{0.2cm}
+    \# of true/false judgements on positions in ge-ntr
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Results \GE-Condition}
+  \begin{center}
+    \includegraphics[width=0.7\textwidth]{../../pictures/ge-acc.png}
+
+    \vspace{0.2cm}
+    \# of true/false judgements on positions in ge-acc
+  \end{center}
+\end{frame}
 
