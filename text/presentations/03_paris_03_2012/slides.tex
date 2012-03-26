@@ -79,10 +79,10 @@
 \newcommand{\glb}{\acro{glb}}
 \newcommand{\loc}{\acro{loc}}
 
-\renewcommand{\AE}{AE}
-\newcommand{\GE}{GE}
-\newcommand{\LC}{LC}
-\newcommand{\EC}{EC}
+\renewcommand{\AE}{AE\xspace}
+\newcommand{\GE}{GE\xspace}
+\newcommand{\LC}{LC\xspace}
+\newcommand{\EC}{EC\xspace}
 
 
 \newcommand{\mymark}[1]{{\color{blue}{#1}}}
@@ -99,8 +99,7 @@
 
 
 \author{Michael Franke}
-\institute{Joint work with Petra Augurzky and Fabian Schlotterbeck, Universit\"{a}t
-  T\"{u}bingen}
+\institute{Joint work with Petra Augurzky and Fabian Schlotterbeck (T\"{u}bingen)}
 \date{}
 
 % Logo auf allen Folien
@@ -1360,25 +1359,25 @@
 \begin{frame}
   \frametitle{Hypotheses}
 
-  \begin{block}{Traditionalist}
+  \begin{block}{\mymark{Traditionalist} Answer-Type Expectations}
     \begin{enumerate}
-    \item expect answers ``literal'' and maybe ``global'' in both conditions
-    \item expect answers ``local'' only in accented condition
+    \item ``literal'' and maybe ``global'' in both conditions
+    \item ``local'' only in accented condition
     \end{enumerate}
   \end{block}
 
-  \begin{block}{Heretic}
+  \begin{block}{\mymark{Heretic} Answer-Type Expectations}
     \begin{enumerate}
-    \item expect answers ``literal'' and maybe ``global'' and
+    \item ``literal'' and maybe ``global'' and
       ``local'' in both conditions
-    \item expect ``local'' answers in accented condition
+    \item ``local'' in accented condition
     \end{enumerate}
   \end{block}
 
   \begin{block}{Nota Bene}
     \begin{itemize}
-    \item local readings judged last, but task clearly states to
-      judge sentences as soon as possible
+    \item local readings judged last, but task clearly states to judge
+      sentences \emph{as soon as possible}
     \item[$\Rightarrow$] if biased, then \emph{against} ``local'' answers
     \end{itemize}
   \end{block}
@@ -1631,6 +1630,42 @@
     \end{itemize}
 
   \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tentative Analysis}
+
+  \begin{block}{``Local'' Answers $\neq$ Chance}
+    \begin{itemize}
+    \item ``local'' in \AE\ \ \urltilde \ chance guess on last picture
+      \hfill (binomial, $p < .01$)
+    \item ``local'' in \GE\ \ \urltilde \ chance guess on last picture
+      \hfill (binomial, $p < .01$)
+      \item remember:
+        \begin{itemize}
+        \item ``local'' in \AE $\rightarrow$ ``false''
+        \item ``local'' in \GE $\rightarrow$ ``true''
+        \end{itemize}
+    \end{itemize}
+  \end{block}
+
+  
+  \begin{block}{Log-Linear Model}
+      \begin{itemize}
+  \item answer-type \ \urltilde \ subject \hfill ($\chi^2
+    =397.4$, $p < .01$)
+  \item answer-type \ \urltilde \ condition \hfill ($\chi^2
+    = 5.2$, $p < .74$)
+  \end{itemize}
+  \end{block}
+
+  \begin{block}{Correlation \hfill (Pearson)}
+    \begin{itemize}
+    \item ``local'' in \AE\ \ \urltilde \  ``local'' in \GE \hfill ($r = .7$, $p < .01$)
+    \end{itemize}
+  \end{block}
+
+
 \end{frame}
 
 \begin{frame}
