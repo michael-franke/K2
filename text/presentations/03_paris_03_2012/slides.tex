@@ -1,15 +1,12 @@
-\documentclass[fleqn,10pt,serif,xcolor=dvipsnames]{beamer}
+\documentclass[fleqn,10pt,xcolor=dvipsnames]{beamer}
 
 %========================================
 % Packages
 %========================================
 
 \usepackage{etex}
-
-\usepackage[palatino]{mypackBeamer}
-
+\usepackage[]{mypackBeamer}
 \usepackage{gb4e_micha}
-
 \usepackage{multicol}
 \usepackage{pgfplots}
 
@@ -23,25 +20,32 @@
 % More Layout (Beamer Special)
 %========================================
 
-\usetheme[height=0mm]{Rochester}
-%\usetheme{Warsaw}
+
+\DefineNamedColor{named}{mycol}{cmyk}{0.6,0.6,0,0}
+\DefineNamedColor{named}{mygray}{cmyk}{0.05,0.05,0.05,0.05}
+\DefineNamedColor{named}{mygraylight}{cmyk}{0.01,0.01,0.01,0.01}
 
 
-\usecolortheme{dove}
+\usecolortheme[named=mycol]{structure}
 
-%\useoutertheme[footline=empty,compress,subsection=false]{miniframes}
+\useoutertheme[compress,subsection=false]{miniframes}
 
-\usecolortheme[named=Gray]{structure}
+\setbeamercolor{background canvas}{bg=white}
 
-\setbeamercolor{title}{fg=Black}
+\setbeamercolor{lower separation line head}{bg=mygray}
+
+
+% \usecolortheme[named=Gray]{structure}
+
+% \setbeamercolor{title}{fg=Blue}
 
 %\setbeamercolor{structure}{fg=Brown}
 %\setbeamercolor{normal text}{fg=Brown}
-\setbeamercolor{section in head/foot}{bg=gray!20}
-%\setbeamercolor{lower separation line head}{bg=black!40}
-\setbeamercolor*{frametitle}{fg=Black,bg=gray!20}
-\setbeamercolor*{block body}{fg=Black,bg=gray!00}
-\setbeamercolor*{block title}{fg=Black,bg=gray!20}
+%\setbeamercolor{section in head/foot}{bg=gray!40}
+%%\setbeamercolor{lower separation line head}{bg=black!40}
+%\setbeamercolor*{frametitle}{fg=Black,bg=gray!40}
+%\setbeamercolor*{block body}{fg=Brown,bg=gray!00}
+\setbeamercolor*{block title}{fg=mycol,bg=mygraylight}
  
 
 % Switch of shadows of boxes
@@ -51,7 +55,7 @@
 \setbeamertemplate{footline}[frame number]
 
 % See-through preview for uncovered
-% \setbeamercovered{transparent}
+\setbeamercovered{transparent}
 
 % Switch off navigation panel at bottom right
 \beamertemplatenavigationsymbolsempty
@@ -71,6 +75,7 @@
 % Set color for enumerate/TOC bullets to white
 \setbeamercolor*{item projected}{fg=Black,bg=gray!00}
 
+
 %========================================
 % Special this document
 %========================================
@@ -85,7 +90,7 @@
 \newcommand{\EC}{EC\xspace}
 
 
-\newcommand{\mymark}[1]{{\color{blue}{#1}}}
+\newcommand{\mymark}[1]{{\color{mycol}{#1}}}
 
 %========================================
 % Document
@@ -125,6 +130,11 @@
   \titlepage
 \end{frame}
 
+
+\section{Embedded Scalars}
+\subsection{dummy}
+
+
 \begin{frame}
   \frametitle{Scalar Items in Embedded Positions \dots}
   \begin{block}{\dots in upward monotonic position}
@@ -155,9 +165,9 @@
   \frametitle{Scalar Items in Embedded Positions}
   \begin{block}{\AE \hfill (Global)}
     \begin{exe}
-      \exr{bsp:AE} All of the students read {\color{blue}{some}} of the
+      \exr{bsp:AE} All of the students read {\color{mycol}{some}} of the
       papers.
-    \ex All of the students read {\color{blue}{all}} of the papers.
+    \ex All of the students read {\color{mycol}{all}} of the papers.
     \ex
       \begin{xlist}
       \ex All of the students read some of the papers and  \\
@@ -169,11 +179,11 @@
   \end{block}
   \begin{block}{\AE  \hfill (Local)}
     \begin{exe}
-      \exr{bsp:AE} All of the students read {\color{blue}{some}} of the
+      \exr{bsp:AE} All of the students read {\color{mycol}{some}} of the
       papers.
     \ex
       \begin{xlist}
-      \ex All of the students read {\color{blue}{some  but not all}} of the papers.
+      \ex All of the students read {\color{mycol}{some  but not all}} of the papers.
       \ex All read some and no one read all.
       \end{xlist}
     \end{exe}
@@ -466,9 +476,9 @@
   \frametitle{Scalar Items in Embedded Positions}
   \begin{block}{\GE \hfill (Global)}
     \begin{exe}
-      \exr{bsp:GE} Exactly one of the students read {\color{blue}{some}} of the
+      \exr{bsp:GE} Exactly one of the students read {\color{mycol}{some}} of the
       papers.
-    \ex Exactly one of the students read {\color{blue}{all}} of the papers.
+    \ex Exactly one of the students read {\color{mycol}{all}} of the papers.
     \ex
       \begin{xlist}
       \ex Exactly one of the students read some and  \\
@@ -480,11 +490,11 @@
   \end{block}
   \begin{block}{\GE \hfill (Local)}
     \begin{exe}
-      \exr{bsp:GE} Exactly one of the students read {\color{blue}{some}} of the
+      \exr{bsp:GE} Exactly one of the students read {\color{mycol}{some}} of the
       papers.
     \ex
       \begin{xlist}
-      \ex Exactly one of the students read {\color{blue}{some but not all}} of the papers.
+      \ex Exactly one of the students read {\color{mycol}{some but not all}} of the papers.
       \ex Exactly one student read some but not all and  \\
         all of the others read all or nothing.
       \end{xlist}
@@ -506,7 +516,7 @@
     \vspace{-0.3cm}
     \begin{multicols}{2}
       \begin{itemize}
-      \item[] \lit\ $\supset$ \glb\ $\color{blue}{\subset}$ \loc
+      \item[] \lit\ $\supset$ \glb\ $\color{mycol}{\subset}$ \loc
       \item[] \lit\ $\not \supset$ \loc
       \end{itemize}
     \end{multicols}
@@ -796,6 +806,9 @@
   \end{enumerate}
 \end{frame}
 
+\section{Previous Studies}
+\subsection{dummy}
+
 \begin{frame}
   \frametitle{Experimental Study 1:
     \citet{GeurtsPouscoulous2009:Embedded-Implic}}
@@ -982,6 +995,9 @@
   \end{block}
 
 \end{frame}
+
+\section{Design (Main)}
+\subsection{dummy}
 
 
 \begin{frame}
@@ -1355,6 +1371,8 @@
   \end{center}
 \end{frame}
 
+\section{Results (Main)}
+\subsection{dummy}
 
 \begin{frame}
   \frametitle{Hypotheses}
@@ -1607,32 +1625,6 @@
 
 
 \begin{frame}
-  \frametitle{Tentative Naive Conclusions}
-  
-  \begin{block}{Availability of Readings}
-    \begin{itemize}
-    \item most subjects applied a literal reading (consistently)
-    \item some subjects applied a local reading (consistently)
-    \item few global answers, none applied consistently
-    \end{itemize}
-  \end{block}
-
-  \begin{block}{Effect of Prosody}
-    \begin{itemize}
-    \item prosody does not seem to any effect
-    \end{itemize}
-  \end{block}
-
-  \begin{block}{Open Issue}
-    \begin{itemize}
-    \item how to interpret data from visually-incremental
-      \acro{tv}-task?
-    \end{itemize}
-
-  \end{block}
-\end{frame}
-
-\begin{frame}
   \frametitle{Tentative Analysis}
 
   \begin{block}{``Local'' Answers $\neq$ Chance}
@@ -1659,18 +1651,41 @@
   \end{itemize}
   \end{block}
 
-  \begin{block}{Correlation \hfill (Pearson)}
+    \begin{block}{Intrasubjective Correlation}
     \begin{itemize}
-    \item ``local'' in \AE\ \ \urltilde \  ``local'' in \GE \hfill ($r = .7$, $p < .01$)
+    \item ``local'' in \AE\ \ \urltilde \  ``local'' in \GE \hfill
+      (Pearson, $r = .7$, $p < .01$)
     \end{itemize}
   \end{block}
 
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Tentative Conclusions}
+  
+  \begin{block}{Availability of Readings}
+    \begin{itemize}
+    \item most subjects applied a literal reading (consistently)
+    \item some subjects applied a local reading (consistently)
+    \item few global answers, none applied consistently
+    \end{itemize}
+  \end{block}
+
+  \begin{block}{Effect of Prosody}
+    \begin{itemize}
+    \item prosody does not seem to any effect
+    \end{itemize}
+  \end{block}
 
 \end{frame}
 
+\section{Design (Control)}
+\subsection{Dummy}
+
 \begin{frame}
   \frametitle{Target-Related Fillers}
-  \begin{block}{Motivation}
+  \begin{block}{Motivation: Understand our Paradigm}
     \begin{itemize}
     \item use ambiguous sentences with a clearly preferred reading
     \item investigate conditions where preferred reading's \acro{tv}
@@ -1689,9 +1704,9 @@
       \ex The letter is connected with circles and squares with
         suns.
         \begin{xlist}
-          \ex The bell is connected with circles and squares; the latter
-            but not the former contains suns. \hfill (\LC)
-          \ex The bell is connected with circles and squares; both
+          \ex The letter is connected with circles and squares; the latter
+            but not the former contain suns. \hfill (\LC)
+          \ex The letter is connected with circles and squares; both
             contain suns. \hfill (\EC)
         \end{xlist}
     \end{exe}
@@ -1708,10 +1723,10 @@
 
   \begin{block}{Conditions}
     \begin{center}
-      \begin{tabular}{lccc}
+      \begin{tabular}{cccc}
         & \multicolumn{3}{c}{prosodical cue} \\ \cmidrule(r){2-4}
         1$^{\mathrm{st}}$ in sequence & neutral & \LC & \EC \\ \midrule
-        \LC & e-ntr & l-l & l-e \\
+        \LC & l-ntr & l-l & l-e \\
         \EC & e-ntr & e-l & e-e \\
       \end{tabular}
     \end{center}
@@ -1758,7 +1773,7 @@
 \begin{frame}
   \frametitle{\LC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1783,7 +1798,7 @@
 \begin{frame}
   \frametitle{\LC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1806,7 +1821,7 @@
 \begin{frame}
   \frametitle{\LC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1830,7 +1845,7 @@
 \begin{frame}
   \frametitle{\LC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1854,7 +1869,7 @@
 \begin{frame}
   \frametitle{\LC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1878,7 +1893,7 @@
 \begin{frame}
   \frametitle{\LC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1902,7 +1917,7 @@
 \begin{frame}
   \frametitle{\EC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1927,7 +1942,7 @@
 \begin{frame}
   \frametitle{\EC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1952,7 +1967,7 @@
 \begin{frame}
   \frametitle{\EC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1977,7 +1992,7 @@
 \begin{frame}
   \frametitle{\EC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -2002,7 +2017,7 @@
 \begin{frame}
   \frametitle{\EC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -2022,6 +2037,9 @@
 
   \end{center}
 \end{frame}
+
+\section{Results (Control)}
+\subsection{Dummy}
 
 \begin{frame}
   \frametitle{Results \LC-Condition \hfill (answer types)}
@@ -2211,8 +2229,14 @@
 \end{frame}
 
 
+% \section{Conclusions}
+% \subsection{Dummy}
+
+
+
+
 \begin{frame}
-  \frametitle{Tentative Naive Conclusions}
+  \frametitle{Tentative Conclusions}
   \begin{block}{Lessons from the \LC-\EC-Conditions}
     \begin{itemize}
     \item both \LC- and \EC-readings show up 
@@ -2224,13 +2248,30 @@
 \end{frame}
 
 \begin{frame}
-  \frametitle{Tentative Naive Conclusions}
-  \begin{block}{Embedded Implicatures?!?}
+  \frametitle{Tentative Conclusions}
+  \begin{block}{Local Readings: Existence}
     \begin{itemize}
     \item proper statistical analysis is pending, but \dots
-    \item \dots it appears that local readings exist but are dispreferred
+    \item \dots it appears that \mymark{local readings exist but are dispreferred}
+    \item no marked intonation necessary
     \end{itemize}
   \end{block}
+  
+  \begin{block}{Local Readings: Nature}
+    \begin{itemize}
+    \item not enough evidence to decide in general
+      \begin{itemize}
+      \item why no global readings? $\leadsto$ local readings $\neq$ implicatures?
+      \item why different consistent subject-types?
+      \end{itemize}
+    \item potential evidence against van Tiel's stereotypicality account
+      \begin{itemize}
+      \item given the \LC/\EC-data, we'd expect \emph{more} ``local''
+        responses
+      \end{itemize}
+    \end{itemize}
+  \end{block}
+
 \end{frame}
 
 
