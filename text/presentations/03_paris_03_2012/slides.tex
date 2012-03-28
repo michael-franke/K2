@@ -23,7 +23,7 @@
 
 \DefineNamedColor{named}{mycol}{cmyk}{0.6,0.6,0,0}
 \DefineNamedColor{named}{mygray}{cmyk}{0.05,0.05,0.05,0.05}
-\DefineNamedColor{named}{mygraylight}{cmyk}{0.01,0.01,0.01,0.01}
+\DefineNamedColor{named}{mygraylight}{cmyk}{0.017,0.017,0.017,0.017}
 
 
 \usecolortheme[named=mycol]{structure}
@@ -468,6 +468,8 @@
   \end{block}
 \end{frame}
 
+\subsection{dummy}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%% Non-Monotonic
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -788,26 +790,31 @@
       \begin{itemize}
        \item e.g.~\citet{Chierchia:2004_ScalarImplicatures},  \citet{ChierchiaFox2008:The-Grammatical}
       \end{itemize}
-    \item is the local reading a non-implicature inference signaled by prosody?
+    \item local reading is non-implicature inference signaled by
+      prosody?
       \begin{itemize}
       \item e.g.~\citet{Geurts2010:Quantity-Implic}
+      \item cf.~\citet{SchwarzClifton2008:Strengthening-o}
       \end{itemize}
     \end{itemize}
   \end{block}
 \end{frame}
 
+\section{Previous Studies}
+\subsection{dummy}
+
 \begin{frame}
   \frametitle{Next}
-  brief summary of relevant empirical studies:
+  brief summary of previous empirical studies:
   \begin{enumerate}
   \item \citet{GeurtsPouscoulous2009:Embedded-Implic}
   \item \citet{ChemlaSpector2010:Experimental-Ev}
+  \item {\color{gray}{\citet{CliftonDube2010:Embedded-Implic}}} \hfill {\color{gray}{(skipped)}}
   \item ``K1''
   \end{enumerate}
 \end{frame}
 
-\section{Previous Studies}
-\subsection{dummy}
+
 
 \begin{frame}
   \frametitle{Experimental Study 1:
@@ -985,13 +992,19 @@
     contradictory evidence for/against existence of \loc-readings
   \end{block}
   
-  \begin{block}{Potential Problem}
-    truth-value judgement/rating tasks make it impossible to separate:
+  \begin{block}{Potential Problems}
+    \begin{enumerate}
+    \item truth-value judgement/rating tasks make it impossible to
+      separate:
       \begin{enumerate}
       \item availability of a reading
-      \item picture~complexity/stereotypicality \hfill {\color{gray}{\citep[cf.][]{Tielvan-Tiel2012:Embedded-Scalar}}}
+      \item picture~complexity/stereotypicality \hfill
+        {\color{gray}{\citep[$\neq$][]{Tielvan-Tiel2012:Embedded-Scalar}}}
       \end{enumerate}
-
+    \item visual material/lack of fillers may prime some-all contrast
+    \item visual presentation of sentences doesn't control
+      ``silent intonation''
+    \end{enumerate}
   \end{block}
 
 \end{frame}
@@ -1007,7 +1020,7 @@
     \item visually-incremental \acro{tv}-judgement task \hfill {\color{gray}{(new?)}}
     \item auditory presentation
       \begin{itemize}
-      \item[$\leadsto$] effect on prosodic stress on
+      \item[$\leadsto$] effect on contrastive stress accent on
       scalar item?
       \end{itemize}
     \end{itemize}
@@ -1015,7 +1028,7 @@
   \begin{block}{Results}
     \begin{itemize}
     \item local readings attested but dispreferred
-    \item no effect of prosodic stress
+    \item no effect of contrastive stress
     \end{itemize}
   \end{block}
 \end{frame}
@@ -1250,6 +1263,8 @@
   \end{center}
 \end{frame}
 
+\subsection{dummy}
+
 \begin{frame}
   \frametitle{\GE-Sequence}
   \begin{center}
@@ -1467,6 +1482,13 @@
 \end{frame}
 
 \begin{frame}
+  \frametitle{Results \AE-Condition}
+  \begin{center}
+    \includegraphics[width=\textwidth]{answer-positions-AE.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}
   \frametitle{Results \GE-Condition \hfill (answer types)}
   \begin{center}
 \begin{tikzpicture}
@@ -1509,6 +1531,12 @@
   \end{center}
 \end{frame}
 
+\begin{frame}
+  \frametitle{Results \GE-Condition}
+  \begin{center}
+    \includegraphics[width=\textwidth]{answer-positions-GE.png}
+  \end{center}
+\end{frame}
 
 \begin{frame}
   \frametitle{Results \AE-Condition \hfill (subject types)}
@@ -1629,9 +1657,9 @@
 
   \begin{block}{``Local'' Answers $\neq$ Chance}
     \begin{itemize}
-    \item ``local'' in \AE\ \ \urltilde \ chance guess on last picture
+    \item ``local'' in \AE\ \ $\star$ \ chance guess on last picture
       \hfill (binomial, $p < .01$)
-    \item ``local'' in \GE\ \ \urltilde \ chance guess on last picture
+    \item ``local'' in \GE\ \ $\star$ \ chance guess on last picture
       \hfill (binomial, $p < .01$)
       \item remember:
         \begin{itemize}
@@ -1644,16 +1672,16 @@
   
   \begin{block}{Log-Linear Model}
       \begin{itemize}
-  \item answer-type \ \urltilde \ subject \hfill ($\chi^2
+  \item answer-type \ $\star$ \ subject \hfill ($\chi^2
     =397.4$, $p < .01$)
-  \item answer-type \ \urltilde \ condition \hfill ($\chi^2
+  \item answer-type \ $\star$ \ condition \hfill ($\chi^2
     = 5.2$, $p < .74$)
   \end{itemize}
   \end{block}
 
     \begin{block}{Intrasubjective Correlation}
     \begin{itemize}
-    \item ``local'' in \AE\ \ \urltilde \  ``local'' in \GE \hfill
+    \item ``local'' in \AE\ \ $\star$ \  ``local'' in \GE \hfill
       (Pearson, $r = .7$, $p < .01$)
     \end{itemize}
   \end{block}
@@ -1674,7 +1702,7 @@
 
   \begin{block}{Effect of Prosody}
     \begin{itemize}
-    \item prosody does not seem to any effect
+    \item contrastive stress does not seem to any effect
     \end{itemize}
   \end{block}
 
@@ -1732,7 +1760,7 @@
     \end{center}
   \end{block}
 
-  \begin{block}{Prosodical Cues}
+  \begin{block}{Prosodical Cues: Boundary Placements}
     \begin{itemize}
       \item[ntr:] The letter is connected with circles and squares with
         suns.
@@ -1748,7 +1776,7 @@
 \begin{frame}
   \frametitle{\LC-Sequence}
   \begin{center}
-    ``Die Schere ist mit Kreisen und Vierecken mit Sonnen verbunden.''
+    ``Der Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.''
 
     \vspace{0.1cm}
 
@@ -1913,6 +1941,8 @@
 
   \end{center}
 \end{frame}
+
+\subsection{dummy}
 
 \begin{frame}
   \frametitle{\EC-Sequence}
@@ -2242,7 +2272,8 @@
     \item both \LC- and \EC-readings show up 
     \item the preference for \LC-readings shows in more \LC-answers
     \item all of this is irrespective of position
-    \item prosody does seem to have the expected effect
+    \item in contrast to target-conditions, prosodic cues have
+      expected effect
     \end{itemize}
   \end{block}
 \end{frame}
@@ -2276,7 +2307,7 @@
 
 
 
-\begin{frame}[plain,allowframebreaks]
+\begin{frame}[plain,allowframebreaks,shrink=0.9]
 
     \printbibliography[heading=subbibliography]
 
