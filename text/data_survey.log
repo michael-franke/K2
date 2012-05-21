@@ -1,17 +1,16 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2011.2.21)  22 FEB 2011 16:26
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.4.18)  21 MAY 2012 12:15
 entering extended mode
-**E:/obxfs01/svn/implicat_experim/text/data_survey.tex
-(E:/obxfs01/svn/implicat_experim/text/data_survey.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\article.cls"
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\input data_survey.tex
+(./data_survey.tex
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\fleqn.clo"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/fleqn.clo
 File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
 \mathindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\size10.clo"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -26,30 +25,30 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen103
 )
-(E:\obxfs01\svn\implicat_experim\text\helpers/mypackages.sty
+(./helpers/mypackages.sty
 
 LaTeX Warning: You have requested package `helpers/mypackages',
                but the package provides `mypackages'.
 
 Package: mypackages 2010/03/29 Personal Packages
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amstext.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks14
 \ex@=\dimen104
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count87
@@ -90,18 +89,18 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\amssymb.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ams\classes\amsthm.sty"
-Package: amsthm 2004/08/06 v2.20
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
 \thm@style=\toks19
 \thm@bodyfont=\toks20
 \thm@headfont=\toks21
@@ -112,10 +111,10 @@ Package: amsthm 2004/08/06 v2.20
 \thm@headsep=\skip48
 \dth@everypar=\toks24
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\dstroke\dsfont.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/doublestroke/dsfont.sty
 Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\booktabs\booktabs.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen113
 \lightrulewidth=\dimen114
@@ -135,11 +134,11 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count102
 \@thisrulewidth=\dimen125
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\tools\enumerate.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks25
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\paralist\paralist.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/paralist/paralist.sty
 Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
 \pltopsep=\skip49
 \plpartopsep=\skip50
@@ -147,14 +146,14 @@ Package: paralist 2002/03/18 v2.3b Extended list environments (BS)
 \plparsep=\skip52
 \pl@lab=\toks26
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xy.sty"
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xy.tex" Bootstrap'ing:
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xy.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing:
 catcodes, docmode,
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xyrecat.tex")
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xyidioms.tex")
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xyrecat.tex)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xyidioms.tex)
 
- Xy-pic version 3.7 <1999/02/16>
- Copyright (c) 1991-1998 by Kristoffer H. Rose <krisrose@ens-lyon.fr>
+ Xy-pic version 3.8.6 <2011/05/27>
+ Copyright (c) 1991-2011 by Kristoffer H. Rose <krisrose@tug.org>
  Xy-pic is free software: see the User's Guide for details.
 
 Loading kernel: messages; fonts; allocations: state,
@@ -206,12 +205,16 @@ utility macros; pictures: \xy, positions,
  decorations;
 kernel objects: directionals, circles, text; options; algorithms: directions,
 edges, connections;  Xy-pic loaded)
-Package: xy 1999/02/16 Xy-pic version 3.7
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package: xy 2011/05/27 Xy-pic version 3.8.6
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xyall.tex"
- Xy-pic option: All features v.3.3
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xycurve.tex"
- Xy-pic option: Curve and Spline extension v.3.7 curve,
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xyall.tex
+ Xy-pic option: All features v.3.8
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xycurve.tex
+ Xy-pic option: Curve and Spline extension v.3.12 curve,
 \crv@cnt@=\count107
 \crvpts@=\toks31
 \splinebox@=\box31
@@ -222,22 +225,22 @@ Package: xy 1999/02/16 Xy-pic version 3.7
  circles,
 \L@=\dimen158
  loaded)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xyframe.tex"
- Xy-pic option: Frame and Bracket extension v.3.7 loaded)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xycmtip.tex"
- Xy-pic option: Computer Modern tip extension v.3.3
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xytips.tex"
- Xy-pic option: More Tips extension v.3.3 loaded) loaded)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xyline.tex"
- Xy-pic option: Line styles extension v.3.6
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xyframe.tex
+ Xy-pic option: Frame and Bracket extension v.3.13 loaded)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xycmtip.tex
+ Xy-pic option: Computer Modern tip extension v.3.7
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xytips.tex
+ Xy-pic option: More Tips extension v.3.9 loaded) loaded)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xyline.tex
+ Xy-pic option: Line styles extension v.3.10
 \xylinethick@=\dimen159
  loaded)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xyrotate.tex"
- Xy-pic option: Rotate and Scale extension v.3.3 loaded)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xycolor.tex"
- Xy-pic option: Colour extension v.3.3 loaded)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xymatrix.tex"
- Xy-pic option: Matrix feature v.3.4
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xyrotate.tex
+ Xy-pic option: Rotate and Scale extension v.3.8 loaded)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xycolor.tex
+ Xy-pic option: Colour extension v.3.11 loaded)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xymatrix.tex
+ Xy-pic option: Matrix feature v.3.14
 \Row=\count108
 \Col=\count109
 \queue@=\toks32
@@ -246,91 +249,220 @@ Package: xy 1999/02/16 Xy-pic version 3.7
 \qcount@@=\count111
 \matrixsize@=\count112
  loaded)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xyarrow.tex"
- Xy-pic option: Arrow and Path feature v.3.5 path, \ar, loaded)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xygraph.tex"
- Xy-pic option: Graph feature v.3.7 loaded) loaded))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xyarrow.tex
+ Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xygraph.tex
+ Xy-pic option: Graph feature v.3.11 loaded) loaded)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xypdf.tex
+ Xy-pic option: PDF driver v.1.7 Xy-pic pdf driver: `color' extension support
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xypdf-co.tex loaded)
+Xy-pic pdf driver: `curve' extension support
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xypdf-cu.tex loaded)
+Xy-pic pdf driver: `frame' extension support
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xypdf-fr.tex loaded)
+Xy-pic pdf driver: `line' extension support
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xypdf-li.tex loaded)
+Xy-pic pdf driver: `rotate' extension support
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xypdf-ro.tex loaded)
+loaded)) (/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-
-! LaTeX Error: File `gb4e_micha.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `lipsum.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `proofing.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `txfonts.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `soul.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ltxmisc\relsize.sty"
-Package: relsize 2003/07/04 ver 3.1
+(/Users/micha/Library/texmf/tex/latex/gb4e/gb4e_micha.sty
+(/Users/micha/Library/texmf/tex/latex/gb4e/cgloss4e.sty
+\lineone=\box32
+\linetwo=\box33
+\linethree=\box34
+\wordone=\box35
+\wordtwo=\box36
+\wordthree=\box37
+\gline=\box38
+\glossglue=\skip53
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\babel\babel.sty"
-Package: babel 2008/07/06 v3.8l The Babel package
-
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+\c@fnx=\count113
+\@xnumdepth=\count114
+\c@xnumi=\count115
+\c@xnumii=\count116
+\c@xnumiii=\count117
+\c@xnumiv=\count118
+\c@exx=\count119
+\c@rxnumi=\count120
+\c@rxnumii=\count121
+\c@rxnumiii=\count122
+\c@rxnumiv=\count123
+\lcommentsep=\skip54
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\babel\germanb.ldf"
+(/Users/micha/Library/texmf/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2005/01/26 v1.0 150 paragraphs of Lorem Ipsum dummy text
+File: lipsum.dtx 2005/01/26 v1.0 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count124
+)
+(/Users/micha/Library/texmf/tex/latex/tikitu/proofing.sty
+Package: proofing 2006/10/20 v1.7 Proofreading macros
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count125
+\calc@Bcount=\count126
+\calc@Adimen=\dimen160
+\calc@Bdimen=\dimen161
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count127
+\calc@Cskip=\skip57
+)
+\c@draftmpar=\count128
+\d@n@t@a=\toks34
+\d@n@t@b=\toks35
+
+(/Users/micha/Library/texmf/tex/latex/tikitu/proofing.cfg))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+LaTeX Info: Redefining \textsquare on input line 1063.
+LaTeX Info: Redefining \openbox on input line 1064.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks36
+\SOUL@lasttoken=\toks37
+\SOUL@cmds=\toks38
+\SOUL@buffer=\toks39
+\SOUL@token=\toks40
+\SOUL@spaceskip=\skip58
+\SOUL@ttwidth=\dimen162
+\SOUL@uldp=\dimen163
+\SOUL@ulht=\dimen164
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2011/09/21 ver 4.0
+
+Examine \normalsize starts \@setfontsize size may be \@xpt. 
+Examine \small starts \@setfontsize size may be \@ixpt. 
+Examine \footnotesize starts \@setfontsize size may be \@viiipt. 
+Examine \large starts \@setfontsize size may be \@xiipt. 
+Examine \Large starts \@setfontsize size may be \@xivpt. 
+Examine \LARGE starts \@setfontsize size may be \@xviipt. 
+Examine \scriptsize starts \@setfontsize size may be \@viipt. 
+Examine \tiny starts \@setfontsize size may be \@vpt. 
+Examine \huge starts \@setfontsize size may be \@xxpt. 
+Examine \Huge starts \@setfontsize size may be \@xxvpt. )
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/germanb.ldf
 Language: germanb 2008/06/01 v2.6m German support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\babel\babel.def"
-File: babel.def 2008/07/06 v3.8l Babel common definitions
-\babel@savecnt=\count113
-\U@D=\dimen160
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count129
+\U@D=\dimen165
 )
 \l@austrian = a dialect from \language\l@german 
 Package babel Info: Making " an active character on input line 102.
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\babel\english.ldf"
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/english.ldf
 Language: english 2005/03/30 v3.3o English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\inputenc.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
-\inpenc@prehook=\toks34
-\inpenc@posthook=\toks35
+\inpenc@prehook=\toks41
+\inpenc@posthook=\toks42
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\utf8.def"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\t1enc.dfu"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -480,7 +612,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ot1enc.dfu"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -511,7 +643,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\omsenc.dfu"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -535,129 +667,157 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\fontenc.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\t1enc.def"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-! LaTeX Error: File `subfig.sty' not found.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks43
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xypic.sty"
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xy.sty"
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xy.tex" not reloaded)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen166
+\captionmargin@=\dimen167
+\captionwidth=\dimen168
+\caption@indent=\dimen169
+\caption@parindent=\dimen170
+\caption@hangindent=\dimen171
+)
+\c@ContinuedFloat=\count130
+)
+\c@KVtest=\count131
+\sf@farskip=\skip59
+\sf@captopadj=\dimen172
+\sf@capskip=\skip60
+\sf@nearskip=\skip61
+\c@subfigure=\count132
+\c@subfigure@save=\count133
+\c@lofdepth=\count134
+\c@subtable=\count135
+\c@subtable@save=\count136
+\c@lotdepth=\count137
+\sf@top=\skip62
+\sf@bottom=\skip63
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xypic.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xy.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xy.tex not reloaded)
 
 LaTeX Warning: You have requested package `xypic',
                but the package provides `xy'.
 
-Package: xy 1999/02/16 Xy-pic version 3.7
-) ("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\xypic\xyv2.tex"
- Xy-pic option: Version 2 Compatibility v.3.4
+Package: xy 2011/05/27 Xy-pic version 3.8.6
+) (/usr/local/texlive/2011/texmf-dist/tex/generic/xypic/xyv2.tex
+ Xy-pic option: Version 2 Compatibility v.3.8
 
 Xy-pic Warning: `\stop' redefined.
 
 loaded))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\pgf\frontendlayer\tikz.s
-ty
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\pgf\basiclayer\pgf.sty
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\pgf\utilities\pgfrcs.sty
-
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\utilities\pgfutil-
-common.tex
-\pgfutil@everybye=\toks36
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/latex/pgf/frontendlayer/tikz.sty
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/latex/pgf/basiclayer/pgf.sty
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/latex/pgf/utilities/pgfrcs.sty
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/utilities/pgfutil-co
+mmon.tex
+\pgfutil@everybye=\toks44
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\utilities\pgfutil-
-latex.def)
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\utilities\pgfrcs.c
-ode.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/utilities/pgfutil-la
+tex.def)
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/utilities/pgfrcs.cod
+e.tex
 Package: pgfrcs 2008/02/20 v2.00 (rcs-revision 1.21)
 ))
 Package: pgf 2008/01/15 v2.00 (rcs-revision 1.12)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\pgf\basiclayer\pgfcore.s
-ty ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks37
-)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
-\Gread@gobject=\count114
-))
-\Gin@req@height=\dimen161
-\Gin@req@width=\dimen162
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\pgf\systemlayer\pgfsys.s
-ty
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\systemlayer\pgfsys
-.code.tex
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count138
+))
+\Gin@req@height=\dimen173
+\Gin@req@width=\dimen174
+)
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/latex/pgf/systemlayer/pgfsys.sty
+
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgfsys.c
+ode.tex
 Package: pgfsys 2008/02/07 v2.00 (rcs-revision 1.31)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\utilities\pgfkeys.
-code.tex
-\pgfkeys@pathtoks=\toks38
-\pgfkeys@temptoks=\toks39
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/utilities/pgfkeys.co
+de.tex
+\pgfkeys@pathtoks=\toks45
+\pgfkeys@temptoks=\toks46
 )
-\pgf@x=\dimen163
-\pgf@y=\dimen164
-\pgf@xa=\dimen165
-\pgf@ya=\dimen166
-\pgf@xb=\dimen167
-\pgf@yb=\dimen168
-\pgf@xc=\dimen169
-\pgf@yc=\dimen170
-\c@pgf@counta=\count115
-\c@pgf@countb=\count116
-\c@pgf@countc=\count117
-\c@pgf@countd=\count118
+\pgf@x=\dimen175
+\pgf@y=\dimen176
+\pgf@xa=\dimen177
+\pgf@ya=\dimen178
+\pgf@xb=\dimen179
+\pgf@yb=\dimen180
+\pgf@xc=\dimen181
+\pgf@yc=\dimen182
+\c@pgf@counta=\count139
+\c@pgf@countb=\count140
+\c@pgf@countc=\count141
+\c@pgf@countd=\count142
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\systemlayer\pgf.cf
-g
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/01/13  (rcs-revision 1.6)
 )
 Package pgfsys Info: Driver file for pgf: pgfsys-pdftex.def on input line 885.
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\systemlayer\pgfsys
--pdftex.def
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgfsys-p
+dftex.def
 File: pgfsys-pdftex.def 2007/12/20  (rcs-revision 1.20)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\systemlayer\pgfsys
--common-pdf.def
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgfsys-c
+ommon-pdf.def
 File: pgfsys-common-pdf.def 2007/12/17  (rcs-revision 1.8)
 )))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\systemlayer\pgfsys
-softpath.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgfsysso
+ftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/01/23  (rcs-revision 1.6)
-\pgfsyssoftpath@smallbuffer@items=\count119
-\pgfsyssoftpath@bigbuffer@items=\count120
+\pgfsyssoftpath@smallbuffer@items=\count143
+\pgfsyssoftpath@bigbuffer@items=\count144
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\systemlayer\pgfsys
-protocol.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/systemlayer/pgfsyspr
+otocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 ))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\xcolor\xcolor.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\color.cfg"
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -671,250 +831,249 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcore.c
+ode.tex
 Package: pgfcore 2008/01/15 v2.00 (rcs-revision 1.6)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\math\pgfmath.code.
-tex
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\math\pgfmathcalc.c
-ode.tex
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\math\pgfmathutil.c
-ode.tex
-\pgfmath@box=\box32
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/math/pgfmath.code.te
+x
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/math/pgfmathcalc.cod
+e.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/math/pgfmathutil.cod
+e.tex
+\pgfmath@box=\box39
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\math\pgfmathparser
-.code.tex
-\pgfmath@stack=\toks40
-\c@pgfmath@parsecounta=\count121
-\c@pgfmath@parsecountb=\count122
-\c@pgfmath@parsecountc=\count123
-\pgfmath@parsex=\dimen171
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/math/pgfmathparser.c
+ode.tex
+\pgfmath@stack=\toks47
+\c@pgfmath@parsecounta=\count145
+\c@pgfmath@parsecountb=\count146
+\c@pgfmath@parsecountc=\count147
+\pgfmath@parsex=\dimen183
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\math\pgfmathoperat
-ions.code.tex
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\math\pgfmathtrig.c
-ode.tex)
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\math\pgfmathrnd.co
-de.tex))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\math\pgfmathbase.c
-ode.tex)))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-points.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/math/pgfmathoperatio
+ns.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/math/pgfmathtrig.cod
+e.tex)
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/math/pgfmathrnd.code
+.tex))
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/math/pgfmathbase.cod
+e.tex)))
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcorepo
+ints.code.tex
 File: pgfcorepoints.code.tex 2008/02/03  (rcs-revision 1.13)
-\pgf@picminx=\dimen172
-\pgf@picmaxx=\dimen173
-\pgf@picminy=\dimen174
-\pgf@picmaxy=\dimen175
-\pgf@pathminx=\dimen176
-\pgf@pathmaxx=\dimen177
-\pgf@pathminy=\dimen178
-\pgf@pathmaxy=\dimen179
-\pgf@xx=\dimen180
-\pgf@xy=\dimen181
-\pgf@yx=\dimen182
-\pgf@yy=\dimen183
-\pgf@zx=\dimen184
-\pgf@zy=\dimen185
+\pgf@picminx=\dimen184
+\pgf@picmaxx=\dimen185
+\pgf@picminy=\dimen186
+\pgf@picmaxy=\dimen187
+\pgf@pathminx=\dimen188
+\pgf@pathmaxx=\dimen189
+\pgf@pathminy=\dimen190
+\pgf@pathmaxy=\dimen191
+\pgf@xx=\dimen192
+\pgf@xy=\dimen193
+\pgf@yx=\dimen194
+\pgf@yy=\dimen195
+\pgf@zx=\dimen196
+\pgf@zy=\dimen197
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-pathconstruct.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcorepa
+thconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2008/02/13  (rcs-revision 1.14)
-\pgf@path@lastx=\dimen186
-\pgf@path@lasty=\dimen187
+\pgf@path@lastx=\dimen198
+\pgf@path@lasty=\dimen199
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-pathusage.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcorepa
+thusage.code.tex
 File: pgfcorepathusage.code.tex 2008/01/23  (rcs-revision 1.11)
-\pgf@shorten@end@additional=\dimen188
-\pgf@shorten@start@additional=\dimen189
+\pgf@shorten@end@additional=\dimen200
+\pgf@shorten@start@additional=\dimen201
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-scopes.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcoresc
+opes.code.tex
 File: pgfcorescopes.code.tex 2008/01/15  (rcs-revision 1.26)
-\pgfpic=\box33
-\pgf@hbox=\box34
-\pgf@layerbox@main=\box35
-\pgf@picture@serial@count=\count124
+\pgfpic=\box40
+\pgf@hbox=\box41
+\pgf@layerbox@main=\box42
+\pgf@picture@serial@count=\count148
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-graphicstate.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcoregr
+aphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2007/12/12  (rcs-revision 1.8)
-\pgflinewidth=\dimen190
+\pgflinewidth=\dimen202
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-transformations.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcoretr
+ansformations.code.tex
 File: pgfcoretransformations.code.tex 2008/02/04  (rcs-revision 1.10)
-\pgf@pt@x=\dimen191
-\pgf@pt@y=\dimen192
-\pgf@pt@temp=\dimen193
+\pgf@pt@x=\dimen203
+\pgf@pt@y=\dimen204
+\pgf@pt@temp=\dimen205
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-quick.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcorequ
+ick.code.tex
 File: pgfcorequick.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-objects.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcoreob
+jects.code.tex
 File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-pathprocessing.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcorepa
+thprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2008/01/23  (rcs-revision 1.7)
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-arrows.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcorear
+rows.code.tex
 File: pgfcorearrows.code.tex 2007/06/07  (rcs-revision 1.8)
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-shade.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcoresh
+ade.code.tex
 File: pgfcoreshade.code.tex 2007/12/10  (rcs-revision 1.9)
-\pgf@max=\dimen194
-\pgf@sys@shading@range@num=\count125
+\pgf@max=\dimen206
+\pgf@sys@shading@range@num=\count149
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-image.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcoreim
+age.code.tex
 File: pgfcoreimage.code.tex 2008/01/15  (rcs-revision 1.1)
-\pgfexternal@startupbox=\box36
+\pgfexternal@startupbox=\box43
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-layers.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcorela
+yers.code.tex
 File: pgfcorelayers.code.tex 2008/01/15  (rcs-revision 1.1)
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-transparency.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcoretr
+ansparency.code.tex
 File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\basiclayer\pgfcore
-patterns.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/basiclayer/pgfcorepa
+tterns.code.tex
 File: pgfcorepatterns.code.tex 2008/01/15  (rcs-revision 1.1)
 )))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\modules\pgfmodules
-hapes.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/modules/pgfmodulesha
+pes.code.tex
 File: pgfmoduleshapes.code.tex 2008/02/13  (rcs-revision 1.4)
-\pgfnodeparttextbox=\box37
-\toks@savedmacro=\toks41
+\pgfnodeparttextbox=\box44
+\toks@savedmacro=\toks48
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\modules\pgfmodulep
-lot.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/modules/pgfmoduleplo
+t.code.tex
 File: pgfmoduleplot.code.tex 2008/01/15  (rcs-revision 1.1)
 \pgf@plotwrite=\write4
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\pgf\compatibility\pgfcom
-p-version-0-65.sty
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/latex/pgf/compatibility/pgfcomp-
+version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.00 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen195
-\pgf@nodesepend=\dimen196
+\pgf@nodesepstart=\dimen207
+\pgf@nodesepend=\dimen208
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\pgf\compatibility\pgfcom
-p-version-1-18.sty
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/latex/pgf/compatibility/pgfcomp-
+version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.00 (rcs-revision 1.1)
 ))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\pgf\utilities\pgffor.sty
-
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\utilities\pgffor.c
-ode.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/latex/pgf/utilities/pgffor.sty
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/utilities/pgffor.cod
+e.tex
 Package: pgffor 2007/11/07 v2.00 (rcs-revision 1.8)
-\pgffor@iter=\dimen197
-\pgffor@skip=\dimen198
+\pgffor@iter=\dimen209
+\pgffor@skip=\dimen210
 ))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\tikz.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/t
+ikz.code.tex
 Package: tikz 2008/02/13 v2.00 (rcs-revision 1.27)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-ryplothandlers.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+plothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2007/03/09 v2.00 (rcs-revision 1.9)
-\pgf@plot@mark@count=\count126
-\pgfplotmarksize=\dimen199
+\pgf@plot@mark@count=\count150
+\pgfplotmarksize=\dimen211
 )
-\tikz@lastx=\dimen200
-\tikz@lasty=\dimen201
-\tikz@lastxsaved=\dimen202
-\tikz@lastysaved=\dimen203
-\tikzleveldistance=\dimen204
-\tikzsiblingdistance=\dimen205
-\tikz@figbox=\box38
-\tikz@tempbox=\box39
-\tikztreelevel=\count127
-\tikznumberofchildren=\count128
-\tikznumberofcurrentchild=\count129
-\tikz@fig@count=\count130
+\tikz@lastx=\dimen212
+\tikz@lasty=\dimen213
+\tikz@lastxsaved=\dimen214
+\tikz@lastysaved=\dimen215
+\tikzleveldistance=\dimen216
+\tikzsiblingdistance=\dimen217
+\tikz@figbox=\box45
+\tikz@tempbox=\box46
+\tikztreelevel=\count151
+\tikznumberofchildren=\count152
+\tikznumberofcurrentchild=\count153
+\tikz@fig@count=\count154
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\modules\pgfmodulem
-atrix.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/modules/pgfmodulemat
+rix.code.tex
 File: pgfmodulematrix.code.tex 2008/01/15  (rcs-revision 1.1)
-\pgfmatrixcurrentrow=\count131
-\pgfmatrixcurrentcolumn=\count132
-\pgf@matrix@numberofcolumns=\count133
+\pgfmatrixcurrentrow=\count155
+\pgfmatrixcurrentcolumn=\count156
+\pgf@matrix@numberofcolumns=\count157
 )
-\tikz@expandcount=\count134
+\tikz@expandcount=\count158
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibrarytopaths.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 )))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryarrows.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-ryarrows.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+arrows.code.tex
 File: pgflibraryarrows.code.tex 2007/06/07 v2.00 (rcs-revision 1.7)
 ))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryshapes.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryshapes.geometric.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-ryshapes.geometric.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+shapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2008/02/01 v2.00 (rcs-revision 1.22)
 ))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryshapes.misc.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-ryshapes.misc.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+shapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2008/02/12 v2.00 (rcs-revision 1.10)
 ))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryshapes.symbols.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-ryshapes.symbols.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+shapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2008/01/30 v2.00 (rcs-revision 1.13)
 ))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryshapes.arrows.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-ryshapes.arrows.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+shapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2007/11/10 v2.00 (rcs-revision 1.3)
 ))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryshapes.callouts.code.tex
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-ryshapes.callouts.code.tex))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryshapes.multipart.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryshapes.callouts.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+shapes.callouts.code.tex))
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-ryshapes.multipart.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+shapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2008/01/15 v2.00 (rcs-revision 1.7)
-\pgfnodepartlowerbox=\box40
-\pgfnodepartsecondbox=\box41
-\pgfnodepartthirdbox=\box42
-\pgfnodepartfourthbox=\box43
+\pgfnodepartlowerbox=\box47
+\pgfnodepartsecondbox=\box48
+\pgfnodepartthirdbox=\box49
+\pgfnodepartfourthbox=\box50
 )))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibrarysnakes.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibrarysnakes.code.tex
 File: tikzlibrarysnakes.code.tex 2008/02/05 v2.00 (rcs-revision 1.6)
 
 
@@ -922,302 +1081,415 @@ Package tikz Warning: Snakes have been superseded by decorations. Please use th
 e decoration libraries instead of the snakes library on input line 14.
 
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibrarydecorations.code.tex
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\modules\pgfmoduled
-ecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen206
-\pgfdecoratedremainingdistance=\dimen207
-\pgfdecoratedinputsegmentcompleteddistance=\dimen208
-\pgfdecoratedinputsegmentremainingdistance=\dimen209
-\pgf@decorate@distancetomove=\dimen210
-\pgf@decorate@repeatstate=\count135
-\pgfdecorationsegmentamplitude=\dimen211
-\pgfdecorationsegmentlength=\dimen212
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibrarydecorations.pathmorphing.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibrarydecorations.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/modules/pgfmoduledec
+orations.code.tex
+\pgfdecoratedcompleteddistance=\dimen218
+\pgfdecoratedremainingdistance=\dimen219
+\pgfdecoratedinputsegmentcompleteddistance=\dimen220
+\pgfdecoratedinputsegmentremainingdistance=\dimen221
+\pgf@decorate@distancetomove=\dimen222
+\pgf@decorate@repeatstate=\count159
+\pgfdecorationsegmentamplitude=\dimen223
+\pgfdecorationsegmentlength=\dimen224
 ))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-rydecorations.pathmorphing.code.tex))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-rydecorations.pathreplacing.code.tex))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibrarydecorations.shapes.code.tex
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\libraries\pgflibra
-rydecorations.shapes.code.tex)))
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryautomata.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+decorations.pathmorphing.code.tex))
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibrarydecorations.pathreplacing.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+decorations.pathreplacing.code.tex))
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibrarydecorations.shapes.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/libraries/pgflibrary
+decorations.shapes.code.tex)))
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryautomata.code.tex
 File: tikzlibraryautomata.code.tex 2008/02/14 v2.00 (rcs-revision 1.2)
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibrarybackgrounds.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
-\pgf@layerbox@background=\box44
-\pgf@layerboxsaved@background=\box45
+\pgf@layerbox@background=\box51
+\pgf@layerboxsaved@background=\box52
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibrarypetri.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibrarypetri.code.tex
 File: tikzlibrarypetri.code.tex 2008/01/09 v2.00 (rcs-revision 1.1)
 )
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\generic\pgf\frontendlayer\tikz
-\libraries\tikzlibraryfit.code.tex
+(/Users/micha/Library/texmf/tex/latex/pgf-2.00/generic/pgf/frontendlayer/tikz/l
+ibraries/tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2008/02/06 v2.00 (rcs-revision 1.2)
 )
+(/usr/local/texlive/2011/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
 
-! LaTeX Error: File `units.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `dialogue.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: File `attrib.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: \PreTrib undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.88 \renewcommand\PreTrib
-                           {}   % overwrite these commands, from attrib.sty
-? 
-
-! LaTeX Error: \PostTrib undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \renewcommand\PostTrib
-                            {}  % to suppress additional brackets around
-? 
-
-! LaTeX Error: File `biblatex.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-
-! LaTeX Error: Unknown option `style=authoryear-comp' for package `biblatex'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \fi
-         
-? 
-
-! LaTeX Error: Unknown option `natbib=true' for package `biblatex'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \fi
-         
-? 
-
-! LaTeX Error: Unknown option `hyperref=true' for package `biblatex'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \fi
-         
-? 
-
-! LaTeX Error: Unknown option `maxnames=2' for package `biblatex'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \fi
-         
-? 
-
-! LaTeX Error: Unknown option `sortcites=false' for package `biblatex'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.111 \fi
-         
-? 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2009/10/19 v6.79b Hypertext links for LaTeX
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
-Package ifvtex Info: VTeX not detected.
-)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\ifxetex\ifxetex.sty"
-Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
-)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\hycolor.sty"
-Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
-O)
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\xcolor-patch.sty"
-Package: xcolor-patch 2009/10/02 xcolor patch
+(/usr/local/texlive/2011/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip64
+\L@UnitsRaiseTextstyle=\skip65
+\L@UnitsRaiseScriptstyle=\skip66
 ))
-\@linkdim=\dimen213
-\Hy@linkcounter=\count136
-\Hy@pagecounter=\count137
+(/Users/micha/Library/texmf/tex/latex/dialogue.sty
+Package: dialogue 1999/03/01 v1.1 dialogue environment (Frankenstein's mouth)
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2009/10/19 v6.79b Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+(/Users/micha/Library/texmf/tex/latex/blkcntrl.sty
+Package: blkcntrl 2001/08/31 v1.2 block control
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+(/Users/micha/Library/texmf/tex/latex/moredefs.sty
+Package: moredefs 2001/08/31 v1.8 more defining commands (Frankenstein's brain)
+
+\sc@toks@a=\toks49
+\sc@toks@b=\toks50
+)))
+(/Users/micha/Library/texmf/tex/latex/frankenstein/attrib.sty
+Package: attrib 2001/08/31 v1.3 attribution of block elements (Frankenstein's h
+at)
+\AttribMinSkip=\skip67
 )
+(/Users/micha/Library/texmf/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2011/04/12 v1.4b programmable bibliographies
+
+(/Users/micha/Library/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2011/01/03 v2.1 e-TeX tools for LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count160
+)
+\etb@tempcnta=\count161
+)
+(/Users/micha/Library/texmf/tex/latex/biblatex/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count162
+
+(/Users/micha/Library/texmf/tex/latex/biblatex/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@listtotal=\count163
+\c@listcount=\count164
+\c@liststart=\count165
+\c@liststop=\count166
+\c@citecount=\count167
+\c@citetotal=\count168
+\c@multicitecount=\count169
+\c@multicitetotal=\count170
+\c@instcount=\count171
+\c@maxnames=\count172
+\c@minnames=\count173
+\c@maxitems=\count174
+\c@minitems=\count175
+\c@citecounter=\count176
+\c@savedcitecounter=\count177
+\c@uniquelist=\count178
+\c@uniquename=\count179
+\c@refsection=\count180
+\c@refsegment=\count181
+\c@maxextrayear=\count182
+\c@maxextraalpha=\count183
+\c@abbrvpenalty=\count184
+\c@highnamepenalty=\count185
+\c@lownamepenalty=\count186
+\c@maxparens=\count187
+\c@parenlevel=\count188
+\blx@tempcnta=\count189
+\blx@tempcntb=\count190
+\blx@maxsection=\count191
+\blx@maxsegment=\count192
+\blx@notetype=\count193
+\blx@parenlevel@text=\count194
+\blx@parenlevel@foot=\count195
+\labelnumberwidth=\skip68
+\labelalphawidth=\skip69
+\shorthandwidth=\skip70
+\biblabelsep=\skip71
+\bibitemsep=\skip72
+\bibnamesep=\skip73
+\bibinitsep=\skip74
+\bibparsep=\skip75
+\bibhang=\skip76
+\blx@auxin=\read2
+\blx@auxout=\write5
+\c@labelname=\count196
+\c@savedlabelname=\count197
+\c@author=\count198
+\c@savedauthor=\count199
+\c@shortauthor=\count200
+\c@savedshortauthor=\count201
+\c@editor=\count202
+\c@savededitor=\count203
+\c@editora=\count204
+\c@savededitora=\count205
+\c@editorb=\count206
+\c@savededitorb=\count207
+\c@editorc=\count208
+\c@savededitorc=\count209
+\c@shorteditor=\count210
+\c@savedshorteditor=\count211
+\c@bookauthor=\count212
+\c@savedbookauthor=\count213
+\c@translator=\count214
+\c@savedtranslator=\count215
+\c@annotator=\count216
+\c@savedannotator=\count217
+\c@commentator=\count218
+\c@savedcommentator=\count219
+\c@introduction=\count220
+\c@savedintroduction=\count221
+\c@foreword=\count222
+\c@savedforeword=\count223
+\c@afterword=\count224
+\c@savedafterword=\count225
+\c@holder=\count226
+\c@savedholder=\count227
+\c@namea=\count228
+\c@savednamea=\count229
+\c@nameb=\count230
+\c@savednameb=\count231
+\c@namec=\count232
+\c@savednamec=\count233
+Normal \count register pool exhausted, switching to extended pool.
+\c@institution=\count277
+\c@savedinstitution=\count278
+\c@language=\count279
+\c@savedlanguage=\count280
+\c@location=\count281
+\c@savedlocation=\count282
+\c@organization=\count283
+\c@savedorganization=\count284
+\c@origlocation=\count285
+\c@savedoriglocation=\count286
+\c@origpublisher=\count287
+\c@savedorigpublisher=\count288
+\c@pageref=\count289
+\c@savedpageref=\count290
+\c@publisher=\count291
+\c@savedpublisher=\count292
+\c@lista=\count293
+\c@savedlista=\count294
+\c@listb=\count295
+\c@savedlistb=\count296
+\c@listc=\count297
+\c@savedlistc=\count298
+\c@listd=\count299
+\c@savedlistd=\count300
+\c@liste=\count301
+\c@savedliste=\count302
+\c@listf=\count303
+\c@savedlistf=\count304
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/Users/micha/Library/texmf/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2011/04/12 v1.4b biblatex generic compatibility
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/Users/micha/Library/texmf/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2011/04/12 v1.4b biblatex generic definitions
+\c@smartand=\count305
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(/Users/micha/Library/texmf/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2011/04/12 v1.4b biblatex natbib compatibility
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear-comp'...
+Package biblatex Info: ... file 'authoryear-comp.bbx' found.
+
+(/Users/micha/Library/texmf/tex/latex/biblatex/bbx/authoryear-comp.bbx
+File: authoryear-comp.bbx 2011/04/12 v1.4b biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(/Users/micha/Library/texmf/tex/latex/biblatex/bbx/authoryear.bbx
+File: authoryear.bbx 2011/04/12 v1.4b biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/Users/micha/Library/texmf/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2011/04/12 v1.4b biblatex bibliography style
+)))
+Package biblatex Info: Trying to load citation style 'authoryear-comp'...
+Package biblatex Info: ... file 'authoryear-comp.cbx' found.
+
+(/Users/micha/Library/texmf/tex/latex/biblatex/cbx/authoryear-comp.cbx
+File: authoryear-comp.cbx 2011/04/12 v1.4b biblatex citation style
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/Users/micha/Library/texmf/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/02/06 v6.82o Hypertext links for LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\hyperref.cfg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
-t (HO)
-))
-Package hyperref Info: Option `draft' set `true' on input line 2864.
-Package hyperref Info: Option `final' set `true' on input line 2864.
-Package hyperref Info: Option `colorlinks' set `true' on input line 2864.
-Package hyperref Info: Option `plainpages' set `false' on input line 2864.
-Package hyperref Info: Option `pdfpagelabels' set `true' on input line 2864.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 2864.
-Package hyperref Info: Hyper figures OFF on input line 2975.
-Package hyperref Info: Link nesting OFF on input line 2980.
-Package hyperref Info: Hyper index ON on input line 2983.
-Package hyperref Info: Plain pages OFF on input line 2990.
-Package hyperref Info: Backreferencing OFF on input line 2995.
-
-Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 3191.
-LaTeX Info: Redefining \url on input line 3428.
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\bitset.sty"
-Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\intcalc.sty"
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
-)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\bigintcalc.sty"
-Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
- (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
-)
-)
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-)))
-\Fld@menulength=\count138
-\Field@Width=\dimen214
-\Fld@charsize=\dimen215
-\Field@toks=\toks42
-Package hyperref Info: Hyper figures OFF on input line 4377.
-Package hyperref Info: Link nesting OFF on input line 4382.
-Package hyperref Info: Hyper index ON on input line 4385.
-Package hyperref Info: backreferencing OFF on input line 4392.
-Package hyperref Info: Link coloring ON on input line 4395.
-Package hyperref Info: Link coloring with OCG OFF on input line 4402.
-Package hyperref Info: PDF/A mode OFF on input line 4407.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen225
+\Hy@linkcounter=\count306
+\Hy@pagecounter=\count307
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/02/06 v6.82o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@abspage=\count139
-\c@Item=\count140
-\c@Hfootnote=\count141
+\Hy@SavedSpaceFactor=\count308
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-*hyperref using default driver hpdftex*
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2009/10/19 v6.79b Hyperref driver for pdfTeX
-\Fld@listcount=\count142
+Package hyperref Info: Option `draft' set `true' on input line 3925.
+Package hyperref Info: Option `final' set `true' on input line 3925.
+Package hyperref Info: Option `colorlinks' set `true' on input line 3925.
+Package hyperref Info: Option `plainpages' set `false' on input line 3925.
+Package hyperref Info: Option `pdfpagelabels' set `true' on input line 3925.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 3925.
+Package hyperref Info: Hyper figures OFF on input line 4046.
+Package hyperref Info: Link nesting OFF on input line 4051.
+Package hyperref Info: Hyper index ON on input line 4054.
+Package hyperref Info: Plain pages OFF on input line 4061.
+Package hyperref Info: Backreferencing OFF on input line 4066.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4284.
+\c@Hy@tempcnt=\count309
+LaTeX Info: Redefining \url on input line 4637.
+\Fld@menulength=\count310
+\Field@Width=\dimen226
+\Fld@charsize=\dimen227
+Package hyperref Info: Hyper figures OFF on input line 5757.
+Package hyperref Info: Link nesting OFF on input line 5762.
+Package hyperref Info: Hyper index ON on input line 5765.
+Package hyperref Info: backreferencing OFF on input line 5772.
+Package hyperref Info: Link coloring ON on input line 5775.
+Package hyperref Info: Link coloring with OCG OFF on input line 5782.
+Package hyperref Info: PDF/A mode OFF on input line 5787.
+LaTeX Info: Redefining \ref on input line 5827.
+LaTeX Info: Redefining \pageref on input line 5831.
+\Hy@abspage=\count311
+\c@Item=\count312
+\c@Hfootnote=\count313
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/02/06 v6.82o Hyperref driver for pdfTeX
+\Fld@listcount=\count314
+\c@bookmark@seq@number=\count315
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip77
 ))
-\bibdata{MyRefGlobal}
-No file data_survey.bbl.
-(E:\obxfs01\svn\implicat_experim\text\helpers/myenvironments.sty
+(./helpers/myenvironments.sty
 
 LaTeX Warning: You have requested package `helpers/myenvironments',
                but the package provides `myenvironments'.
 
 Package: myenvironments 2010/03/29 Personal Environments
-\c@theorem=\count143
-\c@lemma=\count144
-\c@definition=\count145
-\c@proposition=\count146
-\c@fact=\count147
-\c@claim=\count148
-\c@remark=\count149
-\c@exercise=\count150
-\c@problem=\count151
-\c@corollary=\count152
-) (E:\obxfs01\svn\implicat_experim\text\helpers/mycommands.sty
+\c@theorem=\count316
+\c@lemma=\count317
+\c@definition=\count318
+\c@proposition=\count319
+\c@fact=\count320
+\c@claim=\count321
+\c@remark=\count322
+\c@exercise=\count323
+\c@problem=\count324
+\c@corollary=\count325
+) (./helpers/mycommands.sty
 
 LaTeX Warning: You have requested package `helpers/mycommands',
                but the package provides `mycommands'.
 
 Package: mycommands 
-) (C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\caption\caption.sty
-Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (/Users/micha/Library/texmf/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2011/04/12 v1.4b biblatex localization
+)
 
-(C:\Users\obxfs01\AppData\Roaming\MiKTeX\2.8\tex\latex\caption\caption3.sty
-Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
-\captionmargin=\dimen216
-\captionmargin@=\dimen217
-\captionwidth=\dimen218
-\caption@indent=\dimen219
-\caption@parindent=\dimen220
-\caption@hangindent=\dimen221
-)
-\c@ContinuedFloat=\count153
-Package caption Info: hyperref package is loaded.
-)
-(E:\obxfs01\svn\implicat_experim\text\data_survey.aux
+Package biblatex Warning: Patching footnotes failed.
+(biblatex)                Footnote detection will not work.
+
+
+Package biblatex Warning: 'babel' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+\@quotelevel=\count326
+\@quotereset=\count327
+(./data_survey.aux
 
 LaTeX Warning: Label `sec:pictures' multiply defined.
 
@@ -1231,361 +1503,145 @@ LaTeX Warning: Label `sec:pictures' multiply defined.
 LaTeX Warning: Label `sec:sentence-items' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+\openout1 = `data_survey.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 94.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 94.
+
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 94.
+
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 94.
+
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 94.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 94.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
- ("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count154
-\scratchdimen=\dimen222
-\scratchbox=\box46
-\nofMPsegments=\count155
-\nofMParguments=\count156
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count157
-\MPscratchDim=\dimen223
-\MPnumerator=\count158
-\everyMPtoPDFconversion=\toks44
-)
-Package hyperref Info: Link coloring ON on input line 94.
- ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
-Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+LaTeX Font Info:    Try loading font information for T1+txr on input line 94.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\oberdiek\refcount.sty"
-Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/t1txr.fd
+File: t1txr.fd 2000/12/15 v3.1
 )
-\c@section@level=\count159
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 94.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsya on input line 94.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/utxsya.fd
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 94.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/utxsyb.fd
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 94.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 94.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+Package xypdf Info: Line width: 0.56pt on input line 94.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count328
+\scratchdimen=\dimen228
+\scratchbox=\box53
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen229
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks52
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+\openout5 = `data_survey-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'data_survey.bbl' found.
+(./data_survey.bbl)
+Package biblatex Info: Reference section=0 on input line 94.
+Package biblatex Info: Reference segment=0 on input line 94.
+\AtBeginShipoutBox=\box54
+Package hyperref Info: Link coloring ON on input line 94.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count334
 )
 LaTeX Info: Redefining \ref on input line 94.
 LaTeX Info: Redefining \pageref on input line 94.
+LaTeX Info: Redefining \nameref on input line 94.
 
-(E:\obxfs01\svn\implicat_experim\text\data_survey.out)
-(E:\obxfs01\svn\implicat_experim\text\data_survey.out)
-\@outlinefile=\write5
-\AtBeginShipoutBox=\box47
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 97.
+(./data_survey.out) (./data_survey.out)
+\@outlinefile=\write6
+\openout6 = `data_survey.out'.
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 97.
+ [1
 
-("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-
-! LaTeX Error: Environment exe undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.103   \begin{exe}
-                   
-? 
-! Undefined control sequence.
-l.104     \ex
-             
-? 
-
-! LaTeX Error: Environment xlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.105       \begin{xlist}
-                         
-? 
-! Undefined control sequence.
-l.106         \ex
-                  All of the $X$'s are related to some of the $Y$'s.
-? 
-! Undefined control sequence.
-l.107         \ex
-                  Exactly one of the $X$'s is related to some of the $Y$'s.
-? 
-! Undefined control sequence.
-l.108         \ex
-                  Exactly one of the $Y$'s is related to all of the $Y$'s.
-? 
-
-! LaTeX Error: \begin{itemize} on input line 100 ended by \end{xlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.109       \end{xlist}
-                       
-? 
-
-! LaTeX Error: \begin{itemize} on input line 100 ended by \end{exe}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.110   \end{exe}
-                 
-? 
-
-! LaTeX Error: Environment exe undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.120   \begin{exe}
-                   
-? 
-! Undefined control sequence.
-l.121     \ex
-              \label{bsp:All_Some-Global} All of the $X$'s are related to so...
-
-? 
-
-! LaTeX Error: Environment xlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122       \begin{xlist}
-                         
-? 
-! Undefined control sequence.
-l.123       \ex
-                All of the $X$'s are related to some of the $Y$'s and
-? 
-! Undefined control sequence.
-l.125        \ex
-                 \dots it's
-? 
-
-! LaTeX Error: \begin{itemize} on input line 116 ended by \end{xlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127       \end{xlist}
-                       
-? 
-! Undefined control sequence.
-l.128     \ex
-              \label{bsp:Exactly_1_Some-Global} Exactly one of the $X$'s is ...
-
-? 
-
-! LaTeX Error: Environment xlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.129       \begin{xlist}
-                         
-? 
-! Undefined control sequence.
-l.130         \ex
-                  Exactly one of the $X$'s is related to some of the $Y$'s
-? 
-! Undefined control sequence.
-l.132         \ex
-                   \dots it's not the case that exactly one of the $X$'s is
-? 
-
-! LaTeX Error: \begin{itemize} on input line 116 ended by \end{xlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134       \end{xlist}
-                       
-? 
-! Undefined control sequence.
-l.135     \ex
-              \label{bsp:Exactly_1_All-Global} Exactly one of the $Y$'s is r...
-
-? 
-
-! LaTeX Error: Environment xlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.136       \begin{xlist}
-                         
-? 
-! Undefined control sequence.
-l.137         \ex
-                  Exactly one of the $X$'s is related to all of the $Y$'s
-? 
-! Undefined control sequence.
-l.139         \ex
-                   \dots it's not the case that exactly one of the $X$'s is
-? 
-
-! LaTeX Error: \begin{itemize} on input line 116 ended by \end{xlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.141       \end{xlist}
-                       
-? 
-
-! LaTeX Error: \begin{itemize} on input line 116 ended by \end{exe}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.142   \end{exe}
-                 
-? 
-! Undefined control sequence.
-l.151   \citep
-              [e.g.][]{Sauerland2004:Scalar-Implicat,Fox2007:Free-Choice-and}
-? 
-! Undefined control sequence.
-l.152   and others don't \citep
-                               {HornDivisionofLabor1984};\draftnote{need to
-? 
-! Undefined control sequence.
-l.152 ...citep{HornDivisionofLabor1984};\draftnote
-                                                  {need to
-? 
-
-Overfull \hbox (37.35721pt too wide) in paragraph at lines 148--155
-\T1/cmr/m/n/10 Implicat,Fox2007:Free-Choice-and and oth-ers don't Horn-Di-vi-si
-onofLa-bor1984;need|
- []
-
-! Undefined control sequence.
-l.165 ...to the workings of \emph{only},\draftnote
-                                                  {there is some due
-? 
-
-! LaTeX Error: Environment exe undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169   \begin{exe}
-                   
-? 
-! Undefined control sequence.
-l.170     \ex
-              \label{bsp:All-some-local} All of the $X$'s are related to som...
-
-? 
-
-! LaTeX Error: Environment xlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.171       \begin{xlist}
-                         
-? 
-! Undefined control sequence.
-l.172       \ex
-                All of the $X$'s are related to some but not all of the $Y$'s.
-? 
-
-! LaTeX Error: \begin{itemize} on input line 162 ended by \end{xlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.173       \end{xlist}
-                       
-? 
-! Undefined control sequence.
-l.174     \ex
-              \label{bsp:Exactly-1-some-local} Exactly 1 of the $X$'s is rel...
-
-? 
-
-! LaTeX Error: Environment xlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.175       \begin{xlist}
-                         
-? 
-! Undefined control sequence.
-l.176       \ex
-                Exactly 1 of the $X$'s is related to some but not all of the...
-
-? 
-
-! LaTeX Error: \begin{itemize} on input line 162 ended by \end{xlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.177       \end{xlist}
-                       
-? 
-
-! LaTeX Error: \begin{itemize} on input line 162 ended by \end{exe}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.178   \end{exe}
-                 
-? 
-[1
-
-{C:/Users/obxfs01/AppData/Local/MiKTeX/2.8/pdftex/config/pdftex.map}]
-! Undefined control sequence.
-l.181   this: \citet
-                    {GeurtsPouscoulous2009:Embedded-Implic} provide evidence
-? 
-! Undefined control sequence.
-l.182   \emph{against}; \citet
-                              {ChemlaSpector2010:Experimental-Ev} provide ev...
-
-? 
-
-Overfull \hbox (51.58984pt too wide) in paragraph at lines 179--184
-\T1/cmr/m/n/10 stud-ies have pre-sented di-verg-ing ev-i-dence for this: Geurts
-Pouscoulous2009:Embedded-|
- []
-
-
-Overfull \hbox (3.93987pt too wide) in paragraph at lines 179--184
-\T1/cmr/m/n/10 Implic pro-vide ev-i-dence \T1/cmr/m/it/10 against\T1/cmr/m/n/10
- ; ChemlaSpector2010:Experimental-Ev pro-|
- []
-
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 206.
@@ -1602,6 +1658,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 206.
 
+[2]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 239.
 
@@ -1623,7 +1680,6 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 249.
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 251.
 
-[2]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 278.
 
@@ -1666,6 +1722,7 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 331.
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 333.
 
+[3]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 375.
 
@@ -1687,96 +1744,6 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 385.
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 387.
 
-[3]
-
-! LaTeX Error: Environment exe undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.411 \begin{exe}
-                 
-? 
-! Undefined control sequence.
-l.412   \ex
-           
-? 
-
-! LaTeX Error: Environment xlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.413     \begin{xlist}
-                       
-? 
-! Undefined control sequence.
-l.414     \ex
-              Für jeden dieser Anwälte gilt: er vertritt einige dieser
-? 
-! Undefined control sequence.
-l.416     \ex
-              Für jedes dieser Kinder gilt: es mag einige dieser
-? 
-! Undefined control sequence.
-l.418     \ex
-              Für jeden dieser Kritiker gilt: er lobte einige dieser
-? 
-! Undefined control sequence.
-l.420     \ex
-              Für jede dieser Tennisspielerinnen gilt: sie hat schon
-? 
-! Undefined control sequence.
-l.422     \ex
-              Für jede dieser Künstlerinnen gilt: sie stellt in einigen
-? 
-! Undefined control sequence.
-l.424     \ex
-              Für jeden dieser Jungen gilt: er ist mit einigen dieser
-? 
-! Undefined control sequence.
-l.426     \ex
-              Für jeden dieser Fußballfans gilt: er hat einige dieser
-? 
-! Undefined control sequence.
-l.428     \ex
-              Für jeden dieser Touristen gilt: er hat bereits einige dieser
-? 
-! Undefined control sequence.
-l.430     \ex
-              Für jeden dieser Bergsteiger gilt: er hat bereits einige dieser
-? 
-! Undefined control sequence.
-l.432     \ex
-              Für jeden dieser Musikliebhaber gilt: er mag einige
-? 
-! Undefined control sequence.
-l.434     \ex
-              Für jeden dieser Schauspieler gilt: er hat bereits mit einige...
-
-? 
-
-! LaTeX Error: \begin{document} ended by \end{xlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.436     \end{xlist}
-                     
-? 
-
-! LaTeX Error: \begin{document} ended by \end{exe}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.437 \end{exe}
-               
-? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 440.
@@ -1793,6 +1760,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 440.
 
+[4]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 478.
 
@@ -1814,7 +1782,6 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 488.
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 490.
 
-[4]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 506.
 
@@ -1857,6 +1824,7 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 566.
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 568.
 
+[5]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 588.
 
@@ -1878,99 +1846,6 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 598.
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 600.
 
-[5]
-
-! LaTeX Error: Environment exe undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.622 \begin{exe}
-                 
-? 
-! Undefined control sequence.
-l.623   \ex
-           
-? 
-
-! LaTeX Error: Environment xlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.624     \begin{xlist}
-                       
-? 
-! Undefined control sequence.
-l.625     \ex
-              Für genau einen dieser Anwälte gilt: er vertritt einige dieser
-? 
-! Undefined control sequence.
-l.627     \ex
-              Für genau eines dieser Kinder gilt: es mag einige dieser
-? 
-! Undefined control sequence.
-l.629     \ex
-              Für genau einen dieser Kritiker gilt: er lobte einige dieser
-? 
-! Undefined control sequence.
-l.631     \ex
-              Für genau eine dieser Tennisspielerinnen gilt: sie hat schon
-? 
-! Undefined control sequence.
-l.633     \ex
-              Für genau eine dieser Künstlerinnen gilt: sie stellt in einigen
-
-? 
-! Undefined control sequence.
-l.635     \ex
-              Für genau einen dieser Jungen gilt: er ist mit einigen dieser
-? 
-! Undefined control sequence.
-l.637     \ex
-              Für genau einen dieser Fußballfans gilt: er hat einige dieser
-? 
-! Undefined control sequence.
-l.639     \ex
-              Für genau einen dieser Touristen gilt: er hat bereits einige ...
-
-? 
-! Undefined control sequence.
-l.641     \ex
-              Für genau einen dieser Bergsteiger gilt: er hat bereits einig...
-
-? 
-! Undefined control sequence.
-l.643     \ex
-              Für genau einen dieser Musikliebhaber gilt: er mag einige
-? 
-! Undefined control sequence.
-l.645     \ex
-              Für genau einen dieser Schauspieler gilt: er hat bereits mit ...
-
-? 
-
-! LaTeX Error: \begin{document} ended by \end{xlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.647     \end{xlist}
-                     
-? 
-
-! LaTeX Error: \begin{document} ended by \end{exe}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.648 \end{exe}
-               
-? 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 652.
@@ -1987,6 +1862,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 652.
 
+[6]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 682.
 
@@ -2008,7 +1884,6 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 692.
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 694.
 
-[6]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 719.
 
@@ -2051,10 +1926,7 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 762.
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 764.
 
-! Undefined control sequence.
-l.774   \item Case 4 (false-false):\draftnote
-                                             {we wanted to use two false
-? 
+[7]
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 782.
 
@@ -2076,99 +1948,12 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 792.
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 794.
 
-[7]
-
-! LaTeX Error: Environment exe undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.834 \begin{exe}
-                 
-? 
-! Undefined control sequence.
-l.835   \ex
-           
-? 
-
-! LaTeX Error: Environment xlist undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.836     \begin{xlist}
-                       
-? 
-! Undefined control sequence.
-l.837     \ex
-              Für genau einen dieser Anwälte gilt: er vertritt jeden
-? 
-! Undefined control sequence.
-l.839     \ex
-              Für genau eines dieser Kinder gilt: es mag jede dieser
-? 
-! Undefined control sequence.
-l.841     \ex
-              Für genau einen dieser Kritiker gilt: er lobte jede dieser
-? 
-! Undefined control sequence.
-l.843     \ex
-              Für genau eine dieser Tennisspielerinnen gilt: sie hat schon
-? 
-! Undefined control sequence.
-l.845     \ex
-              Für genau eine dieser Künstlerinnen gilt: sie stellt in jedem
-? 
-! Undefined control sequence.
-l.847     \ex
-              Für genau einen dieser Jungen gilt: er ist mit jedem dieser
-? 
-! Undefined control sequence.
-l.849     \ex
-              Für genau einen dieser Fußballfans gilt: er hat jedes dieser
-? 
-! Undefined control sequence.
-l.851     \ex
-              Für genau einen dieser Touristen gilt: er hat bereits jedes d...
-
-? 
-! Undefined control sequence.
-l.853     \ex
-              Für genau einen dieser Bergsteiger gilt: er hat bereits jeden...
-
-? 
-! Undefined control sequence.
-l.855     \ex
-              Für genau einen dieser Musikliebhaber gilt: er mag jeden
-? 
-! Undefined control sequence.
-l.857     \ex
-              Für genau einen dieser Schauspieler gilt: er hat bereits mit ...
-
-? 
-
-! LaTeX Error: \begin{document} ended by \end{xlist}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.859     \end{xlist}
-                     
-? 
-
-! LaTeX Error: \begin{document} ended by \end{exe}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.860 \end{exe}
-               
-? 
 [8]
+Overfull \hbox (0.14015pt too wide) in paragraph at lines 896--898
+[]\T1/txr/m/n/10 under a cu-mu-la-tive read-ing case 1 (as de-picted above) sho
+uld also be judged|
+ []
+
 
 LaTeX Font Warning: Command \Large invalid in math mode on input line 904.
 
@@ -2191,39 +1976,60 @@ LaTeX Font Warning: Command \Large invalid in math mode on input line 915.
 LaTeX Font Warning: Command \Large invalid in math mode on input line 917.
 
 [9]
-! Undefined control sequence.
-l.947 ...case 3 (as above) for this case\draftnote
-                                                  {careful: I
-? 
-[10] (E:\obxfs01\svn\implicat_experim\text\data_survey.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 953.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 953.
+ (./data_survey.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 953.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 953.
+Package rerunfilecheck Info: File `data_survey.out' has not changed.
+(rerunfilecheck)             Checksum: 3AAB3B489828CE450D21EA3F05C98E07;1017.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
+Package logreq Info: Writing requests to 'data_survey.run.xml'.
+\openout1 = `data_survey.run.xml'.
+
  ) 
 Here is how much of TeX's memory you used:
- 18491 strings out of 495285
- 321565 string characters out of 3179872
- 451314 words of memory out of 3000000
- 21183 multiletter control sequences out of 15000+200000
- 22617 words of font info for 66 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 54i,6n,71p,428b,618s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\obxfs01\AppData\Local\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi60
-0\ecbx1000.pk> <C:\Users\obxfs01\AppData\Local\MiKTeX\2.8\fonts\pk\ljfour\jknap
-pen\ec\dpi600\ecti1000.pk> <C:\Users\obxfs01\AppData\Local\MiKTeX\2.8\fonts\pk\
-ljfour\jknappen\ec\dpi600\eccc1000.pk> <C:\Users\obxfs01\AppData\Local\MiKTeX\2
-.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\obxfs01\AppData\Lo
-cal\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\obxfs0
-1\AppData\Local\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\
-Users\obxfs01\AppData\Local\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1
-200.pk> <C:\Users\obxfs01\AppData\Local\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecrm1728.pk><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts
-/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb>
-Output written on data_survey.pdf (10 pages, 126004 bytes).
+ 25798 strings out of 493610
+ 436257 string characters out of 3142404
+ 772661 words of memory out of 3000000
+ 28408 multiletter control sequences out of 15000+200000
+ 80781 words of font info for 134 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 55i,6n,71p,3250b,1309s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{cite.0@ChemlaSpector2010:Experimental-Ev} has bee
+n referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@GeurtsPouscoulous2009:Embedded-Implic} has b
+een referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@HornDivisionofLabor1984} has been referenced
+ but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@Fox2007:Free-Choice-and} has been referenced
+ but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{cite.0@Sauerland2004:Scalar-Implicat} has been refe
+renced but does not exist, replaced by a fixed one
+
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2011/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/local/texlive/20
+11/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/local/texlive/2011/tex
+mf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/texlive/2011/texmf-dist
+/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/typ
+e1/urw/times/utmr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on data_survey.pdf (10 pages, 68530 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
+ 229 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 86 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
