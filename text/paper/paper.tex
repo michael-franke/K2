@@ -278,13 +278,13 @@ studies is detailed in Section XYZ.
 \section{Get to know your readings}
 \label{sec:get-know-your}
 
-\begin{figure}[t]
+\begin{figure}[]
   \centering
   
 \subfloat[fig:false][false]{
   \label{fig:false}
   
-\begin{tikzpicture}[node distance = 1.3cm]
+\begin{tikzpicture}[node distance = 1cm]
         % Nodes
 
         \node (X-1) {$\Large{\bullet}$};
@@ -293,13 +293,251 @@ studies is detailed in Section XYZ.
 
         \node (X-3) [below of = X-2] {$\Large{\bullet}$};
 
-        \node (Y-1) [right of = X-1, node distance = 3cm]{$\Large{\bullet}$};
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
 
         \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
 
         \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
 
         \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % table added from here
+
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
+
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & false \\
+            \glb & false \\
+            \loc & false 
+          \end{tabular}};
+
+        % Arrows
+
+        \path [draw=blue,->] (X-1) -> (Y-1);
+
+        \path [draw=blue,->] (X-1) -> (Y-2);
+
+
+        \path [draw=red,->] (X-3) -> (Y-3);
+
+        \path [draw=red,->] (X-3) -> (Y-4);
+
+      \end{tikzpicture}
+
+}
+\subfloat[fig:literal][literal]{
+  \label{fig:literal}
+
+  \begin{tikzpicture}[node distance = 1cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % table added from here
+
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
+
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & true \\
+            \glb & false \\
+            \loc & false 
+          \end{tabular}};
+
+        % Arrows
+
+        \path [draw=blue,->] (X-1) -> (Y-1);
+
+        \path [draw=blue,->] (X-1) -> (Y-2);
+
+        \path [draw=blue,->] (X-1) -> (Y-3);
+
+        \path [draw=blue,->] (X-1) -> (Y-4);
+
+
+        \path [draw=black,->] (X-2) -> (Y-1);
+
+        \path [draw=black,->] (X-2) -> (Y-2);
+
+        \path [draw=black,->] (X-2) -> (Y-3);
+
+        \path [draw=black,->] (X-2) -> (Y-4);
+
+
+
+        \path [draw=red,->] (X-3) -> (Y-1);
+
+        \path [draw=red,->] (X-3) -> (Y-2);
+
+        \path [draw=red,->] (X-3) -> (Y-3);
+
+        \path [draw=red,->] (X-3) -> (Y-4);
+
+      \end{tikzpicture}
+
+}
+\subfloat[fig:weak][weak]{
+  \label{fig:weak}
+
+\begin{tikzpicture}[node distance = 1cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % table added from here
+
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
+
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & true \\
+            \glb & true \\
+            \loc & false 
+          \end{tabular}};
+
+        % Arrows
+
+        \path [draw=blue,->] (X-1) -> (Y-1);
+
+        \path [draw=blue,->] (X-1) -> (Y-2);
+
+
+        \path [draw=black,->] (X-2) -> (Y-1);
+
+        \path [draw=black,->] (X-2) -> (Y-2);
+
+        \path [draw=black,->] (X-2) -> (Y-3);
+
+        \path [draw=black,->] (X-2) -> (Y-4);
+
+
+        \path [draw=red,->] (X-3) -> (Y-3);
+
+        \path [draw=red,->] (X-3) -> (Y-4);
+
+      \end{tikzpicture}
+
+
+}
+\subfloat[fig:strong][strong]{
+  \label{fig:strong}
+
+\begin{tikzpicture}[node distance = 1cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % table added from here
+
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
+
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & true \\
+            \glb & true \\
+            \loc & true 
+          \end{tabular}};
+
+        % Arrows
+
+        \path [draw=blue,->] (X-1) -> (Y-1);
+
+        \path [draw=blue,->] (X-1) -> (Y-2);
+
+
+        \path [draw=black,->] (X-2) -> (Y-2);
+
+        \path [draw=black,->] (X-2) -> (Y-3);
+
+
+        \path [draw=red,->] (X-3) -> (Y-3);
+
+        \path [draw=red,->] (X-3) -> (Y-4);
+
+      \end{tikzpicture}
+
+
+
+}
+
+  
+
+  \caption{Distinguishing scenarious for \as-sentences}
+  \label{fig:AS-distinguishing-pics}
+\end{figure}
+
+
+\begin{figure}[]
+  \centering
+  
+\subfloat[fig:false][false]{
+  \label{fig:false}
+
+  \begin{tikzpicture}[node distance = 1cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % table added from here
+
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
+
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & false \\
+            \glb & false \\
+            \loc & false 
+          \end{tabular}};
+
 
         % Arrows
 
@@ -319,7 +557,7 @@ studies is detailed in Section XYZ.
 \subfloat[fig:literal][literal]{
   \label{fig:literal}
 
-  \begin{tikzpicture}[node distance = 1.3cm]
+      \begin{tikzpicture}[node distance = 1cm]
         % Nodes
 
         \node (X-1) {$\Large{\bullet}$};
@@ -328,13 +566,68 @@ studies is detailed in Section XYZ.
 
         \node (X-3) [below of = X-2] {$\Large{\bullet}$};
 
-        \node (Y-1) [right of = X-1, node distance = 3cm]{$\Large{\bullet}$};
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
 
         \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
 
         \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
 
         \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % table added from here
+
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
+
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & true \\
+            \glb & false \\
+            \loc & false 
+          \end{tabular}};
+
+        % Arrows
+
+        \path [draw=black,->] (X-2) -> (Y-1);
+
+        \path [draw=black,->] (X-2) -> (Y-2);
+
+        \path [draw=black,->] (X-2) -> (Y-3);
+
+        \path [draw=black,->] (X-2) -> (Y-4);
+
+      \end{tikzpicture}
+
+}
+\subfloat[fig:local][local]{
+  \label{fig:local}
+
+            \begin{tikzpicture}[node distance = 1cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % table added from here
+
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
+
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & false \\
+            \glb & false \\
+            \loc & true 
+          \end{tabular}};
 
         % Arrows
 
@@ -347,13 +640,12 @@ studies is detailed in Section XYZ.
         \path [draw=blue,->] (X-1) -> (Y-4);
 
 
-        \path [draw=green,->] (X-2) -> (Y-1);
 
-        \path [draw=green,->] (X-2) -> (Y-2);
+        \path [draw=black,->] (X-2) -> (Y-2);
 
-        \path [draw=green,->] (X-2) -> (Y-3);
+        \path [draw=black,->] (X-2) -> (Y-3);
 
-        \path [draw=green,->] (X-2) -> (Y-4);
+        \path [draw=black,->] (X-2) -> (Y-4);
 
 
 
@@ -367,12 +659,11 @@ studies is detailed in Section XYZ.
 
       \end{tikzpicture}
 
-
 }
-\subfloat[fig:weak][weak]{
-  \label{fig:weak}
+\subfloat[fig:all][all]{
+  \label{fig:all}
 
-\begin{tikzpicture}[node distance = 1.3cm]
+      \begin{tikzpicture}[node distance = 1cm]
         % Nodes
 
         \node (X-1) {$\Large{\bullet}$};
@@ -381,7 +672,7 @@ studies is detailed in Section XYZ.
 
         \node (X-3) [below of = X-2] {$\Large{\bullet}$};
 
-        \node (Y-1) [right of = X-1, node distance = 3cm]{$\Large{\bullet}$};
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
 
         \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
 
@@ -389,49 +680,16 @@ studies is detailed in Section XYZ.
 
         \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
 
-        % Arrows
+        % table added from here
 
-        \path [draw=blue,->] (X-1) -> (Y-1);
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
 
-        \path [draw=blue,->] (X-1) -> (Y-2);
-
-
-        \path [draw=green,->] (X-2) -> (Y-1);
-
-        \path [draw=green,->] (X-2) -> (Y-2);
-
-        \path [draw=green,->] (X-2) -> (Y-3);
-
-        \path [draw=green,->] (X-2) -> (Y-4);
-
-
-        \path [draw=red,->] (X-3) -> (Y-3);
-
-        \path [draw=red,->] (X-3) -> (Y-4);
-
-      \end{tikzpicture}
-
-
-}
-\subfloat[fig:strong][strong]{
-  \label{fig:strong}
-
-\begin{tikzpicture}[node distance = 1.3cm]
-        % Nodes
-
-        \node (X-1) {$\Large{\bullet}$};
-
-        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
-
-        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
-
-        \node (Y-1) [right of = X-1, node distance = 3cm]{$\Large{\bullet}$};
-
-        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
-
-        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
-
-        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & true \\
+            \glb & true \\
+            \loc & true 
+          \end{tabular}};
 
         % Arrows
 
@@ -439,26 +697,13 @@ studies is detailed in Section XYZ.
 
         \path [draw=blue,->] (X-1) -> (Y-2);
 
-
-        \path [draw=green,->] (X-2) -> (Y-2);
-
-        \path [draw=green,->] (X-2) -> (Y-3);
-
-
-        \path [draw=red,->] (X-3) -> (Y-3);
-
-        \path [draw=red,->] (X-3) -> (Y-4);
-
       \end{tikzpicture}
-
-
 
 }
 
-  
+  \caption{Distinguishing scenarious for \es-sentences}
+  \label{fig:ES-distinguishing-pics}
 
-  \caption{Distinguishing scenarious for \as-sentences}
-  \label{fig:AS-distinguishing-pics}
 \end{figure}
 
 
