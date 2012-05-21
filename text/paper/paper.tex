@@ -8,6 +8,7 @@
 \usepackage{myenvironments}
 
 \usepackage[]{svninfo}
+\usepackage{subfig}
 
 
 
@@ -274,18 +275,192 @@ studies is detailed in Section XYZ.
 \item summarize results
 \end{itemize}
 
-
-
-
-
-\bigskip
-
-
-
-
-
 \section{Get to know your readings}
 \label{sec:get-know-your}
+
+\begin{figure}[t]
+  \centering
+  
+\subfloat[fig:false][false]{
+  \label{fig:false}
+  
+\begin{tikzpicture}[node distance = 1.3cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 3cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % Arrows
+
+        \path [draw=blue,->] (X-1) -> (Y-1);
+
+        \path [draw=blue,->] (X-1) -> (Y-2);
+
+
+        \path [draw=red,->] (X-3) -> (Y-3);
+
+        \path [draw=red,->] (X-3) -> (Y-4);
+
+      \end{tikzpicture}
+
+
+}
+\subfloat[fig:literal][literal]{
+  \label{fig:literal}
+
+  \begin{tikzpicture}[node distance = 1.3cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 3cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % Arrows
+
+        \path [draw=blue,->] (X-1) -> (Y-1);
+
+        \path [draw=blue,->] (X-1) -> (Y-2);
+
+        \path [draw=blue,->] (X-1) -> (Y-3);
+
+        \path [draw=blue,->] (X-1) -> (Y-4);
+
+
+        \path [draw=green,->] (X-2) -> (Y-1);
+
+        \path [draw=green,->] (X-2) -> (Y-2);
+
+        \path [draw=green,->] (X-2) -> (Y-3);
+
+        \path [draw=green,->] (X-2) -> (Y-4);
+
+
+
+        \path [draw=red,->] (X-3) -> (Y-1);
+
+        \path [draw=red,->] (X-3) -> (Y-2);
+
+        \path [draw=red,->] (X-3) -> (Y-3);
+
+        \path [draw=red,->] (X-3) -> (Y-4);
+
+      \end{tikzpicture}
+
+
+}
+\subfloat[fig:weak][weak]{
+  \label{fig:weak}
+
+\begin{tikzpicture}[node distance = 1.3cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 3cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % Arrows
+
+        \path [draw=blue,->] (X-1) -> (Y-1);
+
+        \path [draw=blue,->] (X-1) -> (Y-2);
+
+
+        \path [draw=green,->] (X-2) -> (Y-1);
+
+        \path [draw=green,->] (X-2) -> (Y-2);
+
+        \path [draw=green,->] (X-2) -> (Y-3);
+
+        \path [draw=green,->] (X-2) -> (Y-4);
+
+
+        \path [draw=red,->] (X-3) -> (Y-3);
+
+        \path [draw=red,->] (X-3) -> (Y-4);
+
+      \end{tikzpicture}
+
+
+}
+\subfloat[fig:strong][strong]{
+  \label{fig:strong}
+
+\begin{tikzpicture}[node distance = 1.3cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 3cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % Arrows
+
+        \path [draw=blue,->] (X-1) -> (Y-1);
+
+        \path [draw=blue,->] (X-1) -> (Y-2);
+
+
+        \path [draw=green,->] (X-2) -> (Y-2);
+
+        \path [draw=green,->] (X-2) -> (Y-3);
+
+
+        \path [draw=red,->] (X-3) -> (Y-3);
+
+        \path [draw=red,->] (X-3) -> (Y-4);
+
+      \end{tikzpicture}
+
+
+
+}
+
+  
+
+  \caption{Distinguishing scenarious for \as-sentences}
+  \label{fig:AS-distinguishing-pics}
+\end{figure}
+
 
 \section{Theories and predictions}
 \label{sec:theories-predictions}
