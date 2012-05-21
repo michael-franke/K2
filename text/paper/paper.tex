@@ -17,12 +17,17 @@
 
 \newcommand{\as}{\acro{as}}
 \renewcommand{\es}{\acro{es}}
+\renewcommand{\AE}{\as}
+\newcommand{\GE}{\es}
 
 \newcommand{\lc}{\acro{lc}}
 \newcommand{\ec}{\acro{ec}}
 
+\DefineNamedColor{named}{mycol}{cmyk}{0.6,0.6,0,0}
+\DefineNamedColor{named}{mygray}{cmyk}{0.05,0.05,0.05,0.05}
+\DefineNamedColor{named}{mygraylight}{cmyk}{0.017,0.017,0.017,0.017}
 
-
+\newcommand{\mymark}[1]{{\color{mycol}{#1}}}
 
 \title{Scalar Items in Embedded Position: {A}nother Experimental Approach}
 \author{Fabian Schlotterbeck, Michael Franke and Petra Augurzky}
@@ -41,13 +46,115 @@
 \section{Introduction}
 \label{sec:introduction}
 
-This paper deals with the interpretation of just two types of
-sentences, namely what we will call \as and \es sentences, mnemonic
-for \emph{all \dots some \dots} and \emph{exactly one \dots some
-  \dots}.
+This paper deals with the interpretation of two types of
+sentences, exemplified by:
+
+\begin{exe}
+\ex \label{bsp:AE}
+  \mymark{All} of the students read \mymark{some} of the
+  papers. \hfill (\AE)
+\ex \label{bsp:GE} 
+  \mymark{Exactly one} of the students read \mymark{some} of the
+  papers. \hfill (\GE)
+\end{exe}
+
+\noindent In \as-sentences a scalar item \emph{some} takes scope under
+a universal quantifier \emph{all}. In \es-sentences a scalar item
+\emph{some} takes scope under a non-monotonic quantifier \emph{exactly
+  one}. Scalar \emph{some} is usually assumed to receive a semantic
+interpretation similar to logical $\exists$, so that the expression
+\emph{Some boys cried.} is literally true in a situation where all
+boys cried. But it is also known to invite upper-bounding inferences
+in plain utterances:
+
+\begin{exe}
+  \ex \label{bsp:Plain-SI}
+    \begin{xlist}
+      \ex \label{bsp:Plain-SI-Target} Hans solved some of the problems.
+      \ex \label{bsp:Plain-SI-Implicature} $\implicates$ Hans solved some but not all of the problems.
+    \end{xlist}
+\end{exe}
+
+\noindent The classical explanation of this inference, following the
+pioneering work of \citet{Grice1975:Logic-and-Conve}, has it that
+(\ref{bsp:Plain-SI-Implicature}) is a pragmatic inference, a so-called
+\emph{quantity implicature}, derived by an abductive inference as the
+best explanation of why am informed, knowledgable and cooperative
+speaker has uttered (\ref{bsp:Plain-SI-Target}) when she could also
+have uttered the semantically stronger and relevant:\dn{redo labels of
+  examples}
+
+\begin{exe}
+  \exr{bsp:Plain-SI}
+    \begin{xlist}
+      \exi{c.} \label{bsp:Plain-SI-Alternative} Hans solved all of the problems.
+    \end{xlist}
+\end{exe}
+
+\noindent If this upper-bounding inference would occur often and
+systematically enough, then it may well be that also embedded
+occurrences of \emph{some} get enriched, in some fashion or other, to
+contribute \emph{in situ} the enriched meaning \emph{some but not
+  all}. Indeed, even \citeauthor{Grice1975:Logic-and-Conve} envisaged
+this possibility when he wrote: ``It may not be impossible for what
+starts life, so to speak, as a conversational implicature to become
+conventionalized'' \citep[p.58]{Grice1975:Logic-and-Conve}. But then
+there are at least three relevant candidate readings for \as- and
+\es-sentences: (i) a \emph{literal reading} like in
+(\ref{bsp:AE-Literal}) and (\ref{bsp:GE-Literal}) where \emph{some}
+has only its literal meaning as in; (ii) a \emph{global reading} like
+in (\ref{bsp:AE-Literal}) and (\ref{bsp:GE-Literal}) where, according
+to the Gricean intuition, we compare utterances of (\ref{bsp:AE}) or
+(\ref{bsp:GE}) with utterances of the corresponding sentences
+(\ref{bsp:AE-Alternative}) and (\ref{bsp:GE-Alternative}) where
+\emph{some} is replaced by \emph{all}; and also (iii) a \emph{local
+  reading} like in (\ref{bsp:AE-Local}) and (\ref{bsp:GE-Local}) where
+\emph{some} is read to mean \emph{some but not all} in the scope of
+the embedding quantifier.
 
 
+% DIRTY!!!
+\setcounter{exx}{0}
 
+\begin{exe}
+
+  \ex \mymark{All} of the students read {\mymark{some}} of the
+  papers. 
+
+  \begin{xlist}
+  \ex \label{bsp:AE-Literal} \mymark{All} of the students read
+    {\mymark{some and maybe all}} of the papers. \hfill (\as-\lit)
+  \ex \label{bsp:AE-Global}
+    \mymark{All} of the students read \mymark{some} 
+    and  \hfill (\as-\glb)\\
+    \mymark{not all} of the students read \mymark{all} of the papers.
+  \ex \label{bsp:AE-Local}
+    \mymark{All} of the students read {\mymark{some  but not all}} of the
+    papers. \hfill (\as-\loc)
+  \end{xlist}
+
+\ex \mymark{Exactly one} of the students read {\mymark{some}} of the
+  papers.
+
+  \begin{xlist}
+  \ex \label{bsp:GE-Literal} \mymark{Exactly one} of the students read
+    {\mymark{some and maybe all}} of the papers. \hfill (\es-\lit)
+  \ex \label{bsp:GE-Global}
+    \mymark{Exactly one} of the students read \mymark{some} 
+    and  \hfill (\es-\glb)\\
+    \mymark{not all} of the students read \mymark{all} of the papers.
+  \ex \label{bsp:GE-Local}
+    \mymark{Exactly one} of the students read {\mymark{some  but not all}} of the
+    papers. \hfill (\es-\loc)
+  \end{xlist}
+
+\ex \label{bsp:AE-Alternative} \mymark{All} of the students read
+  {\mymark{all}} of the papers. 
+
+\ex \label{bsp:GE-Alternative} \mymark{Exactly one} of the students
+  read {\mymark{all}} of the papers.
+
+\end{exe}
 
 
 
