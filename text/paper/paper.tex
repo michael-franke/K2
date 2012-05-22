@@ -375,77 +375,6 @@ situation in
 Figure~\ref{fig:literal-AE},
 other arrangements of arrows might equally well serve as examples.
 
-\subsection{\es-sentences}
-\label{sec:es-sentences}
-
-The situation for \es-sentences like (\ref{bsp:GE}) is similar, but a
-little more complicated because the embedding quantifier is
-non-monotonic. Again, we consider a literal reading as in
-(\ref{bsp:GE-Literal}), a global reading as in (\ref{bsp:GE-Global})
-and a local reading as in (\ref{bsp:GE-Local}).
-
-\begin{exer}{bsp:GE}
-\ex \mymark{Exactly one} of the students read {\mymark{some}} of the
-  papers.
-
-  \begin{xlist}
-  \ex \mymark{Exactly one} of the students read
-    {\mymark{some and maybe all}} of the papers. \hfill (\es-\lit)
-  \ex 
-    \mymark{Exactly one} of the students read \mymark{some and maybe all} 
-    and  \hfill (\es-\glb)\\
-    it's not the case that \mymark{exactly one} of the students read \mymark{all} of the papers.
-  \ex 
-    \mymark{Exactly one} of the students read {\mymark{some  but not all}} of the
-    papers. \hfill (\es-\loc)
-  \end{xlist}
-\end{exer}
-
-\noindent Entailment relations in this case are non-linear:
-\begin{exe}
-  \ex        \lit\ $\supset$ \glb\ $\color{mycol}{\subset}$ \loc 
-    % \hspace{1cm} and \hspace{1cm}  \lit\ $\not \supset$ \loc
-\end{exe}
-Of course, $\glb \subseteq \lit$ by definition of global readings. But
-the entailment is asymmetric, because the extra information that it is
-not the case that exactly one student read all of the papers is not
-entailed by the literal reading (\ref{bsp:GE-Literal}). However,
-unlike for \as-sentences, \loc is not stronger than \glb, but
-asymmetrically entailed by the latter. To see this, notice that the
-global reading is equivalent to:
-
-\begin{exe}
-  \exp{bsp:GE-Global} \label{test} \mymark{Exactly one} of the students read \mymark{some but not
-    all} and \\
-  \mymark{everybody else} read \mymark{none} of the papers.
-\end{exe}
-
-\noindent This reformulation also makes clear that \loc and \lit are
-logically independent.
-
-Given these entailment relations, there are again four different
-situations, named following \citet{ChemlaSpector2010:Experimental-Ev},
-corresponding to the four possible distributions of truth values:
-
-\begin{center}
-  \begin{tabular}{lccc}
-    \toprule
-    situation    & \multicolumn{3}{c}{truth value} 
-  \\ 
-  \cmidrule(r){2-4}
-    & \textsc{lit} & \textsc{glb} & \textsc{loc} \\ \midrule
-    false   & 0 & 0 & 0 \\
-    literal & 1 & 0 & 0 \\
-    local   & 0 & 0 & 1 \\
-    all     & 1 & 1 & 1 \\ \bottomrule
-  \end{tabular}
-\end{center}
-
-\noindent Examples for each situation are given in
-Figure~\ref{fig:ES-distinguishing-pics}. Again there several possible
-scenarios within each truth-value distribution, except for the literal
-situation in \ref{fig:literal-GE}.
-
 \begin{figure}[]
   \centering
   
@@ -670,6 +599,79 @@ situation in \ref{fig:literal-GE}.
 \end{figure}
 
 
+\subsection{\es-sentences}
+\label{sec:es-sentences}
+
+The situation for \es-sentences like (\ref{bsp:GE}) is similar, but a
+little more complicated because the embedding quantifier is
+non-monotonic. Again, we consider a literal reading as in
+(\ref{bsp:GE-Literal}), a global reading as in (\ref{bsp:GE-Global})
+and a local reading as in (\ref{bsp:GE-Local}).
+
+\begin{exer}{bsp:GE}
+\ex \mymark{Exactly one} of the students read {\mymark{some}} of the
+  papers.
+
+  \begin{xlist}
+  \ex \mymark{Exactly one} of the students read
+    {\mymark{some and maybe all}} of the papers. \hfill (\es-\lit)
+  \ex 
+    \mymark{Exactly one} of the students read \mymark{some and maybe all} 
+    and  \hfill (\es-\glb)\\
+    it's not the case that \mymark{exactly one} of the students read \mymark{all} of the papers.
+  \ex 
+    \mymark{Exactly one} of the students read {\mymark{some  but not all}} of the
+    papers. \hfill (\es-\loc)
+  \end{xlist}
+\end{exer}
+
+\noindent Entailment relations in this case are non-linear:
+\begin{exe}
+  \ex        \lit\ $\supset$ \glb\ $\color{mycol}{\subset}$ \loc 
+    % \hspace{1cm} and \hspace{1cm}  \lit\ $\not \supset$ \loc
+\end{exe}
+Of course, $\glb \subseteq \lit$ by definition of global readings. But
+the entailment is asymmetric, because the extra information that it is
+not the case that exactly one student read all of the papers is not
+entailed by the literal reading (\ref{bsp:GE-Literal}). However,
+unlike for \as-sentences, \loc is not stronger than \glb, but
+asymmetrically entailed by the latter. To see this, notice that the
+global reading is equivalent to:
+
+\begin{exe}
+  \exp{bsp:GE-Global} \label{test} \mymark{Exactly one} of the students read \mymark{some but not
+    all} and \\
+  \mymark{everybody else} read \mymark{none} of the papers.
+\end{exe}
+
+\noindent This reformulation also makes clear that \loc and \lit are
+logically independent.
+
+Given these entailment relations, there are again four different
+situations, named following \citet{ChemlaSpector2010:Experimental-Ev},
+corresponding to the four possible distributions of truth values:
+
+\begin{center}
+  \begin{tabular}{lccc}
+    \toprule
+    situation    & \multicolumn{3}{c}{truth value} 
+  \\ 
+  \cmidrule(r){2-4}
+    & \textsc{lit} & \textsc{glb} & \textsc{loc} \\ \midrule
+    false   & 0 & 0 & 0 \\
+    literal & 1 & 0 & 0 \\
+    local   & 0 & 0 & 1 \\
+    all     & 1 & 1 & 1 \\ \bottomrule
+  \end{tabular}
+\end{center}
+
+\noindent Examples for each situation are given in
+Figure~\ref{fig:ES-distinguishing-pics}. Again there several possible
+scenarios within each truth-value distribution, except for the literal
+situation in \ref{fig:literal-GE}.
+
+
+
 \begin{figure}[]
   \centering
   
@@ -873,12 +875,242 @@ situation in \ref{fig:literal-GE}.
 \end{figure}
 
 
-\newpage
-
 \section{Theories and predictions}
 \label{sec:theories-predictions}
 
-\lipsum[1]
+With some mild simplification, we can distinguish three main
+theoretical positions that make different predictions about the
+available and preferred readings of \as- and \es-sentences
+\citep[c.f.][]{Geurts2010:Quantity-Implic,Sauerland2012:The-Computation}. We
+will refer to these here as \mymark{traditionalism},
+\mymark{conventionalism} and \mymark{grammaticalism} and treat each
+one in turn. Since there is some leeway in assessing the predictions
+for some of these positions (depending on which of several reasonable
+additional assumptions we should adopt), we will distinguish different
+varieties of traditionalism and grammaticalism. For convenience, the
+predictions of each (variety of each) position are also summarized in
+Table~\ref{tab:predictions} at the end of this section.
+
+\subsection{Traditionalism}
+\label{sec:traditionalism}
+
+We refer to traditionalism as traditionalism because of its
+conservative stance towards Grice's original theory of conversational
+implicatures \citep{Grice1975:Logic-and-Conve}. Many author's have
+defended traditionalist positions in this sense. Of the more recent
+literature, we would consider as traditionalist, among others,
+contributions such as by
+\citet{Spector2006:Scalar-Implicat,Sauerland2004:Scalar-Implicat,Russell2006:Against-Grammat,vanRooijSchulz:ExhaustiveInterpretation,Geurts2010:Quantity-Implic,Franke2011:Quantity-Implic}. 
+
+ According to Grice,
+conversational implicatures, of which quantity/scalar implicatures are
+a special case, are to be thought of as rationalizations of speaker
+behavior. Central in this reasoning is the assumption that the
+speaker's behavior is efficient (if not optimal) and
+goal-oriented. Usually, the assumed goal of conversation is
+cooperative exchange of helpful information from the speaker to the
+hearer.
+
+The Gricean recipe for deriving a simple scalar inference like that in
+(\ref{bsp:Plain-SI-Target}) from an utterance of
+(\ref{bsp:Plain-SI-Target}) is as follows: if the issue whether Hans
+solved only some or all of the problem is relevant, then a cooperative
+and knowledgable speaker would utter (\ref{bsp:Plain-SI-Alternative})
+if in a position to do so; hence, one of the most natural explanations
+of why such a speaker has not uttered
+(\ref{bsp:Plain-SI-Alternative}), but only (\ref{bsp:Plain-SI-Target})
+is that she is uncertain of whether (\ref{bsp:Plain-SI-Alternative})
+is true; but on the assumption that she is knowledgeable (competent,
+opinionated, informed \dots) it follows that
+(\ref{bsp:Plain-SI-Implicature}) should in fact be true.\fn{We are
+  glossing here somewhat swiftly over the more nuanced details of the
+  derivation of implicatures targeting the speaker's epistemic state
+  \citep[e.g.][]{Gazdar1979:Pragmatics:-Imp,Soames1982:How-Presupposit},
+  as this is not crucially relevant for the issues we are interested
+  in here.}\textsuperscript{,}\dn{check this: what if subjects derived
+  weak epistemic implicatures?}
+
+\begin{exer}{bsp:Plain-SI}
+  \ex 
+    \begin{xlist}
+      \ex \label{bsp:Plain-SI-Target} Hans solved \mymark{some} of the problems.
+      \ex \label{bsp:Plain-SI-Implicature} $\implicates$ Hans solved
+        \mymark{some but not all} of the problems.
+      \ex Hans solved \mymark{all} of the problems.
+    \end{xlist}
+\end{exer}
+
+A similar line of reasoning applies immediately also to \as- and
+\es-sentences and derives the global reading in a straightforward
+way. Consequently, traditionalism predicts that both literal and
+global readings are available: literal readings, because these form
+the starting point of pragmatic reasoning; global readings because
+these may be arrived at in the exact same manner by filling in the
+Gricean recipe just mentioned. 
+
+Whether traditionalism predicts that global readings are preferred
+over literal ones or \emph{vice versa} depends on whether the
+auxiliary assumptions necessary to derive global readings by the
+Gricean recipe are plausible, namely: relevance of surplus
+information, mutual awareness that the stronger alternative has been a
+speaker option, the speaker's competence about the issue,
+etc. Normally, traditionalist accounts would assume that these extra
+assumptions are met. In that case, traditionalism would predict that
+the global readings should be preferred over the literal readings. On
+the other hand, it might also be hypothesized that, for example, a
+competence assumption is harder to justify for \as- and \es-sentences
+in general than for simpler sentences such as (\ref{bsp:Plain-SI}),
+because of the additional quantificational element: it might be less
+clear that the speaker knows exactly students solved how many
+problems. In that case, or if any other assumption of the Gricean
+recipe cannot be maintained, traditionalism would predict that the
+literal reading would be preferred over the global one.
+
+What about the local reading then? Here, the situation is slightly
+different for \as- and the \es-sentences. Look at \es-sentences
+first. Traditionalism does not predict that a local reading is
+available for \es-sentences, at least not as a quantity implicature
+\citep[c.f.][]{GeurtsPouscoulous2009:Embedded-Implic,ChemlaSpector2010:Experimental-Ev}. This
+is because traditionalism assumes that quantity implicatures are
+pragmatic enrichments of the literal meaning of an utterance, obtained
+by conjoining the literal meaning with a suitable set of negated
+alternatives. But since the literal and the local reading of
+\es-sentences are logically independent, there is no way that local
+readings can be derived in a traditionalist manner.
+
+On the other hand, there is a traditionalist way of deriving the local
+implicature for \as-sentences, namely if we assume that not only
+(\ref{bsp:AE-Alternative}) is an alternative to (\ref{bsp:AE}), but
+also the sentences in (\ref{bsp:AE-Alternatives-Extended}).
+
+\begin{exer}{bsp:AE}
+  \ex \mymark{All} of the students solved \mymark{some} of the problems.
+\end{exer}
+
+\begin{exer}{bsp:AE-Alternative}
+  \ex \mymark{All} of the students solved \mymark{all} of the problems.
+\end{exer}
+
+\begin{exe}
+\ex \label{bsp:AE-Alternatives-Extended-Crucial} \mymark{Some} of the students solved \mymark{all} of the problems.
+\end{exe}
+
+\noindent Especially (\ref{bsp:AE-Alternatives-Extended-Crucial}) is
+important here. Clearly, if we conjoin a literal reading of
+(\ref{bsp:AE}) with the negation of
+(\ref{bsp:AE-Alternatives-Extended-Crucial}) we obtain exactly the
+local reading. (Notice that the negation of
+(\ref{bsp:AE-Alternatives-Extended-Crucial}) entails the negation of
+(\ref{bsp:AE-Alternative}), so it makes no difference (not) to add it
+in this case.) Consequently, traditionalism does predict that the
+local reading of \as-sentences is available. 
+
+Still, traditionalism would not predict that the local reading is
+preferred. This is because the derivation of the local implicature via
+(\ref{bsp:AE-Alternatives-Extended-Crucial}) hinges on another
+auxiliary assumption, namely the availability of the alternative in
+(\ref{bsp:AE-Alternatives-Extended-Crucial}), which seems much less
+obvious and therefore presumably is less readily available than the
+alternative in (\ref{bsp:AE-Alternative}). But if that is so, then the
+local reading should, even if available, be less preferred than the
+global reading.
+
+Taken together, there are several varieties of standard traditionalism
+that, depending on which additional assumptions we would make, yield
+slightly different predictions. Let's distinguish these varieties with
+handy labels as follows:
+\begin{description}
+\item[Tradition$_\text{strong}$] 
+\end{description}
+
+
+
+ But it would certainly
+not predict that this reading is preferred. 
+
+
+\begin{itemize}
+\item intonation!!
+  \begin{itemize}
+  \item proposed by
+    \citet{Horn2006:The-Border-Wars,Geurts2009:Scalar-Implicat,Geurts2010:Quantity-Implic},
+    \citep[c.f.][]{ChemlaSpector2010:Experimental-Ev}
+  \end{itemize}
+\end{itemize}
+
+
+\bigskip
+
+
+\subsection{Conventionalism}
+\label{sec:conventionalism}
+
+\subsection{Grammaticalism}
+\label{sec:grammaticalism}
+
+
+
+
+\begin{table}[t]
+  \centering
+  \begin{tabular}{lcccc|cc}
+    & \multicolumn{4}{c}{availability} 
+    & \multicolumn{2}{c}{preference}
+    \\ \cmidrule(r){2-5}  \cmidrule(r){6-7}
+    theory
+    & \as-\glb
+    & \as-\loc
+    & \es-\glb
+    & \es-\loc
+    & \as
+    & \es
+    \\ \midrule
+    Grice$_1$ 
+    & $\checkmark$
+    & $-$
+    & $\checkmark$
+    & $-$
+    & \glb > \lit 
+    & \glb > \lit
+    \\
+    Grice$_2$
+    & $\checkmark$
+    & $\checkmark$
+    & $\checkmark$
+    & $-$
+    & \loc > \glb, \lit 
+    & \glb > \lit
+    \\
+    Grammar$_1$
+    & $\checkmark$
+    & $\checkmark$
+    & $\checkmark$
+    & $\checkmark$
+    & \loc > \glb > \lit 
+    & \glb > \lit, \loc
+    \\
+    Grammar$_2$
+    & $\checkmark$
+    & $\checkmark$
+    & $\checkmark$
+    & $\checkmark$
+    & \loc > \glb > \lit 
+    & \glb, \loc >  \lit
+    \\
+    Lexical
+    & $-$
+    & $\checkmark$
+    & $-$
+    & $\checkmark$
+    & \loc >  \lit 
+    & \loc >  \lit
+    \\
+  \end{tabular}
+  \caption{Predictions of the relevant theoretical positions}
+  \label{tab:predictions}
+\end{table}
+
+\newpage
 
 \section{Previous studies}
 \label{sec:previous-studies}
