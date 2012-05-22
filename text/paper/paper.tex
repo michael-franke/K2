@@ -135,7 +135,7 @@ the embedding quantifier.
   \ex \label{bsp:AE-Literal} \mymark{All} of the students read
     {\mymark{some and maybe all}} of the papers. \hfill (\as-\lit)
   \ex \label{bsp:AE-Global}
-    \mymark{All} of the students read \mymark{some} 
+    \mymark{All} of the students read \mymark{some and maybe all} 
     and  \hfill (\as-\glb)\\
     it's not the case that \mymark{all} of the students read \mymark{all} of the papers.
   \ex \label{bsp:AE-Local}
@@ -152,7 +152,7 @@ the embedding quantifier.
   \ex \label{bsp:GE-Literal} \mymark{Exactly one} of the students read
     {\mymark{some and maybe all}} of the papers. \hfill (\es-\lit)
   \ex \label{bsp:GE-Global}
-    \mymark{Exactly one} of the students read \mymark{some} 
+    \mymark{Exactly one} of the students read \mymark{some and maybe all} 
     and  \hfill (\es-\glb)\\
     it's not the case that \mymark{exactly one} of the students read \mymark{all} of the papers.
   \ex \label{bsp:GE-Local}
@@ -197,7 +197,7 @@ consider local readings either unavailable or a beast distinct from
 scalar implicatures. An often phrased intuition of the traditionalists
 is that local readings, since they are special kinds of inferences,
 require special intonation, in particular emphatic stress on the
-scalar item.\dn{give references} 
+scalar item.\dn{give references}
 
 Opposed to that is the camp of \mymark{lexical conventionalists}
 \citep[e.g.][]{LevinsonPresumptiveMeanings2000,Chierchia:2004_ScalarImplicatures}
@@ -322,7 +322,7 @@ and a local reading as in (\ref{bsp:AE-Local}).
   \ex \mymark{All} of the students read
     {\mymark{some and maybe all}} of the papers. \hfill (\as-\lit)
   \ex
-    \mymark{All} of the students read \mymark{some} 
+    \mymark{All} of the students read \mymark{some and maybe all} 
     and  \hfill (\as-\glb)\\
     it's not the case that \mymark{all} of the students read \mymark{all} of the papers.
   \ex
@@ -347,9 +347,10 @@ some but not all of the papers is a special case of the case where all
 of the students read some (and maybe all), while not all of the
 students read all of the papers.
 
-Given these entailment relations, there are four kinds of situations
-that we can distinguish based on different truth values for our
-candidate readings:
+Given these entailment relations, there are four kinds of situations,
+the names for which we borrow from
+\citet{ChemlaSpector2010:Experimental-Ev}, that we can distinguish
+based on different truth values for our candidate readings:
 
 \begin{center}
   \begin{tabular}{lccc}
@@ -391,7 +392,7 @@ and a local reading as in (\ref{bsp:GE-Local}).
   \ex \mymark{Exactly one} of the students read
     {\mymark{some and maybe all}} of the papers. \hfill (\es-\lit)
   \ex 
-    \mymark{Exactly one} of the students read \mymark{some} 
+    \mymark{Exactly one} of the students read \mymark{some and maybe all} 
     and  \hfill (\es-\glb)\\
     it's not the case that \mymark{exactly one} of the students read \mymark{all} of the papers.
   \ex 
@@ -400,13 +401,50 @@ and a local reading as in (\ref{bsp:GE-Local}).
   \end{xlist}
 \end{exer}
 
-\noindent Entailment relations:
-
+\noindent Entailment relations in this case are non-linear:
 \begin{exe}
   \ex        \lit\ $\supset$ \glb\ $\color{mycol}{\subset}$ \loc 
-    \hspace{1cm} and \hspace{1cm}  \lit\ $\not \supset$ \loc
+    % \hspace{1cm} and \hspace{1cm}  \lit\ $\not \supset$ \loc
+\end{exe}
+Of course, $\glb \subseteq \lit$ by definition of global readings. But
+the entailment is asymmetric, because the extra information that it is
+not the case that exactly one student read all of the papers is not
+entailed by the literal reading (\ref{bsp:GE-Literal}). However,
+unlike for \as-sentences, \loc is not stronger than \glb, but
+asymmetrically entailed by the latter. To see this, notice that the
+global reading is equivalent to:
+
+\begin{exe}
+  \exp{bsp:GE-Global} \label{test} \mymark{Exactly one} of the students read \mymark{some but not
+    all} and \\
+  \mymark{everybody else} read \mymark{none} of the papers.
 \end{exe}
 
+\noindent This reformulation also makes clear that \loc and \lit are
+logically independent.
+
+Given these entailment relations, there are again four different
+situations, named following \citet{ChemlaSpector2010:Experimental-Ev},
+corresponding to the four possible distributions of truth values:
+
+\begin{center}
+  \begin{tabular}{lccc}
+    \toprule
+    situation    & \multicolumn{3}{c}{truth value} 
+  \\ 
+  \cmidrule(r){2-4}
+    & \textsc{lit} & \textsc{glb} & \textsc{loc} \\ \midrule
+    false   & 0 & 0 & 0 \\
+    literal & 1 & 0 & 0 \\
+    local   & 0 & 0 & 1 \\
+    all     & 1 & 1 & 1 \\ \bottomrule
+  \end{tabular}
+\end{center}
+
+\noindent Examples for each situation are given in
+Figure~\ref{fig:ES-distinguishing-pics}. Again there several possible
+scenarios within each truth-value distribution, except for the literal
+situation in \ref{fig:literal-GE}.
 
 \begin{figure}[]
   \centering
