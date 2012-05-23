@@ -630,7 +630,7 @@ and a local reading as in (\ref{bsp:GE-Local}).
 
 \noindent Entailment relations in this case are non-linear:
 \begin{exe}
-  \ex        \lit\ $\supset$ \glb\ $\color{mycol}{\subset}$ \loc 
+  \ex \label{bsp:Entailments-GE}       \lit\ $\supset$ \glb\ $\color{mycol}{\subset}$ \loc 
     % \hspace{1cm} and \hspace{1cm}  \lit\ $\not \supset$ \loc
 \end{exe}
 Of course, $\glb \subseteq \lit$ by definition of global readings. But
@@ -642,7 +642,7 @@ asymmetrically entailed by the latter. To see this, notice that the
 global reading is equivalent to:
 
 \begin{exe}
-  \exp{bsp:GE-Global} \label{test} \mymark{Exactly one} of the students read \mymark{some but not
+  \exp{bsp:GE-Global} \mymark{Exactly one} of the students read \mymark{some but not
     all} and \\
   \mymark{everybody else} read \mymark{none} of the papers.
 \end{exe}
@@ -1235,22 +1235,39 @@ a stronger partial relation:
   $X > Y$ iff $X \subset Y$ \hfill
   \citep[(104)]{ChierchiaFox2008:The-Grammatical}
 \end{exe}
-or a weaker partial relation:
+or a weaker partial relation:\dn{mention that ill-defined}
 \begin{exe}
 \ex \label{bsp:SMH-Partial}  $X > Y$ if $X \subset Y$ and $X$ and $Y$ are readings obtained
   from applications of $\exh(\cdot)$ at exactly the same scope sites,
-  except for one 
+  except for one \hfill
+  \citep[(105)]{ChierchiaFox2008:The-Grammatical}
 \end{exe}
-
-
-Depending on which
-we adopt we either get \mymark{total grammaticalism} or
-\mymark{partial grammaticalism}.
+In the following we will speak of \mymark{strong grammaticalism} or
+\mymark{weak grammaticalism}, depending on whether
+(\ref{bsp:SMH-Total}) or (\ref{bsp:SMH-Partial}) is used.
 
 
 
 
-\bigskip
+As \citet{ChierchiaFox2008:The-Grammatical} note as well in connection
+with \es-sentences, these two varieties of grammaticalims give rise to
+different predictions about preferred readings. But this also holds
+for \ae-sentences. It is easy to see that the preference on readings
+that strong grammaticalism predicts is just a mirror of the entailment
+relations in (\ref{bsp:Entailments-AS}) and
+(\ref{bsp:Entailments-GE}): for \as-sentences strong grammaticalism
+predicts that local readings are preferred over global readings which
+in turn are preferred over literal readings; for \es-sentences strong
+grammaticalism predicts that global readings are most preferred, while
+literal and local readings are not ranked with respect to
+preference. Weak grammaticalims, on the other hand, predicts that both
+\as- and \es-sentences preferably get either a local or a global
+reading rather than a literal reading. But weak grammaticalism does
+not rank these former two with respect to each other because they
+differ in more than one application of the $\exh(\cdot)$
+operator. These predictions are all summarized also in
+Table~\ref{tab:predictions}.
+
 
 \begin{itemize}
 \item strongest meaning hypothesis
@@ -1337,7 +1354,7 @@ we adopt we either get \mymark{total grammaticalism} or
     & $\checkmark$
     & $\checkmark$
     & $\checkmark$
-    & \loc > \glb > \lit 
+    & \glb, \loc > \lit 
     & \glb, \loc >  \lit
     \\
   \end{tabular}
