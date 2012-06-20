@@ -3,9 +3,15 @@
 % Math --------------------
 \newcommand{\set}[1]{\left\{#1\right\}}
 \newcommand{\tuple}[1]{\left \langle #1\right\rangle}
+\newcommand{\card}[1]{\left \lvert \, #1 \, \right\rvert}
+\newcommand{\abs}[1]{\lvert #1 \rvert}
+\newcommand{\setbar}{\ensuremath{\thinspace \mid \thinspace}}
+\newcommand{\probbar}{\ensuremath{\mid}}
+\DeclareMathOperator*{\argmax}{arg\,max}
 \newcommand{\df}{\rightarrow}
 \newcommand{\es}{\emptyset}
 \newcommand{\den}[1]{\left [\! \left [ #1 \right ]\! \right]}
+% \newcommand{\den}[1]{\left \llbracket #1  \right \rrbracket} % this would use fourier package which makes 'cases' environment bad
 \newcommand{\no}{\noindent}
 \newcommand{\hin}{"$\Rightarrow$" }
 \newcommand{\rueck}{"$\Leftarrow$" }
@@ -15,6 +21,10 @@
 \newcommand{\implicates}{\ensuremath{\leadsto}}  % arrow for
                                 % implicatures in examples
 \newcommand{\update}[2]{\ensuremath{#1[#2]}}
+\newcommand{\myts}{\ensuremath{\thinspace}}
+\newcommand{\mycolon}{\ensuremath{\thinspace \colon \thinspace}}
+\newcommand{\mydot}{\ensuremath{\thinspace . \thinspace}}
+
 
 \makeatletter
 \newcommand{\prob}{\@ifstar
@@ -32,13 +42,22 @@
 \newcommand{\myment}[1]{\emph{#1}}  	% first mentions
 \newcommand{\myword}[1]{\textbf{\texttt{#1}}}	% refering to the word
 \newcommand{\myemph}[1]{\emph{#1}}			% emphasis
+\newenvironment{exnonum}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{2.5em}
+    \setlength{\rightmargin}{2.5em}
+    %\setlength{\itemindent}{-1.5em}
+  }
+}{
+  \end{list}
+}
+
 
 % Slanted Fractions
 \newcommand{\myslantfrac}[2]{\msf{#1}{#2}}
-\newcommand{\msf}[2]{\ensuremath{\hspace{3pt}\!^{#1}\!\!\hspace{1pt}/
-  \hspace{2pt}\!\!_{#2}\!\hspace{3pt}}}
-\newcommand{\msftext}[2]{\ensuremath{\hspace{3pt}\!^{\text{#1}}\!\!\hspace{1pt}/
-  \hspace{2pt}\!\!_{\text{#2}}\!\hspace{3pt}}}
+\newcommand{\msf}[2]{\ensuremath{\nicefrac{#1}{#2}}}
+\newcommand{\msftext}[2]{\nicefrac{#1}{#2}}
+
 
 % Symbols for Conditionals
 \newcommand{\cond}{\ensuremath{>}}
@@ -47,20 +66,20 @@
 \newcommand{\strcondMight}{\ensuremath{\DiamondRight}}
 
 % Signaling Games & IBR
-\newcommand{\sen}{\ensuremath{S}}		% Sender variable
+\newcommand{\sen}{\ensuremath{S}\xspace}		% Sender variable
 \newcommand{\mysen}[1]{\ensuremath{\sen^{#1}}} % Sender of type XYZ
-\newcommand{\rec}{\ensuremath{R}}		% Receiver variable
+\newcommand{\rec}{\ensuremath{R}\xspace}		% Receiver variable
 \newcommand{\myrec}[1]{\ensuremath{\rec_{#1}}} % Receiver of type XYZ
-\newcommand{\States}{\ensuremath{T}}		% Set of States
-\newcommand{\state}{\ensuremath{t}}		% single states
-\newcommand{\mystate}[1]{\ensuremath{\state_{\mathrm{#1}}}} %meaningful states
-\newcommand{\Messgs}{\ensuremath{M}}		% Set of Messages
-\newcommand{\messg}{\ensuremath{m}}		% single messages
-\newcommand{\mymessg}[1]{\ensuremath{\messg_{\mathrm{#1}}}} %meaningful messages
+\newcommand{\States}{\ensuremath{T}\xspace}		% Set of States
+\newcommand{\state}{\ensuremath{t}\xspace}		% single states
+\newcommand{\mystate}[1]{\ensuremath{\state_{\mathrm{#1}}}\xspace} %meaningful states
+\newcommand{\Messgs}{\ensuremath{M}\xspace}		% Set of Messages
+\newcommand{\messg}{\ensuremath{m}\xspace}		% single messages
+\newcommand{\mymessg}[1]{\ensuremath{\messg_{\mathrm{#1}}}\xspace} %meaningful messages
 \newcommand{\cost}{\ensuremath\mathrm{C}} % cost function
-\newcommand{\Acts}{\ensuremath{A}}		% Set of R-actions
-\newcommand{\act}{\ensuremath{a}}		% single action
-\newcommand{\myact}[1]{\ensuremath{\act_{\mathrm{#1}}}} %meaningful
+\newcommand{\Acts}{\ensuremath{A}\xspace}		% Set of R-actions
+\newcommand{\act}{\ensuremath{a}\xspace}		% single action
+\newcommand{\myact}[1]{\ensuremath{\act_{\mathrm{#1}}}\xspace} %meaningful
 \newcommand{\Worlds}{\ensuremath{W}}		% Worlds
 \newcommand{\world}{\ensuremath{w}}		% single world
 \newcommand{\myworld}[1]{\ensuremath{\world_{\mathrm{#1}}}} %named world
@@ -111,8 +130,8 @@
 \newcommand{\Br}[1]{\mathrm{BLO^{\rho}}_{#1}}
 
 % Abbreviations/Acronyms:
-\newcommand{\acro}[1]{\textsc{#1}}
-\newcommand{\acros}[1]{\textsc{#1}{\relsize{-1}s}}
+\newcommand{\acro}[1]{\textsc{#1}\xspace}
+\newcommand{\acros}[1]{\textsc{#1}{\relsize{-1}s}\xspace}
 \newcommand{\bc}{\acro{bc}} % Biscuit Conditional(s)
 \newcommand{\bcs}{\acros{bc}}
 \newcommand{\cbc}{\acro{cbc}} % Counterfactual BCs
@@ -147,15 +166,69 @@
 \newcommand{\NEs}{\acros{ne}}
 \newcommand{\SG}{\acro{sg}}
 \newcommand{\SGs}{\acros{sg}}
+\newcommand{\KO}{\textsc{ko\relsize{-1}bs}} % Kennedy's observation
+\newcommand{\EVP}{\acro{evp}}    % extreme-value principle
+\newcommand{\illc}{\acro{illc}}
 
 % Evolution
-\newcommand{\EGT}{\textsc{egt}}
-\newcommand{\ESS}{\textsc{ess}}
-\newcommand{\ESSs}{\textsc{ess{\relsize{-1}s}}}
-\newcommand{\sigsys}{\textsc{SigSys}} % signaling system
-\newcommand{\sigsyss}{\textsc{SigSys{\relsize{-1}s}}} % signaling system Plural
+\newcommand{\EGT}{\acro{egt}}
+\newcommand{\ESS}{\acro{ess}}
+\newcommand{\ESSs}{\acros{ess}}
+\newcommand{\sigsys}{\textsc{SigSys}\xspace} % signaling system
+\newcommand{\sigsyss}{\textsc{SigSys{\relsize{-1}s}}\xspace} % signaling system Plural
 
 \newcommand{\fin}{\rule{0mm}{1mm}\hfill{\rule{1.5cm}{0.2pt}}}
 
 %Properly typeset tilde for URLs
 \def\urltilde{\kern -.15em\lower .7ex\hbox{\~{}}\kern .04em}
+
+
+% Beamer footnote for references:
+\newcommand{\beamfn}[1]{
+  \vfill
+      \begin{footnotesize}
+        \leftskip 0.1in
+        \parindent -0.1in
+       \hspace{-0.3cm}\rule{2cm}{0.01cm}\\ \vspace{-0.15cm}
+        #1
+      \end{footnotesize}
+}
+
+\newcommand{\myvec}[1]{\ensuremath{\mathbf{#1}}}
+
+\newcommand{\dn}[1]{\draftnote{#1}}
+\newcommand{\fn}[1]{\footnote{#1}}
+
+\newcommand{\stateunmarked}{\ensuremath{\state}\xspace}
+\newcommand{\statemarked}{\ensuremath{\state^*}\xspace}
+\newcommand{\messgunmarked}{\ensuremath{\messg}\xspace}
+\newcommand{\messgmarked}{\ensuremath{\messg^*}\xspace}
+\newcommand{\actunmarked}{\ensuremath{\act}\xspace}
+\newcommand{\actmarked}{\ensuremath{\act^*}\xspace}
+\newcommand{\ssome}{\mystate{\exists\neg\forall}}
+\newcommand{\sall}{\mystate{\forall}}
+\newcommand{\msome}{\mymessg{some}}
+\newcommand{\mall}{\mymessg{all}}
+\newcommand{\asome}{\myact{\exists\neg\forall}}
+\newcommand{\aall}{\myact{\forall}}
+
+% for repeating examples with gb4e
+
+\newcounter{myexememory}
+\newenvironment{exer}[1]
+{
+\setcounter{myexememory}{\value{exx}}
+\setcounter{exx}{\getrefnumber{#1}}
+\addtocounter{exx}{-1}  
+\begin{exe}
+}
+{
+\end{exe}
+\setcounter{exx}{\value{myexememory}}
+}
+
+\DefineNamedColor{named}{mycol}{cmyk}{0.6,0.6,0,0}
+\DefineNamedColor{named}{mygray}{cmyk}{0.05,0.05,0.05,0.05}
+\DefineNamedColor{named}{mygraylight}{cmyk}{0.017,0.017,0.017,0.017}
+
+\newcommand{\mymark}[1]{{\color{mycol}{#1}}}

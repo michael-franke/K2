@@ -49,7 +49,9 @@
   \RequirePackage{amsthm}
 \fi
 
-\RequirePackage{dsfont}
+\RequirePackage{dsfont}             % double stroke fonts
+
+\RequirePackage[final]{graphicx}
 
 \RequirePackage{booktabs}
 \RequirePackage{enumerate}
@@ -59,8 +61,11 @@
 \RequirePackage{url}
 
 \RequirePackage{gb4e_micha}
-%\renewcommand{\eachwordtwo}{\relsize{-1}} % format translation in glosses
-%\renewcommand{\trans}{\vskip.15\baselineskip\relsize{-1}}
+\renewcommand{\eachwordtwo}{\relsize{-1}} % format translation in glosses
+% \renewcommand{\trans}{\vskip.15\baselineskip\relsize{-1}}
+\renewcommand{\trans}{\vskip.15\baselineskip}
+
+% \RequirePackage{fourier}               % double brackets for \den{}
 
 \RequirePackage{lipsum}
 \RequirePackage{proofing}
@@ -71,15 +76,18 @@
 \RequirePackage[german,english]{babel}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[T1]{fontenc} 
-\RequirePackage{subfig}
+% \RequirePackage{subfig}
 \RequirePackage{xypic}
+\RequirePackage{multicol}
 
 \ifnotik
   \RequirePackage{tikz}
-  \usetikzlibrary{arrows,shapes,snakes,automata,backgrounds,petri,fit}
+  \usetikzlibrary{arrows,shapes,automata,backgrounds,petri,fit,decorations.pathmorphing}
 \fi
 
 \RequirePackage{units}
+
+\RequirePackage{refcount} % for proper repetition of gb4e examples 
 
 \RequirePackage{dialogue}
 
@@ -89,8 +97,9 @@
 \renewcommand\PostTrib {}  % to suppress additional brackets around
                            % attributions
 
+\RequirePackage{setspace}
 
-
+\RequirePackage{xspace} % for \xspace in definition of acronyms etc.
 
 \ifpala
   \RequirePackage[sc,osf]{mathpazo}
@@ -104,6 +113,8 @@
                               % (hyperref conf.)
             maxnames=2,       % truncate name lists if more than 2
                               % names appear
+            doi=false,        % no doi's
+            url=false,        % no url's
             sortcites=false,  % do NOT sort cites in the style of the
                               % bibliography 
             %backref=true     % insert backrefs in reference section
@@ -115,9 +126,9 @@
 \ifnohyper
   \RequirePackage[final,            % override "draft" which means "no nothing"
             colorlinks,       % rather than outlining them in boxes
-            linkcolor=black,   % override truly awful colour choices
-            citecolor=black,   %   (ditto)
-            urlcolor=black,    %   (ditto)
+            linkcolor=gray,   % override truly awful colour choices
+            citecolor=gray,   %   (ditto)
+            urlcolor=gray,    %   (ditto)
             plainpages=false, % to overcome complaints with multiple
             pdfpagelabels,    % multiple page 1-s due to preface
             hypertexnames=false % solves warning, but interferes with

@@ -1,16 +1,60 @@
 \documentclass[fleqn,reqno,10pt,draft]{article}
 
-\usepackage{myarticlestyledefault}
+
+\usepackage[natbib=true,style=authoryear-comp,backend=bibtex,doi=false,url=false]{biblatex}
+\bibliography{../helpers/MyRefGlobal}
+
+\usepackage[final,            % override "draft" which means "no nothing"
+            colorlinks,       % rather than outlining them in boxes
+            linkcolor=gray,   % override truly awful colour choices
+            citecolor=gray,   %   (ditto)
+            urlcolor=gray,    %   (ditto)
+            plainpages=false, % to overcome complaints with multiple
+            pdfpagelabels,    % multiple page 1-s due to preface
+            hypertexnames=false % solves warning, but interferes with
+                                % index and \autoref apparently
+            ]{hyperref}
 
 
-\usepackage{mypackages}
-\usepackage{mycommands}
-\usepackage{myenvironments}
+\usepackage{amsmath}            % Formeln
+\usepackage{amsfonts}           % Fonts for Formulas
+\usepackage{amssymb}
+\usepackage[final]{graphicx}
+\usepackage{booktabs}
+\usepackage{enumerate}
+\usepackage{lipsum}
+\usepackage{txfonts} % for strict implication symbols
+\usepackage{soul}
+\usepackage{relsize} % provides command \relsize{+/-x} for relative
+                     % font size changes
+\usepackage[german,english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage{subfig}
+\usepackage{xypic}
+\usepackage{url}
+\usepackage{tikz}
+\usetikzlibrary{arrows,shapes,automata,backgrounds,petri,fit,decorations.pathmorphing}
+\usepackage{refcount}
+\usepackage{xspace} % for \xspace in definition of acronyms etc.
+\usepackage{attrib} % for right-aligned references at the end of
+                    % quotes; part of Frankenstein bundle, but 
+\renewcommand\PreTrib {}   % overwrite these commands, from attrib.sty
+\renewcommand\PostTrib {}  % to suppress additional brackets around
+                           % attributions
+
+
+
+\usepackage{../helpers/gb4e_micha}
+\usepackage{../helpers/proofing}
+
+\usepackage{../helpers/mycommands}
+% \usepackage{../helpers/myenvironments}
 
 \usepackage[]{svninfo}
 \usepackage{subfig}
 
-
+%%%% Additional Macros
 
 \newcommand{\lit}{\acro{lit}}
 \newcommand{\glb}{\acro{glb}}
@@ -26,10 +70,11 @@
 \newcommand{\LC}{\lc}
 \newcommand{\EC}{\ec}
 
-
 \newcommand{\exh}{\ensuremath{\mathrm{Exh}}}
 \newcommand{\alt}{\ensuremath{\mathrm{Alt}}}
 
+
+%%%% Document
 
 \title{Scalar Items in Embedded Position: {A}n Experimental Revisit}
 \author{Fabian Schlotterbeck, Michael Franke and Petra Augurzky}
@@ -283,59 +328,85 @@ judgments would give away which reading subjects were waiting to
 evaluate, so to speak.\dn{Fabian suggest to skip this last remark
   here; I do find it important}
 
-\begin{itemize}
-\item Fabian wants to skip the following; Petra wants to enlarge on
-  it; I give first my version, then Petra's
-  \begin{itemize}
-  \item To test whether our method is indeed suitable to detect
-    interpretation preferences, we included ambiguous test items like
-    (\ref{bsp:target-related-filler}) which are known to
-    preferentially receive the late-closure reading in
-    (\ref{bsp:target-related-filler-LC}) and not the dispreferred, but
-    attested early-closure reading
-    (\ref{bsp:target-related-filler-EC}).\dn{insert references to
-      literature on EC-LC processing}
+% \begin{itemize}
+% \item Fabian wants to skip the following; Petra wants to enlarge on
+%   it; I give first my version, then Petra's
+%   \begin{itemize}
+%   \item To test whether our method is indeed suitable to detect
+%     interpretation preferences, we included ambiguous test items like
+%     (\ref{bsp:target-related-filler}) which are known to
+%     preferentially receive the late-closure reading in
+%     (\ref{bsp:target-related-filler-LC}) and not the dispreferred, but
+%     attested early-closure reading
+%     (\ref{bsp:target-related-filler-EC}).\dn{insert references to
+%       literature on EC-LC processing}
 
-    \begin{exe}
-    \ex \label{bsp:target-related-filler} The letter is connected with circles and squares with
-      suns.
-      \begin{xlist}
-      \ex \label{bsp:target-related-filler-LC} The letter is connected
-        with squares with suns and circles. \hfill (\LC)
-      \ex \label{bsp:target-related-filler-EC} The letter is connected
-        with circles with suns and squares with suns. \hfill (\EC)
-      \end{xlist}
-    \end{exe}
-  \item To test whether our method is indeed suitable to detect
-    interpretation preferences, we included ambiguous test items like
-    (\ref{bsp:target-related-filler}) which have been repeatedly shown
-    to exhibit preferences in previous studies. We thus included
-    so-called \emph{late-closure structures} in which a propositional
-    phrase can be either attached to the immediately preceding
-    \acro{np} (the ``late-closure'' (\LC) reading as
-    (\ref{bsp:target-related-filler-LC})), or to an
-    \acro{np}-coordination (the ``early-closure'' (\EC) readins as in
-    (\ref{bsp:target-related-filler-EC})). According to principles of
-    structural simplicity, an advantage for the \LC-reading has been
-    repeatedly demonstrated (Frazier 1987 XYZ).\dn{insert proper
-      references}
-    \begin{exe}
-    \ex \label{bsp:target-related-filler} The letter is connected with circles and squares with
-      suns.
-      \begin{xlist}
-      \ex \label{bsp:target-related-filler-LC} The letter is connected
-        with squares with suns and circles. \hfill (\LC)
-      \ex \label{bsp:target-related-filler-EC} The letter is connected
-        with circles with suns and squares with suns. \hfill (\EC)
-      \end{xlist}
-    \end{exe}
-    By including these structures, we intended to control whether
-    dispreferred readings in general were still available to our
-    participants in the specific task used.
+%     \begin{exe}
+%     \ex \label{bsp:target-related-filler} The letter is connected with circles and squares with
+%       suns.
+%       \begin{xlist}
+%       \ex \label{bsp:target-related-filler-LC} The letter is connected
+%         with squares with suns and circles. \hfill (\LC)
+%       \ex \label{bsp:target-related-filler-EC} The letter is connected
+%         with circles with suns and squares with suns. \hfill (\EC)
+%       \end{xlist}
+%     \end{exe}
+%   \item To test whether our method is indeed suitable to detect
+%     interpretation preferences, we included ambiguous test items like
+%     (\ref{bsp:target-related-filler}) which have been repeatedly shown
+%     to exhibit preferences in previous studies. We thus included
+%     so-called \emph{late-closure structures} in which a propositional
+%     phrase can be either attached to the immediately preceding
+%     \acro{np} (the ``late-closure'' (\LC) reading as
+%     (\ref{bsp:target-related-filler-LC})), or to an
+%     \acro{np}-coordination (the ``early-closure'' (\EC) readins as in
+%     (\ref{bsp:target-related-filler-EC})). According to principles of
+%     structural simplicity, an advantage for the \LC-reading has been
+%     repeatedly demonstrated (Frazier 1987 XYZ).\dn{insert proper
+%       references}
+%     \begin{exe}
+%     \ex \label{bsp:target-related-filler} The letter is connected with circles and squares with
+%       suns.
+%       \begin{xlist}
+%       \ex \label{bsp:target-related-filler-LC} The letter is connected
+%         with squares with suns and circles. \hfill (\LC)
+%       \ex \label{bsp:target-related-filler-EC} The letter is connected
+%         with circles with suns and squares with suns. \hfill (\EC)
+%       \end{xlist}
+%     \end{exe}
+%     By including these structures, we intended to control whether
+%     dispreferred readings in general were still available to our
+%     participants in the specific task used.
 
-\end{itemize}
-\end{itemize}
+% \end{itemize}
+% \end{itemize}
  
+To test whether our method is indeed suitable to detect interpretation
+preferences, we included ambiguous test items like
+(\ref{bsp:target-related-filler}) which have been repeatedly shown to
+exhibit preferences in previous studies. We thus included so-called
+\emph{late-closure structures} in which a propositional phrase can be
+either attached to the immediately preceding \acro{np} (the
+``late-closure'' (\LC) reading as
+(\ref{bsp:target-related-filler-LC})), or to an \acro{np}-coordination
+(the ``early-closure'' (\EC) readins as in
+(\ref{bsp:target-related-filler-EC})). According to principles of
+structural simplicity, an advantage for the \LC-reading has been
+repeatedly demonstrated (Frazier 1987 XYZ).\dn{insert proper
+  references}
+\begin{exe}
+\ex \label{bsp:target-related-filler} The letter is connected with circles and squares with
+  suns.
+  \begin{xlist}
+  \ex \label{bsp:target-related-filler-LC} The letter is connected
+    with squares with suns and circles. \hfill (\LC)
+  \ex \label{bsp:target-related-filler-EC} The letter is connected
+    with circles with suns and squares with suns. \hfill (\EC)
+  \end{xlist}
+\end{exe}
+By including these structures, we intended to control whether
+dispreferred readings in general were still available to our
+participants in the specific task used.
 
 \begin{itemize}
 \item summarize results
@@ -670,6 +741,62 @@ various situations.
   \caption{Distinguishing scenarious for \as-sentences}
   \label{fig:AS-distinguishing-pics}
 \end{figure}
+
+
+\paragraph{\es-sentences.}
+
+The situation for \es-sentences like (\ref{bsp:GE}) is similar, but a
+little more complicated because the embedding quantifier is
+non-monotonic. Again, we consider a literal reading as in
+(\ref{bsp:GE-Literal}), repeated below, a global reading as in
+(\ref{bsp:GE-Global}) and a local reading as in (\ref{bsp:GE-Local}).
+
+\begin{exer}{bsp:GE}
+\ex \mymark{Exactly one} of the students read {\mymark{some}} of the
+  papers.
+
+  \begin{xlist}
+  \ex \mymark{Exactly one} of the students read
+    {\mymark{some and maybe all}} of the papers. \hfill (\es-\lit)
+  \ex 
+    \mymark{Exactly one} of the students read \mymark{some and maybe all} 
+    and  \hfill (\es-\glb)\\
+    it's not the case that \mymark{exactly one} of the students read \mymark{all} of the papers.
+  \ex 
+    \mymark{Exactly one} of the students read {\mymark{some  but not all}} of the
+    papers. \hfill (\es-\loc)
+  \end{xlist}
+\end{exer}
+
+\noindent Entailment relations in this case are non-linear:
+\begin{exe}
+  \ex \label{bsp:Entailments-GE}       \lit\ $\supset$ \glb\ $\color{mycol}{\subset}$ \loc 
+    % \hspace{1cm} and \hspace{1cm}  \lit\ $\not \supset$ \loc
+\end{exe}
+By definition of global readings, it holds that $\glb \subseteq
+\lit$. Moreover the entailment is asymmetric, $\glb \subset \lit$,
+because the extra information that it is not the case that exactly one
+student read all of the papers is not entailed by the literal reading
+(\ref{bsp:GE-Literal}). However, unlike for \as-sentences, \loc is not
+stronger than \glb, but asymmetrically entailed by the latter. To see
+this, notice that the global reading is equivalent to:
+
+\begin{exe}
+  \exp{bsp:GE-Global} \mymark{Exactly one} of the students read \mymark{some but not
+    all} and \\
+  \mymark{everybody else} read \mymark{none} of the papers.
+\end{exe}
+
+\noindent Finally, \loc and \lit are logically independent: all
+possible combinations of truth-values for \loc and \lit are possible.
+
+Given these entailment relations, there are again four different
+situations corresponding to the four possible distributions of truth
+values for candidate readings. These are given in
+Table~\ref{fig:situations-GS} and named following
+\citet{ChemlaSpector2010:Experimental-Ev}. Examples for each situation
+are given in Figure~\ref{fig:ES-distinguishing-pics}.
+
 \begin{figure}[]
   \centering
   
@@ -871,62 +998,6 @@ various situations.
   \label{fig:ES-distinguishing-pics}
 
 \end{figure}
-
-
-\paragraph{\es-sentences.}
-
-The situation for \es-sentences like (\ref{bsp:GE}) is similar, but a
-little more complicated because the embedding quantifier is
-non-monotonic. Again, we consider a literal reading as in
-(\ref{bsp:GE-Literal}), repeated below, a global reading as in
-(\ref{bsp:GE-Global}) and a local reading as in (\ref{bsp:GE-Local}).
-
-\begin{exer}{bsp:GE}
-\ex \mymark{Exactly one} of the students read {\mymark{some}} of the
-  papers.
-
-  \begin{xlist}
-  \ex \mymark{Exactly one} of the students read
-    {\mymark{some and maybe all}} of the papers. \hfill (\es-\lit)
-  \ex 
-    \mymark{Exactly one} of the students read \mymark{some and maybe all} 
-    and  \hfill (\es-\glb)\\
-    it's not the case that \mymark{exactly one} of the students read \mymark{all} of the papers.
-  \ex 
-    \mymark{Exactly one} of the students read {\mymark{some  but not all}} of the
-    papers. \hfill (\es-\loc)
-  \end{xlist}
-\end{exer}
-
-\noindent Entailment relations in this case are non-linear:
-\begin{exe}
-  \ex \label{bsp:Entailments-GE}       \lit\ $\supset$ \glb\ $\color{mycol}{\subset}$ \loc 
-    % \hspace{1cm} and \hspace{1cm}  \lit\ $\not \supset$ \loc
-\end{exe}
-By definition of global readings, it holds that $\glb \subseteq
-\lit$. Moreover the entailment is asymmetric, $\glb \subset \lit$,
-because the extra information that it is not the case that exactly one
-student read all of the papers is not entailed by the literal reading
-(\ref{bsp:GE-Literal}). However, unlike for \as-sentences, \loc is not
-stronger than \glb, but asymmetrically entailed by the latter. To see
-this, notice that the global reading is equivalent to:
-
-\begin{exe}
-  \exp{bsp:GE-Global} \mymark{Exactly one} of the students read \mymark{some but not
-    all} and \\
-  \mymark{everybody else} read \mymark{none} of the papers.
-\end{exe}
-
-\noindent Finally, \loc and \lit are logically independent: all
-possible combinations of truth-values for \loc and \lit are possible.
-
-Given these entailment relations, there are again four different
-situations corresponding to the four possible distributions of truth
-values for candidate readings. These are given in
-Table~\ref{fig:situations-GS} and named following
-\citet{ChemlaSpector2010:Experimental-Ev}. Examples for each situation
-are given in Figure~\ref{fig:ES-distinguishing-pics}.
-
 
 
 
@@ -1687,6 +1758,8 @@ typcality or other crucial properties. Given the logical dependencies
 inherent to the relevant readings and the considerations concerning
 typicality presented by van Tiel this seems impossible to achieve. As
 we willl argue below we do, however, believe it is.
+
+\newpage
 
 \subsection{Bits and Pieces}
 \label{sec:whats-missing}
