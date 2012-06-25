@@ -83,7 +83,7 @@
       <file>paper-blx.bib</file>
     </requires>
     <requires type="editable">
-      <file>../helpers/MyRefGlobal.bib</file>
+      <file>paper.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
