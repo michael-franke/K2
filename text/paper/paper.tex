@@ -1874,16 +1874,111 @@ we willl argue below we do, however, believe it is.
 \subsection{Design}
 \label{sec:design}
 
-\paragraph{General Idea.} In order to test whether local readings
-are available, we seeked for a way to unambiguously map responses from
-a picture verification task to the alternative readings of \as- and
-\es-sentences. In addition, we wanted to minimize effects of any
-graphical differences between the picture materials. To achieve this
-we designed an experiment employing a modified version of picture
-verification, namely the incremental verification task (IVT, see
-Conroy). We will now describe the design step by step.
+\paragraph{General Idea.} In order to test the availability and
+preferences of different readings of \as- and \es-sentences, we were
+looking for a way to unambiguously map responses from a picture
+verification task to specific readings. We were particularly
+interested in the question whether local readings would be observed at
+all. In addition, we wanted to minimize effects of any graphical
+differences between the picture materials. To achieve this we designed
+an experiment employing a modified version of picture verification,
+namely the incremental verification task (IVT, see Conroy ???). In the
+present study, participants were presented pictures depicting a set of
+four identical central elements (e.g., letters), which could be
+connected to surrounding elements (e.g., triangles). Initially, the
+connections between central and surrounding elements were invisible,
+as indicated by dark gray colour covering the connections (see
+Figure~\ref{fig:InitialPicture}, in which different letters are
+surrounded by triangles, and in which no connections are
+visible). Sentences were presented auditorily, and participants were
+asked to listen to a given sentence and then uncover the potential
+links step by step until they felt able to give a truth value
+judgment. Three options were available for participants at each step:
+(i), demand more information, (ii), judge the sentence as true, and
+(iii), judge the sentence as false. Importantly, each of the three
+potentially available readings corresponded to a specific state in the
+uncovering process. We will now describe the design more precisely by
+focusing on the critical positions, i.e., the respective uncovering
+states that unambiguously correspond to the different readings.
 
-Consider the \as-sentence in (\ref{ex:as}). With respect to figure
+\begin{figure}
+  \centering
+      \fbox{\includegraphics[width=5cm]{../pictures/paper/ae_01_1.pdf}}
+      \caption{Initial picture presented to participants where all
+        possible connections from each letter to its surrounding
+        triangles are covered.}
+  \label{fig:InitialPicture}
+\end{figure}
+
+
+Consider the \as-sentence in (\ref{ex:as}). Figure~\ref{fig:exseqAS}
+shows the three corresponding critical positions for this sentence in
+the order of the uncovering process. First, the situation in
+Figure~\ref{fig:exseqAS1} becomes available, which is true under a
+literal reading, while the local and global readings cannot be
+evaluated yet. Second, in Figure~\ref{fig:exseqAS2}, the literal
+reading is still true, but now the global reading can be additionally
+confirmed by a \emph{true} response, as all the connections of one of
+the letters are now uncovered, and it is now visible that one of the
+letters is not connected to all of its triangles. Finally, decisions
+concerning the local reading are possible as soon as all connections
+have been uncovered. In this case, the critical position shown in
+Figure~\ref{fig:exseqAS3} is incompatible with a local reading: One of
+the central elements is linked to all of its surrounding elements,
+thus yielding to \emph{false} answers if participants indeed adopted
+the local reading. Note that associating the final position with
+\emph{no} answers allows us to exclude both literal and global
+readings, which correspond to a \emph{true} answer at this
+position. The mapping between responses and readings is illustrated in
+Figure 7a.
+
+\begin{figure}[ht]
+	\centering
+	\subfloat[][Step 1]{ 
+		\fbox{\includegraphics[width=3cm]{../pictures/paper/ae_3_v_l.pdf}}
+	    \label{fig:exseqAS1}
+	}
+	\subfloat[][Step 2]{
+		\fbox{\includegraphics[width=3cm]{../pictures/paper/ae_5_v_l.pdf}}
+	    \label{fig:exseqAS2}
+	}
+	\subfloat[][Step 3]{ 
+		\fbox{\includegraphics[width=3cm]{../pictures/paper/ae_7_v_l.pdf}}
+	    \label{fig:exseqAS3}
+	}
+	\caption[]{Example sequence for \as-sentences}
+	\label{fig:exseqAS}
+\end{figure}
+
+
+\begin{table}[ht]
+	\centering
+	\subfloat[][\as-Sentences]{ 
+\begin{tabular}{cccc}
+&more info&true&false\\ \midrule
+Step 1&?&literal&?\\
+Step 2&?&global&?\\
+Step 3&?&?&local
+\end{tabular}
+
+	    \label{fig:mappingAS}
+	}
+	\subfloat[][\es-Sentences]{
+\begin{tabular}{cccc}
+&more info&true&false\\ \midrule
+Step 1&?&literal&?\\
+Step 2&?&global&?\\
+Step 3&?&?&local
+\end{tabular}
+	    \label{fig:mappingES}
+	}
+\caption{Mapping from response types to readings}
+\label{tab:subfigureExample}
+\end{table}
+
+
+
+With respect to figure
 \ref{fig:exseqAS3} the local reading is false, while the global and
 literal reading is true. Now, we made use of the following fact. If we
 cover up certain edges in the graph as in Figure \ref{fig:exseqAS2}
@@ -1929,23 +2024,7 @@ Every Letter is with some its triangles connected.\\
 \end{exe}
 
 
-\begin{figure}[ht]
-	\centering
-	\subfloat[][Step 3]{ 
-		\fbox{\includegraphics[width=3cm]{../pictures/paper/ae_7_v_l.pdf}}
-	    \label{fig:exseqAS3}
-	}
-	\subfloat[][Step 2]{
-		\fbox{\includegraphics[width=3cm]{../pictures/paper/ae_5_v_l.pdf}}
-	    \label{fig:exseqAS2}
-	}
-	\subfloat[][Step 1]{ 
-		\fbox{\includegraphics[width=3cm]{../pictures/paper/ae_3_v_l.pdf}}
-	    \label{fig:exseqAS1}
-	}
-	\caption[]{Example sequence for \as-sentences}
-	\label{fig:exseqAS}
-\end{figure}
+
 
 \begin{figure}[ht]
 	\centering
@@ -1970,34 +2049,7 @@ Every Letter is with some its triangles connected.\\
 
 
 
-\begin{figure}[ht]
-	\centering
-	\subfloat[][\as-Sentences]{ 
-\begin{tabular}{cccc}
-&more info&true&false\\
-\hline
-Step 1&?&literal&?\\
-Step 2&?&global&?\\
-Step 3&?&?&local\\
-\hline
-\end{tabular}
 
-	    \label{fig:mappingAS}
-	}
-	\subfloat[][\es-Sentences]{
-\begin{tabular}{cccc}
-&more info&true&false\\
-\hline
-Step 1&?&literal&?\\
-Step 2&?&global&?\\
-Step 3&?&?&local\\
-\hline
-\end{tabular}
-	    \label{fig:mappingES}
-	}
-\caption{Mapping from truth values to readings}
-\label{fig:subfigureExample}
-\end{figure}
 
 
 In addition to the unambiguous mapping from readings to truth values,
