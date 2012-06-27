@@ -50,6 +50,7 @@
 \renewcommand\PostTrib {}  % to suppress additional brackets around
                            % attributions
 
+\usepackage{pgfplots}
 
 
 \usepackage{../helpers/gb4e_micha}
@@ -111,9 +112,8 @@ all boys cried. But it is also usually considered to be a
 least) the semantically stronger universal quantifier \emph{all}
 \citep[c.f.][]{Horn1972:On-the-Semantic,Gazdar1979:Pragmatics:-Imp,AtlasLevinson1981}. This
 comparison can lead to an upper-bounding meaning enrichment, e.g.,
-when an utterance of (\ref{bsp:Plain-SI-Target}), where \emph{some}
-occurs in non-embedded position, is taken to invite the inference in
-(\ref{bsp:Plain-SI-Implicature}).
+when an utterance of (\ref{bsp:Plain-SI-Target}) is taken to invite
+the inference in (\ref{bsp:Plain-SI-Implicature}).
 
 \begin{exe}
   \ex \label{bsp:Plain-SI}
@@ -132,12 +132,9 @@ recent overview]{Geurts2010:Quantity-Implic}, is that
 (\ref{bsp:Plain-SI-Implicature}) is a pragmatic inference, a so-called
 \emph{quantity implicature}, derived by an abductive inference as the
 best explanation of why an informed, knowledgable and cooperative
-speaker has uttered (\ref{bsp:Plain-SI-Target}) when she\dn{petra
-  doesn't like use of female pronoun; micha has adopted the habit from
-  game theory to have the sender/speaker female and the hearer male,
-  but doesn't really care as long as it is NOT ``he/she'' or ``he
-  and/or she'' or something like that} could also have uttered the
-semantically stronger and relevant (\ref{bsp:Plain-SI-Alternative}).
+speakers have uttered (\ref{bsp:Plain-SI-Target}) when they could also
+have uttered the semantically stronger and relevant
+(\ref{bsp:Plain-SI-Alternative}).
 
 
 % If this upper-bounding inference would occur often and
@@ -153,19 +150,20 @@ semantically stronger and relevant (\ref{bsp:Plain-SI-Alternative}).
 
 
 This paper deals with the interpretation of two types of sentences,
-where the scalar item \emph{some} occurs in embedded position. In
-\as-sentences as in (\ref{bsp:AE}) the scalar item \emph{some} is
-embedded under universal quantifier \emph{all}. In \es-sentences like
-(\ref{bsp:GE}) \emph{some} takes scope under the non-monotonic
-quantifier \emph{exactly one}.\dn{explain what non-monotonic means?
-  here or later?} According to current pragmatic theory, there are at
-least three relevant candidate readings for \as- and \es-sentences:
-(i) a \emph{literal reading} like in (\ref{bsp:AE-Literal}) and
+where the scalar item \emph{some} occurs in the scope of other logical
+operators. In \as-sentences (short for \textsc{All-Some}) as in (\ref{bsp:AE})
+the scalar item \emph{some} is embedded under universal quantifier
+\emph{all}. In \es-sentences (short for \textsc{ExactlyOne-Some}) like (\ref{bsp:GE}) \emph{some} takes
+scope under the non-monotonic quantifier \emph{exactly
+  one}.\dn{explain what non-monotonic means?  here or later?}
+According to current pragmatic theory, there are at least three
+relevant candidate readings for \as- and \es-sentences: (i) a
+\emph{literal reading} like in (\ref{bsp:AE-Literal}) and
 (\ref{bsp:GE-Literal}) where \emph{some} has only its literal meaning;
 (ii) a \emph{global reading} like in (\ref{bsp:AE-Global}) and
-(\ref{bsp:GE-Global}) where, according to the Gricean intuition, we
-enrich utterances of (\ref{bsp:AE}) and (\ref{bsp:GE}) with the
-negation of alternative utterances of the corresponding sentences
+(\ref{bsp:GE-Global}) where, according to Gricean intuition, we enrich
+utterances of (\ref{bsp:AE}) and (\ref{bsp:GE}) with the negation of
+alternative utterances of the corresponding sentences
 (\ref{bsp:AE-Alternative}) and (\ref{bsp:GE-Alternative}) where
 \emph{some} is replaced by \emph{all}; and also (iii) a \emph{local
   reading} like in (\ref{bsp:AE-Local}) and (\ref{bsp:GE-Local}) where
@@ -233,21 +231,14 @@ conceivable readings are available to na\"{i}ve subjects; and
 \end{enumerate}
 Addressing these questions empirically is relevant because they lie at
 the heart of the current debate about the exact location and nature of
-the interface between semantics and pragmatics. There are three major
-camps which are ---more or less fiercely--- involved in this border
-war,\dn{Petra doesn't like ``war vocabulary''; note that this is an
-  allusion to the (well-known) paper \citet{Horn2006:The-Border-Wars},
-  also cited here; this kind of parlor is rather commonplace in
-  philosophy, it seems} all of which make different predictions about
-the availability and preferences of readings. In a nutshell, the
-controversy concerns the question to what extent the upper-bounding
-inference from \emph{some} to \emph{some but not all} is
-conventionalized within the compositional computation of semantic
-values. For that matter, it is particularly relevant to assess the
-availability and relative preference of local
-readings. (Section~\ref{sec:theories-predictions} will discuss the
-relevant theoretical positions and the significance of alleged local
-readings in more detail.)
+the interface between semantics and pragmatics. The controversy
+concerns the question to what extent the upper-bounding inference from
+\emph{some} to \emph{some but not all} is conventionalized within the
+compositional computation of semantic values. For that matter, it is
+particularly relevant to assess the availability and relative
+preference of local readings. (Section~\ref{sec:theories-predictions}
+will discuss the relevant theoretical positions and the significance
+of alleged local readings in more detail.)
 
 % Firstly, there are \mymark{pragmatic traditionalists} who seek to
 % conserve the spirit of \citeauthor{Grice1975:Logic-and-Conve}'s
@@ -292,13 +283,15 @@ readings in more detail.)
 A number of empirical studies have already examined the availability
 of readings for \as- and \es-sentences
 \citep[e.g.][]{GeurtsPouscoulous2009:Embedded-Implic,CliftonDube2010:Embedded-Implic,ChemlaSpector2010:Experimental-Ev}. However,
-results have not been as clear-cut as one might have hoped for: the
-available empirical evidence is inconclusive as to whether local
-readings exist \citep[see also][for related
-discussion]{Tielvan-Tiel2012:Embedded-Scalar}. In the following we
-will argue that these heterogeneous results are partly due to the
-specific tasks used in previous studies, i.e., variants of the
-picture-verification paradigm.
+results have not been as clear-cut as one might have hoped for: for
+instance, the available empirical evidence is inconclusive as to
+whether local readings exist \citep[see also][for related
+discussion]{Tielvan-Tiel2012:Embedded-Scalar} and do not clearly
+address all preference relations between readings relevant to
+distinguish between theoretical positions. In the following we will
+argue that these heterogeneous results are partly due to the specific
+tasks used in previous studies, i.e., complexity differences in
+variants of the picture-verification paradigm.
 % We hypothesized that previous studies might be
 % insufficiently informative because of the focus on (variants of) a
 % picture-verification paradigm.\dn{relate to Bob van Tiel's work} The
@@ -315,7 +308,8 @@ embedded scalar item can favor a local reading
 \citep[e.g.][]{Horn2006:The-Border-Wars,Geurts2009:Scalar-Implicat,ChemlaSpector2010:Experimental-Ev,Geurts2010:Quantity-Implic,Tielvan-Tiel2012:Embedded-Scalar},
 it seems important to present target sentences auditorily, so as to be
 able to control for effects of ``silent intonation'' that subjects may
-apply when reading a sentence.
+apply when reading a sentence (see Bader 1998, Fodor 2000)\dn{provide
+  references}.
 
 In reaction to this situation, we therefore presented sentence
 material auditorily and also employed a different kind of visual
@@ -323,15 +317,31 @@ presentation of the pictorial material: subjects were presented with
 pictures that were initially covered and could incrementally be
 uncovered at the subjects' request; at each step of uncovering,
 subjects had to decide whether they could already give a truth-value
-judgement or needed more information.\dn{mention who else does this}
-This way we obtained behavioral data that is both indicative of the
-reading subjects assumed and independent of the complexity of the
-visual stimulus. At the same time, we hypothesized that the
-incremental nature of this task would shed light on the preferences
-over readings, because the temporal distribution of truth-value
-judgments would give away which reading subjects were waiting to
-evaluate, so to speak.\dn{Fabian suggest to skip this last remark
-  here; I do find it important}
+judgement or needed more information (Comry ????)\dn{insert
+  references}. This way we obtained behavioral data that is both
+indicative of the reading subjects assumed and independent of the
+complexity of the visual stimulus. At the same time, we hypothesized
+that the incremental nature of this task would shed light on the
+preferences over readings, because the temporal distribution of
+truth-value judgments would give away which reading subjects were
+waiting to evaluate, so to speak. Adding to previous studies, we
+therefore made sure that our method is able to reveal information
+about preferential readings by including ambiguous test items like
+(\ref{bsp:target-related-filler}) which are known to preferentially
+receive the late-closure reading in
+(\ref{bsp:target-related-filler-LC}) and not the dispreferred, but
+attested early-closure reading (\ref{bsp:target-related-filler-EC})
+(Frazier 1987 XYZ).\dn{insert proper references}
+\begin{exe}
+\ex \label{bsp:target-related-filler} The letter is connected with circles and squares with
+  suns.
+  \begin{xlist}
+  \ex \label{bsp:target-related-filler-LC} The letter is connected
+    with squares with suns and circles. \hfill (\LC)
+  \ex \label{bsp:target-related-filler-EC} The letter is connected
+    with circles with suns and squares with suns. \hfill (\EC)
+  \end{xlist}
+\end{exe}
 
 % \begin{itemize}
 % \item Fabian wants to skip the following; Petra wants to enlarge on
@@ -386,34 +396,32 @@ evaluate, so to speak.\dn{Fabian suggest to skip this last remark
 % \end{itemize}
 % \end{itemize}
  
-To test whether our method is indeed suitable to detect interpretation
-preferences, we included ambiguous test items like
-(\ref{bsp:target-related-filler}) which have been repeatedly shown to
-exhibit preferences in previous studies.
-\begin{exe}
-\ex \label{bsp:target-related-filler} The letter is connected with circles and squares with
-  suns.
-  \begin{xlist}
-  \ex \label{bsp:target-related-filler-LC} The letter is connected
-    with squares with suns and circles. \hfill (\LC)
-  \ex \label{bsp:target-related-filler-EC} The letter is connected
-    with circles with suns and squares with suns. \hfill (\EC)
-  \end{xlist}
-\end{exe}
-Sentence (\ref{bsp:target-related-filler}) is an example of a
-so-called \emph{late-closure structure} in which a propositional
-phrase can be either attached to the immediately preceding \acro{np}
-(the ``late-closure'' (\LC) reading as
-(\ref{bsp:target-related-filler-LC})), or to an \acro{np}-coordination
-(the ``early-closure'' (\EC) readins as in
-(\ref{bsp:target-related-filler-EC})). According to principles of
-structural simplicity, an advantage for the \LC-reading has been
-repeatedly demonstrated (Frazier 1987 XYZ).\dn{insert proper
-  references}
+% To test whether our method is indeed suitable to detect interpretation
+% preferences, we included ambiguous test items like
+% (\ref{bsp:target-related-filler}) which have been repeatedly shown to
+% exhibit preferences in previous studies.
+% \begin{exe}
+% \ex \label{bsp:target-related-filler} The letter is connected with circles and squares with
+%   suns.
+%   \begin{xlist}
+%   \ex \label{bsp:target-related-filler-LC} The letter is connected
+%     with squares with suns and circles. \hfill (\LC)
+%   \ex \label{bsp:target-related-filler-EC} The letter is connected
+%     with circles with suns and squares with suns. \hfill (\EC)
+%   \end{xlist}
+% \end{exe}
+% Sentence (\ref{bsp:target-related-filler}) is an example of a
+% so-called \emph{late-closure structure} in which a propositional
+% phrase can be either attached to the immediately preceding \acro{np}
+% (the ``late-closure'' (\LC) reading as
+% (\ref{bsp:target-related-filler-LC})), or to an \acro{np}-coordination
+% (the ``early-closure'' (\EC) readins as in
+% (\ref{bsp:target-related-filler-EC})). According to principles of
+% structural simplicity, an advantage for the \LC-reading has been
+% repeatedly demonstrated (Frazier 1987 XYZ).\dn{insert proper
+%   references}
 
-By including these structures, we intended to control whether
-dispreferred readings in general were still available to our
-participants in the specific task used.
+\medskip
 
 \begin{itemize}
 \item summarize results
@@ -440,8 +448,8 @@ logically dependent in intricate ways.
 \paragraph{\as-sentences.}
 
 An \as-sentence like (\ref{bsp:AE}), repeated below, has a literal
-reading as in (\ref{bsp:AE-Literal}), a global reading as in
-(\ref{bsp:AE-Global}) and a local reading as in (\ref{bsp:AE-Local}).
+reading (\lit) as in (\ref{bsp:AE-Literal}), a global reading (\glb) as in
+(\ref{bsp:AE-Global}) and a local reading (\loc) as in (\ref{bsp:AE-Local}).
 
 \begin{exer}{bsp:AE}
 
@@ -467,15 +475,15 @@ asymmetrically entails the literal reading:
 \begin{exe}
   \ex \label{bsp:Entailments-AS} \loc $\subset$ \glb $\subset$ \lit
 \end{exe}
-That \glb $\subseteq$ \lit is obvious, given that \glb is defined as the
-conjunction of \lit and the negated (relevant/feasible) alternative(s)
-of the to-be-interpreted utterance. The entailment is asymmetric,
-because the information that not all of the students read all of the
-papers is not entailed by the literal reading. To see that \loc
-$\subset$ \glb, notice that the case where all of the students read
-some but not all of the papers is a special case of the case where all
-of the students read some (and maybe all), while not all of the
-students read all of the papers.
+\glb entails \lit because, in general, global readings are defined as
+the conjunction of the literal reading and the negated
+(relevant/feasible) alternative(s) of the to-be-interpreted
+utterance. This entailment is asymmetric, because the information that
+not all of the students read all of the papers is not entailed by the
+literal reading. To see that \loc $\subset$ \glb, notice that the case
+where all of the students read some but not all of the papers is a
+special case of the case where all of the students read some (and
+maybe all), while not all of the students read all of the papers.
 
 Given these entailment relations, there are four kinds of situations,
 the names for which we borrow from
@@ -519,9 +527,9 @@ given in Table~\ref{fig:situations-AE}.
 %
 Examples of these kinds of situations are given in
 Figure~\ref{fig:AS-distinguishing-pics}, where the dots on the right
-of each diagram represent students, the dots on the left papers and
-an arrow from a student to a paper indicates that that student
-read that paper.\dn{improve graphics} Notice that other
+of each diagram represent students, the dots on the left represent
+papers and an arrow from a student to a paper indicates that the
+student read the paper.\dn{improve graphics} Notice that other
 arrangements of arrows might equally well serve as examples for the
 various situations.
 
@@ -1022,7 +1030,9 @@ for some of these positions (depending on which of several reasonable
 additional assumptions we should adopt), we will distinguish different
 varieties of each position. For convenience, the predictions of each
 (variety of each) position are also summarized in
-Table~\ref{tab:predictions} at the end of this section.
+Table~\ref{tab:predictions} at the end of this section.\dn{micha says:
+I'll leave all the varieties in here until we know which ones we need
+and which ones we don't need}
 
 \subsection{Traditionalism}
 \label{sec:traditionalism}
@@ -1112,17 +1122,17 @@ usually/strongly/unless-completely-intenable and therefore predicts
 that global readings are preferred over the literal ones; \mymark{the
   weak variety of traditionalism} holds that the auxiliary assumptions
 are more fragile and predicts that literal readings are preferred over
-the global ones.\fn{For clarity: although weak traditionalism does not
-  predict the global reading to be preferred, it might still predict
-  an \emph{epistemically weak implicature}, similar to the global
-  reading, that the speaker is uncertain whether the stronger
-  alternative is true. Whether it does predict that depends on which
-  auxiliary assumption are assumed to be met and which are
-  not.}\dn{acknowledge comment by Philippe Schlenker here;possibly
-  expand}
+the global ones.\fn{We mention for clarity that although weak
+  traditionalism does not predict the global reading to be preferred,
+  it might still predict an \emph{epistemically weak implicature},
+  similar to the global reading, that the speaker is uncertain whether
+  the stronger alternative is true. Whether it does predict that
+  depends on which auxiliary assumption are assumed to be met and
+  which are not.}\dn{acknowledge comment by Philippe Schlenker
+  here;possibly expand}
 
-Does traditionalism also predict the local readings to be available?
-The answer is slightly different for \as- and the \es-sentences. For
+Does traditionalism also predict local readings to be available?  The
+answer is slightly different for \as- and the \es-sentences. For
 \es-sentences, traditionalism does not predict that a local reading is
 available, at least not as a quantity implicature
 \citep[c.f.][]{GeurtsPouscoulous2009:Embedded-Implic,ChemlaSpector2010:Experimental-Ev}. This
@@ -1255,7 +1265,7 @@ referred to as $\mathrm{O}(\cdot)$ or $\exh(\cdot)$, because it is
 assumed to be similar in effect to the meaning of particle \emph{only}
 or of the mechanism of \emph{exhaustive interpretation}
 \citep{GroenendijkStokhofThesis1984,Stechowvon-StechowZimmermann1984:Term-Answers-an,Rooijvan-RooijSchulz2013:Exhaustive-Inte,vanRooijSchulz:ExhaustiveInterpretation,Fox2007:Free-Choice-and}. For
-our purposes here, it is enough to note that $\exh(\cdot)$ is a
+our purposes, it is enough to note that $\exh(\cdot)$ is a
 poly-typed function that enriches an expression $X$, which crucially
 need not be a full proposition, based on a set, $\alt(X)$, of
 (suitable, relevant) alternatives to $X$ that yields an enriched
@@ -1385,7 +1395,7 @@ Since $X >_s Y$ entails $X >_w Y$, we will speak of \mymark{weak
 whether (\ref{bsp:SMH-Total}) or (\ref{bsp:SMH-Partial}) is used.
 
 These two varieties of grammaticalism give rise to different
-predictions about preferred readings. The preference on readings that
+predictions about preferred readings. The preference for readings that
 weak grammaticalism predicts mirrors the entailment relations in
 (\ref{bsp:Entailments-AS}) and (\ref{bsp:Entailments-GE}): for
 \as-sentences weak grammaticalism predicts that local readings are
@@ -1397,7 +1407,7 @@ grammaticalism, on the other hand, predicts that both \as- and
 \es-sentences preferably get either a local or a global reading rather
 than a literal reading. But strong grammaticalism does not rank these
 former two with respect to each other because they differ in more than
-one application of the $\exh(\cdot)$ operator. 
+one application of the $\exh(\cdot)$ operator.
 
 \medskip
 
@@ -1726,9 +1736,9 @@ Albeit in a different format, the pictures used by
 \citeauthor{ChemlaSpector2010:Experimental-Ev} were all different
 instantiation of the situation types in
 Figures~\ref{fig:AS-distinguishing-pics} and
-\ref{fig:ES-distinguishing-pics}. The results reported from this study
+\ref{fig:ES-distinguishing-pics}. The results reported in this study
 are averaged clicking positions, as shown in
-Figure~\ref{fig:Chemla-Spector-Results}. 
+Figure~\ref{fig:Chemla-Spector-Results}.
 %
 \begin{figure}
   \centering
@@ -1781,8 +1791,8 @@ aforementioned studies. (Similar arguments apply to \es-sentences.) It
 is impossible to construct situations that clearly correspond to local
 readings of \as-sentences, since the local reading of such sentences
 implies their global and local readings. Every situation which is
-consitent with such a sentence under its local reading is also
-consitent with the other two readings. Therefore, we cannot test
+consistent with such a sentence under its local reading is also
+consistent with the other two readings. Therefore, we cannot test
 directly and independently all the cases we might wish to using a
 simple picture-verification paradigm. It would be especially desirable
 to test situations that are consistent with the local reading, but
@@ -1799,7 +1809,7 @@ readings. Therefore, assuming a principle of charity
 \citep{Davidson1973:Radical-Interpr} to be at play in picture
 verification tasks, the data of Geurts do not provide evidence against
 the existence of local readings.  In the experiments of C\&S and C\&D
-on the other hand situations that are consitent with all three
+on the other hand situations that are consistent with all three
 readings were tested. Here again 'yes'-judgments cannot be interpreted
 confidently because they can always be attributed to global or literal
 readings. Both C\&S and C\&D attempt to surpass this problem by
@@ -1825,61 +1835,40 @@ inherent to the relevant readings and the considerations concerning
 typicality presented by van Tiel this seems impossible to achieve. As
 we willl argue below we do, however, believe it is.
 
-\newpage
-
-\subsection{Bits and Pieces}
+\subsection{To-Be-Included Here}
 \label{sec:whats-missing}
 
-
-\bigskip
-
 \begin{itemize}
-\item possible shortcomings/problems to be mentioned later:
+\item establish independence (as much as possible) of pictorial
+  complexity/stereotypicality and assessment of reading
   \begin{itemize}
   \item not desirable to raise the level of relevance of local
     readings, because we want to test the base-line / default (cite
     Geurts / van Tiel)
-  \item cannot separate judgements about sentences from judgements
-    about pictures (van Tiel)
   \item unclear what graded truth-value judgements measure exactly
     (re-read \citet{Chemla2009:Presuppositions} if needed)
-  \end{itemize}
-\end{itemize}
-
-\begin{itemize}
-\item possible shortcomings/problems to be mentioned later:
-  \begin{itemize}
+  \item cannot separate judgements about sentences from judgements
+    about pictures (van Tiel)
   \item unclear whether design assesses preferences of readings or
     targets pictorial complexity / typicality (van Tiel)
-  \item all studies used different languages
   \end{itemize}
-\end{itemize}
-
-\begin{itemize}
-\item independence of pictorial complexity and preference of reading
 \item provide a benchmark from which to deduce preference relations
 \item control for intonational pattern (present auditorily)
+  \begin{itemize}
+  \item intonational effects discussed by
+    \citet{Horn2006:The-Border-Wars,Geurts2009:Scalar-Implicat,Geurts2010:Quantity-Implic},
+    \citep[c.f.][]{ChemlaSpector2010:Experimental-Ev}
+  \item mention \citet{SchwarzClifton2008:Strengthening-o} (re-read,
+    check for newer version)
+  \end{itemize}
+\item different languages
 \end{itemize}
 
 
-\subsection{The role of intonation}
-\label{sec:role-intonation}
-
-WHERE TO PUT THIS: PREVIOUS SUBSECTION, HERE OR LATER?
-
-\begin{itemize}
-\item intonational effects discussed by
-  \citet{Horn2006:The-Border-Wars,Geurts2009:Scalar-Implicat,Geurts2010:Quantity-Implic},
-  \citep[c.f.][]{ChemlaSpector2010:Experimental-Ev}
-\item mention \citet{SchwarzClifton2008:Strengthening-o} (re-read,
-  check for newer version)
-\end{itemize}
-
-\newpage
 
 
 
-\section{IVT Experiment}
+\section{An Incremental Verification Task}
 \label{sec:exp}
 
 \subsection{Design}
@@ -1926,9 +1915,10 @@ values. Global and literal readings correspond to negative truth
 values, while local reading require positive judgments.
 
 \begin{exe}
-\ex \label{ex:as} \mymark{Jeder} Brief ist mit \mymark{einigen} seiner Dreiecke verbunden.\\
+\ex \gll \mymark{Jeder} Brief ist mit \mymark{einigen} seiner Dreiecke
+  verbunden.\dn{these are not the sentences we used, right?}  \label{ex:as}\\
 Every Letter is with some its triangles connected.\\
-Every letter is connected to some of its triangles.
+\trans Every letter is connected to some of its triangles.
 \end{exe}
 
 
@@ -2155,7 +2145,8 @@ affect preferences, we would expect preferences to differ between the
 two types of sequences.
 
 \begin{exe}
-\ex \gll \label{bsp:target-related} Die Brief ist mit Kreisen und Vierecken mit Sonnen verbunden.\\
+\ex \gll Der Brief ist mit Kreisen und Vierecken mit Sonnen
+  verbunden. \label{bsp:target-related}\\
 The letter is with circles and squares with suns connected.\\
 The letter is connected with circles and squares with suns.
 \end{exe}
@@ -2389,8 +2380,6 @@ the different conditions very consistently (i.e., with little
 variance).
 
 
-
-
 \begin{table}
   \centering
   
@@ -2415,36 +2404,40 @@ variance).
 \subsection{Participants}
 \label{sec:participants} 
 
+41 native speakers of German took part in our study, none of which had
+any prior exposure to logic or formal semantics. We excluded 3
+subjects due to insufficient performance on controls ($\le 50\%$
+correct answers). 
+
+\begin{itemize}
+\item possibly mention ages, backgrounds and sexes?
+\end{itemize}
+
+
 \subsection{Results}
 \label{sec:results}
 
 The judgments obtained for the four target conditions are depicted in
-Figure \ref{fig:JudgmentsK2}.  We coded the judgments as {\it
-  literal}, {\it global} or {\it local} if they were as expected under
-one of these readings and as {\it error} if not. The distribution of
-readings as coded by us is presented in Figure
-\ref{fig:ReadingsExp1}. Participants mostly gave judgments indicating
-literal or local readings. Judgments compatible with a global reading
-were seldomly obtained. In the All-Some conditions participants made
-hardly any errors, whereas the amount of errors was slightly greater
-in the Exactly-One-Some conditions.
-
+Figure \ref{fig:JudgmentsK2}.\dn{we should introduce the actual
+  sequences that we presented so that it is clear what it means to say
+\emph{true} or \emph{false} on some position or other}
+%
 \begin{figure}[]
 \centering
-\subfloat[][All-Some accented]{
+\subfloat[][\as-accented]{
 \includegraphics[width=5cm]{../pictures/paper/graph_AE_AKZ.jpg}
 \label{fig:ReadingsAE}
 }
-\subfloat[][All-Some neutral]{
+\subfloat[][\as-neutral]{
 \includegraphics[width=5cm]{../pictures/paper/graph_AE_NTR.jpg}
 \label{fig:ReadingsGE}
 }
 
-\subfloat[][Exactly-One-Some accented]{
+\subfloat[][\es-accented]{
 \includegraphics[width=5cm]{../pictures/paper/graph_GE_AKZ.jpg}
 \label{fig:ReadingsAE}
 }
-\subfloat[][Exactly-One-Some neutral]{
+\subfloat[][\es-neutral]{
 \includegraphics[width=5cm]{../pictures/paper/graph_GE_NTR.jpg}
 \label{fig:ReadingsGE}
 }
@@ -2452,30 +2445,133 @@ in the Exactly-One-Some conditions.
 \caption[Optional caption for list of figures]{Judgments for the four
   target conditions in Experiment 1. Relative frequency of
   yes/no-judgments is plotted against the position within the
-  trial. In the All-Some conditions there were seven positions. On the
+  trial. In the \as-conditions there were seven positions. On the
   third position a yes-judgment corresponded to a literal reading,
   while on the fith position a yes-judgment corresponded to a global
   reading.  A no-judgment on the seventh position was only consistent
-  with a local reading. The Exactly-One-Some conditions had five
+  with a local reading. The \es-conditions had five
   positions. No- judgments on positions two and three corresponded to
   global and literal readings, respectively. A yes-judgment on the
   last segment corresponded to a local reading. }
 \label{fig:JudgmentsK2}
 \end{figure}
+%
+We coded the judgments as {\it literal}, {\it global} or {\it local}
+if they were as expected under one of these readings and as {\it
+  error} if not. The distribution of readings as coded by us is
+presented in Figure~\ref{fig:JudgementPercentages}.
+%
+\begin{figure}[]
+\centering
+\subfloat[][\as-Conditions]{
+\begin{tikzpicture}[scale=0.8]
 
-In the All-Some conditions (see Figure \ref{fig:ReadingsAE}) judgments
-were consistent with literal readings in 65.0\% of the trials with
-neutral prosody and in 67.5\% of the trials with accented prosody. The
-number of global readings was very low, with 1.6\% of the neutral and
-0.8\% of the accented trials. Judgments indicating local readings were
-given in 22.0\% of both the neutral and accented trials. In the
-Exactly-One-Some conditions (see Figure \ref{fig:ReadingsGE})
-judgments consistent with literal readings were given in 47.2\% and
-44.7\% of the trials with neutral and accented prosody,
-respectively. Global readings were observed in 0.8\% of the trials in
-both the neutral and the accented condition. Judgments indicating
-local readings were given in 22.8\% of the neutral and 27.6\% of the
-accented trials.
+      \begin{axis}[ybar, 
+                  enlarge x limits=0.5,
+                  enlarge y limits=0.25,
+                  legend style={at={(0.5,-0.15)}, anchor=north, legend columns=-1},
+        ylabel={\% of answers}, symbolic x
+        coords={ae-ntr,ae-acc}, xtick=data, nodes
+        near coords, nodes near coords align={vertical},x=65, bar width=3mm, ymin = 8 ]
+
+        \addplot coordinates {(ae-ntr,73) (ae-acc,70)};
+
+        \addplot coordinates {(ae-ntr,23) (ae-acc,22)};
+
+        \addplot coordinates {(ae-ntr,1) (ae-acc,2)};
+
+        \addplot coordinates {(ae-ntr,4) (ae-acc,6)};
+
+        % \addplot coordinates {(ae-ntr,83) (ae-acc,80) (ge-ntr,53)
+        % (ge-acc,56)};
+
+        % \addplot coordinates {(ae-ntr,26) (ae-acc,25) (ge-ntr,33)
+        % (ge-acc,26)};
+
+        % \addplot coordinates {(ae-ntr,1) (ae-acc,2) (ge-ntr,0)
+        % (ge-acc,1)};
+
+        % \addplot coordinates {(ae-ntr,4) (ae-acc,7) (ge-ntr,28)
+        % (ge-acc,31)};
+
+        \legend{literal, local, global, false}
+
+      \end{axis}
+
+    \end{tikzpicture}
+
+% \includegraphics[width=5cm]{../pictures/paper/ReadingsAE.pdf}
+\label{fig:JudgementPercentagesAE}
+}
+\subfloat[][\es-Conditions]{
+\begin{tikzpicture}[scale=0.8]
+
+  \begin{axis}[ybar, 
+               enlarge x limits=0.5,
+               enlarge y limits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of answers}, 
+               symbolic x coords={ge-ntr,ge-acc}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               x=65, bar width=3mm,
+               ymin = 8
+               ]
+
+    \addplot coordinates {(ge-ntr,47) (ge-acc,49)}; 
+
+    \addplot coordinates {(ge-ntr,29) (ge-acc,23)}; 
+
+    \addplot coordinates {(ge-ntr,0) (ge-acc,1)};
+
+    \addplot coordinates {(ge-ntr,25) (ge-acc,27)};
+
+    % \addplot coordinates {(ae-ntr,83) (ae-acc,80) (ge-ntr,53) (ge-acc,56)}; 
+
+    % \addplot coordinates {(ae-ntr,26) (ae-acc,25) (ge-ntr,33) (ge-acc,26)}; 
+
+    % \addplot coordinates {(ae-ntr,1) (ae-acc,2) (ge-ntr,0) (ge-acc,1)};
+
+    % \addplot coordinates {(ae-ntr,4) (ae-acc,7) (ge-ntr,28) (ge-acc,31)};
+
+    \legend{literal, local, global, false}
+
+  \end{axis}
+
+\end{tikzpicture}
+
+% \includegraphics[width=5cm]{../pictures/paper/ReadingsGE.pdf}
+\label{fig:JudgementPercentagesGE}
+}
+\caption[Optional caption for list of figures]{Judgments}
+\label{fig:JudgementPercentages}
+\end{figure}
+%
+Participants mostly gave judgments indicating literal or local
+readings. Judgments compatible with a global reading were seldom
+obtained. In the \as-conditions participants made hardly any errors,
+whereas the amount of errors was slightly greater in the
+\es-conditions.
+
+In the \as-conditions (see Figure~\ref{fig:JudgementPercentagesAE})
+judgments were consistent with literal readings in 65.0\% of the
+trials with neutral prosody and in 67.5\% of the trials with accented
+prosody.\dn{IMPORTANT: Figure contains different numbers (even if
+  rounded)! Fabian, did you exclude the 3 bad performers when you
+  obtained this data?} The number of global readings was very low,
+with 1.6\% of the neutral and 0.8\% of the accented trials
+(corresponding to a total of 3 answers across all trials). Judgments
+indicating local readings were given in 22.0\% of both the neutral and
+accented trials. In the \es-conditions (see
+Figure~\ref{fig:JudgementPercentagesGE}) judgments consistent with
+literal readings were given in 47.2\% and 44.7\% of the trials with
+neutral and accented prosody, respectively. Global readings were
+observed in 0.8\% of the trials in both the neutral and the accented
+condition. Judgments indicating local readings were given in 22.8\% of
+the neutral and 27.6\% of the accented trials.
 
 In order to test wether local readings exist we tested whether the
 number of local responses in each condition was higher than expected
@@ -2490,8 +2586,7 @@ turns out local responses were given significantly more often than
 50\% in all target conditions (all Bonferoni corrected p<.05). Note
 that this finding cannot be explained by some kind of general response
 bias on the last position since local readings required a yes-judgment
-in the Exactly-One-Some conditions but a no-judgment in the All-Some
-conditions.
+in the \es-conditions but a no-judgment in the \as-conditions.
 
 In order to test whether accentuation or the quantifier has an
 influence on the distribution of readings, log-liner models were
@@ -2514,8 +2609,8 @@ distribution of readings as revealed by a reliable interaction of {\it
 p_1<.01,$). Looking at the data it seemed unlikely that the quantifier
 affected the amount of local readings. We suspected that this
 interaction was due to the higher number of errors and lower number of
-literal readings in the Exactly-One-Some conditions as compared with
-the All-Some conditions. A difference in the distribution of judgment
+literal readings in the \es-conditions as compared with
+the \as-conditions. A difference in the distribution of judgment
 types between participants was revealed by a reliable interaction of
 {\it Reading} and {\it Participant} ($LRCS_1=487.70, p_1<.01$). We
 were interested in whether this effect was due to some of the
@@ -2524,7 +2619,7 @@ others. Finally, there was a three-way interaction of {\it
   Participants}, {\it Construction} and {\it Reading} ($LRCS_1, =
 143.92, df_1 = 117, p_1<.05$) which could stem from to the fact that
 some participants were more prone than others to make errors in the
-Exactly-One-Some conditions.
+\es-conditions.
 
 In order to find out whether the interactions just reported affected
 the amount of local readings, the log-linear models were computed
@@ -2547,20 +2642,20 @@ there are indeed varying preferences for local readings among German
 speakers. Further examination of the distribution of local readings
 revealed a clear pattern (see Figure
 \ref{fig:HistogramLocalReadingsK2}). In all four conditions, about
-seven out of the 40 participants ($16\%$) were consitently giving
+seven out of the 40 participants ($16\%$) were consistently giving
 judgments that indicate local readings. Further, the relative
 frequency of local judgments per participant strongly correlated
 between all four conditions (all $r>.6, p<.001$). Appart from the
 localists about half of the participants (and 41.5\% of all
-participants) were consitently giving judgments that indicate literal
+participants) were consistently giving judgments that indicate literal
 readings. Only a minority of participants exhibited
-inconsistency. Reading preferences were more clear-cut in the All-Some
-conditions than in the Exactly-One-Some conditions. The number of
-consitent litaralists was lower in the Exactly-One-Some (25.6\%)
-conditions as compared to the All-Some conditions (57.3\%). Also, the
-number of participants that showed inconsitency was higher in these
-conditions. However, the number of consistent localists did hardly
-differ between constructions.
+inconsistency. Reading preferences were more clear-cut in the
+\as-conditions than in the \es-conditions. The number of consistent
+litaralists was lower in the \es-conditions (25.6\%) as compared to
+the \as-conditions (57.3\%). Also, the number of participants that
+showed inconsitency was higher in these conditions. However, the
+number of consistent localists did hardly differ between
+constructions.
 
 The three way-interaction of {\it Participant}, {\it Construction} and
 {\it Reading} is due to the fact that for some participants
@@ -2570,13 +2665,12 @@ any degree. How much local preferences deviated between the two
 construction types per participant is depicted in Figure \ref{}. Most
 participants had exactly the same preferences in the two
 constructions. However, a few had a stronger and a few others a weaker
-preference for local readings in the Exactly-One-Some than in the
-All-Some conditions. Since we did not find any sytematic patterns
+preference for local readings in the \es- than in the
+\as-conditions. Since we did not find any systematic patterns
 here, we speculate that the three-way interaction is due to the
-Exactly-One-Some construction beeing understood non-standardly by a
+\es-construction beeing understood non-standardly by a
 few participants. This speculation is plausible given the higher
-number of errors in the Exactly-One-Some as compared to the All-Some
-conditions.
+number of errors in the \es- as compared to the \as-conditions.
 
 The absence of the interaction between {\it Construction} and {\it
   Participant} indicates that the type of construction does not affect
@@ -2593,36 +2687,23 @@ interaction was obeserved ($LRCS_1=1.24, df= 1, p=.29, LRCS_1=.21, df=
 
  
 
-\begin{figure}[]
-\centering
-\subfloat[][All-Some Conditions]{
-\includegraphics[width=5cm]{../pictures/paper/ReadingsAE.pdf}
-\label{fig:ReadingsAE}
-}
-\subfloat[][Exactly-One-Some Conditions]{
-\includegraphics[width=5cm]{../pictures/paper/ReadingsGE.pdf}
-\label{fig:ReadingsGE}
-}
-\caption[Optional caption for list of figures]{Judgments}
-\label{fig:ReadingsExp1}
-\end{figure}
 
 \begin{figure}[h]
 \centering
-\subfloat[][All-Some accented]{
+\subfloat[][\as-accented]{
 \includegraphics[width=5cm]{../pictures/paper/histLocalReadingAE_AKZ.jpg}
 \label{fig:ReadingsAE}
 }
-\subfloat[][All-Some neutral]{
+\subfloat[][\as-neutral]{
 \includegraphics[width=5cm]{../pictures/paper/histLocalReadingAE_NTR.jpg}
 \label{fig:ReadingsGE}
 }
 
-\subfloat[][Exactly-One-Some accented]{
+\subfloat[][\es-accented]{
 \includegraphics[width=5cm]{../pictures/paper/histLocalReadingGE_AKZ.jpg}
 \label{fig:ReadingsAE}
 }
-\subfloat[][Exactly-One-Some neutral]{
+\subfloat[][\es-neutral]{
 \includegraphics[width=5cm]{../pictures/paper/histLocalReadingGE_NTR.jpg}
 \label{fig:ReadingsGE}
 }
