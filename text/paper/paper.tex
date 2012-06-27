@@ -1,7 +1,13 @@
 \documentclass[fleqn,reqno,10pt,draft]{article}
 
 
-\usepackage[natbib=true,style=authoryear-comp,backend=bibtex,doi=false,url=false]{biblatex}
+\usepackage[natbib=true,
+            style=authoryear-comp,
+            backend=bibtex,
+            sortcites=false,
+            maxnames=2,
+            doi=false,
+            url=false]{biblatex}
 % \bibliography{../helpers/MyRefGlobal}
 \bibliography{paper}
 
@@ -169,7 +175,7 @@ the embedding quantifier.
 
 \begin{exe}
   \ex \label{bsp:AE} \mymark{All} of the students read {\mymark{some}} of the
-  papers. \hfill{\as}
+  papers. \hfill{(\as)}
 
   \begin{xlist}
   \ex \label{bsp:AE-Literal} \mymark{All} of the students read
@@ -186,7 +192,7 @@ the embedding quantifier.
 
 \begin{exe}
 \ex  \label{bsp:GE} \mymark{Exactly one} of the students read {\mymark{some}} of the
-  papers. \hfill{\es}
+  papers. \hfill{(\es)}
 
   \begin{xlist}
   \ex \label{bsp:GE-Literal} \mymark{Exactly one} of the students read
@@ -218,17 +224,12 @@ the embedding quantifier.
 readings, two interlocked empirical questions arise:
 \begin{enumerate}[Q1:]
 \item which of these three
-conceivable readings are available to subjects na\"{i}ve to all
-pragmatic theory; and
-\item which of the available readings are
-preferred.\dn{Fabian says: Mit Präferenzen wäre ich vorsichtig: Wir
-  bekommen keine globalen Lesarten, wollen aber nicht sagen, dass
-  diese generell dispräferiert sind. \\ micha says: I think we need to
-  talk about preferences: it is a major selling point of our stuff
-  that we have a base-line checking for whether our method tells us
-  something about preferences; of course, we must acknowledge (in the
-  discussion etc.) that anything we don't see doesn't necessarily not
-  exist, including preferences} 
+conceivable readings are available to na\"{i}ve subjects; and
+\item which of the available readings are preferred.\fn{It may
+    ultimately be impossible to keep unavailability and strong
+    dispreference strictly apart. For our purposes this is not
+    important. Every time we speak of availability, the so-inclined
+    reader may think of non-negligible preference.}
 \end{enumerate}
 Addressing these questions empirically is relevant because they lie at
 the heart of the current debate about the exact location and nature of
@@ -388,16 +389,7 @@ evaluate, so to speak.\dn{Fabian suggest to skip this last remark
 To test whether our method is indeed suitable to detect interpretation
 preferences, we included ambiguous test items like
 (\ref{bsp:target-related-filler}) which have been repeatedly shown to
-exhibit preferences in previous studies. We thus included so-called
-\emph{late-closure structures} in which a propositional phrase can be
-either attached to the immediately preceding \acro{np} (the
-``late-closure'' (\LC) reading as
-(\ref{bsp:target-related-filler-LC})), or to an \acro{np}-coordination
-(the ``early-closure'' (\EC) readins as in
-(\ref{bsp:target-related-filler-EC})). According to principles of
-structural simplicity, an advantage for the \LC-reading has been
-repeatedly demonstrated (Frazier 1987 XYZ).\dn{insert proper
-  references}
+exhibit preferences in previous studies.
 \begin{exe}
 \ex \label{bsp:target-related-filler} The letter is connected with circles and squares with
   suns.
@@ -408,6 +400,17 @@ repeatedly demonstrated (Frazier 1987 XYZ).\dn{insert proper
     with circles with suns and squares with suns. \hfill (\EC)
   \end{xlist}
 \end{exe}
+Sentence (\ref{bsp:target-related-filler}) is an example of a
+so-called \emph{late-closure structure} in which a propositional
+phrase can be either attached to the immediately preceding \acro{np}
+(the ``late-closure'' (\LC) reading as
+(\ref{bsp:target-related-filler-LC})), or to an \acro{np}-coordination
+(the ``early-closure'' (\EC) readins as in
+(\ref{bsp:target-related-filler-EC})). According to principles of
+structural simplicity, an advantage for the \LC-reading has been
+repeatedly demonstrated (Frazier 1987 XYZ).\dn{insert proper
+  references}
+
 By including these structures, we intended to control whether
 dispreferred readings in general were still available to our
 participants in the specific task used.
@@ -432,8 +435,7 @@ which we discuss in Section~\ref{sec:discussion}.\dn{rephrase
 
 Three readings are \emph{prima facie} conceivable for the \as- and
 \es-sentences in (\ref{bsp:AE}) and (\ref{bsp:GE}). These are
-logically dependent in intricate ways. To see this, consider each kind
-of sentence in turn.
+logically dependent in intricate ways.
 
 \paragraph{\as-sentences.}
 
@@ -517,9 +519,9 @@ given in Table~\ref{fig:situations-AE}.
 %
 Examples of these kinds of situations are given in
 Figure~\ref{fig:AS-distinguishing-pics}, where the dots on the right
-of each diagram represent students, the dots on the left problems and
-an arrow from a student to a problem indicates that that student
-solved that problem.\dn{improve graphics} Notice that other
+of each diagram represent students, the dots on the left papers and
+an arrow from a student to a paper indicates that that student
+read that paper.\dn{improve graphics} Notice that other
 arrangements of arrows might equally well serve as examples for the
 various situations.
 
@@ -749,7 +751,7 @@ various situations.
 
 \paragraph{\es-sentences.}
 
-The situation for \es-sentences like (\ref{bsp:GE}) is similar, but a
+The situation for \es-sentences like (\ref{bsp:GE}) is similar but a
 little more complicated because the embedding quantifier is
 non-monotonic. Again, we consider a literal reading as in
 (\ref{bsp:GE-Literal}), repeated below, a global reading as in
@@ -777,13 +779,13 @@ non-monotonic. Again, we consider a literal reading as in
   \ex \label{bsp:Entailments-GE}       \lit\ $\supset$ \glb\ $\color{mycol}{\subset}$ \loc 
     % \hspace{1cm} and \hspace{1cm}  \lit\ $\not \supset$ \loc
 \end{exe}
-By definition of global readings, it holds that $\glb \subseteq
-\lit$. Moreover the entailment is asymmetric, $\glb \subset \lit$,
-because the extra information that it is not the case that exactly one
-student read all of the papers is not entailed by the literal reading
-(\ref{bsp:GE-Literal}). However, unlike for \as-sentences, \loc is not
-stronger than \glb, but asymmetrically entailed by the latter. To see
-this, notice that the global reading is equivalent to:
+By definition of global readings $\glb$ entails $\lit$. This
+entailment is asymmetric because the extra information that it is not
+the case that exactly one student read all of the papers is not
+entailed by the literal reading (\ref{bsp:GE-Literal}). However,
+unlike for \as-sentences, \loc is not stronger than \glb, but
+asymmetrically entailed by the latter. To see this, notice that the
+global reading is equivalent to:
 
 \begin{exe}
   \exp{bsp:GE-Global} \mymark{Exactly one} of the students read \mymark{some but not
@@ -1009,9 +1011,9 @@ are given in Figure~\ref{fig:ES-distinguishing-pics}.
 \section{Theories and predictions}
 \label{sec:theories-predictions}
 
-Currently, there are three main theoretical positions under debate
-which make different predictions about the available and preferred
-readings of \as- and \es-sentences \citep[c.f.][for
+We consider three main theoretical positions which make different
+predictions about the readings of \as- and \es-sentences
+\citep[c.f.][for
 overview]{Horn2006:The-Border-Wars,Geurts2010:Quantity-Implic,Sauerland2012:The-Computation}. We
 will refer to these here as \mymark{traditionalism},
 \mymark{conventionalism} and \mymark{grammaticalism} and treat each
@@ -1037,13 +1039,13 @@ contributions by \citet{Spector2006:Scalar-Implicat},
 \citet{Geurts2010:Quantity-Implic} or
 \citet{Franke2011:Quantity-Implic}.
 
-According to Grice, conversational implicatures, of which
-quantity/scalar implicatures are a special case, are to be thought of
-as rationalizations of speaker behavior. Central in this reasoning is
-the assumption that the speaker's behavior is efficient (if not
-optimal) and goal-oriented. Usually, the assumed goal of conversation
-is the cooperative exchange of helpful information from the speaker to
-the hearer.
+According to Grice, conversational implicatures, of which quantity
+implicatures are a special case, are to be thought of as
+rationalizations of speaker behavior. Central in this reasoning is the
+assumption that the speaker's behavior is efficient (if not optimal)
+and goal-oriented. Usually, the assumed goal of conversation is the
+cooperative exchange of helpful information from the speaker to the
+hearer.
 
 Consequently, the \mymark{Gricean recipe}
 \citep[c.f.][]{Geurts2010:Quantity-Implic} for deriving a simple
@@ -1140,7 +1142,7 @@ pragmatic process
 will come back to this issue in Section~\ref{sec:role-intonation}.
 
 On the other hand, as for \as-sentences, there is a traditionalist way
-of deriving the local implicature, namely by assuming that not only
+of deriving the local reading, namely by assuming that not only
 (\ref{bsp:AE-Alternative}) is an alternative to (\ref{bsp:AE}), but
 also the sentence in (\ref{bsp:AE-Alternatives-Extended}).
 
@@ -1173,7 +1175,7 @@ available and so is the local reading.
 
 Still, even unrestricted traditionalism would not predict that the
 local reading is preferred over the global reading. This is because
-the derivation of the local implicature via
+the derivation of the local reading via
 (\ref{bsp:AE-Alternatives-Extended}) hinges on yet another auxiliary
 assumption, namely the availability of the alternative in
 (\ref{bsp:AE-Alternatives-Extended}), which seems much less obvious
@@ -1183,8 +1185,7 @@ following predictions about preferences for unrestricted
 traditionalism: weak unrestricted traditionalism prefers the literal
 over the global over the local reading, while strong unrestricted
 traditionalism prefers the global over the local over the literal
-reading. The predictions for all of the relevant theoretical positions
-are also summarized in Table~\ref{tab:predictions}.
+reading (see also Table~\ref{tab:predictions}).
 
 
 \subsection{Conventionalism}
@@ -1196,21 +1197,19 @@ instance by \citet{LevinsonPresumptiveMeanings2000} and
   \citet{Sauerland2012:The-Computation} who argues quite favorably for
   a pragmatically informed conventionalism, although eventually
   dismissing it in favor of grammaticalism.} The general idea is that
-the upper-bounding inference from \emph{some} to \emph{some but not
-  all} occurs so frequently that it would be inefficient to go over
-and over again through the kind of Gricean reasoning that
-traditionalists propose. Conventionalism therefore assumes that scalar
-inferences have become routinized, hard-wired, so much so that there
-are two lexical entries for a scalar item like \emph{some}, one with
-meaning \emph{some and maybe all} and one with the meaning \emph{some
-  but not all}.
-
-\citet{LevinsonPresumptiveMeanings2000} proposed that the latter is
-the preferred default meaning, a position which we will refer to as
-\mymark{defaultism}.\fn{Levinson's defaultism has strong empirical
-  evidence against it, because several processing studies show that
-  the computation of scalar inferences appears to be time- and
-  effort-consuming, when they \emph{do} arise, not when they
+if the upper-bounding inference from \emph{some} to \emph{some but not
+  all} occurs frequently, then it would be inefficient to execute the
+Gricean reasoning that traditionalists propose over and over
+again. Conventionalism therefore assumes that scalar inferences have
+become routinized, hard-wired, so much so that there are two lexical
+entries for a scalar item like \emph{some}, one with meaning
+\emph{some and maybe all} and one with the meaning \emph{some but not
+  all}. \citet{LevinsonPresumptiveMeanings2000} proposed that the
+latter is the preferred default meaning, a position which we will
+refer to as \mymark{defaultism}.\fn{Levinson's defaultism has strong
+  empirical evidence against it, because several processing studies
+  show that the computation of scalar inferences appears to be time-
+  and effort-consuming, when they \emph{do} arise, not when they
   \emph{don't}, as defaultism would have it
   \citep[c.f.][]{BrehenyKatsos2006:Are-Generalised,BrehenyKatsos2008:Experimental-In,NeysDe-NeysSchaeken2007:When-People-Are}. But
   there is also competing evidence that scalar inferences are
@@ -1266,8 +1265,7 @@ meaning of the form:\fn{More sophisticated formulations of exhaustive
   but this simple formulation is sufficient for the purposes of this
   paper. Also, we gloss here over non-trivial details in the way this
   operation is to be specified exactly within a compositional
-  semantics, so as to also apply to sub-propositional expressions
-  \citep{Chierchia2006:Broaden-Your-Vi}.}
+  semantics \citep[c.f.][]{Chierchia2006:Broaden-Your-Vi}.}
 \begin{exe}
   \ex \label{bsp:Exh-Def} $\exh(X,\alt(X)) = X \bigwedge_{A \in
       \alt(X)} \neg A$.
@@ -1285,9 +1283,9 @@ respective quantifiers as in (\ref{Grammar-Local}).
   \ex \label{Grammar-Global}
     \begin{xlist}
       \ex \label{Grammar-Global-AE} \mymark{$\exh$}(\mymark{All} of the students solved
-        \mymark{some} of the problems)
+        \mymark{some} of the problems).
       \ex \label{Grammar-Global-GE} \mymark{$\exh$}(\mymark{Exactly one} of the students solved
-        \mymark{some} of the problems)
+        \mymark{some} of the problems).
     \end{xlist}
 \end{exe}
 
@@ -1295,10 +1293,10 @@ respective quantifiers as in (\ref{Grammar-Local}).
   \ex \label{Grammar-Local}
     \begin{xlist}
       \ex \label{Grammar-Local-AE} \mymark{All} of the students \mymark{$\exh$}(solved
-        \mymark{some} of the problems)
+        \mymark{some} of the problems).
       \ex \label{Grammar-Local-GE} \mymark{Exactly one} of the
         students \mymark{$\exh$}( solved
-        \mymark{some} of the problems)
+        \mymark{some} of the problems).
     \end{xlist}
 \end{exe}
 
@@ -1329,8 +1327,8 @@ meaning in (\ref{bsp:Overgenereation-implicature-UNattested}).
 \end{exe}
 
 \noindent The latter, however, is a reading that grammaticalism
-predicts to be available, if the $\exh(\cdot)$-operator takes scope
-under the negation, as in:
+predicts to be available by letting the $\exh(\cdot)$-operator take
+scope under negation, as in:
 
 \begin{exe}
 \ex It's not the case that Hans solved \mymark{$\exh$}(\mymark{some} of the problems)
@@ -1363,8 +1361,13 @@ variants of the strongest meaning hypothesis. Towards a definition
 that is just precise enough for our current purposes, fix a sentence
 with propositional content $S$ with candidate readings $C(S)$, where
 $C(S)$ contains $S$ and all readings derivable from inserting
-$\exh(\cdot)$ at suitable scope sites.  Then define \emph{ceteris
-  paribus} preferences among members of $X,Y \in C(S)$ as either:
+$\exh(\cdot)$ at suitable scope sites.\fn{Strictly speaking, we should
+  compare \emph{parses} of sentences with $\exh(\cdot)$ at various
+  scope sites with respect to the readings that these parses give rise
+  to \citep[c.f.][]{ChierchiaFox2008:The-Grammatical}, but we may
+  ignore this detail here for ease of exposition.}  Then define
+\emph{ceteris paribus} preferences among members of $X,Y \in C(S)$ as
+either:
 \begin{exe}
 \ex \label{bsp:SMH-Total} 
   $X >_w Y$ iff $X \subset Y$ 
@@ -1372,7 +1375,7 @@ $\exh(\cdot)$ at suitable scope sites.  Then define \emph{ceteris
 \end{exe}
 or:
 \begin{exe}
-\ex \label{bsp:SMH-Partial}  $X >_s Y$ if $X \subset Y$ and $X$ and
+\ex \label{bsp:SMH-Partial}  $X >_s Y$ iff $X \subset Y$ and $X$ and
   $Y$ are readings obtained from applications of $\exh(\cdot)$ at
   exactly the same scope sites, except for one.
   \attrib{\citep[(105)]{ChierchiaFox2008:The-Grammatical}} 
@@ -1409,95 +1412,149 @@ literal meanings are dispreferred. All predictions are summarized in
 Table~\ref{tab:predictions}.
 
 
-
 \begin{table}[t]
   \centering
-  \begin{tabular}{lcccccc}
-    & \multicolumn{4}{c}{availability} 
-    & \multicolumn{2}{c}{preference}
-    \\ \cmidrule(r){2-5}  \cmidrule(r){6-7}
-    theory
-    & \as-\glb
-    & \as-\loc
-    & \es-\glb
-    & \es-\loc
+  \begin{tabular}{lcc}
+    & \multicolumn{2}{c}{preference \& availability}
+    \\ \cmidrule(r){2-3}
+    theoretical position
     & \as
     & \es
     \\ \midrule
     traditionalism
     \\
     \ \ weak restricted 
-    & $\checkmark$
-    & $-$
-    & $\checkmark$
-    & $-$
     & \lit > \glb 
     & \lit > \glb
     \\
     \ \ weak unrestricted
-    & $\checkmark$
-    & $\checkmark$
-    & $\checkmark$
-    & $-$
     & \lit > \glb > \loc 
     & \lit > \glb
     \\
     \ \ strong restricted
-    & $\checkmark$
-    & $-$
-    & $\checkmark$
-    & $-$
     & \glb > \lit 
     & \glb > \lit
     \\
     \ \ strong unrestricted
-    & $\checkmark$
-    & $\checkmark$
-    & $\checkmark$
-    & $-$
     & \glb > \loc > \lit 
     & \glb > \lit
     \\
     conventionalism
     \\
     \ \ defaultism
-    & $-$
-    & $\checkmark$
-    & $-$
-    & $\checkmark$
     & \loc >  \lit 
     & \loc >  \lit
     \\
     \ \ literalism
-    & $-$
-    & $\checkmark$
-    & $-$
-    & $\checkmark$
     & \lit >  \loc 
     & \lit >  \loc
     \\
     grammaticalism
     \\
     \ \ weak
-    & $\checkmark$
-    & $\checkmark$
-    & $\checkmark$
-    & $\checkmark$
     & \loc > \glb > \lit 
     & \glb > \lit, \loc
     \\
     \ \ strong
-    & $\checkmark$
-    & $\checkmark$
-    & $\checkmark$
-    & $\checkmark$
     & \glb, \loc > \lit 
     & \glb, \loc >  \lit
     \\
   \end{tabular}
-  \caption{Predictions of the relevant theoretical positions}
+  \caption{Predictions of the relevant theoretical positions. Listed
+    are the predicted preference relations. If a reading is not
+    listed, it is predicted to be unavailable.}
   \label{tab:predictions}
 \end{table}
+
+
+% \begin{table}[t]
+%   \centering
+%   \begin{tabular}{lcccccc}
+%     & \multicolumn{4}{c}{availability} 
+%     & \multicolumn{2}{c}{preference}
+%     \\ \cmidrule(r){2-5}  \cmidrule(r){6-7}
+%     theoretical position
+%     & \as-\glb
+%     & \as-\loc
+%     & \es-\glb
+%     & \es-\loc
+%     & \as
+%     & \es
+%     \\ \midrule
+%     traditionalism
+%     \\
+%     \ \ weak restricted 
+%     & $\checkmark$
+%     & $-$
+%     & $\checkmark$
+%     & $-$
+%     & \lit > \glb 
+%     & \lit > \glb
+%     \\
+%     \ \ weak unrestricted
+%     & $\checkmark$
+%     & $\checkmark$
+%     & $\checkmark$
+%     & $-$
+%     & \lit > \glb > \loc 
+%     & \lit > \glb
+%     \\
+%     \ \ strong restricted
+%     & $\checkmark$
+%     & $-$
+%     & $\checkmark$
+%     & $-$
+%     & \glb > \lit 
+%     & \glb > \lit
+%     \\
+%     \ \ strong unrestricted
+%     & $\checkmark$
+%     & $\checkmark$
+%     & $\checkmark$
+%     & $-$
+%     & \glb > \loc > \lit 
+%     & \glb > \lit
+%     \\
+%     conventionalism
+%     \\
+%     \ \ defaultism
+%     & $-$
+%     & $\checkmark$
+%     & $-$
+%     & $\checkmark$
+%     & \loc >  \lit 
+%     & \loc >  \lit
+%     \\
+%     \ \ literalism
+%     & $-$
+%     & $\checkmark$
+%     & $-$
+%     & $\checkmark$
+%     & \lit >  \loc 
+%     & \lit >  \loc
+%     \\
+%     grammaticalism
+%     \\
+%     \ \ weak
+%     & $\checkmark$
+%     & $\checkmark$
+%     & $\checkmark$
+%     & $\checkmark$
+%     & \loc > \glb > \lit 
+%     & \glb > \lit, \loc
+%     \\
+%     \ \ strong
+%     & $\checkmark$
+%     & $\checkmark$
+%     & $\checkmark$
+%     & $\checkmark$
+%     & \glb, \loc > \lit 
+%     & \glb, \loc >  \lit
+%     \\
+%   \end{tabular}
+%   \caption{Predictions of the relevant theoretical positions}
+%   \label{tab:predictions}
+% \end{table}
 
 
 
@@ -1524,7 +1581,7 @@ and \es-sentences are available.\fn{Actually,
   \es-sentences, but sentences where scalar \emph{some} was embedded
   under non-monotonic quantifier \emph{exactly two} (with appropriate
   pictures, of course). This case is a little more complex, but we
-  will gloss over this here, treating their data, as it if was obtain
+  will gloss over this here, treating their data, as if it was obtained
   for \es-sentences.} The critical conditions of their study presented
 subjects with pictures like those in Figure~\ref{fig:weak} and
 \ref{fig:local} where the local reading gets a different truth-value
@@ -1606,7 +1663,7 @@ case, response percentages were:
 
 \noindent Again the majority response ``both'' might speak for a
 preference for the literal reading, but, as
-\citeauthor{CliftonDube2010:Embedded-Implic} argue the 17\% of
+\citeauthor{CliftonDube2010:Embedded-Implic} propose, the 17\% of
 ``neither'' answers in this case again suggest that the local reading
 is available. Taken together,
 \citeauthor{CliftonDube2010:Embedded-Implic} take these results to
@@ -1706,43 +1763,48 @@ in this case.
 \label{sec:critique}
 
 Summing up, the mentioned studies have presented diverging evidence
-concerning the availability of local implicatures. Varoius problematic
-aspects of these studies have already been discussed elsewhere (C\&D,
-C\&S, van Tiel). Here, we want to point out two particular
-methodological problems that do impede their interpretation. However,
-we also want to make clear that these problems follow almost directly
-from the nature of the phenomenon under investigation and therefore
-seem nearly impossible to avoid.
+concerning the availability of local readings. Varoius problematic
+aspects of these studies have already been discussed elsewhere
+\citep[e.g.][]{CliftonDube2010:Embedded-Implic,ChemlaSpector2010:Experimental-Ev,Tielvan-Tiel2012:Embedded-Scalar}. Here,
+we want to point out two particular methodological problems that do
+impede their interpretation. However, we also want to make clear that
+these problems follow almost directly from the nature of the
+phenomenon under investigation and therefore seem nearly impossible to
+avoid.
 
-Firstly, a mapping between responses to be obtained in an experiment
-and readings of the sentences is problematic due to the logical
-dependencies between the relevant readings discussed in section
-\ref{xyz}. It is impossible to construct situations that clearly
-correspond to local readings of \as-sentences, since the local reading
-of such sentences implies their global and local readings. Every
-situation which is consitent with such a sentence under its local
-reading is also consitent with the other two readings. Therefore, we
-cannot test all the cases we might wish to. It would be especially
-desirable to test situations that are consitent with the local
-reading, but inconsitent with the global and literal reading of
-\as-sentences, in a picture verification task. In that case
-'yes'-responses would unambiguously indicate local readings, whereas
-'no'-responses would indicate their absence. However, since this is
-impossible we are left with suboptimal choices. In the experiment of
-Geurts situations that are inconsitent with local readings but
-consitent with the other two readings were tested. In that case
-'no'-responses would be decisive~-- when compared to a suitable
-baseline. However, 'yes' responses were observed exclusively. These
-can be attributed to one of the other readings. Therefore, assuming a
-principle of charity \citep{Davidson1973:Radical-Interpr} to be at
-play in picture verification tasks, the data of Geurts do not provide
-evidence against the existence of local readings.  In the experiments
-of C\&S and C\&D on the other hand situations that are consitent with
-all three readings were tested. Here again 'yes'-judgments cannot be
-interpreted confidently because they can always be attributed to
-global or literal readings. Both C\&S and C\&D attempt to surpass this
-problem by interpreting relative preferences. This does, however,
-bring us to the second problem.
+Firstly, a mapping between responses in a picture-verification task
+and readings of the relevant sentences is problematic due to the
+logical dependencies between the relevant readings discussed in
+Section~\ref{sec:get-know-your}. Let us consider \as-sentences in the
+following because these have been addressed by all three
+aforementioned studies. (Similar arguments apply to \es-sentences.) It
+is impossible to construct situations that clearly correspond to local
+readings of \as-sentences, since the local reading of such sentences
+implies their global and local readings. Every situation which is
+consitent with such a sentence under its local reading is also
+consitent with the other two readings. Therefore, we cannot test
+directly and independently all the cases we might wish to using a
+simple picture-verification paradigm. It would be especially desirable
+to test situations that are consistent with the local reading, but
+inconsistent with the global and literal reading. In that case
+\emph{yes}-responses would unambiguously indicate availability of
+local readings. However, since this is impossible we are left with
+suboptimal choices. In the experiment of
+\citet{GeurtsPouscoulous2009:Embedded-Implic} situations that are
+inconsistent with local readings but consistent with the other two
+readings were tested. In that case \emph{no}-responses would be decisive~--
+when compared to a suitable baseline. However, \emph{yes}-responses were
+observed exclusively. These can be attributed to one of the other
+readings. Therefore, assuming a principle of charity
+\citep{Davidson1973:Radical-Interpr} to be at play in picture
+verification tasks, the data of Geurts do not provide evidence against
+the existence of local readings.  In the experiments of C\&S and C\&D
+on the other hand situations that are consitent with all three
+readings were tested. Here again 'yes'-judgments cannot be interpreted
+confidently because they can always be attributed to global or literal
+readings. Both C\&S and C\&D attempt to surpass this problem by
+interpreting relative preferences. This does, however, bring us to the
+second problem.
 
 Preferences may be affectd by graphical properties of the picture
 materials. For example, verification complexity or typicality of the
@@ -1823,8 +1885,8 @@ WHERE TO PUT THIS: PREVIOUS SUBSECTION, HERE OR LATER?
 \subsection{Design}
 \label{sec:design}
 
-\paragraph{General Idea.} In order to test whether local implicatures
-are possible, we seeked for a way to unambiguously map responses from
+\paragraph{General Idea.} In order to test whether local readings
+are available, we seeked for a way to unambiguously map responses from
 a picture verification task to the alternative readings of \as- and
 \es-sentences. In addition, we wanted to minimize effects of any
 graphical differences between the picture materials. To achieve this
