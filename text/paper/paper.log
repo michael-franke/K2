@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.3)  27 JUN 2012 17:17
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.3)  28 JUN 2012 11:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1948,43 +1948,45 @@ Overfull \hbox (2.72012pt too wide) in paragraph at lines 1685--1700
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\citet' on input line 1701.
 
-<Chemla_Spector_2010_Critical_AE.png, id=484, 531.9875pt x 420.57124pt>
-File: Chemla_Spector_2010_Critical_AE.png Graphic file (type png)
 
-<use Chemla_Spector_2010_Critical_AE.png>
-Package pdftex.def Info: Chemla_Spector_2010_Critical_AE.png used on input line
- 1727.
+<../pictures/paper/Chemla_Spector_2010_Critical_AE.png, id=484, 531.9875pt x 42
+0.57124pt>
+File: ../pictures/paper/Chemla_Spector_2010_Critical_AE.png Graphic file (type 
+png)
+ <use ../pictures/paper/Chemla_Spector_2010_Critical_AE.png>
+Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_Critical_AE.png 
+used on input line 1727.
 (pdftex.def)             Requested size: 186.19841pt x 147.20213pt.
 
-<Chemla_Spector_2010_RatingBar.png, id=485, 499.8675pt x 74.2775pt>
-File: Chemla_Spector_2010_RatingBar.png Graphic file (type png)
-
-<use Chemla_Spector_2010_RatingBar.png>
-Package pdftex.def Info: Chemla_Spector_2010_RatingBar.png used on input line 1
-728.
+<../pictures/paper/Chemla_Spector_2010_RatingBar.png, id=485, 499.8675pt x 74.2
+775pt>
+File: ../pictures/paper/Chemla_Spector_2010_RatingBar.png Graphic file (type pn
+g)
+ <use ../pictures/paper/Chemla_Spector_2010_RatingBar.png>
+Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_RatingBar.png us
+ed on input line 1728.
 (pdftex.def)             Requested size: 174.95624pt x 25.99751pt.
 
-<Chemla_Spector_2010_Results_AE.png, id=489, 429.605pt x 117.43875pt>
-File: Chemla_Spector_2010_Results_AE.png Graphic file (type png)
-
-<use Chemla_Spector_2010_Results_AE.png>
-Package pdftex.def Info: Chemla_Spector_2010_Results_AE.png used on input line 
-1748.
+<../pictures/paper/Chemla_Spector_2010_Results_AE.png, id=489, 429.605pt x 117.
+43875pt>
+File: ../pictures/paper/Chemla_Spector_2010_Results_AE.png Graphic file (type p
+ng)
+ <use ../pictures/paper/Chemla_Spector_2010_Results_AE.png>
+Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_Results_AE.png u
+sed on input line 1748.
 (pdftex.def)             Requested size: 156.49014pt x 42.77966pt.
 
-<Chemla_Spector_2010_Results_GE.png, id=490, 492.84125pt x 138.5175pt>
-File: Chemla_Spector_2010_Results_GE.png Graphic file (type png)
-
-<use Chemla_Spector_2010_Results_GE.png>
-Package pdftex.def Info: Chemla_Spector_2010_Results_GE.png used on input line 
-1752.
+<../pictures/paper/Chemla_Spector_2010_Results_GE.png, id=490, 492.84125pt x 13
+8.5175pt>
+File: ../pictures/paper/Chemla_Spector_2010_Results_GE.png Graphic file (type p
+ng)
+ <use ../pictures/paper/Chemla_Spector_2010_Results_GE.png>
+Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_Results_GE.png u
+sed on input line 1752.
 (pdftex.def)             Requested size: 156.49014pt x 43.98198pt.
- [14 </Users/micha/Library/texmf/tex/latex/pics/implicature_exp/Chemla_Spector_
-2010_Critical_AE.png> </Users/micha/Library/texmf/tex/latex/pics/implicature_ex
-p/Chemla_Spector_2010_RatingBar.png>]
-[15 </Users/micha/Library/texmf/tex/latex/pics/implicature_exp/Chemla_Spector_2
-010_Results_AE.png> </Users/micha/Library/texmf/tex/latex/pics/implicature_exp/
-Chemla_Spector_2010_Results_GE.png>]
+ [14 <../pictures/paper/Chemla_Spector_2010_Critical_AE.png> <../pictures/paper
+/Chemla_Spector_2010_RatingBar.png>] [15 <../pictures/paper/Chemla_Spector_2010
+_Results_AE.png> <../pictures/paper/Chemla_Spector_2010_Results_GE.png>]
 Overfull \hbox (14.40012pt too wide) in paragraph at lines 1842--1844
 []\T1/txr/m/n/10 establish in-de-pen-dence (as much as pos-si-ble) of pic-to-ri
 al com-plex-ity/stereotypicality|
@@ -2054,7 +2056,7 @@ Package pdftex.def Info: ../pictures/paper/ge_6_v_l.pdf used on input line 2025
  [18 <../pictures/paper/ae_3_v_l.pdf> <../pictures/paper/ae_5_v_l.pdf> <../pict
 ures/paper/ae_7_v_l.pdf>] [19 <../pictures/paper/ge_3_v_l.pdf> <../pictures/pap
 er/ge_4_v_l.pdf> <../pictures/paper/ge_6_v_l.pdf>] <../pictures/paper/ec_01_3.p
-df, id=708, 640.34631pt x 640.34631pt>
+df, id=707, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ec_01_3.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ec_01_3.pdf>
@@ -2062,7 +2064,7 @@ Package pdftex.def Info: ../pictures/paper/ec_01_3.pdf used on input line 2147.
 
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
 
-<../pictures/paper/ec_01_5.pdf, id=709, 640.34631pt x 640.34631pt>
+<../pictures/paper/ec_01_5.pdf, id=708, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ec_01_5.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ec_01_5.pdf>
@@ -2070,7 +2072,7 @@ Package pdftex.def Info: ../pictures/paper/ec_01_5.pdf used on input line 2151.
 
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
 
-<../pictures/paper/lc_01_3.pdf, id=710, 640.34631pt x 640.34631pt>
+<../pictures/paper/lc_01_3.pdf, id=709, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/lc_01_3.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/lc_01_3.pdf>
@@ -2078,7 +2080,7 @@ Package pdftex.def Info: ../pictures/paper/lc_01_3.pdf used on input line 2161.
 
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
 
-<../pictures/paper/lc_01_6.pdf, id=711, 640.34631pt x 640.34631pt>
+<../pictures/paper/lc_01_6.pdf, id=710, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/lc_01_6.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/lc_01_6.pdf>
@@ -2102,7 +2104,7 @@ LaTeX Font Info:    Try loading font information for T1+txtt on input line 2371
  (/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 )
-<../pictures/Acoustics/Table-A.png, id=879, 767.86874pt x 807.015pt>
+<../pictures/Acoustics/Table-A.png, id=875, 767.86874pt x 807.015pt>
 File: ../pictures/Acoustics/Table-A.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-A.png>
@@ -2110,7 +2112,7 @@ Package pdftex.def Info: ../pictures/Acoustics/Table-A.png used on input line 2
 405.
 (pdftex.def)             Requested size: 345.0pt x 362.58694pt.
 
-<../pictures/Acoustics/Table-B.png, id=880, 765.86125pt x 808.01875pt>
+<../pictures/Acoustics/Table-B.png, id=876, 765.86125pt x 808.01875pt>
 File: ../pictures/Acoustics/Table-B.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-B.png>
@@ -2118,7 +2120,7 @@ Package pdftex.def Info: ../pictures/Acoustics/Table-B.png used on input line 2
 414.
 (pdftex.def)             Requested size: 345.0pt x 363.98729pt.
 
-<../pictures/Acoustics/Table-C.png, id=882, 692.5875pt x 1001.7425pt>
+<../pictures/Acoustics/Table-C.png, id=878, 692.5875pt x 1001.7425pt>
 File: ../pictures/Acoustics/Table-C.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-C.png>
@@ -2126,7 +2128,7 @@ Package pdftex.def Info: ../pictures/Acoustics/Table-C.png used on input line 2
 435.
 (pdftex.def)             Requested size: 345.0pt x 499.0052pt.
 
-<../pictures/Acoustics/Table-D.png, id=883, 694.595pt x 858.20625pt>
+<../pictures/Acoustics/Table-D.png, id=879, 694.595pt x 858.20625pt>
 File: ../pictures/Acoustics/Table-D.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-D.png>
@@ -2140,7 +2142,7 @@ ble-D.png>]
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 2474.
 
-<../pictures/paper/graph_AE_AKZ.jpg, id=915, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_AE_AKZ.jpg, id=911, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_AE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_AE_AKZ.jpg>
@@ -2148,7 +2150,7 @@ Package pdftex.def Info: ../pictures/paper/graph_AE_AKZ.jpg used on input line
 2479.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/graph_AE_NTR.jpg, id=916, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_AE_NTR.jpg, id=912, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_AE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_AE_NTR.jpg>
@@ -2156,7 +2158,7 @@ Package pdftex.def Info: ../pictures/paper/graph_AE_NTR.jpg used on input line
 2483.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/graph_GE_AKZ.jpg, id=917, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_GE_AKZ.jpg, id=913, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_GE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_GE_AKZ.jpg>
@@ -2164,7 +2166,7 @@ Package pdftex.def Info: ../pictures/paper/graph_GE_AKZ.jpg used on input line
 2488.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/graph_GE_NTR.jpg, id=918, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_GE_NTR.jpg, id=914, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_GE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_GE_NTR.jpg>
@@ -2180,7 +2182,7 @@ LaTeX Warning: No positions in optional float specifier.
 ../pictures/paper/graph_GE_AKZ.jpg> <../pictures/paper/graph_GE_NTR.jpg>]
 [30]
 
-Package caption Warning: \label without proper \caption on input line 2740.
+Package caption Warning: \label without proper \caption on input line 2759.
 See the caption package documentation for explanation.
 
 
@@ -2191,7 +2193,7 @@ LaTeX Warning: Reference `fig:HistogramLocalReadingsK2' on page 31 undefined on
 LaTeX Warning: Reference `' on page 31 undefined on input line 2714.
 
 [31]
-<../pictures/paper/histLocalReadingAE_AKZ.jpg, id=946, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingAE_AKZ.jpg, id=942, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingAE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingAE_AKZ.jpg>
@@ -2199,7 +2201,7 @@ Package pdftex.def Info: ../pictures/paper/histLocalReadingAE_AKZ.jpg used on i
 nput line 2745.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/histLocalReadingAE_NTR.jpg, id=947, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingAE_NTR.jpg, id=943, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingAE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingAE_NTR.jpg>
@@ -2207,7 +2209,7 @@ Package pdftex.def Info: ../pictures/paper/histLocalReadingAE_NTR.jpg used on i
 nput line 2749.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/histLocalReadingGE_AKZ.jpg, id=948, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingGE_AKZ.jpg, id=944, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingGE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingGE_AKZ.jpg>
@@ -2215,7 +2217,7 @@ Package pdftex.def Info: ../pictures/paper/histLocalReadingGE_AKZ.jpg used on i
 nput line 2754.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/histLocalReadingGE_NTR.jpg, id=949, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingGE_NTR.jpg, id=945, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingGE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingGE_NTR.jpg>
@@ -2259,36 +2261,20 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'paper.run.xml'.
 \openout1 = `paper.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32815 strings out of 493610
- 646300 string characters out of 3142405
+ 32811 strings out of 493610
+ 646546 string characters out of 3142405
  1045367 words of memory out of 3000000
  35187 multiletter control sequences out of 15000+200000
  104033 words of font info for 147 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  50i,22n,87p,1449b,2003s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{subfigure.127} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subfigure.124} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{Item.121} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{Item.119} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.84} has been referenced but does not exis
-t, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.84} has been referenced but does not ex
+ist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.78} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2324,10 +2310,10 @@ y.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb>
 </usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
 l/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (35 pages, 961792 bytes).
+Output written on paper.pdf (35 pages, 961504 bytes).
 PDF statistics:
- 1068 PDF objects out of 1200 (max. 8388607)
- 931 compressed objects within 10 object streams
- 238 named destinations out of 1000 (max. 500000)
+ 1063 PDF objects out of 1200 (max. 8388607)
+ 926 compressed objects within 10 object streams
+ 234 named destinations out of 1000 (max. 500000)
  324 words of extra memory for PDF output out of 10000 (max. 10000000)
 
