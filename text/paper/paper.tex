@@ -752,7 +752,7 @@ various situations.
 
 }
 
-  \caption{Distinguishing scenarious for \as-sentences}
+  \caption{Distinguishing scenarios for \as-sentences}
   \label{fig:AS-distinguishing-pics}
 \end{figure}
 
@@ -1008,7 +1008,7 @@ are given in Figure~\ref{fig:ES-distinguishing-pics}.
 
 }
 
-  \caption{Distinguishing scenarious for \es-sentences}
+  \caption{Distinguishing scenarios for \es-sentences}
   \label{fig:ES-distinguishing-pics}
 
 \end{figure}
@@ -1834,6 +1834,145 @@ typcality or other crucial properties. Given the logical dependencies
 inherent to the relevant readings and the considerations concerning
 typicality presented by van Tiel this seems impossible to achieve. As
 we willl argue below we do, however, believe it is.
+
+\bigskip 
+
+We also tested examples like (\ref{bsp:EA}), which are the ``global
+alternatives'' to \es-sentences, with a universal quantifier where
+\es-sentences have scalar \emph{some}.
+\begin{exe}
+\ex \gll F\"{u}r \mymark{genau} \mymark{eines} dieser Kinder gilt: es mag \mymark{jede} dieser
+  Speisen. \label{bsp:EA}\\
+  For exactly one {of these} children {it holds} it likes all {of
+    these} dishes.\\
+  For exactly one of these children it holds that it likes all of these dishes.
+\end{exe}
+Sentence like (\ref{bsp:EA}) are literally true in both of the
+situations given in Figure~\ref{fig:EA-distinguishing-pics}, but these
+situations differ in the truth value of the corresponding
+\es-sentence. Interestingly, we found a difference in acceptability,
+but a curious one. The sentence was judged \emph{true} in 90.34\% of
+the cases for the situation in Figure~\ref{fig:global-EA} and in
+98.34\% in situation \ref{fig:literal-EA}. The observed difference is
+significant ($t = -3.8259$, $df = 322.375$, $p < 0.001$). That is a
+curious finding, because, from the point of view of implicature
+calculation, the only thing that could plausibly explain this
+acceptability difference is the presence of a global implicature,
+resulting from the negation of the corresponding \es-sentence. But
+such a putative global implicature would be true in the
+situation~\ref{fig:global-EA}, but false in the
+situation~\ref{fig:literal-EA}. Consequently, the observed difference
+in acceptability cannot be explained simply in terms of the hypothesis
+of \citet{ChemlaSpector2010:Experimental-Ev} that acceptability is
+proportional to the number of available true readings: if a putative
+global reading is at stake, the acceptability pattern should be
+reversed; if no such global reading is at stake, then the
+acceptability difference cannot be explained.
+
+
+
+\begin{figure}[]
+  \centering
+  
+\subfloat[fig:global][global]{
+  \label{fig:global-EA}
+
+  \begin{tikzpicture}[node distance = 1cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % table added from here
+
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
+
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & true \\
+            \glb & true
+          \end{tabular}};
+
+        % Arrows
+
+        \path [draw=blue,->] (X-1) -> (Y-1);
+
+        \path [draw=blue,->] (X-1) -> (Y-2);
+
+        \path [draw=black,->] (X-2) -> (Y-1);
+
+        \path [draw=black,->] (X-2) -> (Y-2);
+
+        \path [draw=black,->] (X-2) -> (Y-3);
+
+        \path [draw=black,->] (X-2) -> (Y-4);
+
+      \end{tikzpicture}
+
+
+} \qquad \qquad
+\subfloat[fig:literal][literal]{
+  \label{fig:literal-EA}
+
+      \begin{tikzpicture}[node distance = 1cm]
+        % Nodes
+
+        \node (X-1) {$\Large{\bullet}$};
+
+        \node (X-2) [below of = X-1] {$\Large{\bullet}$};
+
+        \node (X-3) [below of = X-2] {$\Large{\bullet}$};
+
+        \node (Y-1) [right of = X-1, node distance = 2cm]{$\Large{\bullet}$};
+
+        \node (Y-2) [below of = Y-1] {$\Large{\bullet}$};
+
+        \node (Y-3) [below of = Y-2] {$\Large{\bullet}$};
+
+        \node (Y-4) [below of = Y-3] {$\Large{\bullet}$};
+
+        % table added from here
+
+        \node (X-4) [below of = X-3, node distance = 2cm] {};
+
+        \node (table) [right of = X-4] {
+          \begin{tabular}{ll}
+            \lit & true \\
+            \glb & false
+          \end{tabular}};
+
+        % Arrows
+
+        \path [draw=black,->] (X-2) -> (Y-1);
+
+        \path [draw=black,->] (X-2) -> (Y-2);
+
+        \path [draw=black,->] (X-2) -> (Y-3);
+
+        \path [draw=black,->] (X-2) -> (Y-4);
+
+      \end{tikzpicture}
+
+}
+
+
+  \caption{Distinguishing scenarios for sentence XYZ}
+  \label{fig:EA-distinguishing-pics}
+
+\end{figure}
+
+
 
 \subsection{To-Be-Included Here}
 \label{sec:whats-missing}
