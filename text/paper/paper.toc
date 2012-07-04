@@ -1,0 +1,69 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Get to know your readings}{4}{section.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textsc {as}\xspace -sentences.}{4}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textsc {es}\xspace -sentences.}{5}{section*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Theories and predictions}{6}{section.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Traditionalism}{7}{subsection.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Conventionalism}{9}{subsection.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Grammaticalism}{9}{subsection.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Previous studies}{12}{section.82}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}\citet {GeurtsPouscoulous2009:Embedded-Implic}}{12}{subsection.83}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}\citet {CliftonDube2010:Embedded-Implic}}{13}{subsection.85}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}\citet {ChemlaSpector2010:Experimental-Ev}}{14}{subsection.86}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Reflection}{15}{subsection.91}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}To-Be-Included Here}{16}{subsection.94}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}An Incremental Verification Task}{17}{section.95}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Design}{17}{subsection.96}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{General Idea.}{17}{section*.97}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{The Target Conditions.}{17}{section*.98}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Controls.}{20}{section*.113}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Controlling ambiguity resolution.}{21}{section*.122}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Testing Effects of accentuation.}{22}{section*.132}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Procedure}{23}{subsection.133}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Materials}{23}{subsection.134}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Participants}{23}{subsection.135}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5}Results}{23}{subsection.136}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6}Discussion}{28}{subsection.150}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.6.1}Bits and Pieces}{28}{subsubsection.151}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Conclusions}{28}{section.152}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}The auditory sentence material}{28}{appendix.153}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Targets.}{30}{section*.158}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Target-related fillers.}{30}{section*.161}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}additional figures}{30}{appendix.164}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{30}{section*.168}

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 1.4 $
+% $ biblatex version 1.7 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -94,7 +94,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{BRKNWJ1}
+  \strng{namehash}{BR+1}
   \strng{fullhash}{BRKNWJ1}
   \field{labelyear}{2006}
   \field{sortinit}{B}
@@ -275,7 +275,7 @@
   \list{publisher}{1}{%
     {de Gruyter}%
   }
-  \strng{namehash}{CGFDSB1}
+  \strng{namehash}{CG+1}
   \strng{fullhash}{CGFDSB1}
   \field{labelyear}{forthcoming}
   \field{sortinit}{C}
@@ -313,6 +313,27 @@
   \field{volume}{3}
   \field{journaltitle}{Semantics \& Pragmatics}
   \field{year}{2010}
+\endentry
+
+\entry{Conroy2008}{thesis}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Conroy}{C.}%
+     {Anastasia~Marie}{A.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CAM1}
+  \strng{fullhash}{CAM1}
+  \field{labelyear}{2008}
+  \field{sortinit}{C}
+  \field{title}{The role of verification strategies in semantic ambiguity
+  resolution in children and adults}
+  \list{institution}{1}{%
+    {University of Maryland, College Park}%
+  }
+  \field{type}{phdthesis}
+  \field{year}{2008}
 \endentry
 
 \entry{DalrympleKanazawa1998:Reciprocal-Expr}{article}{}
@@ -357,25 +378,6 @@
   \field{volume}{21}
   \field{journaltitle}{Linguistics and Philosophy}
   \field{year}{1998}
-\endentry
-
-\entry{Davidson1973:Radical-Interpr}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Davidson}{D.}%
-     {Donald}{D.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{DD1}
-  \strng{fullhash}{DD1}
-  \field{labelyear}{1973}
-  \field{sortinit}{D}
-  \field{pages}{313\bibrangedash 328}
-  \field{title}{Radical Interpretation}
-  \field{volume}{27}
-  \field{journaltitle}{Dialectica}
-  \field{year}{1973}
 \endentry
 
 \entry{Fox2007:Free-Choice-and}{incollection}{}
@@ -769,6 +771,30 @@
   \field{year}{2011}
 \endentry
 
+\entry{Meyer2009}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Meyer}{M.}%
+     {Marie-Christine \& Uli~Sauerland}{M.-C. . U.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MMCUS1}
+  \strng{fullhash}{MMCUS1}
+  \field{labelyear}{2009}
+  \field{sortinit}{M}
+  \verb{doi}
+  \verb 10.1007/s11049- 008-9060-2.
+  \endverb
+  \field{number}{1}
+  \field{pages}{139–150}
+  \field{title}{A pragmatic constraint on ambiguity detection: A rejoinder to
+  Büring and Hartmann and to Reis}
+  \field{volume}{27}
+  \field{journaltitle}{Natural Language \& Linguistic Theory}
+  \field{year}{2009}
+\endentry
+
 \entry{NeysDe-NeysSchaeken2007:When-People-Are}{article}{}
   \name{author}{2}{}{%
     {{}%
@@ -982,7 +1008,7 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{SFCCFL1}
+  \strng{namehash}{SF+1}
   \strng{fullhash}{SFCCFL1}
   \field{labelyear}{2008}
   \field{sortinit}{S}
