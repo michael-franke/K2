@@ -28,11 +28,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Reflection: Categorical Judgements \& Typicality}{15}{subsection.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}An Incremental Verification Task}{19}{section.103}
+\contentsline {section}{\numberline {5}An Incremental Verification Task}{18}{section.103}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Design}{19}{subsection.104}
+\contentsline {subsection}{\numberline {5.1}Design}{18}{subsection.104}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{General Idea.}{19}{section*.105}
+\contentsline {paragraph}{General Idea.}{18}{section*.105}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{The Target Conditions.}{19}{section*.106}
 \defcounter {refsection}{0}\relax 
@@ -40,25 +40,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Controlling ambiguity resolution.}{22}{section*.130}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Testing Effects of accentuation.}{24}{section*.140}
+\contentsline {paragraph}{Testing Effects of accentuation.}{23}{section*.140}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Procedure}{25}{subsection.141}
+\contentsline {subsection}{\numberline {5.2}Procedure}{24}{subsection.141}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Materials}{25}{subsection.142}
+\contentsline {subsection}{\numberline {5.3}Materials}{24}{subsection.142}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4}Participants}{25}{subsection.143}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5}Results}{25}{subsection.144}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6}Discussion}{29}{subsection.158}
+\contentsline {subsection}{\numberline {5.6}Discussion}{28}{subsection.158}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.6.1}Bits and Pieces}{29}{subsubsection.159}
+\contentsline {subsubsection}{\numberline {5.6.1}Bits and Pieces}{28}{subsubsection.159}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Conclusions}{30}{section.160}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A}The auditory sentence material}{30}{appendix.161}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Targets.}{31}{section*.166}
+\contentsline {paragraph}{Targets.}{32}{section*.166}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Target-related fillers.}{32}{section*.169}
 \defcounter {refsection}{0}\relax 
