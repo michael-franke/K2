@@ -28,38 +28,50 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Reflection: Categorical Judgements \& Typicality}{15}{subsection.91}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}An Incremental Verification Task}{18}{section.102}
+\contentsline {section}{\numberline {5}Pilot Study}{16}{section.93}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Design}{18}{subsection.103}
+\contentsline {subsection}{\numberline {5.1}Materials}{17}{subsection.94}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{General Idea.}{18}{section*.104}
+\contentsline {subsection}{\numberline {5.2}Procedure}{18}{subsection.103}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{The Target Conditions.}{19}{section*.105}
+\contentsline {subsection}{\numberline {5.3}Participants}{19}{subsection.105}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Controls.}{21}{section*.120}
+\contentsline {subsection}{\numberline {5.4}Results}{19}{subsection.106}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Controlling ambiguity resolution.}{22}{section*.129}
+\contentsline {subsection}{\numberline {5.5}Discussion}{20}{subsection.110}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Testing Effects of accentuation.}{23}{section*.139}
+\contentsline {section}{\numberline {6}An Incremental Verification Task}{21}{section.112}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Procedure}{24}{subsection.140}
+\contentsline {subsection}{\numberline {6.1}Design}{21}{subsection.113}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Materials}{24}{subsection.141}
+\contentsline {paragraph}{General Idea.}{21}{section*.114}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Participants}{24}{subsection.142}
+\contentsline {paragraph}{The Target Conditions.}{21}{section*.115}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5}Results}{24}{subsection.143}
+\contentsline {paragraph}{Controls.}{24}{section*.130}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6}Discussion}{28}{subsection.157}
+\contentsline {paragraph}{Controlling ambiguity resolution.}{25}{section*.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.6.1}Bits and Pieces}{28}{subsubsection.158}
+\contentsline {paragraph}{Testing Effects of accentuation.}{26}{section*.149}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusions}{30}{section.159}
+\contentsline {subsection}{\numberline {6.2}Procedure}{27}{subsection.150}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}The auditory sentence material}{30}{appendix.160}
+\contentsline {subsection}{\numberline {6.3}Materials}{27}{subsection.151}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Targets.}{31}{section*.165}
+\contentsline {subsection}{\numberline {6.4}Participants}{27}{subsection.152}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Target-related fillers.}{31}{section*.168}
+\contentsline {subsection}{\numberline {6.5}Results}{27}{subsection.153}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{36}{section*.171}
+\contentsline {subsection}{\numberline {6.6}Discussion}{31}{subsection.167}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{31}{subsubsection.168}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Conclusions}{32}{section.169}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}The auditory sentence material}{32}{appendix.170}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Targets.}{34}{section*.175}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Target-related fillers.}{34}{section*.178}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{34}{section*.181}
