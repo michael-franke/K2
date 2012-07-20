@@ -315,6 +315,34 @@
   \field{year}{2010}
 \endentry
 
+\entry{Crain1998}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Crain}{C.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thornton}{T.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The MIT Press}%
+  }
+  \strng{namehash}{CSTR1}
+  \strng{fullhash}{CSTR1}
+  \field{labelyear}{1998}
+  \field{sortinit}{C}
+  \field{title}{Investigations in Universal Grammar: A Guide to Experiments in
+  the Acquisition of Syntax and Semantics}
+  \list{location}{1}{%
+    {Cambridge, MA}%
+  }
+  \field{year}{1998}
+\endentry
+
 \entry{DalrympleKanazawa1998:Reciprocal-Expr}{article}{}
   \name{author}{5}{}{%
     {{}%

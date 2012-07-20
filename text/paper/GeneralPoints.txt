@@ -1,0 +1,5 @@
+- Conventionalism: Clifton & Dube use "Mainstream" vs. "Minimal Conventionalsim". We use "defaultism" vs. "litealism". They use "Conventionalsim" to denote "Grammaticalism". G&P use "syntax- absed", "lexicalist", "mainstream" and"minimal conventionalism". We should avoid confusion here.
+
+- Effect of local reading: While it is possible that the presence vs. absence of a cetrain reading may have an effect on TVJs, this still sound odd. Normally "XY reported an effect of variable Z" means that the manipulation of an independent variable led to a change in a dependent variable. Here however, local reading are not an independent variable.
+
+-

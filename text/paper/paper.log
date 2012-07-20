@@ -1314,6 +1314,9 @@ Package: moredefs 2001/08/31 v1.8 more defining commands (Frankenstein's brain)
 \sc@toks@b=\toks41
 )
 \AttribMinSkip=\skip62
+) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\eurosym\eurosym.sty"
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box45
 )
 (/usr/local/texlive/2011/texmf-dist/tex/latex/eurosym/eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
@@ -2298,6 +2301,10 @@ LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
+
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'paper.run.xml'.
 \openout1 = `paper.run.xml'.

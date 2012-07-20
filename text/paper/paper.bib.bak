@@ -204,6 +204,17 @@
   timestamp = {2012.07.02}
 }
 
+@BOOK{Crain1998,
+  title = {Investigations in Universal Grammar: A Guide to Experiments in the
+	Acquisition of Syntax and Semantics},
+  publisher = {The MIT Press},
+  year = {1998},
+  author = {Crain, S. and R. Thornton},
+  address = {Cambridge, MA},
+  owner = {obxfs01},
+  timestamp = {2012.07.09}
+}
+
 @ARTICLE{DalrympleKanazawa1998:Reciprocal-Expr,
   author = {Mary Dalrymple and Makoto Kanazawa and Yookyung Kim and Sam Mchombo
 	and Stanley Peters},
@@ -425,7 +436,7 @@
 }
 
 @ARTICLE{Meyer2009,
-  author = {Marie-Christine Meyer  and Uli Sauerland},
+  author = {Marie-Christine Meyer and Uli Sauerland},
   title = {A pragmatic constraint on ambiguity detection: A rejoinder to Büring
 	and Hartmann and to Reis},
   journal = {Natural Language \& Linguistic Theory},
@@ -433,10 +444,21 @@
   volume = {27},
   pages = {139–150},
   number = {1},
-  doi = {10.1007/s11049-
-008-9060-2.},
+  doi = {10.1007/s11049- 008-9060-2.},
   owner = {obxfs01},
   timestamp = {2012.07.03}
+}
+
+@ARTICLE{Raffray2010,
+  author = {C.N. Raffray and MJ Pickering},
+  title = {How do people construct logical form during language comprehension?},
+  journal = {Psychol Science},
+  year = {2010},
+  volume = {21},
+  pages = {1090-1097},
+  number = {8},
+  owner = {obxfs01},
+  timestamp = {2012.07.20}
 }
 
 @ARTICLE{Russell2006:Against-Grammat,
