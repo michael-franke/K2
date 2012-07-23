@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.2-0.9995.1 (MiKTeX 2.8) (preloaded format=xelatex 2012.7.17)  20 JUL 2012 18:33
+This is XeTeX, Version 3.1415926-2.2-0.9995.1 (MiKTeX 2.8) (preloaded format=xelatex 2012.7.17)  23 JUL 2012 16:42
 entering extended mode
 **E:/obxfs01/svn/implicat_experim/text/paper/paper1.tex
 (E:/obxfs01/svn/implicat_experim/text/paper/paper1.tex
@@ -2977,7 +2977,7 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 [27] [28] [29]
 
-Package caption Warning: \label before \caption on input line 2741.
+Package caption Warning: \label before \caption on input line 2740.
 See the caption package documentation for explanation.
 
 
@@ -3050,16 +3050,12 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'paper1.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  30650 strings out of 430419
  602522 string characters out of 3189424
- 989260 words of memory out of 3000000
+ 989259 words of memory out of 3000000
  33188 multiletter control sequences out of 15000+200000
  80485 words of font info for 109 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
