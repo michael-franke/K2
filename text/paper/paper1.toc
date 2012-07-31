@@ -58,19 +58,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3}Materials}{26}{subsection.141}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textsc {as}\xspace - and \textsc {es}\xspace -sentences and positional controls}{26}{section*.142}
+\contentsline {paragraph}{Target sentences and positional controls}{26}{section*.142}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Preference-related controls}{26}{section*.143}
+\contentsline {paragraph}{Preference-related control sentences}{26}{section*.143}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Acoustic properties}{26}{section*.144}
+\contentsline {paragraph}{Acoustic properties}{27}{section*.144}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4}Participants}{28}{subsection.149}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.5}Results}{28}{subsection.150}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Discussion}{32}{subsection.164}
+\contentsline {subsection}{\numberline {6.6}Discussion}{33}{subsection.164}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{32}{subsubsection.165}
+\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{33}{subsubsection.165}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7}Conclusions}{33}{section.166}
 \defcounter {refsection}{0}\relax 
@@ -78,6 +78,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Targets.}{33}{section*.168}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Target-related fillers.}{33}{section*.171}
+\contentsline {paragraph}{Target-related fillers.}{34}{section*.171}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{36}{section*.174}
+\contentsline {section}{References}{34}{section*.174}
