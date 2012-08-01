@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.26)  1 AUG 2012 13:22
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.26)  1 AUG 2012 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1707,188 +1707,193 @@ ABD: EveryShipout initializing macros (./paper1.toc [1
 \tf@toc=\write8
 \openout8 = `paper1.toc'.
 
- [2] [3]
+ [2]
+
+LaTeX Warning: Citation 'Fodor1998:Learning' on page 3 undefined on input line 
+314.
+
+[3]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 549.
+               Default added (so using `tbp') on input line 550.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 596.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 597.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 596.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 597.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 596.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 597.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 596.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 597.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 596.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 597.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 596.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 597.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 596.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 597.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 659.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 660.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 659.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 660.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 659.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 660.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 659.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 660.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 659.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 660.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 659.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 660.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 659.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 660.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 714.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 715.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 714.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 715.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 714.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 715.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 714.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 715.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 714.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 715.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 714.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 715.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 714.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 715.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 766.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 767.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 766.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 767.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 766.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 767.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 766.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 767.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 766.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 767.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 766.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 767.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 766.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 767.
 
 [4] [5]
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 827.
+               Default added (so using `tbp') on input line 828.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 876.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 877.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 876.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 877.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 876.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 877.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 876.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 877.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 876.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 877.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 876.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 877.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 876.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 877.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 920.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 921.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 920.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 921.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 920.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 921.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 920.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 921.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 920.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 921.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 920.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 921.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 920.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 921.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 982.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 983.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 982.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 983.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 982.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 983.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 982.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 983.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 982.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 983.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 982.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 983.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 982.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 983.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 1022.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 1023.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 1022.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 1023.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 1022.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 1023.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 1022.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 1023.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 1022.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 1023.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 1022.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 1023.
 
 
-LaTeX Font Warning: Command \Large invalid in math mode on input line 1022.
+LaTeX Font Warning: Command \Large invalid in math mode on input line 1023.
 
 [6] [7]
 
 LaTeX Warning: Reference `sec:role-intonation' on page 8 undefined on input lin
-e 1165.
+e 1166.
 
 [8]
 
@@ -1898,7 +1903,7 @@ LaTeX Warning: Marginpar on page 9 moved.
 LaTeX Warning: Marginpar on page 9 moved.
 
 
-Overfull \hbox (0.70007pt too wide) in paragraph at lines 1248--1259
+Overfull \hbox (0.70007pt too wide) in paragraph at lines 1249--1260
 []\T1/txr/m/n/10 Both va-ri-eties of con-ven-tion-al-ism make in-ter-est-ing pr
 e-dic-tions about avail-able read-|
  []
@@ -1906,10 +1911,10 @@ e-dic-tions about avail-able read-|
 [9] [10] [11]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\citet' on input line 1597.
+(hyperref)                removing `\citet' on input line 1598.
 
 
-Overfull \hbox (0.70012pt too wide) in paragraph at lines 1600--1619
+Overfull \hbox (0.70012pt too wide) in paragraph at lines 1601--1620
 []  \T1/txr/m/n/10 Geurts   and Pous-coulous (  [][]  2009[][]  ) con-ducted a 
 picture-verification task to find out whether|
  []
@@ -1917,10 +1922,10 @@ picture-verification task to find out whether|
 [12]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\citet' on input line 1640.
+(hyperref)                removing `\citet' on input line 1641.
 
 
-Overfull \hbox (3.21011pt too wide) in paragraph at lines 1699--1714
+Overfull \hbox (3.21011pt too wide) in paragraph at lines 1700--1715
 \T1/txr/m/n/10 choices for \T1/txr/m/sc/10 as\T1/txr/m/n/10 -readings might be 
 strongly af-fected by the spe-cific ex-per-i-men-tal paradigm|
  []
@@ -1928,7 +1933,7 @@ strongly af-fected by the spe-cific ex-per-i-men-tal paradigm|
 [13]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\citet' on input line 1715.
+(hyperref)                removing `\citet' on input line 1716.
 
 
 <../pictures/paper/Chemla_Spector_2010_Critical_AE.png, id=503, 531.9875pt x 42
@@ -1937,7 +1942,7 @@ File: ../pictures/paper/Chemla_Spector_2010_Critical_AE.png Graphic file (type
 png)
  <use ../pictures/paper/Chemla_Spector_2010_Critical_AE.png>
 Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_Critical_AE.png 
-used on input line 1756.
+used on input line 1757.
 (pdftex.def)             Requested size: 132.99655pt x 105.14255pt.
 
 <../pictures/paper/Chemla_Spector_2010_RatingBar.png, id=504, 499.8675pt x 74.2
@@ -1946,7 +1951,7 @@ File: ../pictures/paper/Chemla_Spector_2010_RatingBar.png Graphic file (type pn
 g)
  <use ../pictures/paper/Chemla_Spector_2010_RatingBar.png>
 Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_RatingBar.png us
-ed on input line 1756.
+ed on input line 1757.
 (pdftex.def)             Requested size: 124.96657pt x 18.56932pt.
 
 <../pictures/paper/Chemla_Spector_2010_Results_AE.png, id=507, 429.605pt x 117.
@@ -1955,7 +1960,7 @@ File: ../pictures/paper/Chemla_Spector_2010_Results_AE.png Graphic file (type p
 ng)
  <use ../pictures/paper/Chemla_Spector_2010_Results_AE.png>
 Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_Results_AE.png u
-sed on input line 1761.
+sed on input line 1762.
 (pdftex.def)             Requested size: 156.49014pt x 42.77966pt.
 
 <../pictures/paper/Chemla_Spector_2010_Results_GE.png, id=508, 492.84125pt x 13
@@ -1964,95 +1969,95 @@ File: ../pictures/paper/Chemla_Spector_2010_Results_GE.png Graphic file (type p
 ng)
  <use ../pictures/paper/Chemla_Spector_2010_Results_GE.png>
 Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_Results_GE.png u
-sed on input line 1766.
+sed on input line 1767.
 (pdftex.def)             Requested size: 156.49014pt x 43.98198pt.
  [14 <../pictures/paper/Chemla_Spector_2010_Critical_AE.png> <../pictures/paper
 /Chemla_Spector_2010_RatingBar.png> <../pictures/paper/Chemla_Spector_2010_Resu
 lts_AE.png> <../pictures/paper/Chemla_Spector_2010_Results_GE.png>]
 
 LaTeX Warning: Reference `fig:literal-EA' on page 15 undefined on input line 18
-67.
+68.
 
 
 LaTeX Warning: Reference `fig:global-EA' on page 15 undefined on input line 186
-7.
+8.
 
 
-LaTeX Warning: Reference `bsp:EA' on page 15 undefined on input line 1867.
+LaTeX Warning: Reference `bsp:EA' on page 15 undefined on input line 1868.
 
 [15]
-Overfull \hbox (0.20013pt too wide) in paragraph at lines 1869--1877
+Overfull \hbox (0.20013pt too wide) in paragraph at lines 1870--1878
 []\T1/txr/m/n/10 To con-clude, al-though con-sid-er-able progress has been made
  in un-der-stand-ing which|
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1939--1940
+Underfull \hbox (badness 10000) in paragraph at lines 1940--1941
 
  []
 
 
-LaTeX Warning: Reference `fig:EA-LIT' on page 17 undefined on input line 1942.
+LaTeX Warning: Reference `fig:EA-LIT' on page 17 undefined on input line 1943.
 
 
 LaTeX Warning: Reference `fig:EA-LITGLB' on page 17 undefined on input line 194
-2.
+3.
 
 
 LaTeX Warning: Reference `fig:EA-FALSE1' on page 17 undefined on input line 194
-2.
+3.
 
 
 LaTeX Warning: Reference `fig:EA-FALSE2' on page 17 undefined on input line 194
-2.
+3.
 
 
 LaTeX Warning: Reference `fig:EA-FALSE1' on page 17 undefined on input line 194
-2.
+3.
 
 
 LaTeX Warning: Reference `fig:EA-FALSE2' on page 17 undefined on input line 194
-2.
+3.
 
 [17] [18]
 
-LaTeX Warning: Reference `fig:AEBars' on page 19 undefined on input line 1988.
+LaTeX Warning: Reference `fig:AEBars' on page 19 undefined on input line 1989.
 
 
-LaTeX Warning: Reference `fig:GEBars' on page 19 undefined on input line 2010.
+LaTeX Warning: Reference `fig:GEBars' on page 19 undefined on input line 2011.
 
 
-LaTeX Warning: Reference `' on page 19 undefined on input line 2012.
+LaTeX Warning: Reference `' on page 19 undefined on input line 2013.
 
 [19]
 
-LaTeX Warning: Reference `fig:EA-LIT' on page 20 undefined on input line 2031.
+LaTeX Warning: Reference `fig:EA-LIT' on page 20 undefined on input line 2032.
 
 
 LaTeX Warning: Reference `fig:EA-LITGLB' on page 20 undefined on input line 203
-1.
+2.
 
 
-LaTeX Warning: Reference `bsp:EA' on page 20 undefined on input line 2034.
+LaTeX Warning: Reference `bsp:EA' on page 20 undefined on input line 2035.
 
 
-LaTeX Warning: Reference `bsp:EA' on page 20 undefined on input line 2034.
+LaTeX Warning: Reference `bsp:EA' on page 20 undefined on input line 2035.
 
 
-LaTeX Warning: Reference `bsp:EA' on page 20 undefined on input line 2034.
+LaTeX Warning: Reference `bsp:EA' on page 20 undefined on input line 2035.
 
 
 LaTeX Warning: Reference `fig:EA-LITGLB' on page 20 undefined on input line 203
-5.
+6.
 
 
-LaTeX Warning: Reference `fig:EA-LIT' on page 20 undefined on input line 2035.
+LaTeX Warning: Reference `fig:EA-LIT' on page 20 undefined on input line 2036.
 
 [20] <../pictures/paper/ae_01_1.pdf, id=615, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ae_01_1.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_01_1.pdf>
-Package pdftex.def Info: ../pictures/paper/ae_01_1.pdf used on input line 2086.
+Package pdftex.def Info: ../pictures/paper/ae_01_1.pdf used on input line 2087.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
  [21 <../pictures/paper/ae_01_1.pdf>]
@@ -2060,7 +2065,7 @@ Package pdftex.def Info: ../pictures/paper/ae_01_1.pdf used on input line 2086.
 File: ../pictures/paper/ae_3_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_3_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ae_3_v_l.pdf used on input line 2145
+Package pdftex.def Info: ../pictures/paper/ae_3_v_l.pdf used on input line 2146
 .
 (pdftex.def)             Requested size: 99.58464pt x 99.57509pt.
 
@@ -2068,7 +2073,7 @@ Package pdftex.def Info: ../pictures/paper/ae_3_v_l.pdf used on input line 2145
 File: ../pictures/paper/ae_5_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_5_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ae_5_v_l.pdf used on input line 2149
+Package pdftex.def Info: ../pictures/paper/ae_5_v_l.pdf used on input line 2150
 .
 (pdftex.def)             Requested size: 99.58464pt x 99.57509pt.
 
@@ -2076,7 +2081,7 @@ Package pdftex.def Info: ../pictures/paper/ae_5_v_l.pdf used on input line 2149
 File: ../pictures/paper/ae_7_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_7_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ae_7_v_l.pdf used on input line 2153
+Package pdftex.def Info: ../pictures/paper/ae_7_v_l.pdf used on input line 2154
 .
 (pdftex.def)             Requested size: 99.58464pt x 99.57509pt.
 
@@ -2084,7 +2089,7 @@ Package pdftex.def Info: ../pictures/paper/ae_7_v_l.pdf used on input line 2153
 File: ../pictures/paper/ge_3_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ge_3_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ge_3_v_l.pdf used on input line 2197
+Package pdftex.def Info: ../pictures/paper/ge_3_v_l.pdf used on input line 2198
 .
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
 
@@ -2092,7 +2097,7 @@ Package pdftex.def Info: ../pictures/paper/ge_3_v_l.pdf used on input line 2197
 File: ../pictures/paper/ge_4_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ge_4_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ge_4_v_l.pdf used on input line 2201
+Package pdftex.def Info: ../pictures/paper/ge_4_v_l.pdf used on input line 2202
 .
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
 
@@ -2100,7 +2105,7 @@ Package pdftex.def Info: ../pictures/paper/ge_4_v_l.pdf used on input line 2201
 File: ../pictures/paper/ge_6_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ge_6_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ge_6_v_l.pdf used on input line 2205
+Package pdftex.def Info: ../pictures/paper/ge_6_v_l.pdf used on input line 2206
 .
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
  [22 <../pictures/paper/ae_3_v_l.pdf> <../pictures/paper/ae_5_v_l.pdf> <../pict
@@ -2110,7 +2115,7 @@ er/ge_4_v_l.pdf> <../pictures/paper/ge_6_v_l.pdf>] [24]
 File: ../pictures/paper/ec_01_3.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ec_01_3.pdf>
-Package pdftex.def Info: ../pictures/paper/ec_01_3.pdf used on input line 2365.
+Package pdftex.def Info: ../pictures/paper/ec_01_3.pdf used on input line 2366.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
 
@@ -2118,7 +2123,7 @@ Package pdftex.def Info: ../pictures/paper/ec_01_3.pdf used on input line 2365.
 File: ../pictures/paper/ec_01_5.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ec_01_5.pdf>
-Package pdftex.def Info: ../pictures/paper/ec_01_5.pdf used on input line 2369.
+Package pdftex.def Info: ../pictures/paper/ec_01_5.pdf used on input line 2370.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
 
@@ -2126,7 +2131,7 @@ Package pdftex.def Info: ../pictures/paper/ec_01_5.pdf used on input line 2369.
 File: ../pictures/paper/lc_01_3.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/lc_01_3.pdf>
-Package pdftex.def Info: ../pictures/paper/lc_01_3.pdf used on input line 2401.
+Package pdftex.def Info: ../pictures/paper/lc_01_3.pdf used on input line 2402.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
 
@@ -2134,43 +2139,43 @@ Package pdftex.def Info: ../pictures/paper/lc_01_3.pdf used on input line 2401.
 File: ../pictures/paper/lc_01_6.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/lc_01_6.pdf>
-Package pdftex.def Info: ../pictures/paper/lc_01_6.pdf used on input line 2405.
+Package pdftex.def Info: ../pictures/paper/lc_01_6.pdf used on input line 2406.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
 
-Overfull \hbox (0.3511pt too wide) in paragraph at lines 2415--2426
+Overfull \hbox (0.3511pt too wide) in paragraph at lines 2416--2427
  []\T1/txr/bx/n/10 Testing Ef-fects of ac-cen-tu-a-tion.[] [] \T1/txr/m/n/10 It
  has been claimed that lo-cal read-ings only emerge|
  []
 
 [25 <../pictures/paper/ec_01_3.pdf> <../pictures/paper/ec_01_5.pdf>] [26 <../pi
 ctures/paper/lc_01_3.pdf> <../pictures/paper/lc_01_6.pdf>] [27]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 2594
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 2595
 .
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 ) [28]
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 2616
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 2617
 .
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 2616.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 2617.
 
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2634.
+               Default added (so using `tbp') on input line 2635.
 
 <../pictures/paper/graph_AE_AKZ.jpg, id=993, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_AE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_AE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_AE_AKZ.jpg used on input line 
-2639.
+2640.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 <../pictures/paper/graph_AE_NTR.jpg, id=994, 1003.75pt x 803.0pt>
@@ -2178,7 +2183,7 @@ File: ../pictures/paper/graph_AE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_AE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_AE_NTR.jpg used on input line 
-2643.
+2644.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 <../pictures/paper/graph_GE_AKZ.jpg, id=995, 1003.75pt x 803.0pt>
@@ -2186,7 +2191,7 @@ File: ../pictures/paper/graph_GE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_GE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_GE_AKZ.jpg used on input line 
-2648.
+2649.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 <../pictures/paper/graph_GE_NTR.jpg, id=996, 1003.75pt x 803.0pt>
@@ -2194,33 +2199,33 @@ File: ../pictures/paper/graph_GE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_GE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_GE_NTR.jpg used on input line 
-2652.
+2653.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2673.
+               Default added (so using `tbp') on input line 2674.
 
 [29] [30 <../pictures/paper/graph_AE_AKZ.jpg> <../pictures/paper/graph_AE_NTR.j
 pg> <../pictures/paper/graph_GE_AKZ.jpg> <../pictures/paper/graph_GE_NTR.jpg>]
 [31]
 
-Package caption Warning: \label before \caption on input line 2919.
+Package caption Warning: \label before \caption on input line 2920.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:HistogramLocalReadingsK2' on page 32 undefined on
- input line 2853.
+ input line 2854.
 
 
-LaTeX Warning: Reference `' on page 32 undefined on input line 2874.
+LaTeX Warning: Reference `' on page 32 undefined on input line 2875.
 
 <../pictures/paper/histLocalReadingAE_AKZ.jpg, id=1024, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingAE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingAE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingAE_AKZ.jpg used on i
-nput line 2905.
+nput line 2906.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 <../pictures/paper/histLocalReadingAE_NTR.jpg, id=1025, 1003.75pt x 803.0pt>
@@ -2228,7 +2233,7 @@ File: ../pictures/paper/histLocalReadingAE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingAE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingAE_NTR.jpg used on i
-nput line 2909.
+nput line 2910.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 <../pictures/paper/histLocalReadingGE_AKZ.jpg, id=1026, 1003.75pt x 803.0pt>
@@ -2236,7 +2241,7 @@ File: ../pictures/paper/histLocalReadingGE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingGE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingGE_AKZ.jpg used on i
-nput line 2914.
+nput line 2915.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 <../pictures/paper/histLocalReadingGE_NTR.jpg, id=1027, 1003.75pt x 803.0pt>
@@ -2244,7 +2249,7 @@ File: ../pictures/paper/histLocalReadingGE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingGE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingGE_NTR.jpg used on i
-nput line 2918.
+nput line 2919.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 
@@ -2258,7 +2263,7 @@ File: ../pictures/Acoustics/Table-A.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-A.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-A.png used on input line 3
-010.
+011.
 (pdftex.def)             Requested size: 345.0pt x 362.58694pt.
 
 <../pictures/Acoustics/Table-B.png, id=1045, 765.86125pt x 808.01875pt>
@@ -2266,7 +2271,7 @@ File: ../pictures/Acoustics/Table-B.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-B.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-B.png used on input line 3
-019.
+020.
 (pdftex.def)             Requested size: 345.0pt x 363.98729pt.
 
 <../pictures/Acoustics/Table-C.png, id=1047, 692.5875pt x 1001.7425pt>
@@ -2274,7 +2279,7 @@ File: ../pictures/Acoustics/Table-C.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-C.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-C.png used on input line 3
-040.
+041.
 (pdftex.def)             Requested size: 345.0pt x 499.0052pt.
 
 <../pictures/Acoustics/Table-D.png, id=1048, 694.595pt x 858.20625pt>
@@ -2282,41 +2287,41 @@ File: ../pictures/Acoustics/Table-D.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-D.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-D.png used on input line 3
-052.
+053.
 (pdftex.def)             Requested size: 345.0pt x 426.27351pt.
  [34] [35 <../pictures/Acoustics/Table-A.png>] [36 <../pictures/Acoustics/Table
 -B.png>] [37 <../pictures/Acoustics/Table-C.png>] [38 <../pictures/Acoustics/Ta
 ble-D.png>]
-Overfull \hbox (0.38388pt too wide) in paragraph at lines 3058--3058
+Overfull \hbox (0.38388pt too wide) in paragraph at lines 3059--3059
 [][]  \T1/txr/m/n/10 Grice, Paul Her-bert   (  1975).   ``  Logic and Con-ver-s
 a-tion''.     In:     \T1/txr/m/it/10 Syn-tax and Se-man-tics, Vol. 3,|
  []
 
 [39]
-Overfull \hbox (2.58328pt too wide) in paragraph at lines 3058--3058
+Overfull \hbox (2.58328pt too wide) in paragraph at lines 3059--3059
 [][][]  \T1/txr/m/n/10 (  2006).   ``  The Bor-der Wars: A Neo-Gricean Per-spec
 -tive''.     In:     \T1/txr/m/it/10 Where Se-man-tics Meets|
  []
 
 
-Overfull \hbox (0.39548pt too wide) in paragraph at lines 3058--3058
+Overfull \hbox (0.39548pt too wide) in paragraph at lines 3059--3059
 [][]  \T1/txr/m/n/10 Rus-sell, Ben-jamin   (  2006).   ``  Against Gram-mat-i-c
 al Com-pu-ta-tion of Scalar Im-pli-ca-tures''.|
  []
 
 [40]
-Overfull \hbox (9.2463pt too wide) in paragraph at lines 3058--3058
+Overfull \hbox (9.2463pt too wide) in paragraph at lines 3059--3059
 [][]  \T1/txr/m/n/10 Stern-berg, S.   (  1966).   ``  High-speed scan-ning in h
 u-man mem-ory''.     In:     \T1/txr/m/it/10 Sci-ence   \T1/txr/m/n/10 153,    
  pp. 652^^U|
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3060.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3061.
 [41]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3060.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3061.
  (./paper1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3060.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3060.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3061.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3061.
 
 Package rerunfilecheck Info: File `paper1.out' has not changed.
 (rerunfilecheck)             Checksum: 7F6B564B79300541A3DFA5FA2CFD8717;1779.
@@ -2327,6 +2332,11 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                paper1
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'paper1.run.xml'.
 \openout1 = `paper1.run.xml'.
 
@@ -2334,7 +2344,7 @@ Package logreq Info: Writing requests to 'paper1.run.xml'.
 Here is how much of TeX's memory you used:
  33295 strings out of 493633
  647257 string characters out of 3143377
- 1025668 words of memory out of 3000000
+ 1024655 words of memory out of 3000000
  35631 multiletter control sequences out of 15000+200000
  111928 words of font info for 154 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -2386,7 +2396,7 @@ b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></us
 r/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper1.pdf (41 pages, 991654 bytes).
+Output written on paper1.pdf (41 pages, 992181 bytes).
 PDF statistics:
  1194 PDF objects out of 1200 (max. 8388607)
  1044 compressed objects within 11 object streams

@@ -2,18 +2,21 @@
 \bibstyle{biblatex}
 \bibdata{paper-blx,paper}
 \citation{biblatex-control}
-\ifx\hyper@anchor\@undefined
-\global \let \oldcontentsline\contentsline
-\gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
-\global \let \oldnewlabel\newlabel
-\gdef \newlabel#1#2{\newlabelxx{#1}#2}
-\gdef \newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
-\AtEndDocument{\let \contentsline\oldcontentsline
-\let \newlabel\oldnewlabel}
-\else
-\global \let \hyper@last\relax 
-\fi
-
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
 \catcode`"\active
 \citation{Horn1972:On-the-Semantic}
 \citation{Gazdar1979:Pragmatics:-Imp}
@@ -56,6 +59,7 @@
 \citation{ChemlaSpector2010:Experimental-Ev}
 \citation{Geurts2010:Quantity-Implic}
 \citation{Tielvan-Tiel2012:Embedded-Scalar}
+\citation{Fodor1998:Learning}
 \newlabel{bsp:GE-Alternative}{{5}{3}{Introduction\relax }{Item.16}{}}
 \abx@aux@page{9}{3}
 \abx@aux@page{10}{3}
@@ -531,10 +535,10 @@
 \abx@aux@page{177}{37}
 \abx@aux@page{178}{37}
 \abx@aux@page{179}{37}
-\abx@aux@page{180}{38}
-\abx@aux@page{181}{38}
 \gdef\svnInfoMinRevision{98}
 \gdef\svnInfoMaxRevision{106}
 \gdef\svnInfoMaxDay{20}
 \gdef\svnInfoMaxMonth{07}
 \gdef\svnInfoMaxYear{2012}
+\abx@aux@page{180}{38}
+\abx@aux@page{181}{38}
