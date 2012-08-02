@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.26)  1 AUG 2012 15:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.26)  2 AUG 2012 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1610,9 +1610,6 @@ Package biblatex Warning: Data encoding is 'utf8'.
 \openout3 = `paper1-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-
-Package biblatex Warning: File 'paper1.bbl' created by wrong version.
-
 Package biblatex Info: ... file 'paper1.bbl' found.
 (./paper1.bbl
 
@@ -1707,12 +1704,7 @@ ABD: EveryShipout initializing macros (./paper1.toc [1
 \tf@toc=\write8
 \openout8 = `paper1.toc'.
 
- [2]
-
-LaTeX Warning: Citation 'Fodor1998:Learning' on page 3 undefined on input line 
-314.
-
-[3]
+ [2] [3]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 550.
@@ -1936,7 +1928,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\citet' on input line 1716.
 
 
-<../pictures/paper/Chemla_Spector_2010_Critical_AE.png, id=503, 531.9875pt x 42
+<../pictures/paper/Chemla_Spector_2010_Critical_AE.png, id=505, 531.9875pt x 42
 0.57124pt>
 File: ../pictures/paper/Chemla_Spector_2010_Critical_AE.png Graphic file (type 
 png)
@@ -1945,7 +1937,7 @@ Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_Critical_AE.png
 used on input line 1757.
 (pdftex.def)             Requested size: 132.99655pt x 105.14255pt.
 
-<../pictures/paper/Chemla_Spector_2010_RatingBar.png, id=504, 499.8675pt x 74.2
+<../pictures/paper/Chemla_Spector_2010_RatingBar.png, id=506, 499.8675pt x 74.2
 775pt>
 File: ../pictures/paper/Chemla_Spector_2010_RatingBar.png Graphic file (type pn
 g)
@@ -1954,7 +1946,7 @@ Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_RatingBar.png us
 ed on input line 1757.
 (pdftex.def)             Requested size: 124.96657pt x 18.56932pt.
 
-<../pictures/paper/Chemla_Spector_2010_Results_AE.png, id=507, 429.605pt x 117.
+<../pictures/paper/Chemla_Spector_2010_Results_AE.png, id=509, 429.605pt x 117.
 43875pt>
 File: ../pictures/paper/Chemla_Spector_2010_Results_AE.png Graphic file (type p
 ng)
@@ -1963,7 +1955,7 @@ Package pdftex.def Info: ../pictures/paper/Chemla_Spector_2010_Results_AE.png u
 sed on input line 1762.
 (pdftex.def)             Requested size: 156.49014pt x 42.77966pt.
 
-<../pictures/paper/Chemla_Spector_2010_Results_GE.png, id=508, 492.84125pt x 13
+<../pictures/paper/Chemla_Spector_2010_Results_GE.png, id=510, 492.84125pt x 13
 8.5175pt>
 File: ../pictures/paper/Chemla_Spector_2010_Results_GE.png Graphic file (type p
 ng)
@@ -2053,7 +2045,7 @@ LaTeX Warning: Reference `fig:EA-LITGLB' on page 20 undefined on input line 203
 
 LaTeX Warning: Reference `fig:EA-LIT' on page 20 undefined on input line 2036.
 
-[20] <../pictures/paper/ae_01_1.pdf, id=615, 640.34631pt x 640.34631pt>
+[20] <../pictures/paper/ae_01_1.pdf, id=617, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ae_01_1.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_01_1.pdf>
@@ -2061,7 +2053,7 @@ Package pdftex.def Info: ../pictures/paper/ae_01_1.pdf used on input line 2087.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
  [21 <../pictures/paper/ae_01_1.pdf>]
-<../pictures/paper/ae_3_v_l.pdf, id=640, 640.34631pt x 640.34631pt>
+<../pictures/paper/ae_3_v_l.pdf, id=642, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ae_3_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_3_v_l.pdf>
@@ -2069,7 +2061,7 @@ Package pdftex.def Info: ../pictures/paper/ae_3_v_l.pdf used on input line 2146
 .
 (pdftex.def)             Requested size: 99.58464pt x 99.57509pt.
 
-<../pictures/paper/ae_5_v_l.pdf, id=641, 640.34631pt x 640.34631pt>
+<../pictures/paper/ae_5_v_l.pdf, id=643, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ae_5_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_5_v_l.pdf>
@@ -2077,7 +2069,7 @@ Package pdftex.def Info: ../pictures/paper/ae_5_v_l.pdf used on input line 2150
 .
 (pdftex.def)             Requested size: 99.58464pt x 99.57509pt.
 
-<../pictures/paper/ae_7_v_l.pdf, id=642, 640.34631pt x 640.34631pt>
+<../pictures/paper/ae_7_v_l.pdf, id=644, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ae_7_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_7_v_l.pdf>
@@ -2085,7 +2077,7 @@ Package pdftex.def Info: ../pictures/paper/ae_7_v_l.pdf used on input line 2154
 .
 (pdftex.def)             Requested size: 99.58464pt x 99.57509pt.
 
-<../pictures/paper/ge_3_v_l.pdf, id=644, 640.34631pt x 640.34631pt>
+<../pictures/paper/ge_3_v_l.pdf, id=646, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ge_3_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ge_3_v_l.pdf>
@@ -2093,7 +2085,7 @@ Package pdftex.def Info: ../pictures/paper/ge_3_v_l.pdf used on input line 2198
 .
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
 
-<../pictures/paper/ge_4_v_l.pdf, id=645, 640.34631pt x 640.34631pt>
+<../pictures/paper/ge_4_v_l.pdf, id=647, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ge_4_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ge_4_v_l.pdf>
@@ -2101,7 +2093,7 @@ Package pdftex.def Info: ../pictures/paper/ge_4_v_l.pdf used on input line 2202
 .
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
 
-<../pictures/paper/ge_6_v_l.pdf, id=646, 640.34631pt x 640.34631pt>
+<../pictures/paper/ge_6_v_l.pdf, id=648, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ge_6_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ge_6_v_l.pdf>
@@ -2111,7 +2103,7 @@ Package pdftex.def Info: ../pictures/paper/ge_6_v_l.pdf used on input line 2206
  [22 <../pictures/paper/ae_3_v_l.pdf> <../pictures/paper/ae_5_v_l.pdf> <../pict
 ures/paper/ae_7_v_l.pdf>] [23 <../pictures/paper/ge_3_v_l.pdf> <../pictures/pap
 er/ge_4_v_l.pdf> <../pictures/paper/ge_6_v_l.pdf>] [24]
-<../pictures/paper/ec_01_3.pdf, id=800, 640.34631pt x 640.34631pt>
+<../pictures/paper/ec_01_3.pdf, id=802, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ec_01_3.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ec_01_3.pdf>
@@ -2119,7 +2111,7 @@ Package pdftex.def Info: ../pictures/paper/ec_01_3.pdf used on input line 2366.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
 
-<../pictures/paper/ec_01_5.pdf, id=801, 640.34631pt x 640.34631pt>
+<../pictures/paper/ec_01_5.pdf, id=803, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ec_01_5.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ec_01_5.pdf>
@@ -2127,7 +2119,7 @@ Package pdftex.def Info: ../pictures/paper/ec_01_5.pdf used on input line 2370.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
 
-<../pictures/paper/lc_01_3.pdf, id=816, 640.34631pt x 640.34631pt>
+<../pictures/paper/lc_01_3.pdf, id=818, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/lc_01_3.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/lc_01_3.pdf>
@@ -2135,7 +2127,7 @@ Package pdftex.def Info: ../pictures/paper/lc_01_3.pdf used on input line 2402.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
 
-<../pictures/paper/lc_01_6.pdf, id=817, 640.34631pt x 640.34631pt>
+<../pictures/paper/lc_01_6.pdf, id=819, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/lc_01_6.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/lc_01_6.pdf>
@@ -2150,182 +2142,188 @@ Overfull \hbox (0.3511pt too wide) in paragraph at lines 2416--2427
 
 [25 <../pictures/paper/ec_01_3.pdf> <../pictures/paper/ec_01_5.pdf>] [26 <../pi
 ctures/paper/lc_01_3.pdf> <../pictures/paper/lc_01_6.pdf>] [27]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 2595
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 2598
 .
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
-) [28]
-LaTeX Font Info:    Try loading font information for OMS+txr on input line 2617
+) [28] [29]
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 2634
 .
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 2617.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 2634.
 
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2635.
+               Default added (so using `tbp') on input line 2652.
 
-<../pictures/paper/graph_AE_AKZ.jpg, id=993, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_AE_AKZ.jpg, id=1004, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_AE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_AE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_AE_AKZ.jpg used on input line 
-2640.
+2657.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/graph_AE_NTR.jpg, id=994, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_AE_NTR.jpg, id=1005, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_AE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_AE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_AE_NTR.jpg used on input line 
-2644.
+2661.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/graph_GE_AKZ.jpg, id=995, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_GE_AKZ.jpg, id=1006, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_GE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_GE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_GE_AKZ.jpg used on input line 
-2649.
+2666.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/graph_GE_NTR.jpg, id=996, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_GE_NTR.jpg, id=1007, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_GE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_GE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_GE_NTR.jpg used on input line 
-2653.
+2670.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2674.
+               Default added (so using `tbp') on input line 2691.
 
-[29] [30 <../pictures/paper/graph_AE_AKZ.jpg> <../pictures/paper/graph_AE_NTR.j
+[30] [31 <../pictures/paper/graph_AE_AKZ.jpg> <../pictures/paper/graph_AE_NTR.j
 pg> <../pictures/paper/graph_GE_AKZ.jpg> <../pictures/paper/graph_GE_NTR.jpg>]
-[31]
+[32]
 
-Package caption Warning: \label before \caption on input line 2920.
+Package caption Warning: \label before \caption on input line 2934.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:HistogramLocalReadingsK2' on page 32 undefined on
- input line 2854.
+LaTeX Warning: Reference `fig:HistogramLocalReadingsK2' on page 33 undefined on
+ input line 2871.
 
 
-LaTeX Warning: Reference `' on page 32 undefined on input line 2875.
+LaTeX Warning: Reference `' on page 33 undefined on input line 2892.
 
-<../pictures/paper/histLocalReadingAE_AKZ.jpg, id=1024, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingAE_AKZ.jpg, id=1041, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingAE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingAE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingAE_AKZ.jpg used on i
-nput line 2906.
+nput line 2923.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/histLocalReadingAE_NTR.jpg, id=1025, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingAE_NTR.jpg, id=1042, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingAE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingAE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingAE_NTR.jpg used on i
-nput line 2910.
+nput line 2927.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/histLocalReadingGE_AKZ.jpg, id=1026, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingGE_AKZ.jpg, id=1043, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingGE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingGE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingGE_AKZ.jpg used on i
-nput line 2915.
+nput line 2932.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/histLocalReadingGE_NTR.jpg, id=1027, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingGE_NTR.jpg, id=1044, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingGE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingGE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingGE_NTR.jpg used on i
-nput line 2919.
+nput line 2936.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[32] [33 <../pictures/paper/histLocalReadingAE_AKZ.jpg> <../pictures/paper/hist
+[33] [34 <../pictures/paper/histLocalReadingAE_AKZ.jpg> <../pictures/paper/hist
 LocalReadingAE_NTR.jpg> <../pictures/paper/histLocalReadingGE_AKZ.jpg> <../pict
 ures/paper/histLocalReadingGE_NTR.jpg>]
-<../pictures/Acoustics/Table-A.png, id=1044, 767.86874pt x 807.015pt>
+<../pictures/Acoustics/Table-A.png, id=1062, 767.86874pt x 807.015pt>
 File: ../pictures/Acoustics/Table-A.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-A.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-A.png used on input line 3
-011.
+028.
 (pdftex.def)             Requested size: 345.0pt x 362.58694pt.
 
-<../pictures/Acoustics/Table-B.png, id=1045, 765.86125pt x 808.01875pt>
+<../pictures/Acoustics/Table-B.png, id=1063, 765.86125pt x 808.01875pt>
 File: ../pictures/Acoustics/Table-B.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-B.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-B.png used on input line 3
-020.
+037.
 (pdftex.def)             Requested size: 345.0pt x 363.98729pt.
 
-<../pictures/Acoustics/Table-C.png, id=1047, 692.5875pt x 1001.7425pt>
+<../pictures/Acoustics/Table-C.png, id=1065, 692.5875pt x 1001.7425pt>
 File: ../pictures/Acoustics/Table-C.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-C.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-C.png used on input line 3
-041.
+058.
 (pdftex.def)             Requested size: 345.0pt x 499.0052pt.
 
-<../pictures/Acoustics/Table-D.png, id=1048, 694.595pt x 858.20625pt>
+<../pictures/Acoustics/Table-D.png, id=1066, 694.595pt x 858.20625pt>
 File: ../pictures/Acoustics/Table-D.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-D.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-D.png used on input line 3
-053.
+070.
 (pdftex.def)             Requested size: 345.0pt x 426.27351pt.
- [34] [35 <../pictures/Acoustics/Table-A.png>] [36 <../pictures/Acoustics/Table
--B.png>] [37 <../pictures/Acoustics/Table-C.png>] [38 <../pictures/Acoustics/Ta
-ble-D.png>]
-Overfull \hbox (0.38388pt too wide) in paragraph at lines 3059--3059
+ [35] [36 <../pictures/Acoustics/Table-A.png>] [37 <../pictures/Acoustics/Table
+-B.png>] [38 <../pictures/Acoustics/Table-C.png>] [39 <../pictures/Acoustics/Ta
+ble-D.png>] [40]
+Overfull \hbox (0.38388pt too wide) in paragraph at lines 3076--3076
 [][]  \T1/txr/m/n/10 Grice, Paul Her-bert   (  1975).   ``  Logic and Con-ver-s
 a-tion''.     In:     \T1/txr/m/it/10 Syn-tax and Se-man-tics, Vol. 3,|
  []
 
-[39]
-Overfull \hbox (2.58328pt too wide) in paragraph at lines 3059--3059
+
+Overfull \hbox (2.58328pt too wide) in paragraph at lines 3076--3076
 [][][]  \T1/txr/m/n/10 (  2006).   ``  The Bor-der Wars: A Neo-Gricean Per-spec
 -tive''.     In:     \T1/txr/m/it/10 Where Se-man-tics Meets|
  []
 
 
-Overfull \hbox (0.39548pt too wide) in paragraph at lines 3059--3059
+Overfull \hbox (0.39548pt too wide) in paragraph at lines 3076--3076
 [][]  \T1/txr/m/n/10 Rus-sell, Ben-jamin   (  2006).   ``  Against Gram-mat-i-c
 al Com-pu-ta-tion of Scalar Im-pli-ca-tures''.|
  []
 
-[40]
-Overfull \hbox (9.2463pt too wide) in paragraph at lines 3059--3059
+[41]
+Overfull \hbox (9.2463pt too wide) in paragraph at lines 3076--3076
 [][]  \T1/txr/m/n/10 Stern-berg, S.   (  1966).   ``  High-speed scan-ning in h
 u-man mem-ory''.     In:     \T1/txr/m/it/10 Sci-ence   \T1/txr/m/n/10 153,    
  pp. 652^^U|
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3061.
-[41]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3061.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3078.
+[42]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3078.
  (./paper1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3061.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3061.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3078.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3078.
 
-Package rerunfilecheck Info: File `paper1.out' has not changed.
-(rerunfilecheck)             Checksum: 7F6B564B79300541A3DFA5FA2CFD8717;1779.
 
+
+Package rerunfilecheck Warning: File `paper1.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `paper1.out':
+(rerunfilecheck)             Before: 020AD1EE55D6598C72DF788D67C19987;1779
+(rerunfilecheck)             After:  9894362089D099598C97D92790384DF8;1779.
 
 LaTeX Warning: There were undefined references.
 
@@ -2333,24 +2331,38 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                paper1
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'paper1.run.xml'.
 \openout1 = `paper1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33295 strings out of 493633
- 647257 string characters out of 3143377
- 1024655 words of memory out of 3000000
- 35631 multiletter control sequences out of 15000+200000
+ 33314 strings out of 493633
+ 647553 string characters out of 3143377
+ 1025345 words of memory out of 3000000
+ 35635 multiletter control sequences out of 15000+200000
  111928 words of font info for 154 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  56i,22n,87p,1443b,2019s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Hfootnote.100} has been referenced but does not e
-xist, replaced by a fixed one
+pdfTeX warning (dest): name{table.caption.173} has been referenced but does n
+ot exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.170} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subfigure.158} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.157} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.152} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.100} has been referenced but does not exi
+st, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.96} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2382,6 +2394,24 @@ t, replaced by a fixed one
 pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
 t, replaced by a fixed one
 
+pdfTeX warning (dest): name{section*.175} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{appendix.168} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.167} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsubsection.166} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.165} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.150} has been referenced but does not ex
+ist, replaced by a fixed one
+
 {/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2011/texmf-dist/fonts/type1/public/eurosym/feymr10.pfb></usr/local/texlive
 /2011/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></usr/local/texlive/2011/t
@@ -2396,10 +2426,10 @@ b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></us
 r/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper1.pdf (41 pages, 992181 bytes).
+Output written on paper1.pdf (42 pages, 995451 bytes).
 PDF statistics:
- 1194 PDF objects out of 1200 (max. 8388607)
- 1044 compressed objects within 11 object streams
- 258 named destinations out of 1000 (max. 500000)
+ 1220 PDF objects out of 1440 (max. 8388607)
+ 1069 compressed objects within 11 object streams
+ 273 named destinations out of 1000 (max. 500000)
  372 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 1.7 $
+% $ biblatex version 1.5 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -384,6 +384,27 @@
   \field{title}{Reciprocal Expressions and the Concept of Reciprocity}
   \field{volume}{21}
   \field{journaltitle}{Linguistics and Philosophy}
+  \field{year}{1998}
+\endentry
+
+\entry{Fodor1998:Learning}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Fodor}{F.}%
+     {Janet}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \keyw{silent prosody}
+  \strng{namehash}{FJ1}
+  \strng{fullhash}{FJ1}
+  \field{labelyear}{1998}
+  \field{sortinit}{F}
+  \field{number}{2}
+  \field{pages}{285\bibrangedash 319}
+  \field{title}{Learning to Parse}
+  \field{volume}{27}
+  \field{journaltitle}{Journal of Psycholinguistic Research}
   \field{year}{1998}
 \endentry
 

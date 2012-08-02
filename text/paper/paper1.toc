@@ -64,20 +64,24 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Acoustic properties}{27}{section*.144}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Participants}{29}{subsection.149}
+\contentsline {paragraph}{Pictures}{29}{section*.149}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Results}{29}{subsection.150}
+\contentsline {paragraph}{Lists}{30}{section*.150}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Discussion}{33}{subsection.164}
+\contentsline {subsection}{\numberline {6.4}Participants}{30}{subsection.151}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{33}{subsubsection.165}
+\contentsline {subsection}{\numberline {6.5}Results}{30}{subsection.152}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions}{34}{section.166}
+\contentsline {subsection}{\numberline {6.6}Discussion}{34}{subsection.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}The auditory sentence material}{34}{appendix.167}
+\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{34}{subsubsection.167}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Targets.}{34}{section*.168}
+\contentsline {section}{\numberline {7}Conclusions}{35}{section.168}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Target-related fillers.}{34}{section*.171}
+\contentsline {section}{\numberline {A}The auditory sentence material}{35}{appendix.169}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{39}{section*.174}
+\contentsline {paragraph}{Targets.}{35}{section*.170}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Target-related fillers.}{35}{section*.173}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{40}{section*.176}

@@ -2,4 +2,4 @@
 
 - Effect of local reading: While it is possible that the presence vs. absence of a cetrain reading may have an effect on TVJs, this still sound odd. Normally "XY reported an effect of variable Z" means that the manipulation of an independent variable led to a change in a dependent variable. Here however, local reading are not an independent variable.
 
--
+- We describe the advantage of spillover-pictures in the materials section. However, we have removed spillover pictures between the global and the literal reading in the ge condition (why exactly did we do this?). 
