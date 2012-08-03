@@ -52,7 +52,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Preference-related controls.}{24}{section*.128}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Testing Effects of accentuation.}{26}{section*.139}
+\contentsline {paragraph}{Testing Effects of prosody.}{26}{section*.139}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2}Procedure}{27}{subsection.140}
 \defcounter {refsection}{0}\relax 
@@ -64,9 +64,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Acoustic properties}{27}{section*.144}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Pictures}{29}{section*.149}
+\contentsline {paragraph}{Pictures.}{29}{section*.149}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lists}{30}{section*.150}
+\contentsline {paragraph}{Lists.}{30}{section*.150}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.4}Participants}{30}{subsection.151}
 \defcounter {refsection}{0}\relax 
@@ -84,4 +84,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Target-related fillers.}{35}{section*.173}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{40}{section*.176}
+\contentsline {section}{References}{38}{section*.176}
