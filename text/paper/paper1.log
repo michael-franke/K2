@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.3)  5 AUG 2012 17:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.3)  5 AUG 2012 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2232,74 +2232,74 @@ LaTeX Warning: Reference `' on page 34 undefined on input line 3091.
 
 [34 <../pictures/paper/histLocalReadingAE_AKZ.jpg> <../pictures/paper/histLocal
 ReadingAE_NTR.jpg> <../pictures/paper/histLocalReadingGE_AKZ.jpg> <../pictures/
-paper/histLocalReadingGE_NTR.jpg>] [35]
-<../pictures/Acoustics/Table-A.png, id=1060, 767.86874pt x 807.015pt>
+paper/histLocalReadingGE_NTR.jpg>] [35] [36]
+<../pictures/Acoustics/Table-A.png, id=1072, 767.86874pt x 807.015pt>
 File: ../pictures/Acoustics/Table-A.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-A.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-A.png used on input line 3
-206.
+332.
 (pdftex.def)             Requested size: 345.0pt x 362.58694pt.
 
-<../pictures/Acoustics/Table-B.png, id=1061, 765.86125pt x 808.01875pt>
+<../pictures/Acoustics/Table-B.png, id=1073, 765.86125pt x 808.01875pt>
 File: ../pictures/Acoustics/Table-B.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-B.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-B.png used on input line 3
-215.
+341.
 (pdftex.def)             Requested size: 345.0pt x 363.98729pt.
 
-<../pictures/Acoustics/Table-C.png, id=1063, 692.5875pt x 1001.7425pt>
+<../pictures/Acoustics/Table-C.png, id=1075, 692.5875pt x 1001.7425pt>
 File: ../pictures/Acoustics/Table-C.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-C.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-C.png used on input line 3
-236.
+362.
 (pdftex.def)             Requested size: 345.0pt x 499.0052pt.
 
-<../pictures/Acoustics/Table-D.png, id=1064, 694.595pt x 858.20625pt>
+<../pictures/Acoustics/Table-D.png, id=1076, 694.595pt x 858.20625pt>
 File: ../pictures/Acoustics/Table-D.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-D.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-D.png used on input line 3
-248.
+374.
 (pdftex.def)             Requested size: 345.0pt x 426.27351pt.
- [36] [37 <../pictures/Acoustics/Table-A.png>] [38 <../pictures/Acoustics/Table
--B.png>] [39 <../pictures/Acoustics/Table-C.png>] [40 <../pictures/Acoustics/Ta
+ [37] [38 <../pictures/Acoustics/Table-A.png>] [39 <../pictures/Acoustics/Table
+-B.png>] [40 <../pictures/Acoustics/Table-C.png>] [41 <../pictures/Acoustics/Ta
 ble-D.png>]
-Overfull \hbox (0.38388pt too wide) in paragraph at lines 3254--3254
+Overfull \hbox (0.38388pt too wide) in paragraph at lines 3380--3380
 [][]  \T1/txr/m/n/10 Grice, Paul Her-bert   (  1975).   ``  Logic and Con-ver-s
 a-tion''.     In:     \T1/txr/m/it/10 Syn-tax and Se-man-tics, Vol. 3,|
  []
 
 
-Overfull \hbox (2.58328pt too wide) in paragraph at lines 3254--3254
+Overfull \hbox (2.58328pt too wide) in paragraph at lines 3380--3380
 [][][]  \T1/txr/m/n/10 (  2006).   ``  The Bor-der Wars: A Neo-Gricean Per-spec
 -tive''.     In:     \T1/txr/m/it/10 Where Se-man-tics Meets|
  []
 
-[41]
-Overfull \hbox (0.39548pt too wide) in paragraph at lines 3254--3254
+[42]
+Overfull \hbox (0.39548pt too wide) in paragraph at lines 3380--3380
 [][]  \T1/txr/m/n/10 Rus-sell, Ben-jamin   (  2006).   ``  Against Gram-mat-i-c
 al Com-pu-ta-tion of Scalar Im-pli-ca-tures''.|
  []
 
 
-Overfull \hbox (9.2463pt too wide) in paragraph at lines 3254--3254
+Overfull \hbox (9.2463pt too wide) in paragraph at lines 3380--3380
 [][]  \T1/txr/m/n/10 Stern-berg, S.   (  1966).   ``  High-speed scan-ning in h
 u-man mem-ory''.     In:     \T1/txr/m/it/10 Sci-ence   \T1/txr/m/n/10 153,    
  pp. 652^^U|
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3256.
-[42]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3256.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3382.
+[43]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3382.
  (./paper1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3256.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3256.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3382.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3382.
 
 Package rerunfilecheck Info: File `paper1.out' has not changed.
-(rerunfilecheck)             Checksum: 39172B8111B201962140E50BE1BB59CA;1779.
+(rerunfilecheck)             Checksum: 9F86162680E9A41716E01C49D9C20C95;1779.
 
 
 LaTeX Warning: There were undefined references.
@@ -2307,15 +2307,19 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'paper1.run.xml'.
 \openout1 = `paper1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32944 strings out of 493610
- 648270 string characters out of 3142405
- 1045675 words of memory out of 3000000
- 35283 multiletter control sequences out of 15000+200000
+ 32981 strings out of 493610
+ 648943 string characters out of 3142405
+ 1044765 words of memory out of 3000000
+ 35314 multiletter control sequences out of 15000+200000
  112221 words of font info for 155 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  50i,22n,87p,1450b,2003s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2363,10 +2367,10 @@ b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></us
 r/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper1.pdf (42 pages, 996780 bytes).
+Output written on paper1.pdf (43 pages, 1001765 bytes).
 PDF statistics:
- 1207 PDF objects out of 1440 (max. 8388607)
- 1056 compressed objects within 11 object streams
- 262 named destinations out of 1000 (max. 500000)
+ 1221 PDF objects out of 1440 (max. 8388607)
+ 1069 compressed objects within 11 object streams
+ 268 named destinations out of 1000 (max. 500000)
  372 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -2890,7 +2890,7 @@ in Figure~\ref{fig:JudgementPercentages}.
                legend style={at={(0.5,-0.15)},
                  anchor=north,
                  legend columns=-1}, 
-               ylabel={\% of answers}, 
+               % ylabel={\% of answers}, 
                symbolic x coords={neutral,accented}, 
                xtick=data,
                nodes near coords,
@@ -3046,19 +3046,19 @@ Further examination of the distribution of local readings revealed a
 clear pattern (see Figure \ref{fig:HistogramLocalReadingsK2}). In all
 four conditions, about seven out of the 40 participants ($16\%$) were
 consistently giving judgments that indicate local readings.\dn{please
-  check numbers; this cannot be true!?} Further,
-the relative frequency of local judgments per participant strongly
-correlated between all four conditions (all $r>.6, p<.001$). Appart
-from the localists about half of the participants (and 41.5\% of all
-participants) were consistently giving judgments that indicate literal
-readings. Only a minority of participants exhibited
-inconsistency. Reading preferences were more clear-cut in the
-\as-conditions than in the \es-conditions. The number of consistent
-literalists was lower in the \es-conditions (25.6\%) as compared to
-the \as-conditions (57.3\%). Also, the number of participants that
-showed inconsistency was higher in these conditions. However, the
-number of consistent localists did hardly differ between
-constructions.
+  check numbers; this cannot be true!? not accross all four
+  conditions} Further, the relative frequency of local judgments per
+participant strongly correlated between all four conditions (all
+$r>.6, p<.001$). Appart from the localists about half of the
+participants (and 41.5\% of all participants) were consistently giving
+judgments that indicate literal readings. Only a minority of
+participants exhibited inconsistency. Reading preferences were more
+clear-cut in the \as-conditions than in the \es-conditions. The number
+of consistent literalists was lower in the \es-conditions (25.6\%) as
+compared to the \as-conditions (57.3\%). Also, the number of
+participants that showed inconsistency was higher in these
+conditions. However, the number of consistent localists did hardly
+differ between constructions.
 
 \begin{figure}[h]
 \centering
@@ -3111,13 +3111,139 @@ p<.001$). Comparing global readings to other judgments no such
 interaction was obeserved ($LRCS_1=1.24, df= 1, p=.29, LRCS_1=.21, df=
 1, p=.65$).
 
- 
 
+\paragraph{Preference-related controls}
 
+\begin{itemize}
+\item see Figure~\ref{fig:response-type-freque-TRF}
+\end{itemize}
+
+\begin{figure}[t]
+  \centering
+  \subfloat[][\LC-condition]{
+        \begin{tikzpicture}[scale=0.8]
+
+  \begin{axis}[ybar, 
+               enlarge x limits=0.5,
+               enlarge y limits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of answers}, 
+               symbolic x coords={neutral,LC-pref,EC-pref}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               x = 45, 
+               bar width = 3mm,
+               ymin = 8
+               ]
+
+    \addplot coordinates {(neutral, 69) (LC-pref, 77) (EC-pref, 52)}; 
+
+    \addplot coordinates {(neutral, 24) (LC-pref, 12) (EC-pref, 30)}; 
+
+    \addplot coordinates {(neutral, 7) (LC-pref, 11) (EC-pref, 19)}; 
+
+    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
+    %   (e-l, 100) (e-e, 75)}; 
+
+    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
+    %   (e-l, 16) (e-e, 43)}; 
+
+    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
+    %   (e-l, 15) (e-e, 17)}; 
+
+    \legend{LC, EC, error}
+
+  \end{axis}
+
+\end{tikzpicture}
+  }
+  \subfloat[][\ec-condition]{
+    \begin{tikzpicture}[scale=0.8]
+
+  \begin{axis}[ybar, 
+               enlarge x limits=0.5, 
+               enlarge y limits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               % ylabel={\% of answers}, 
+               symbolic x coords={neutral,LC-pref,EC-pref}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               x = 45, 
+               bar width = 3mm,
+               ymin = 8
+               ]
+
+    \addplot coordinates {(neutral, 63)
+      (LC-pref, 76) (EC-pref, 56)}; 
+
+    \addplot coordinates {(neutral, 25)
+      (LC-pref, 12) (EC-pref, 32)}; 
+
+    \addplot coordinates {(neutral, 12)
+      (LC-pref, 11) (EC-pref, 13)}; 
+
+    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
+    %   (e-l, 100) (e-e, 75)}; 
+
+    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
+    %   (e-l, 16) (e-e, 43)}; 
+
+    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
+    %   (e-l, 15) (e-e, 17)}; 
+
+    \legend{LC, EC, error}
+
+  \end{axis}
+
+\end{tikzpicture}
+}
+  \caption{Response type frequences for preference-related controls}
+  \label{fig:response-type-freque-TRF}
+\end{figure}
 
 
 \subsection{Discussion}
 \label{sec:discussion}
+
+\newcommand{\ivt}{\acro{ivt}}
+
+High scores of success in our general control condition clearly
+indicate that participants understood the incremental verification
+task and were in general able to give judgements at the earliest
+possible point in a picture sequence. Results obtained for the
+preference-related target conditions moreover show that our design is
+able to detect multiple readings and preferences on these. Crucially,
+the amount of response types for \lc- and \ec-readings reflected the
+known preference for the former, irrespective of the order in which
+each reading could first be judged in a given sequence. Given this,
+the best and most straightforward explanation of the observed response
+type frequencies in our target condition is the hypothesis that the
+actual preferences among readings for both \as- and \es-sentences
+alike are:
+\begin{exe}
+  \ex \label{bsp:observed-preferences} \lit \ > \ \loc \ \ ( > \glb)
+\end{exe}
+where it is unclear whether the global readings are entirely
+unavailable or simply severely dispreferred. Crucially, our data does
+attest local readings, albeit that they are not preferred across the
+board but preferred, as it seems, only by a small, but substantial
+number of consistent localists.
+
+On the face of it, there is a very clear winner among the stylized
+candidate theories that we introduced in
+Section~\ref{sec:theories-predictions}. Assuming that global readings
+are not available at all, the preference pattern in
+(\ref{bsp:observed-preferences}) is exactly what \emph{literalism}
+would predict. Remember that literalism was the conventionalist
+position which posited a lexical ambiguity of scalar \emph{some} with
+a preference for the semantically weaker meaning \emph{some and maybe
+  all} over the upper-bounded reading \emph{some but not all}.
 
 \subsubsection{Bits and Pieces}
 \label{sec:bits-pieces}

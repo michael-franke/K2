@@ -72,16 +72,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.5}Results}{30}{subsection.151}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Discussion}{35}{subsection.166}
+\contentsline {paragraph}{Preference-related controls}{35}{section*.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{35}{subsubsection.167}
+\contentsline {subsection}{\numberline {6.6}Discussion}{35}{subsection.170}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions}{36}{section.168}
+\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{36}{subsubsection.172}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}The auditory sentence material}{36}{appendix.169}
+\contentsline {section}{\numberline {7}Conclusions}{37}{section.173}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Targets.}{36}{section*.170}
+\contentsline {section}{\numberline {A}The auditory sentence material}{37}{appendix.174}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Preference-related fillers.}{36}{section*.173}
+\contentsline {paragraph}{Targets.}{37}{section*.175}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{36}{section*.176}
+\contentsline {paragraph}{Preference-related fillers.}{37}{section*.178}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{37}{section*.181}
