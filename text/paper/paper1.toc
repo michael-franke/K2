@@ -28,7 +28,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Reflection: Categorical Judgements \& Typicality}{15}{subsection.88}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Pilot Study}{16}{section.89}
+\contentsline {section}{\numberline {5}Pilot Study}{17}{section.89}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1}Materials}{17}{subsection.90}
 \defcounter {refsection}{0}\relax 
@@ -76,14 +76,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.6}Discussion}{35}{subsection.170}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{36}{subsubsection.172}
+\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{36}{subsubsection.173}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions}{37}{section.173}
+\contentsline {section}{\numberline {7}Conclusions}{37}{section.174}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}The auditory sentence material}{37}{appendix.174}
+\contentsline {section}{\numberline {A}The auditory sentence material}{37}{appendix.175}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Targets.}{37}{section*.175}
+\contentsline {paragraph}{Targets.}{37}{section*.176}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Preference-related fillers.}{37}{section*.178}
+\contentsline {paragraph}{Preference-related fillers.}{37}{section*.179}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{37}{section*.181}
+\contentsline {section}{References}{40}{section*.182}
