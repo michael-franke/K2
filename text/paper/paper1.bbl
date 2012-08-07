@@ -237,6 +237,48 @@
   \field{year}{forthcoming}
 \endentry
 
+\entry{ChierchiaFox2009:Hurfords-Constr}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Chierchia}{C.}%
+     {Gennaro}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fox}{F.}%
+     {Danny}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Spector}{S.}%
+     {Benjamin}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Egr\'{e}}{E.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Magri}{M.}%
+     {Giorgio}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CG+1}
+  \strng{fullhash}{CGFDSB1}
+  \field{labelyear}{2009}
+  \field{sortinit}{C}
+  \field{booktitle}{Presuppositions and Implicatures. {P}roceedings of the
+  MIT-Paris Workshop}
+  \field{series}{MIT Working Papers in Linguistics}
+  \field{title}{Hurford's Constraint and the Theory of Scalar Implicatures}
+  \field{volume}{60}
+  \field{year}{2009}
+\endentry
+
 \entry{ChierchiaFox2008:The-Grammatical}{incollection}{}
   \name{author}{3}{}{%
     {{}%
