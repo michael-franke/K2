@@ -8,15 +8,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\textsc {as}\xspace -sentences.}{4}{section*.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\textsc {es}\xspace -sentences.}{4}{section*.35}
+\contentsline {paragraph}{\textsc {es}\xspace -sentences.}{6}{section*.35}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Theories and predictions}{6}{section.46}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Traditionalism}{7}{subsection.47}
+\contentsline {subsection}{\numberline {3.1}Traditionalism}{6}{subsection.47}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.2}Conventionalism}{9}{subsection.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Grammaticalism}{9}{subsection.60}
+\contentsline {subsection}{\numberline {3.3}Grammaticalism}{10}{subsection.60}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4}Previous studies}{12}{section.79}
 \defcounter {refsection}{0}\relax 
@@ -26,7 +26,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3}\citet {ChemlaSpector2010:Experimental-Ev}}{14}{subsection.83}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Reflection: Categorical Judgements \& Typicality}{15}{subsection.88}
+\contentsline {subsection}{\numberline {4.4}Reflection: Categorical Judgements \& Typicality}{14}{subsection.88}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Pilot Study}{17}{section.89}
 \defcounter {refsection}{0}\relax 
@@ -38,7 +38,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4}Results}{19}{subsection.97}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5}Discussion}{19}{subsection.98}
+\contentsline {subsection}{\numberline {5.5}Discussion}{20}{subsection.98}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}An Incremental Verification Task}{20}{section.100}
 \defcounter {refsection}{0}\relax 
@@ -74,16 +74,18 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Preference-related controls}{35}{section*.166}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Discussion}{35}{subsection.170}
+\contentsline {subsection}{\numberline {6.6}Interpretation}{35}{subsection.170}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.6.1}Bits and Pieces}{38}{subsubsection.179}
+\contentsline {subsection}{\numberline {6.7}Discussion}{38}{subsection.177}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions}{39}{section.180}
+\contentsline {subsubsection}{\numberline {6.7.1}Bits and Pieces}{39}{subsubsection.178}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}The auditory sentence material}{39}{appendix.181}
+\contentsline {section}{\numberline {7}Conclusions}{40}{section.179}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Targets.}{39}{section*.182}
+\contentsline {section}{\numberline {A}The auditory sentence material}{40}{appendix.180}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Preference-related fillers.}{40}{section*.185}
+\contentsline {paragraph}{Targets.}{40}{section*.181}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{40}{section*.188}
+\contentsline {paragraph}{Preference-related fillers.}{40}{section*.184}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{References}{40}{section*.187}
