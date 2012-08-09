@@ -52,38 +52,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Testing Effects of prosody.}{24}{section*.135}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Procedure}{26}{subsection.136}
+\contentsline {subsection}{\numberline {6.2}Procedure}{27}{subsection.137}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Materials}{26}{subsection.137}
+\contentsline {subsection}{\numberline {6.3}Materials}{27}{subsection.138}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Target sentences and positional controls}{26}{section*.138}
+\contentsline {paragraph}{Target sentences and positional controls}{27}{section*.139}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Preference-related control sentences}{26}{section*.139}
+\contentsline {paragraph}{Preference-related control sentences}{27}{section*.140}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Acoustic properties}{27}{section*.140}
+\contentsline {paragraph}{Acoustic properties}{27}{section*.141}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Pictures.}{28}{section*.145}
+\contentsline {paragraph}{Pictures.}{29}{section*.146}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Lists.}{29}{section*.146}
+\contentsline {paragraph}{Lists.}{30}{section*.147}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Participants}{29}{subsection.147}
+\contentsline {subsection}{\numberline {6.4}Participants}{30}{subsection.148}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Results}{29}{subsection.148}
+\contentsline {subsection}{\numberline {6.5}Results}{30}{subsection.149}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Preference-related controls}{33}{section*.163}
+\contentsline {paragraph}{Preference-related controls}{35}{section*.164}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Interpretation}{33}{subsection.167}
+\contentsline {subsection}{\numberline {6.6}Interpretation}{35}{subsection.168}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7}Discussion}{37}{subsection.174}
+\contentsline {subsection}{\numberline {6.7}Discussion}{38}{subsection.175}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.7.1}Bits and Pieces}{38}{subsubsection.175}
+\contentsline {subsubsection}{\numberline {6.7.1}Bits and Pieces}{39}{subsubsection.176}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions}{39}{section.176}
+\contentsline {section}{\numberline {7}Conclusions}{40}{section.177}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}The auditory sentence material}{39}{appendix.177}
+\contentsline {section}{\numberline {A}The auditory sentence material}{40}{appendix.178}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Targets.}{39}{section*.178}
+\contentsline {paragraph}{Targets.}{40}{section*.179}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Preference-related fillers.}{42}{section*.181}
+\contentsline {paragraph}{Preference-related fillers.}{40}{section*.182}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{References}{42}{section*.184}
+\contentsline {section}{References}{40}{section*.185}

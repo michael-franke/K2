@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 1.4 $
+% $ biblatex version 1.5 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -429,6 +429,28 @@
   \field{year}{1998}
 \endentry
 
+\entry{Fery1993}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Fery}{F.}%
+     {Caroline}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Niemeyer.}%
+  }
+  \strng{namehash}{FC1}
+  \strng{fullhash}{FC1}
+  \field{labelyear}{1993}
+  \field{sortinit}{F}
+  \field{title}{German intonational patterns}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1993}
+\endentry
+
 \entry{Fodor1998:Learning}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -448,6 +470,19 @@
   \field{volume}{27}
   \field{journaltitle}{Journal of Psycholinguistic Research}
   \field{year}{1998}
+\endentry
+
+\entry{Uhmann1991}{book}{}
+  \list{publisher}{1}{%
+    {Niemeyer.}%
+  }
+  \field{labelyear}{1991}
+  \field{sortinit}{F}
+  \field{title}{Fokusphonologie.}
+  \list{location}{1}{%
+    {Tübingen}%
+  }
+  \field{year}{1991}
 \endentry
 
 \entry{Fox2007:Free-Choice-and}{incollection}{}
@@ -537,6 +572,42 @@
   \field{volume}{4}
   \field{journaltitle}{Semantics \& Pragmatics}
   \field{year}{2011}
+\endentry
+
+\entry{Frazier2008:Computing}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Frazier}{F.}%
+     {Lyn}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{3}{}{%
+    {{}%
+     {Frazier}{F.}%
+     {Lyn}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Friedman}{F.}%
+     {Tova}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ito}{I.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FL1}
+  \strng{fullhash}{FL1}
+  \field{sortinit}{F}
+  \field{booktitle}{Proceedings of SALT 18}
+  \field{pages}{319\bibrangedash 339}
+  \field{title}{Computing Scalar Implicatures}
+  \list{location}{1}{%
+    {Ithaca, NY: Cornell University}%
+  }
 \endentry
 
 \entry{Gazdar1979:Pragmatics:-Imp}{book}{}
@@ -865,6 +936,53 @@
   \field{volume}{54}
   \field{journaltitle}{Experimental Psychology}
   \field{year}{2007}
+\endentry
+
+\entry{PierrehumbertHirschberg:Meaning}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Pierrehumbert}{P.}%
+     {Janet~B.}{J.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hirschberg}{H.}%
+     {Julia}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{3}{}{%
+    {{}%
+     {Cohan}{C.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Morgan}{M.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pollack}{P.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT Press}%
+  }
+  \strng{namehash}{PJBHJ1}
+  \strng{fullhash}{PJBHJ1}
+  \field{labelyear}{1990}
+  \field{sortinit}{P}
+  \field{booktitle}{Intentions in Communication}
+  \field{pages}{271\bibrangedash 311}
+  \field{title}{The meaning of intonational contours in the interpretation of
+  discourse}
+  \list{location}{1}{%
+    {Cambridge}%
+  }
+  \field{year}{1990}
 \endentry
 
 \entry{Raffray2010}{article}{}

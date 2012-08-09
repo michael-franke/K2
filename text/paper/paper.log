@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.26)  1 AUG 2012 15:07
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.26)  9 AUG 2012 17:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1610,9 +1610,6 @@ Package biblatex Warning: Data encoding is 'utf8'.
 \openout3 = `paper-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
-
-Package biblatex Warning: File 'paper.bbl' created by wrong version.
-
 Package biblatex Info: ... file 'paper.bbl' found.
 (./paper.bbl
 
@@ -1707,15 +1704,11 @@ ABD: EveryShipout initializing macros (./paper.toc)
 
  [1
 
-{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-
-LaTeX Warning: Citation 'Fodor1998:Learning' on page 3 undefined on input line 
-311.
-
-[3]
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
 LaTeX Font Info:    Try loading font information for OMS+txr on input line 427.
 
- (/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/omstxr.fd
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/omstxr.fd
 File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
@@ -2288,11 +2281,6 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                paper
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'paper.run.xml'.
 \openout1 = `paper.run.xml'.
 
@@ -2300,7 +2288,7 @@ Package logreq Info: Writing requests to 'paper.run.xml'.
 Here is how much of TeX's memory you used:
  33265 strings out of 493633
  646938 string characters out of 3143377
- 1027355 words of memory out of 3000000
+ 1027357 words of memory out of 3000000
  35614 multiletter control sequences out of 15000+200000
  104033 words of font info for 147 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
@@ -2354,7 +2342,7 @@ y.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb>
 </usr/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
 l/texlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/
 2011/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (38 pages, 978496 bytes).
+Output written on paper.pdf (38 pages, 978175 bytes).
 PDF statistics:
  1154 PDF objects out of 1200 (max. 8388607)
  1007 compressed objects within 11 object streams
