@@ -46,7 +46,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Target Conditions.}{20}{section*.100}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Positional controls.}{23}{section*.115}
+\contentsline {paragraph}{Positional controls.}{22}{section*.115}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Preference-related controls.}{23}{section*.124}
 \defcounter {refsection}{0}\relax 

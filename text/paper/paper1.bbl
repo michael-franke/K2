@@ -85,6 +85,36 @@
   \field{year}{1981}
 \endentry
 
+\entry{Augurzky08}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Augurzky}{A.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Botinis}{B.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AP1}
+  \strng{fullhash}{AP1}
+  \field{labelyear}{2008}
+  \field{sortinit}{A}
+  \field{booktitle}{Proceedings of the ISCA Tutorial and and Research Workshop
+  on Experimental Linguistics}
+  \field{pages}{33\bibrangedash 36}
+  \field{title}{Prosodic phrasing in German sentence production: Optimal length
+  vs. argument structure.}
+  \list{location}{1}{%
+    {University of Athens}%
+  }
+  \field{year}{2008}
+\endentry
+
 \entry{Augurzky06}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -93,8 +123,8 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{AP1}
-  \strng{fullhash}{AP1}
+  \strng{namehash}{AP2}
+  \strng{fullhash}{AP2}
   \field{labelyear}{2006}
   \field{sortinit}{A}
   \field{series}{MPI Series in Human Cognitive and Brain Sciences}
@@ -105,6 +135,43 @@
     {Leipzig}%
   }
   \field{year}{2006}
+\endentry
+
+\entry{Bader98}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Bader}{B.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Fodor}{F.}%
+     {J.D.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ferreira}{F.}%
+     {F.}{F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Kluwer}%
+  }
+  \strng{namehash}{BM1}
+  \strng{fullhash}{BM1}
+  \field{labelyear}{1998}
+  \field{sortinit}{B}
+  \field{booktitle}{RReanalysis in Sentence Processing}
+  \field{pages}{1\bibrangedash 46}
+  \field{title}{Prosodic influences on reading syntactically ambiguous
+  sentences}
+  \list{location}{1}{%
+    {Dordrecht}%
+  }
+  \field{year}{1998}
 \endentry
 
 \entry{BrehenyKatsos2008:Experimental-In}{misc}{}
@@ -503,6 +570,27 @@
     {T\"ubingen}%
   }
   \field{year}{1993}
+\endentry
+
+\entry{Fodor02}{inproceedings}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Fodor}{F.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FJ1}
+  \strng{fullhash}{FJ1}
+  \field{labelyear}{2002}
+  \field{sortinit}{F}
+  \field{booktitle}{Proceedings of the North East Linguistic Society}
+  \field{pages}{113\bibrangedash 132}
+  \field{title}{PProsodic disambiguation in silent reading}
+  \list{location}{1}{%
+    {Amherst: GSLA, University of Massachusetts}%
+  }
+  \field{year}{2002}
 \endentry
 
 \entry{Fodor98}{article}{}
@@ -986,6 +1074,27 @@
   \field{volume}{3}
   \field{journaltitle}{Semantics \& Pragmatics}
   \field{year}{2010}
+\endentry
+
+\entry{Kentner12}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kentner}{K.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KG1}
+  \strng{fullhash}{KG1}
+  \field{labelyear}{2012}
+  \field{sortinit}{K}
+  \field{number}{1}
+  \field{pages}{1\bibrangedash 20}
+  \field{title}{Linguistic rhythm guides parsing decisions in written sentence
+  comprehension}
+  \field{volume}{123}
+  \field{journaltitle}{Cognition}
+  \field{year}{2012}
 \endentry
 
 \entry{Kraljik05}{article}{}
@@ -1534,6 +1643,33 @@
   \field{year}{1984}
 \endentry
 
+\entry{Steinhauer01}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Steinhauer}{S.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Friederici}{F.}%
+     {A.D.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SKFA1}
+  \strng{fullhash}{SKFA1}
+  \field{labelyear}{2001}
+  \field{sortinit}{S}
+  \field{number}{1}
+  \field{pages}{267\bibrangedash 295}
+  \field{title}{Prosodic boundaries, comma rules, and brain responses: The
+  Closure Positive Shift in ERPs a universal marker for prosodic phrasing in
+  listeners and readers}
+  \field{volume}{30}
+  \field{journaltitle}{Journal of Psycholinguistic Research}
+  \field{year}{2001}
+\endentry
+
 \entry{Steinhauer99}{article}{}
   \name{author}{3}{}{%
     {{}%
@@ -1639,8 +1775,8 @@
   \strng{fullhash}{TU1}
   \field{labelyear}{2006}
   \field{sortinit}{T}
-  \field{series}{MPI series in Human Cognitive and Brain Sciences}
-  \field{title}{contrastive topic and focus information in discourse}
+  \field{series}{MPI Series in Human Cognitive and Brain Sciences}
+  \field{title}{Contrastive Topic and Focus Information in Discourse}
   \field{volume}{48}
   \list{location}{1}{%
     {Leipzig}%

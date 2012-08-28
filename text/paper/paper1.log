@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.26)  28 AUG 2012 17:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2012.6.26)  28 AUG 2012 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1960,334 +1960,338 @@ Overfull \hbox (0.20013pt too wide) in paragraph at lines 1874--1884
  []
 
 [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1945--1946
+Underfull \hbox (badness 10000) in paragraph at lines 1944--1945
 
  []
 
 
-LaTeX Warning: Reference `fig:EA-LIT' on page 17 undefined on input line 1948.
+LaTeX Warning: Reference `fig:EA-LIT' on page 17 undefined on input line 1947.
 
 
 LaTeX Warning: Reference `fig:EA-LITGLB' on page 17 undefined on input line 194
-8.
-
-
-LaTeX Warning: Reference `fig:EA-FALSE1' on page 17 undefined on input line 194
-8.
-
-
-LaTeX Warning: Reference `fig:EA-FALSE2' on page 17 undefined on input line 194
-8.
-
-
-LaTeX Warning: Reference `fig:EA-FALSE1' on page 17 undefined on input line 194
-8.
-
-
-LaTeX Warning: Reference `fig:EA-FALSE2' on page 17 undefined on input line 194
-8.
-
-[17]
-
-LaTeX Warning: Reference `fig:AEBars' on page 18 undefined on input line 2014.
-
-
-LaTeX Warning: Reference `fig:GEBars' on page 18 undefined on input line 2036.
-
-[18]
-
-LaTeX Warning: Reference `' on page 19 undefined on input line 2038.
-
-
-LaTeX Warning: Reference `fig:EA-LIT' on page 19 undefined on input line 2057.
-
-
-LaTeX Warning: Reference `fig:EA-LITGLB' on page 19 undefined on input line 205
 7.
 
 
-LaTeX Warning: Reference `bsp:EA' on page 19 undefined on input line 2060.
+LaTeX Warning: Reference `fig:EA-FALSE1' on page 17 undefined on input line 194
+7.
 
 
-LaTeX Warning: Reference `bsp:EA' on page 19 undefined on input line 2060.
+LaTeX Warning: Reference `fig:EA-FALSE2' on page 17 undefined on input line 194
+7.
 
 
-LaTeX Warning: Reference `bsp:EA' on page 19 undefined on input line 2060.
+LaTeX Warning: Reference `fig:EA-FALSE1' on page 17 undefined on input line 194
+7.
+
+
+LaTeX Warning: Reference `fig:EA-FALSE2' on page 17 undefined on input line 194
+7.
+
+[17]
+
+LaTeX Warning: Reference `fig:AEBars' on page 18 undefined on input line 2013.
+
+
+LaTeX Warning: Reference `fig:GEBars' on page 18 undefined on input line 2035.
+
+[18]
+
+LaTeX Warning: Reference `' on page 19 undefined on input line 2037.
+
+
+LaTeX Warning: Reference `fig:EA-LIT' on page 19 undefined on input line 2056.
+
+
+LaTeX Warning: Reference `fig:EA-LITGLB' on page 19 undefined on input line 205
+6.
+
+
+LaTeX Warning: Reference `bsp:EA' on page 19 undefined on input line 2059.
+
+
+LaTeX Warning: Reference `bsp:EA' on page 19 undefined on input line 2059.
+
+
+LaTeX Warning: Reference `bsp:EA' on page 19 undefined on input line 2059.
 
 
 LaTeX Warning: Reference `fig:EA-LITGLB' on page 19 undefined on input line 206
-1.
+0.
 
 
-LaTeX Warning: Reference `fig:EA-LIT' on page 19 undefined on input line 2061.
+LaTeX Warning: Reference `fig:EA-LIT' on page 19 undefined on input line 2060.
 
-[19] <../pictures/paper/ae_01_1.pdf, id=595, 640.34631pt x 640.34631pt>
+[19] <../pictures/paper/ae_01_1.pdf, id=606, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ae_01_1.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_01_1.pdf>
-Package pdftex.def Info: ../pictures/paper/ae_01_1.pdf used on input line 2112.
+Package pdftex.def Info: ../pictures/paper/ae_01_1.pdf used on input line 2111.
 
 (pdftex.def)             Requested size: 142.26378pt x 142.25432pt.
- [20]
-<../pictures/paper/ae_3_v_l.pdf, id=610, 640.34631pt x 640.34631pt>
+ [20 <../pictures/paper/ae_01_1.pdf>]
+<../pictures/paper/ae_3_v_l.pdf, id=629, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ae_3_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_3_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ae_3_v_l.pdf used on input line 2171
+Package pdftex.def Info: ../pictures/paper/ae_3_v_l.pdf used on input line 2170
 .
 (pdftex.def)             Requested size: 99.58464pt x 99.57509pt.
 
-<../pictures/paper/ae_5_v_l.pdf, id=611, 640.34631pt x 640.34631pt>
+<../pictures/paper/ae_5_v_l.pdf, id=630, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ae_5_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_5_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ae_5_v_l.pdf used on input line 2175
+Package pdftex.def Info: ../pictures/paper/ae_5_v_l.pdf used on input line 2174
 .
 (pdftex.def)             Requested size: 99.58464pt x 99.57509pt.
 
-<../pictures/paper/ae_7_v_l.pdf, id=612, 640.34631pt x 640.34631pt>
+<../pictures/paper/ae_7_v_l.pdf, id=631, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ae_7_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ae_7_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ae_7_v_l.pdf used on input line 2179
+Package pdftex.def Info: ../pictures/paper/ae_7_v_l.pdf used on input line 2178
 .
 (pdftex.def)             Requested size: 99.58464pt x 99.57509pt.
 
-<../pictures/paper/ge_3_v_l.pdf, id=614, 640.34631pt x 640.34631pt>
+<../pictures/paper/ge_3_v_l.pdf, id=633, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ge_3_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ge_3_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ge_3_v_l.pdf used on input line 2223
+Package pdftex.def Info: ../pictures/paper/ge_3_v_l.pdf used on input line 2222
 .
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
 
-<../pictures/paper/ge_4_v_l.pdf, id=615, 640.34631pt x 640.34631pt>
+<../pictures/paper/ge_4_v_l.pdf, id=634, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ge_4_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ge_4_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ge_4_v_l.pdf used on input line 2227
+Package pdftex.def Info: ../pictures/paper/ge_4_v_l.pdf used on input line 2226
 .
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
 
-<../pictures/paper/ge_6_v_l.pdf, id=616, 640.34631pt x 640.34631pt>
+<../pictures/paper/ge_6_v_l.pdf, id=635, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ge_6_v_l.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ge_6_v_l.pdf>
-Package pdftex.def Info: ../pictures/paper/ge_6_v_l.pdf used on input line 2231
+Package pdftex.def Info: ../pictures/paper/ge_6_v_l.pdf used on input line 2230
 .
 (pdftex.def)             Requested size: 85.35826pt x 85.34868pt.
- [21 <../pictures/paper/ae_01_1.pdf>]
-[22 <../pictures/paper/ae_3_v_l.pdf> <../pictures/paper/ae_5_v_l.pdf> <../pictu
-res/paper/ae_7_v_l.pdf> <../pictures/paper/ge_3_v_l.pdf> <../pictures/paper/ge_
-4_v_l.pdf> <../pictures/paper/ge_6_v_l.pdf>] [23]
-<../pictures/paper/ec_01_3.pdf, id=780, 640.34631pt x 640.34631pt>
+ [21 <../pictures/paper/ae_3_v_l.pdf> <../pictures/paper/ae_5_v_l.pdf> <../pict
+ures/paper/ae_7_v_l.pdf>] [22 <../pictures/paper/ge_3_v_l.pdf> <../pictures/pap
+er/ge_4_v_l.pdf> <../pictures/paper/ge_6_v_l.pdf>] [23]
+<../pictures/paper/ec_01_3.pdf, id=791, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ec_01_3.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ec_01_3.pdf>
-Package pdftex.def Info: ../pictures/paper/ec_01_3.pdf used on input line 2378.
+Package pdftex.def Info: ../pictures/paper/ec_01_3.pdf used on input line 2377.
 
 (pdftex.def)             Requested size: 156.49014pt x 156.48073pt.
 
-<../pictures/paper/ec_01_5.pdf, id=781, 640.34631pt x 640.34631pt>
+<../pictures/paper/ec_01_5.pdf, id=792, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/ec_01_5.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/ec_01_5.pdf>
-Package pdftex.def Info: ../pictures/paper/ec_01_5.pdf used on input line 2382.
+Package pdftex.def Info: ../pictures/paper/ec_01_5.pdf used on input line 2381.
 
 (pdftex.def)             Requested size: 156.49014pt x 156.48073pt.
 
-<../pictures/paper/lc_01_3.pdf, id=796, 640.34631pt x 640.34631pt>
+<../pictures/paper/lc_01_3.pdf, id=807, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/lc_01_3.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/lc_01_3.pdf>
-Package pdftex.def Info: ../pictures/paper/lc_01_3.pdf used on input line 2410.
+Package pdftex.def Info: ../pictures/paper/lc_01_3.pdf used on input line 2409.
 
 (pdftex.def)             Requested size: 156.49014pt x 156.48073pt.
 
-<../pictures/paper/lc_01_6.pdf, id=797, 640.34631pt x 640.34631pt>
+<../pictures/paper/lc_01_6.pdf, id=808, 640.34631pt x 640.34631pt>
 File: ../pictures/paper/lc_01_6.pdf Graphic file (type pdf)
 
 <use ../pictures/paper/lc_01_6.pdf>
-Package pdftex.def Info: ../pictures/paper/lc_01_6.pdf used on input line 2414.
+Package pdftex.def Info: ../pictures/paper/lc_01_6.pdf used on input line 2413.
 
 (pdftex.def)             Requested size: 156.49014pt x 156.48073pt.
  [24] [25 <../pictures/paper/ec_01_3.pdf> <../pictures/paper/ec_01_5.pdf>] [26 
 <../pictures/paper/lc_01_3.pdf> <../pictures/paper/lc_01_6.pdf>] [27] [28]
-LaTeX Font Info:    Try loading font information for T1+txtt on input line 2678
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 2677
 .
 
 (/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/t1txtt.fd
 File: t1txtt.fd 2000/12/15 v3.1
 ) [29]
-Overfull \hbox (2.0201pt too wide) in paragraph at lines 2752--2760
+Overfull \hbox (2.0201pt too wide) in paragraph at lines 2751--2759
  []\T1/txr/bx/n/10 Lists.[] \T1/txr/m/n/10 Ex-per-i-men-tal items and preferenc
 e-related fillers were evenly dis-tributed across|
  []
 
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <10> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 2771.
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 2770.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2789.
+               Default added (so using `tbp') on input line 2788.
 
-<../pictures/paper/graph_AE_AKZ.jpg, id=1031, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_AE_AKZ.jpg, id=1043, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_AE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_AE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_AE_AKZ.jpg used on input line 
-2794.
+2793.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/graph_AE_NTR.jpg, id=1032, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_AE_NTR.jpg, id=1044, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_AE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_AE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_AE_NTR.jpg used on input line 
-2798.
+2797.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/graph_GE_AKZ.jpg, id=1033, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_GE_AKZ.jpg, id=1045, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_GE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_GE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_GE_AKZ.jpg used on input line 
-2803.
+2802.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/graph_GE_NTR.jpg, id=1034, 1003.75pt x 803.0pt>
+<../pictures/paper/graph_GE_NTR.jpg, id=1046, 1003.75pt x 803.0pt>
 File: ../pictures/paper/graph_GE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/graph_GE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/graph_GE_NTR.jpg used on input line 
-2807.
+2806.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 2829.
+               Default added (so using `tbp') on input line 2828.
 
 [30] [31 <../pictures/paper/graph_AE_AKZ.jpg> <../pictures/paper/graph_AE_NTR.j
 pg> <../pictures/paper/graph_GE_AKZ.jpg> <../pictures/paper/graph_GE_NTR.jpg>]
 [32]
 
-Package caption Warning: \label before \caption on input line 3068.
+Package caption Warning: \label before \caption on input line 3069.
 See the caption package documentation for explanation.
 
 
 LaTeX Warning: Reference `fig:HistogramLocalReadingsK2' on page 33 undefined on
- input line 3034.
+ input line 3033.
 
 [33]
-<../pictures/paper/histLocalReadingAE_AKZ.jpg, id=1070, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingAE_AKZ.jpg, id=1081, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingAE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingAE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingAE_AKZ.jpg used on i
-nput line 3056.
+nput line 3055.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/histLocalReadingAE_NTR.jpg, id=1071, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingAE_NTR.jpg, id=1082, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingAE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingAE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingAE_NTR.jpg used on i
-nput line 3060.
+nput line 3059.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/histLocalReadingGE_AKZ.jpg, id=1072, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingGE_AKZ.jpg, id=1083, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingGE_AKZ.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingGE_AKZ.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingGE_AKZ.jpg used on i
-nput line 3065.
+nput line 3064.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
-<../pictures/paper/histLocalReadingGE_NTR.jpg, id=1073, 1003.75pt x 803.0pt>
+<../pictures/paper/histLocalReadingGE_NTR.jpg, id=1084, 1003.75pt x 803.0pt>
 File: ../pictures/paper/histLocalReadingGE_NTR.jpg Graphic file (type jpg)
 
 <use ../pictures/paper/histLocalReadingGE_NTR.jpg>
 Package pdftex.def Info: ../pictures/paper/histLocalReadingGE_NTR.jpg used on i
-nput line 3069.
+nput line 3068.
 (pdftex.def)             Requested size: 142.26378pt x 113.80379pt.
 
 
-LaTeX Warning: Reference `' on page 34 undefined on input line 3079.
+LaTeX Warning: Reference `' on page 34 undefined on input line 3078.
 
 [34 <../pictures/paper/histLocalReadingAE_AKZ.jpg> <../pictures/paper/histLocal
 ReadingAE_NTR.jpg> <../pictures/paper/histLocalReadingGE_AKZ.jpg> <../pictures/
 paper/histLocalReadingGE_NTR.jpg>] [35] [36] [37] [38] [39]
-<../pictures/Acoustics/Table-A.png, id=1154, 767.86874pt x 807.015pt>
+<../pictures/Acoustics/Table-A.png, id=1166, 767.86874pt x 807.015pt>
 File: ../pictures/Acoustics/Table-A.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-A.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-A.png used on input line 3
-544.
+543.
 (pdftex.def)             Requested size: 345.0pt x 362.58694pt.
 
-<../pictures/Acoustics/Table-B.png, id=1155, 765.86125pt x 808.01875pt>
+<../pictures/Acoustics/Table-B.png, id=1167, 765.86125pt x 808.01875pt>
 File: ../pictures/Acoustics/Table-B.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-B.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-B.png used on input line 3
-553.
+552.
 (pdftex.def)             Requested size: 345.0pt x 363.98729pt.
 
-<../pictures/Acoustics/Table-C.png, id=1157, 692.5875pt x 1001.7425pt>
+<../pictures/Acoustics/Table-C.png, id=1169, 692.5875pt x 1001.7425pt>
 File: ../pictures/Acoustics/Table-C.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-C.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-C.png used on input line 3
-574.
+573.
 (pdftex.def)             Requested size: 345.0pt x 499.0052pt.
 
-<../pictures/Acoustics/Table-D.png, id=1158, 694.595pt x 858.20625pt>
+<../pictures/Acoustics/Table-D.png, id=1170, 694.595pt x 858.20625pt>
 File: ../pictures/Acoustics/Table-D.png Graphic file (type png)
 
 <use ../pictures/Acoustics/Table-D.png>
 Package pdftex.def Info: ../pictures/Acoustics/Table-D.png used on input line 3
-586.
+585.
 (pdftex.def)             Requested size: 345.0pt x 426.27351pt.
  [40] [41 <../pictures/Acoustics/Table-A.png>] [42 <../pictures/Acoustics/Table
 -B.png>] [43 <../pictures/Acoustics/Table-C.png>] [44 <../pictures/Acoustics/Ta
-ble-D.png>] [45]
-Overfull \hbox (0.38388pt too wide) in paragraph at lines 3592--3592
+ble-D.png>]
+Overfull \hbox (3.99968pt too wide) in paragraph at lines 3591--3591
+[][]  \T1/txr/m/n/10 Au-gurzky, P.   (  2008).   ``  Prosodic phras-ing in Ger-
+man sen-tence pro-duc-tion: Op-ti-mal length|
+ []
+
+[45]
+Overfull \hbox (0.38388pt too wide) in paragraph at lines 3591--3591
 [][]  \T1/txr/m/n/10 Grice, Paul Her-bert   (  1975).   ``  Logic and Con-ver-s
 a-tion''.     In:     \T1/txr/m/it/10 Syn-tax and Se-man-tics, Vol. 3,|
  []
 
 
-Overfull \hbox (2.58328pt too wide) in paragraph at lines 3592--3592
+Overfull \hbox (2.58328pt too wide) in paragraph at lines 3591--3591
 [][][]  \T1/txr/m/n/10 (  2006).   ``  The Bor-der Wars: A Neo-Gricean Per-spec
 -tive''.     In:     \T1/txr/m/it/10 Where Se-man-tics Meets|
  []
 
 [46]
-Overfull \hbox (1.12726pt too wide) in paragraph at lines 3592--3592
+Overfull \hbox (1.12726pt too wide) in paragraph at lines 3591--3591
 \T1/txr/m/n/10 Vol. 4.   Ar-beiten des In-sti-tuts für Maschinelle Sprachver-ar
 -beitung (AIMS).   Stuttgart. |
  []
 
 
-Overfull \hbox (0.39548pt too wide) in paragraph at lines 3592--3592
+Overfull \hbox (0.39548pt too wide) in paragraph at lines 3591--3591
 [][]  \T1/txr/m/n/10 Rus-sell, Ben-jamin   (  2006).   ``  Against Gram-mat-i-c
 al Com-pu-ta-tion of Scalar Im-pli-ca-tures''.|
  []
 
-
-Overfull \hbox (9.2463pt too wide) in paragraph at lines 3592--3592
+[47]
+Overfull \hbox (9.2463pt too wide) in paragraph at lines 3591--3591
 [][]  \T1/txr/m/n/10 Stern-berg, S.   (  1966).   ``  High-speed scan-ning in h
 u-man mem-ory''.     In:     \T1/txr/m/it/10 Sci-ence   \T1/txr/m/n/10 153,    
  pp. 652^^U|
  []
 
-[47]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3594.
- [48]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 3594.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 3593.
+[48]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 3593.
  (./paper1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3594.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3594.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 3593.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 3593.
 
 Package rerunfilecheck Info: File `paper1.out' has not changed.
 (rerunfilecheck)             Checksum: 7AC995A50A9A15BA1401E2B687CBF5CC;1771.
@@ -2298,19 +2302,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
 Package logreq Info: Writing requests to 'paper1.run.xml'.
 \openout1 = `paper1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33447 strings out of 493633
- 649630 string characters out of 3143377
- 1036187 words of memory out of 3000000
- 35744 multiletter control sequences out of 15000+200000
+ 33468 strings out of 493633
+ 649942 string characters out of 3143377
+ 1038080 words of memory out of 3000000
+ 35760 multiletter control sequences out of 15000+200000
  112221 words of font info for 155 fonts, out of 3000000 for 9000
  831 hyphenation exceptions out of 8191
  56i,22n,87p,1443b,2019s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2361,10 +2361,10 @@ b></usr/local/texlive/2011/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></us
 r/local/texlive/2011/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/te
 xlive/2011/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2011
 /texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper1.pdf (48 pages, 1020896 bytes).
+Output written on paper1.pdf (48 pages, 1022346 bytes).
 PDF statistics:
- 1317 PDF objects out of 1440 (max. 8388607)
- 1159 compressed objects within 12 object streams
- 297 named destinations out of 1000 (max. 500000)
+ 1329 PDF objects out of 1440 (max. 8388607)
+ 1171 compressed objects within 12 object streams
+ 302 named destinations out of 1000 (max. 500000)
  372 words of extra memory for PDF output out of 10000 (max. 10000000)
 
