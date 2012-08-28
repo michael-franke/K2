@@ -20,6 +20,38 @@
 \newcommand{\SortNoop}[1]{}
 }
 
+\entry{Allbritton96}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Allbritton}{A.}%
+     {D.W.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McKoon}{M.}%
+     {G.}{G.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ratcliff}{R.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AD+1}
+  \strng{fullhash}{ADMGRR1}
+  \field{labelyear}{1996}
+  \field{sortinit}{A}
+  \field{number}{3}
+  \field{pages}{714\bibrangedash 735}
+  \field{title}{Reliability of prosodic cues for resolving syntactic
+  ambiguities}
+  \field{volume}{22}
+  \field{journaltitle}{Journal of Experimental Psychology: Learning, Memory and
+  Cognition}
+  \field{year}{1996}
+\endentry
+
 \entry{AtlasLevinson1981}{incollection}{}
   \name{author}{2}{}{%
     {{}%
@@ -51,6 +83,28 @@
   \field{pages}{1\bibrangedash 61}
   \field{title}{It-clefts, Informativeness, and Logical Form}
   \field{year}{1981}
+\endentry
+
+\entry{Augurzky06}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Augurzky}{A.}%
+     {Petra}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AP1}
+  \strng{fullhash}{AP1}
+  \field{labelyear}{2006}
+  \field{sortinit}{A}
+  \field{series}{MPI Series in Human Cognitive and Brain Sciences}
+  \field{title}{Attaching Relative Clauses in German: The Role of Implicit and
+  Explicit Prosody in Sentence Processing}
+  \field{volume}{77}
+  \list{location}{1}{%
+    {Leipzig}%
+  }
+  \field{year}{2006}
 \endentry
 
 \entry{BrehenyKatsos2008:Experimental-In}{misc}{}
@@ -429,10 +483,10 @@
   \field{year}{1998}
 \endentry
 
-\entry{Fery1993}{book}{}
+\entry{Fery93}{book}{}
   \name{author}{1}{}{%
     {{}%
-     {Fery}{F.}%
+     {F\'{e}ry}{F.}%
      {Caroline}{C.}%
      {}{}%
      {}{}}%
@@ -446,22 +500,22 @@
   \field{sortinit}{F}
   \field{title}{German intonational patterns}
   \list{location}{1}{%
-    {Tübingen}%
+    {T\"ubingen}%
   }
   \field{year}{1993}
 \endentry
 
-\entry{Fodor1998:Learning}{article}{}
+\entry{Fodor98}{article}{}
   \name{author}{1}{}{%
     {{}%
      {Fodor}{F.}%
-     {Janet}{J.}%
+     {Janet~Dean}{J.~D.}%
      {}{}%
      {}{}}%
   }
   \keyw{silent prosody}
-  \strng{namehash}{FJ1}
-  \strng{fullhash}{FJ1}
+  \strng{namehash}{FJD1}
+  \strng{fullhash}{FJD1}
   \field{labelyear}{1998}
   \field{sortinit}{F}
   \field{number}{2}
@@ -470,19 +524,6 @@
   \field{volume}{27}
   \field{journaltitle}{Journal of Psycholinguistic Research}
   \field{year}{1998}
-\endentry
-
-\entry{Uhmann1991}{book}{}
-  \list{publisher}{1}{%
-    {Niemeyer.}%
-  }
-  \field{labelyear}{1991}
-  \field{sortinit}{F}
-  \field{title}{Fokusphonologie.}
-  \list{location}{1}{%
-    {Tübingen}%
-  }
-  \field{year}{1991}
 \endentry
 
 \entry{Fox2007:Free-Choice-and}{incollection}{}
@@ -574,7 +615,63 @@
   \field{year}{2011}
 \endentry
 
-\entry{Frazier2008:Computing}{inproceedings}{}
+\entry{Frazier87}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Frazier}{F.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{1}{}{%
+    {{}%
+     {Coltheart}{C.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Erlbaum}%
+  }
+  \strng{namehash}{FL1}
+  \strng{fullhash}{FL1}
+  \field{labelyear}{1987}
+  \field{sortinit}{F}
+  \field{booktitle}{Attention and Performance XII: The Psychology of Reading}
+  \field{pages}{559\bibrangedash 585}
+  \field{title}{Sentence processing: A tutorial review}
+  \list{location}{1}{%
+    {Hillsdale, NJ}%
+  }
+  \field{year}{1987}
+\endentry
+
+\entry{Frazier82}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Frazier}{F.}%
+     {L.}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rayner}{R.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{FLRK1}
+  \strng{fullhash}{FLRK1}
+  \field{labelyear}{1982}
+  \field{sortinit}{F}
+  \field{pages}{178\bibrangedash 210}
+  \field{title}{Making and correcting errors during sentence comprehension: Eye
+  movements in the analysis of structurally ambiguous sentences}
+  \field{volume}{14}
+  \field{journaltitle}{Cognitive Psychology}
+  \field{year}{1982}
+\endentry
+
+\entry{Frazier08}{inproceedings}{}
   \name{author}{1}{}{%
     {{}%
      {Frazier}{F.}%
@@ -599,8 +696,9 @@
      {}{}%
      {}{}}%
   }
-  \strng{namehash}{FL1}
-  \strng{fullhash}{FL1}
+  \strng{namehash}{FL2}
+  \strng{fullhash}{FL2}
+  \field{labelyear}{2008}
   \field{sortinit}{F}
   \field{booktitle}{Proceedings of SALT 18}
   \field{pages}{319\bibrangedash 339}
@@ -608,6 +706,7 @@
   \list{location}{1}{%
     {Ithaca, NY: Cornell University}%
   }
+  \field{year}{2008}
 \endentry
 
 \entry{Gazdar1979:Pragmatics:-Imp}{book}{}
@@ -697,6 +796,30 @@
   \field{volume}{2}
   \field{journaltitle}{Semantics \& Pragmatics}
   \field{year}{2009}
+\endentry
+
+\entry{Grabe98}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Grabe}{G.}%
+     {Esther}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Ponsen en Looien}%
+  }
+  \strng{namehash}{GE1}
+  \strng{fullhash}{GE1}
+  \field{labelyear}{1998}
+  \field{sortinit}{G}
+  \field{series}{MPI Series in Psycholinguistics}
+  \field{title}{Comparative Intonational Phonology: English and German}
+  \field{volume}{7}
+  \list{location}{1}{%
+    {Wageningen}%
+  }
+  \field{year}{1998}
 \endentry
 
 \entry{Grice1975:Logic-and-Conve}{incollection}{}
@@ -865,6 +988,31 @@
   \field{year}{2010}
 \endentry
 
+\entry{Kraljik05}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kraljik}{K.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Brennan}{B.}%
+     {S.E.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KTBS1}
+  \strng{fullhash}{KTBS1}
+  \field{labelyear}{2005}
+  \field{sortinit}{K}
+  \field{pages}{194\bibrangedash 231}
+  \field{title}{Using prosody and optional words to disambiguate utterances:
+  {F}or the speaker or for the addressee?}
+  \field{volume}{50}
+  \field{journaltitle}{Cognitive Psychology}
+  \field{year}{2005}
+\endentry
+
 \entry{LevinsonPresumptiveMeanings2000}{book}{}
   \name{author}{1}{}{%
     {{}%
@@ -938,7 +1086,7 @@
   \field{year}{2007}
 \endentry
 
-\entry{PierrehumbertHirschberg:Meaning}{incollection}{}
+\entry{Pierrehumbert90}{incollection}{}
   \name{author}{2}{}{%
     {{}%
      {Pierrehumbert}{P.}%
@@ -1009,6 +1157,29 @@
   \field{volume}{21}
   \field{journaltitle}{Psychol Science}
   \field{year}{2010}
+\endentry
+
+\entry{Rapp98}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rapp}{R.}%
+     {S.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RS1}
+  \strng{fullhash}{RS1}
+  \field{labelyear}{1998}
+  \field{sortinit}{R}
+  \field{series}{Arbeiten des Instituts f\"ur Maschinelle Sprachverarbeitung
+  (AIMS)}
+  \field{title}{Automatisierte Erstellung von Korpora f\"ur die
+  Prosodieforschung}
+  \field{volume}{4}
+  \list{location}{1}{%
+    {Stuttgart}%
+  }
+  \field{year}{1998}
 \endentry
 
 \entry{Rooijvan-RooijSchulz2013:Exhaustive-Inte}{article}{}
@@ -1130,6 +1301,42 @@
   \field{year}{2012}
 \endentry
 
+\entry{Schafer00}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Schafer}{S.}%
+     {A.J.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Speer}{S.}%
+     {S.R.}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Warren}{W.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {White}{W.}%
+     {S.D.}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SA+1}
+  \strng{fullhash}{SASSWPWS1}
+  \field{labelyear}{2000}
+  \field{sortinit}{S}
+  \field{number}{3}
+  \field{pages}{169\bibrangedash 182}
+  \field{title}{Intonational disambiguation in sentence production and
+  comprehension}
+  \field{volume}{29}
+  \field{journaltitle}{Journal of Psycholinguistic Research}
+  \field{year}{2000}
+\endentry
+
 \entry{Schulz2005:A-Pragmatic-Sol}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1210,6 +1417,31 @@
   \verb http://semanticsarchive.net/Archive/jcwZTc3Z/StrengtheningOr.pdf
   \endverb
   \field{year}{2008}
+\endentry
+
+\entry{Snedeker03}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Snedeker}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Trueswell}{T.}%
+     {J.C.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SJTJ1}
+  \strng{fullhash}{SJTJ1}
+  \field{labelyear}{2003}
+  \field{sortinit}{S}
+  \field{pages}{103\bibrangedash 130}
+  \field{title}{Using Prosody to Avoid Ambiguity: {E}ffects of Speaker
+  Awareness and Referential Context}
+  \field{volume}{48}
+  \field{journaltitle}{Journal of Memory and Language}
+  \field{year}{2003}
 \endentry
 
 \entry{Soames1982:How-Presupposit}{article}{}
@@ -1302,6 +1534,36 @@
   \field{year}{1984}
 \endentry
 
+\entry{Steinhauer99}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Steinhauer}{S.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Alter}{A.}%
+     {K.}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Friederici}{F.}%
+     {A.D.}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SK+1}
+  \strng{fullhash}{SKAKFA1}
+  \field{labelyear}{1999}
+  \field{sortinit}{S}
+  \field{pages}{191\bibrangedash 196}
+  \field{title}{rain potentials indicate the immediate use of prosodic cues in
+  natural speech processing}
+  \field{volume}{2}
+  \field{journaltitle}{Nature Neuroscience}
+  \field{year}{1999}
+\endentry
+
 \entry{Sternberg1966}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -1319,6 +1581,29 @@
   \field{volume}{153}
   \field{journaltitle}{Science}
   \field{year}{1966}
+\endentry
+
+\entry{Sudhoff10}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sudhoff}{S.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Benjamins}%
+  }
+  \strng{namehash}{SS3}
+  \strng{fullhash}{SS3}
+  \field{labelyear}{2010}
+  \field{sortinit}{S}
+  \field{title}{Focus Particles in German: Syntax, Prosody, and Information
+  Structure.}
+  \list{location}{1}{%
+    {Amsterdam}%
+  }
+  \field{year}{2010}
 \endentry
 
 \entry{Tielvan-Tiel2012:Embedded-Scalar}{misc}{}
@@ -1340,6 +1625,85 @@
   \verb http://parles.upf.edu/llocs/glif/pub/XPRAG2011/Slideshows/vanTiel.pdf
   \endverb
   \field{year}{2012}
+\endentry
+
+\entry{Toepel06}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Toepel}{T.}%
+     {Ulrike}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{TU1}
+  \strng{fullhash}{TU1}
+  \field{labelyear}{2006}
+  \field{sortinit}{T}
+  \field{series}{MPI series in Human Cognitive and Brain Sciences}
+  \field{title}{contrastive topic and focus information in discourse}
+  \field{volume}{48}
+  \list{location}{1}{%
+    {Leipzig}%
+  }
+  \field{year}{2006}
+\endentry
+
+\entry{Uhmann91}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Uhmann}{U.}%
+     {Susanne}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Niemeyer}%
+  }
+  \strng{namehash}{US1}
+  \strng{fullhash}{US1}
+  \field{labelyear}{1991}
+  \field{sortinit}{U}
+  \field{title}{Fokusphonologie}
+  \list{location}{1}{%
+    {T\"ubingen}%
+  }
+  \field{year}{1991}
+\endentry
+
+\entry{Vaissiere83}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Vaissi\`{e}re}{V.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \name{editor}{2}{}{%
+    {{}%
+     {Cutler}{C.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ladd}{L.}%
+     {D.R.}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{VJ1}
+  \strng{fullhash}{VJ1}
+  \field{labelyear}{1983}
+  \field{sortinit}{V}
+  \field{booktitle}{Prosody: Models and Measurements}
+  \field{pages}{53\bibrangedash 66}
+  \field{title}{Language-dependent prosodic features}
+  \list{location}{1}{%
+    {Berlin}%
+  }
+  \field{year}{1983}
 \endentry
 
 \lossort
