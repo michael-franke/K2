@@ -2774,6 +2774,19 @@ correct answers).
 \subsection{Results}
 \label{sec:results}
 
+In the following, we will report the results for targets and positional
+controls separately. After providing the descriptive results, we present
+statistical analyses, which were carried out in the following manner.
+We computed log-liner models (see Scheepers 2003) in two variants (by 
+item and by participant). In the first, the factor {\it Item} was 
+included, and in the second analysis, the factor {\it Participants} 
+was included. Inclusion of these two factors allowed us to test whether 
+the distribution of participants' choices was identical accros items and 
+participants. We report log-likelihood ratio Chi-squares ($LRCS_1$ 
+and $LRCS_2$), degrees of freedom ($df_1$, $df_2$) and significance 
+levels ($p_1$ and $p_2$). The relevant experimental
+factors are provided in the specific subsections below.
+
 \paragraph{Target conditions and positional controls}
 Performance on positional controls was high (92\% correct
 responses on average), indicating that subjects understood the task,
@@ -2955,17 +2968,11 @@ that this finding cannot be explained by some kind of general response
 bias on the last position since local readings required a yes-judgment
 in the \es-conditions but a no-judgment in the \as-conditions.
 
+
 In order to test whether accentuation or the quantifier has an
-influence on the distribution of readings, log-liner models were
-computed (see Schepers 2003). The factors {\it Reading}, {\it
-  Accentuation} and {\it Quantifier} were included in these
-models. Two variants of these models were computed.  In the first, the
-factor {\it Item} was added to the above mentioned. In the latter {\it
-  Participants} was included as a factor. Inclusion of these two
-factors allowed us to test whether the distribution of readings was
-identical accros items and participants. We report log-likelihood
-ratio Chi-squares ($LRCS_1$ and $LRCS_2$), degrees of freedom ($df_1$,
-$df_2$) and significance levels ($p_1$ and $p_2$).
+influence on the distribution of readings, log-liner models 
+including the factors {\it Reading}, {\it Accentuation} and 
+{\it Quantifier}. 
 
 Unsurprisingly, there was an effect of \emph{Reading} ($LRCS_1=364.77,
 df_1 = 3, p_1<.001, LRCS_2=364.77, df_2 = 3, p_1<.001,$) because
@@ -3107,28 +3114,39 @@ Participants' judgments are depicted in Figures \ref{Fig:EC_judgments} and
 under one of these readings, and as "other" if they were not. The distributions 
 of readings thus coded is illustrated in Figure \ref{fig:response-type-freque-TRF}. 
 Overall, participants mainly gave answers corresponding to the \lc-reading (65\%). 
-Moreover, the preference for this reading was constrained by prosody. When prosody 
-supported a dispreferred \ec-reading, the number of \lc-decisions was decreased. In both 
-\lc- and \ec-sequences, the number of \lc-answers was highest when this reading
-was supported by prosodic phrasing (i.e. 77\%  and 76\%, respectively), and a bit lower
-with neutral prosody (69\%  and 63\%). This clearcut advantage decreased when prosodic
-phrasing supported the \ec-reading (52\%  vs. 56\%). The number 
+Moreover, this pattern was constrained by prosody. When prosody 
+supported a dispreferred \ec-reading, the number of \ec-decisions were increased. 
+
+In both \lc- and \ec-sequences, the number of \ec-answers was highest when this reading
+was supported by prosodic phrasing (i.e. 30\%  and 32\%, respectively), and a bit lower
+with neutral prosody (24\%  and 25\%). When prosodic phrasing supported the \lc-reading,
+the number of \ec choices was lowest (12\% in both sequences). The number 
 of erroneous answers did not differ between the single conditions. Finally, the
 availability of readings within a sequence did not yield any significant effects.
 
 
 In order to test statistically whether prosodic phrasing and sequential ordering 
-had an effect on the number of \lc choices, log-linear models with the factors
-{\it Reading}, {\it Prosody}, {\it Sequence}, {\it Item}, and {\it Participant} were included.
+had an effect on the number of \ec-choices, we contrasted the number of \ec-choices
+with non-\ec -choices (i.e. \lc-answers and erroneous responses together), calculating
+log-linear model analyses with the factors {\it Reading}, {\it Prosody}, and 
+{\it Sequence}.
 
 An effect of {\it Reading} reflects that overall, readings were distributed inhomogeneously
-($LRCS = 539.04, p < .001$). As revealed by an interaction between {\it Prosody} and
+($LRCS_1 = 252.8, df_1 =1, p_1 < .001$; $LRCS_2 = 252.8, df_2 =1, p_2 < 001$). 
+As revealed by an interaction between {\it Prosody} and
 {\it Reading}, prosodic phrasing had an influence upon the distribution of readings 
-($LRCS = 50.42, p < .001$). Finally, an interaction between {\it Participant} and {\it Reading}
-shows that readings were distributed unevenly amongst participants ($LRCS = 345.22, p < .001$)
+($LRCS_1 = 38.4, df_1 =2, p_1 < 001$; $LRCS_2 = 26.1, df_2 =2, p_2 < .001$). 
 
+In the analysis by participant, an interaction between {\it Participant} and {\it Reading}
+indicates that reading preferences differed between participants ($LRCS_1 = 376.6,df_1 =37,  
+p_1 < .001$). 
 
-
+In the analysis by items, a three-way interaction between {\it Item}, {\it Prosody} and 
+{\it Reading} was observed ($LRCS_2 = 88.3, df_1 =54, p_2 < .01$). As this effect was 
+unexpected, we carried out additional descriptive analyses (crosstables) in order to examine whether
+the interaction might have been caused by specific items. When excluding the four items with
+the highest deviation from expected frequencies (Residuals > 2.4 in at least one cell), 
+the interaction was no longer significant ($p_2 = .18$).
 
 \begin{figure}
 \includegraphics[width=\textwidth]{../pictures/graph_ec.pdf}
@@ -3151,8 +3169,6 @@ critical positions for a reading were the third position ("true" corresponded
 to an \lc reading) and the sixth position ("false" corresponded to an \ec reading)}
 \label{Fig:LC_judgments}.
 \end{figure}
-
-
 
 
 \begin{figure}
@@ -3256,7 +3272,7 @@ to an \lc reading) and the sixth position ("false" corresponded to an \ec readin
 \end{figure}
 
 
-\subsection{Interpretation}
+\subsection{Discussion}
 \label{sec:interpretation}
 
 
@@ -3267,12 +3283,17 @@ Moreover, results obtained for the preference-related controls
 show that our design is able to detect multiple readings and preferences 
 among these. Crucially, the amount of response types for \lc- and \ec-readings 
 reflected the known preference for the former, \emph{irrespective} of the 
-order in which each reading could first be judged in a given sequence. 
-Finally, prosodic effects were restricted to the preference-related 
-controls. As expected, the dispreferred \ec-reading was chosen 
+order in which each reading could first be judged in a given sequence.
+Finally, the incremental verification task was generally sensitive
+to prosody. However, prosodic effects were restricted to the preference-related 
+controls. As expected, in these conditions, the dispreferred \ec-reading was chosen 
 significantly more often when supported by prosodic phrasing. Interestingly, 
 contrastively accenting scalar \emph{some} had no effect on the observed 
-decisions in \as- and \es-sentences.
+decisions in the target conditions. Crucially, local readings occurred in both
+\as- and \es-sentences, independently of prosody. Finally, closer examination of 
+the participants' decisions revealed two groups: participants in the first
+group consistently gave answers corresponding to local readings, whereas participants
+in the second group consistently showed a literal interpretation.  
 
 Given the overall pattern of results, the most straightforward 
 explanation of the observed data is the hypothesis that the actual 
@@ -3457,7 +3478,7 @@ readings, grammaticalism must revise its selection criterion among
 readings. In the remainder of this section we would like to discuss
 whether this interpretation of our data is feasible.
 
-\subsection{Discussion}
+\subsection{General Discussion}
 \label{sec:discussion}
 
 %Several worries and objections are conceivable that might cast doubt
