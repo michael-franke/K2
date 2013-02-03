@@ -4,10 +4,21 @@
 
 \usepackage{pgfplots}
 
+\pgfplotscreateplotcyclelist{mylist}{% 
+    {solid,black},
+    {dotted,black}, 
+    {dashed,black}, 
+    {loosely dotted,gray}, 
+    {solid,black},
+    {dotted,black},
+    {dashed,black},
+    {loosely dotted}}
+
 \begin{document}
 
 \begin{tikzpicture}[scale=0.8]
   \begin{axis}[
+    cycle list name = mylist,
     legend pos = north west,
     ymajorgrids,
     ymax = 250,
@@ -16,7 +27,7 @@
     xtick = data,
     xticklabels = {alle,diese,N1,sind,mit,einigen,ihrer,N2,verbunden}
     ]
-    \addplot coordinates {
+    \addplot+[line width = 1.3pt] coordinates {
       (0 ,17.6)
       (1 ,27.4)
       (2 ,82.6)
@@ -27,7 +38,7 @@
       (7 ,36.66666667)
       (8 ,47.13333333)};
 
-  \addplot coordinates {
+  \addplot+[line width = 1.3pt] coordinates {
         (0 ,19.6        )
         (1 ,36.46666667 )
         (2 ,115.1333333 )
@@ -47,6 +58,7 @@
 
 \begin{tikzpicture}[scale=0.8]
   \begin{axis}[
+    cycle list name = mylist,
     legend pos = north west,
     ymajorgrids,
     ymax = 250,
@@ -55,7 +67,7 @@
     xtick = data,
     xticklabels = {genau,einer,dieser,N1,ist,mit,einigen,seiner,N2,verbunden}
     ]
-    \addplot coordinates {
+    \addplot+[line width = 1.3pt] coordinates {
         (     0 , 59.06666667 )
         (     1 , 46.26666667 )
         (     2 , 19          )
@@ -67,7 +79,7 @@
         (     8 , 32.46666667 )
         (     9 , 42.33333333 )};
 
-  \addplot coordinates {
+  \addplot+[line width = 1.3pt] coordinates {
         (0 , 30.21428571 )
         (1 , 34.21428571 )
         (2 , 17.07142857 )
@@ -89,6 +101,7 @@
 
 \begin{tikzpicture}[scale=0.8]
   \begin{axis}[
+    cycle list name = mylist,
     legend pos = north west,
     ymajorgrids,
     ymax = 800,
@@ -98,7 +111,7 @@
     xtick = data,
     xticklabels = {alle,diese,N1,sind,mit,einigen,ihrer,N2,verbunden}
     ]
-    \addplot coordinates {
+    \addplot+[line width = 1.3pt] coordinates {
       (0 ,225.8333333)
       (1 , 245.3333333 )
       (2 , 397         )
@@ -110,7 +123,7 @@
       (8 ,722 )
     };
 
-  \addplot coordinates {
+  \addplot+[line width = 1.3pt] coordinates {
         (0 , 216.9212    )
         (1 , 234.6666667 )
         (2 , 414.6666667 )
@@ -130,6 +143,7 @@
 
 \begin{tikzpicture}[scale=0.8]
   \begin{axis}[
+    cycle list name = mylist,
     legend pos = north west,
     ymajorgrids,
     ymax = 800,
@@ -139,7 +153,7 @@
     xtick = data,
     xticklabels = {genau,einer,dieser,N1,ist,mit,einigen,seiner,N2,verbunden}
     ]
-    \addplot coordinates {
+    \addplot+[line width = 1.3pt] coordinates {
 (       0 , 307         )
 (       1 , 256         )
 (       2 , 128.6666667 )
@@ -152,7 +166,7 @@
 (       9 , 704.6666667 )
     };
 
-  \addplot coordinates {
+  \addplot+[line width = 1.3pt] coordinates {
 (0 , 285.8333333 )
 (1 , 244.6666667 )
 (2 , 128         )
@@ -176,6 +190,7 @@
 
 \begin{tikzpicture}[scale=0.8]
   \begin{axis}[
+    cycle list name = mylist,
     legend pos = north west,
     ymajorgrids,
     ymax = 250,
@@ -185,7 +200,7 @@
     xtick = data,
     xticklabels = {D1,N1,ist,mit,N2,und,N3,mit,N4,verbunden}
     ]
-    \addplot coordinates {
+    \addplot+[line width = 1.3pt] coordinates {
 (       0 ,27.65517241 )
 (       1 ,91.20689655 )
 (       2 ,32.51724138 )
@@ -198,7 +213,7 @@
 (       9 ,68.72413793 )
     };
 
-  \addplot coordinates {
+  \addplot+[line width = 1.3pt] coordinates {
 (0 ,23.48148148) 
 (1 ,63.07407407) 
 (2 ,13.7037037 ) 
@@ -210,7 +225,7 @@
 (8 ,52.18518519) 
 (9 ,123        ) };
 
-  \addplot coordinates {
+  \addplot+[line width = 1.3pt] coordinates {
 (0, 31.7        )
 (1, 80.2        )
 (2, 24.46666667 )
@@ -231,6 +246,7 @@
 
 \begin{tikzpicture}[scale=0.8]
   \begin{axis}[
+    cycle list name = mylist,
     legend pos = north west,
     ymajorgrids,
     ymax = 1400,
@@ -240,7 +256,7 @@
     xtick = data,
     xticklabels = {D1,N1,ist,mit,N2,und,N3,mit,N4,verbunden}
     ]
-    \addplot coordinates {
+    \addplot+[line width = 1.3pt] coordinates {
 (0  , 105.75      )
 (1  , 332.3333333 )
 (2  , 168         )
@@ -253,7 +269,7 @@
 (9  , 691.3333333 )
     };
 
-  \addplot coordinates {
+  \addplot+[line width = 1.3pt] coordinates {
 (0  , 100.75      )
 (1  , 306.6666667 )
 (2  , 167         )
@@ -266,7 +282,7 @@
 (9  , 681.3333333 )
 };
 
-  \addplot coordinates {
+  \addplot+[line width = 1.3pt] coordinates {
 (0  , 98.08333333 )
 (1  , 313.6666667 )
 (2  , 169.3333333 )
