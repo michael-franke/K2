@@ -1,0 +1,1 @@
+Condition	Accent	Position	False	Literal	Local	GlobalAE	ntr	1	1	29	7	0AE	ntr	2	1	26	10	0AE	ntr	3	2	25	9	1AE	acc	1	1	28	7	1AE	acc	2	3	25	8	1AE	acc	3	3	24	10	0GE	ntr	1	14	16	7	0GE	ntr	2	3	21	13	0GE	ntr	3	8	16	13	0GE	acc	1	18	13	6	0GE	acc	2	5	27	7	1GE	acc	3	5	19	13	0
