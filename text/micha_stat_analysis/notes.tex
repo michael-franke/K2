@@ -109,10 +109,10 @@ target condition, we obtain the following table:
 \end{center}
 Notably, nobody gave a \emph{local} answer on the first encounter of a
 target condition with neutral accentuation. Still, Pearson's $\chi^2$
-test does not reject the null hypothesis of an equal distribution
-of readings ($\chi^2 = 2.0546$, $p \approx 0.4318$).
-\todo[inline]{Is this test applicable at all? Don't we have too little
-data points? How else could a dependence be tested in this case?}
+test does not reject the null hypothesis of an equal distribution of
+readings ($\chi^2 = 2.0546$, $p \approx 0.4318$).  \todo[inline]{Is
+  this test applicable at all? Don't we have too little data points?
+  How else could a dependence be tested in this case?}
 
 To test which factors are relevant to explain the data distribution in
 Table~\ref{tab:CC-ContingencyTable}, we compute log-linear models
@@ -135,7 +135,25 @@ amount of \emph{local} responses differed across conditions and
 accentuation types. But this does not seem to be the case. The
 smallest model that predicts the data well in this case contains
 factors \textsc{Response} and \textsc{Position} and their two-way
-interaction. 
+interaction ($\chi^2 = 4.71$, $df=18$, $p = 0.999$, $AIC = 16.711$
+(compared to $AIC=48$ of the saturated model)). This suggests that a
+shift in the distribution of \emph{local} responses can be
+satisfactorily explained as a position effect across conditions: later
+trials yielded less \emph{other} responses.
+
+To test, then, whether this prediction is the result of an decrease of
+\emph{false} responses in later trials or an actual shift in the
+distribution between \emph{literal} and \emph{local} distribution, we
+also computed the best log-linear predictor for the subset of our data
+including only \emph{literal} and \emph{local} responses. Doing so,
+the best predictor indeed drops factor \textsc{Position} and contains
+only factors \textsc{Response} and \textsc{Condition} and their
+two-way interaction ($\chi^2 = 12.497$, $df=20$, $p = 0.898$, $AIC =
+20.497$ (compared to $AIC=48$ of the saturated model)). This suggests
+that the factor \textsc{Position} is not relevant for explaining the
+distribution of \emph{literal} and \emph{local} readings. Its effects
+noted previously are most likely due to the decrease of \emph{false}
+responses in later trials of the \es-conditions.
 
 
 
