@@ -2,7 +2,9 @@
 
 \usepackage{myarticlestyledefault}
 
+
 \usepackage{subfig}
+\usepackage{todonotes}
 
 \title{K2 Analysis}
 \author{Michael Franke}
@@ -38,8 +40,8 @@ Each participant saw each critical sentence type three times with
 neutral and three times with constrastive stress intonation on the
 scalar item. We coded judgements as either \emph{literal},
 \emph{local}, \emph{global} or \emph{false}. Contingency tables of the
-observed frequencies are in Table~XYZ.
-
+observed frequencies are in Table~\ref{tab:CC-ContingencyTable}.
+%
 \begin{table}[h]
 
 \subfloat[][\as neutral]{\begin{tabular}{lcccc}
@@ -59,7 +61,7 @@ observed frequencies are in Table~XYZ.
     Pos 1 & 16 &  7 & 0 & 14 \\
     Pos 2 & 21 & 13 & 0 &  3 \\
     Pos 3 & 16 & 13 & 0 &  8 \\ \addlinespace[0.15cm]
-    Total & 51 & 33 & 0 & 25
+    Total & 53 & 33 & 0 & 25
 \end{tabular}}
 
 \subfloat[][\as accented]{\begin{tabular}{lcccc}
@@ -76,15 +78,65 @@ observed frequencies are in Table~XYZ.
 \subfloat[][\es accented]{\begin{tabular}{lcccc}
     & \emph{literal} & \emph{local} & \emph{global} & \emph{false} \\
     \midrule
-    Pos 1 & 16 &  7 & 0 & 14 \\
-    Pos 2 & 21 & 13 & 0 &  3 \\
-    Pos 3 & 16 & 13 & 0 &  8 \\ \addlinespace[0.15cm]
-    Total & 51 & 33 & 0 & 25
+    Pos 1 & 13 &  6 & 0 & 18 \\
+    Pos 2 & 24 &  7 & 1 &  5\\
+    Pos 3 & 19 & 13 & 0 &  5 \\ \addlinespace[0.15cm]
+    Total & 56 & 26 & 1 & 28
 \end{tabular}}
 
 \caption{Contingency table of raw judgements.}
 \label{tab:CC-ContingencyTable}
 \end{table}
+%
+Two things strike the eye. Firstly, there are hardly any \emph{global}
+responses. For subsequent analysis in terms of log-linear models we
+must therefore lump together \emph{global} and \emph{false} responses
+into one more general category \emph{other}. Secondly, the number of
+\emph{false} responses drops remarkably in the \es-conditions. The
+following analysis should probe into this potential position effect.
+
+
+If we only look at the very first judgement that subjects gave to a
+target condition, we obtain the following table:
+\begin{center}
+\begin{tabular}{lcccc}
+    & \emph{literal} & \emph{local} & \emph{global} & \emph{false} \\
+    \midrule
+    accented & 15 &  5 & 0 &  9 \\
+    neutral  &  6 &  0 & 0 &  2 \\ \addlinespace[0.15cm]
+    Total    & 21 &  5 & 0 & 11
+\end{tabular}
+\end{center}
+Notably, nobody gave a \emph{local} answer on the first encounter of a
+target condition with neutral accentuation. Still, Pearson's $\chi^2$
+test does not reject the null hypothesis of an equal distribution
+of readings ($\chi^2 = 2.0546$, $p \approx 0.4318$).
+\todo[inline]{Is this test applicable at all? Don't we have too little
+data points? How else could a dependence be tested in this case?}
+
+To test which factors are relevant to explain the data distribution in
+Table~\ref{tab:CC-ContingencyTable}, we compute log-linear models
+\citep{KnokeBurke1980:Log-Linear-Mode}. The relevant factors are
+\textsc{Position}, \textsc{Response}, \textsc{Condition}, and
+\textsc{Accent}. To ensure applicability, we lump levels \emph{global}
+and \emph{false} of factor \textsc{Response} into a single level
+\emph{other}. The best predictor of the data takes all factors
+\textsc{Position}, \textsc{Response} and \textsc{Condition} and all
+their interactions into account ($\chi^2 = 7.493$, $df=18$, $p =
+0.985$, $AIC = 43.493$ (compared to $AIC=72$ of the saturated
+model)). Crucially, factor \textsc{Accent} is spurious.
+
+To test whether the effect of \textsc{Condition} could be due to the
+relatively high number of \emph{false} responses in the
+\es-conditions, we regrouped the factor \textsc{Response} once more to
+distinguish only \emph{local} responses from \emph{other}
+responses. Doing so allows us to address the question whether the
+amount of \emph{local} responses differed across conditions and
+accentuation types. But this does not seem to be the case. The
+smallest model that predicts the data well in this case contains
+factors \textsc{Response} and \textsc{Position} and their two-way
+interaction. 
+
 
 
 \section{Preference-Related Controls}
