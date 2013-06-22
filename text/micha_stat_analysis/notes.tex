@@ -6,10 +6,6 @@
 \usepackage{subfig}
 \usepackage{todonotes}
 
-\title{K2 Analysis}
-\author{Michael Franke}
-\date{}
-
 \newcommand{\lit}{\acro{lit}}
 \newcommand{\glb}{\acro{glb}}
 \newcommand{\loc}{\acro{loc}}
@@ -25,22 +21,31 @@
 \newcommand{\LC}{\lc}
 \newcommand{\EC}{\ec}
 
+
+\title{K2 Analysis}
+\author{}
+\date{}
+
+
 \begin{document}
 \maketitle
-
-\section{Controls}
-\label{sec:controls}
-
 
 
 \section{Target Conditions}
 \label{sec:target-conditions}
 
-Each participant saw each critical sentence type three times with
-neutral and three times with constrastive stress intonation on the
-scalar item. We coded judgements as either \emph{literal},
-\emph{local}, \emph{global} or \emph{false}. Contingency tables of the
-observed frequencies are in Table~\ref{tab:CC-ContingencyTable}.
+There were two critical sentence-sequence types, \as and \es, which
+are the levels in factor \textsc{Condition}. Factor \textsc{Accent}
+codes whether a sentence was neutral or accented. Every participant
+saw each critical sentence type six times, of which three times had
+neutral, three times constrastive stress intonation on the scalar
+item. We coded into factor \textsc{Position} whether a particular
+encounter of a critical sentence and intonation pattern was the first,
+second or third time for a participant. Finally, we coded judgements
+as either \emph{literal}, \emph{local}, \emph{global} or \emph{false}
+for form factor \emph{Response}. Given these factors, contingency
+tables of the observed frequencies are in
+Table~\ref{tab:CC-ContingencyTable}.
 %
 \begin{table}[h]
 
@@ -84,20 +89,188 @@ observed frequencies are in Table~\ref{tab:CC-ContingencyTable}.
     Total & 56 & 26 & 1 & 28
 \end{tabular}}
 
-\caption{Contingency table of raw judgements.}
+\caption{Contingency table of raw judgements for target condition.}
 \label{tab:CC-ContingencyTable}
 \end{table}
-%
+
 Two things strike the eye. Firstly, there are hardly any \emph{global}
 responses. For subsequent analysis in terms of log-linear models we
 must therefore lump together \emph{global} and \emph{false} responses
-into one more general category \emph{other}. Secondly, the number of
-\emph{false} responses drops remarkably in the \es-conditions. The
-following analysis should probe into this potential position effect.
+into one more general category level \emph{other}. Secondly, the
+number of \emph{false} responses drops remarkably in the
+\es-conditions. The following analysis should probe into this
+potential position effect.
 
 
-If we only look at the very first judgement that subjects gave to a
-target condition, we obtain the following table:
+
+
+To test which factors are relevant to explain the data distribution in
+Table~\ref{tab:CC-ContingencyTable}, we compute log-linear models
+\citep{KnokeBurke1980:Log-Linear-Mode}. The relevant factors are
+\textsc{Position}, \textsc{Response}, \textsc{Condition}, and
+\textsc{Accent}. To ensure applicability, we lump levels \emph{global}
+and \emph{false} of factor \textsc{Response} into a single level
+\emph{other}. The best predictor of the data takes all factors
+\textsc{Position}, \textsc{Response} and \textsc{Condition} and all
+their interactions, including the three-way interaction, into account
+($\chi^2 = 7.493$, $df=18$, $p = 0.985$, $AIC = 43.493$ (compared to
+$AIC=72$ of the saturated model)). Crucially, factor \textsc{Accent}
+is spurious.
+
+% To test whether the effect of \textsc{Condition} could be due to the
+% relatively high number of \emph{false} responses in the
+% \es-conditions, we regrouped the factor \textsc{Response} once more
+% to distinguish only \emph{local} responses from \emph{other}
+% responses. Doing so allows us to address the question whether the
+% amount of \emph{local} responses differed across conditions and
+% accentuation types. But this does not seem to be the case. The model
+% that predicts the data best in this case contains factors
+% \textsc{Response} and \textsc{Position} and their two-way
+% interaction ($\chi^2 = 4.71$, $df=18$, $p = 0.999$, $AIC = 16.711$
+% (compared to $AIC=48$ of the saturated model)). This suggests that a
+% shift in the distribution of \emph{local} responses can be
+% satisfactorily explained as a position effect that is constant
+% across conditions: later trials yielded less \emph{other} responses.
+
+To test, then, whether \textsc{Position} affects the distribution of
+\emph{literal} and \emph{local} readings, we also computed the best
+log-linear predictor for the subset of our data including only
+\emph{literal} and \emph{local} responses. Doing so, the best
+predictor indeed drops factor \textsc{Position} and contains only
+factors \textsc{Response} and \textsc{Condition} and their two-way
+interaction ($\chi^2 = 12.497$, $df=20$, $p = 0.898$, $AIC = 20.497$
+(compared to $AIC=48$ of the saturated model)). This suggests that the
+factor \textsc{Position} is not relevant for explaining the
+distribution of \emph{literal} and \emph{local} readings. Its effects
+noted previously are most likely due to the decrease of \emph{false}
+responses in later trials of the \es-conditions.
+
+
+\section{Preference-Related Controls}
+\label{sec:pref-relat-contr}
+
+Some subjects saw three others four trials of preference-related
+controls. The relevant factors in this case are: \textsc{Condition}
+with levels \emph{lc} and \emph{ec} coding which reading could be
+judged first in a sequence; \textsc{Accent} with levels \emph{ntr},
+\emph{lc} and \emph{ec} coding which reading was cued by intonation;
+\textsc{Position} with levels 1 to 4; and \textsc{Response} with
+levels \emph{lc}, \emph{ec} and \emph{false}. The observed data under
+this classification is given in Table~\ref{tab:TF-ContingencyTable}.
+%
+\begin{table}[h]
+
+ \centering
+
+\subfloat[][\lc neutral]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 & 30 &  6 & 1  \\
+    Pos 2 & 24 &  9 & 4  \\
+    Pos 3 & 25 &  8 & 3  \\
+    Pos 4 & 11 & 10 & 1  \\ \addlinespace[0.15cm]
+    Total & 90 & 33 & 9 
+\end{tabular}}
+%
+\hspace{0.4cm}
+%
+\subfloat[][\ec neutral]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  28 &   4 &   5 \\ 
+    Pos 2 &  26 &  10 &   1 \\ 
+    Pos 3 &  19 &  11 &   6 \\ 
+    Pos 4 &  11 &   9 &   2 \\ \addlinespace[0.15cm]
+    Total &  65 &  34 &  14 
+\end{tabular}}
+
+\subfloat[][\lc with \lc cue]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  26 &   6 &   5 \\ 
+    Pos 2 &  30 &   4 &   3 \\ 
+    Pos 3 &  30 &   5 &   2 \\ 
+    Pos 4 &  14 &   1 &   1 \\ 
+    \addlinespace[0.15cm]
+    Total & 100 & 16 & 11 
+\end{tabular}}
+%
+\hspace{0.4cm}
+%
+\subfloat[][\ec with \lc cue]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  24 &   6 &   7 \\ 
+    Pos 2 &  30 &   3 &   4 \\ 
+    Pos 3 &  30 &   5 &   2 \\ 
+    Pos 4 &  13 &   2 &   1 \\ 
+    \addlinespace[0.15cm]
+    Total &  97 &  16 &  14 
+\end{tabular}}
+
+
+\subfloat[][\lc with \ec cue]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  15 &  15 &   7 \\ 
+    Pos 2 &  20 &  10 &   7 \\ 
+    Pos 3 &  24 &   7 &   5 \\ 
+    Pos 4 &   8 &   8 &   6 \\
+    \addlinespace[0.15cm]
+    Total &  67 & 40 &  25 
+\end{tabular}}
+%
+\hspace{0.4cm}
+%
+\subfloat[][\ec with \ec cue]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  21 &  12 &   4 \\ 
+    Pos 2 &  18 &  12 &   7 \\ 
+    Pos 3 &  22 &  12 &   2 \\ 
+    Pos 4 &  13 &   7 &   2 \\ 
+    \addlinespace[0.15cm]
+    Total &  74 &  43 &  15 
+\end{tabular}}
+
+\caption{Contingency table of raw judgements for target-related fillers.}
+\label{tab:TF-ContingencyTable}
+\end{table}
+
+The best hierarchical log-linear model (by $AIC$) includes factors
+\textsc{Response}, \textsc{Accent} and \textsc{Position}, as well as
+the two-way interaction between \textsc{Response} and \textsc{Accent}
+($\chi^2 = 48.802$, $df=60$, $p=0.85$, $AIC=72.802$ (compared to
+$AIC=144$ of the standard model)). Crucially, the observed response
+pattern does not differ significantly across conditions (i.e., which
+reading can be judged first), but does depend on intonational cues.
+
+The factor \textsc{Position} cannot be dropped without dramatically
+reducing explanatory power of the model. However, if we abstract over
+intonation and conditions, we get the following table:
+\begin{center}
+\centering
+\begin{tabular}{rrrr}
+  & \emph{lc} & \emph{ec} & \emph{false} \\ 
+  \midrule
+  Pos 1 & 144 & 49 & 29 \\ 
+  Pos 2 & 148 & 48 & 26 \\ 
+  Pos 3 & 150 & 48 & 20 \\ 
+  Pos 4 &  70 & 37 & 13 \\ 
+\end{tabular}
+\end{center}
+There is no interaction between \textsc{Position} and
+\textsc{Response} ($\chi^2$, $df=6$, $p=0.3798$), suggesting that
+\textsc{Position} does not affect the overal distribution of readings.
+
+\newpage
+
+\section{Loose Ends}
+\label{sec:loose-ends}
+
+If we only look at the judgement that subjects gave to the very first
+target condition that they saw (be it \as or \es), we obtain the
+following table:
 \begin{center}
 \begin{tabular}{lcccc}
     & \emph{literal} & \emph{local} & \emph{global} & \emph{false} \\
@@ -113,55 +286,6 @@ test does not reject the null hypothesis of an equal distribution of
 readings ($\chi^2 = 2.0546$, $p \approx 0.4318$).  \todo[inline]{Is
   this test applicable at all? Don't we have too little data points?
   How else could a dependence be tested in this case?}
-
-To test which factors are relevant to explain the data distribution in
-Table~\ref{tab:CC-ContingencyTable}, we compute log-linear models
-\citep{KnokeBurke1980:Log-Linear-Mode}. The relevant factors are
-\textsc{Position}, \textsc{Response}, \textsc{Condition}, and
-\textsc{Accent}. To ensure applicability, we lump levels \emph{global}
-and \emph{false} of factor \textsc{Response} into a single level
-\emph{other}. The best predictor of the data takes all factors
-\textsc{Position}, \textsc{Response} and \textsc{Condition} and all
-their interactions into account ($\chi^2 = 7.493$, $df=18$, $p =
-0.985$, $AIC = 43.493$ (compared to $AIC=72$ of the saturated
-model)). Crucially, factor \textsc{Accent} is spurious.
-
-To test whether the effect of \textsc{Condition} could be due to the
-relatively high number of \emph{false} responses in the
-\es-conditions, we regrouped the factor \textsc{Response} once more to
-distinguish only \emph{local} responses from \emph{other}
-responses. Doing so allows us to address the question whether the
-amount of \emph{local} responses differed across conditions and
-accentuation types. But this does not seem to be the case. The
-smallest model that predicts the data well in this case contains
-factors \textsc{Response} and \textsc{Position} and their two-way
-interaction ($\chi^2 = 4.71$, $df=18$, $p = 0.999$, $AIC = 16.711$
-(compared to $AIC=48$ of the saturated model)). This suggests that a
-shift in the distribution of \emph{local} responses can be
-satisfactorily explained as a position effect across conditions: later
-trials yielded less \emph{other} responses.
-
-To test, then, whether this prediction is the result of an decrease of
-\emph{false} responses in later trials or an actual shift in the
-distribution between \emph{literal} and \emph{local} distribution, we
-also computed the best log-linear predictor for the subset of our data
-including only \emph{literal} and \emph{local} responses. Doing so,
-the best predictor indeed drops factor \textsc{Position} and contains
-only factors \textsc{Response} and \textsc{Condition} and their
-two-way interaction ($\chi^2 = 12.497$, $df=20$, $p = 0.898$, $AIC =
-20.497$ (compared to $AIC=48$ of the saturated model)). This suggests
-that the factor \textsc{Position} is not relevant for explaining the
-distribution of \emph{literal} and \emph{local} readings. Its effects
-noted previously are most likely due to the decrease of \emph{false}
-responses in later trials of the \es-conditions.
-
-
-
-\section{Preference-Related Controls}
-\label{sec:pref-relat-contr}
-
-
-
 
 \printbibliography[heading=bibintoc]
 
