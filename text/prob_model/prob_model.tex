@@ -5,7 +5,7 @@
 \usetikzlibrary{calc}
 
 \title{A Bayesian model for the K2 data}
-\author{Michael Franke}
+\author{}
 \date{}
 
 \begin{document}
@@ -246,7 +246,82 @@ Dirichlet distribution with equal weights on all dimensions.
 
 \section{Analysis}
 
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{pics/Posterior_TF.pdf}
+  \caption{Posterior over weights for target readings in
+    target-related control conditions.}
+  \label{fig:Posterior_TF}
+\end{figure}
 
+Using MCMC sampling, we obtain estimates for the posterior of the
+latent parameters given the data. We are most interested in the level
+of credence we should place on the weights of target readings in
+critical conditions. But to check whether the model yields sensible
+results we first look at the preference-related control
+conditions. 
+
+Estimates for the posteriors over weights for target-related controls
+are plotted in Figure~\ref{fig:Posterior_TF}. The results are exactly
+as we would expect them to be. Given our data, we should believe that
+the late-closure reading is more prominent. But the level of
+prominence varies with accentuation. Under prosody that we
+hypothesized would favor the late-closure reading, the contrast is
+most pronounced. Contrarily, accentuation that we hypothesized favors
+the early-closure reading we are no longer justified in believing that
+the late-closure reading is certainly preferred (witness the clearly
+overlapping 95\% confidence regions).
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{pics/Posterior_T.pdf}
+  \caption{Posteriors over weights for target readings in critical
+    conditions. Colored lines below the actual plots indicate 95\%
+    confidence intervals.}
+  \label{fig:Posterior_T}
+\end{figure}
+
+Turning to the critical conditions, estimates of posteriors over
+weights given our data are given in Figure~\ref{fig:Posterior_T}. We
+only have marginal reasons to believe that global readings have any
+non-negligible weight data in the AS-A condition. Apart from this, if
+the model is true, the data corroborates the belief that the literal
+reading is strongly preferred over the local reading over the global
+reading (again witness the non-overlapping 95\% confidence
+regions). We also see the expected general effect of intonational
+markedness. Qualitatively speaking, the preference for literal
+readings appears less pronounced in the accented conditions.
+
+\todo[inline]{still to be added: posteriors over $q$ and errors $e_k$}
+
+\paragraph{Model validation.} We should also check whether the model
+is actually a suitable model to predict the observed data. Posterior
+predictive checks indicate that it is. Figures~\ref{fig:Posterior_TF}
+and \ref{fig:Posterior_T} show simulated samples of answer patterns
+that the model predicts under the posterior values for the latent
+parameters. Everything looks almost perfect, with the only exception
+the estimation of global readings in the ES-conditions.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{pics/PPC_TF.pdf}
+  \caption{Posterior predictive check for the target-related control
+    conditions. The colored dots on the plots indicate the actual
+    observed numbers of choices. Intuitively speaking, the ``higher''
+    the dot on the curve, the more likely does the model (under the
+    posterior values for its parameters) predict the data (on which
+    the posterior estimate is based).}
+  \label{fig:Posterior_TF}
+\end{figure}
+
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{pics/PPC_T.pdf}
+  \caption{Posterior predictive check for the target-related control
+    conditions.}
+  \label{fig:Posterior_T}
+\end{figure}
 
 \printbibliography[heading=bibintoc]
 
