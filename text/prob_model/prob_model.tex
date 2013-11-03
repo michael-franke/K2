@@ -270,14 +270,21 @@ hypothesized would favor the late-closure reading, the contrast is
 most pronounced. Contrarily, accentuation that we hypothesized favors
 the early-closure reading we are no longer justified in believing that
 the late-closure reading is certainly preferred (witness the clearly
-overlapping 95\% confidence regions).
+overlapping 95\% HDIs).\footnote{A 95\% Highest Density Interval (HDI)
+  is a convex region of values over which 95\% of the distribution's
+  probability density is divided, such that no value outside of that
+  region has higher probability density than any point within
+  \citep{Kruschke2011:Doing-Bayesian-}. Intuitively speaking, the 95\%
+  HDI is the set of values into which we should believe most strongly,
+  and what falls outside this region is what can be excluded with
+  relative safety.}
 
 \begin{figure}
   \centering
   \includegraphics[width=\textwidth]{pics/Posterior_T.pdf}
   \caption{Posteriors over weights for target readings in critical
     conditions. Colored lines below the actual plots indicate 95\%
-    confidence intervals.}
+    HDIs.}
   \label{fig:Posterior_T}
 \end{figure}
 
@@ -287,8 +294,7 @@ only have marginal reasons to believe that global readings have any
 non-negligible weight data in the AS-A condition. Apart from this, if
 the model is true, the data corroborates the belief that the literal
 reading is strongly preferred over the local reading over the global
-reading (again witness the non-overlapping 95\% confidence
-regions). We also see the expected general effect of intonational
+reading (again witness the non-overlapping 95\% HDIs). We also see the expected general effect of intonational
 markedness. Qualitatively speaking, the preference for literal
 readings appears less pronounced in the accented conditions.
 
@@ -322,6 +328,66 @@ the estimation of global readings in the ES-conditions.
     conditions.}
   \label{fig:Posterior_T}
 \end{figure}
+
+\paragraph{Hypothesis testing.} We are interested in two questions:
+(i) which readings are available? and (ii) what is the preference
+order over readings?
+
+The first question can be answered by looking at the HDIs of the
+posteriors of the candidate readings. The HDIs give the region of the
+95\% least unbelievable parameter values, given the data and the
+model. We would like to check the hypothesis that a given reading is
+unavailable, i.e., it's activation value in the probabilistic model is
+equal to 0, or close to zero, i.e., within a small distance away from
+the critical value, such as $0.01$ (Region of Practical Equivalence,
+ROPE). We reject the ``null-hypothesis'' that the true value is 0 if
+its ROPE lies entirely outside the 95\% HDI; we accept the
+``null-hypothesis'' if the ROPE lies entirely within the 95\% HDI
+\citep[][Ch.~12]{Kruschke2011:Doing-Bayesian-}. The following table
+lists approximations of the 95\% HDIs for each condition and reading:
+
+\begin{center}
+  \begin{tabular}{lllllll}
+    & lit & loc & glb & \\ \midrule
+    as-n & $(0.8595 , 0.9796)$ & $(0.017 , 0.1321)$
+    & $(0 , 0.021)$ \\
+    as-a 
+    & $(0.7633 , 0.9312)$
+    & $(0.0564 , 0.2063)$
+    & $(0 , 0.0639)$ \\
+    es-n 
+    & $(0.664 , 0.9502)$
+    & $(0.0486 , 0.3329)$
+    & $(0 , 0.0254)$ \\
+    es-a 
+    & $(0.5688 , 0.7998)$
+    & $(0.1987 , 0.4294)$
+    & $(0 , 0.0199)$ 
+  \end{tabular}
+\end{center}
+
+For a ROPE of up to $[0;0.017)$ we therefore should draw the same
+conclusion for all conditions: we reject the hypothesis that there are
+no local readings, but we neither accept nor reject the hypothesis
+that there are no global readings.
+
+The second question after the preference relations between readings
+can be answered in a similar way. Here, we look at the posterior
+beliefs about the differences of activation strengths and ask whether
+these posterior beliefs allow us to safely conclude that differences
+are bigger than zero or not. Figure~\ref{fig:PostDiffT} shows the
+relevant comparisons, together with the 95\% HDIs showing that the
+data provides evidence that the qualitative preference order is the
+same in all conditions: literal readings are preferred over local
+readings, which are in turn preferred over global readings.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=\textwidth]{PostDiffT.pdf}
+  \caption{Posteriors over differences between activation strengths.}
+  \label{fig:PostDiffT}
+\end{figure}
+
 
 \printbibliography[heading=bibintoc]
 
