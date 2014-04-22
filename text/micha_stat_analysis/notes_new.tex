@@ -1,0 +1,244 @@
+\documentclass[fleqn,reqno,10pt]{article}
+
+\usepackage{myarticlestyledefault}
+
+
+\usepackage{subfig}
+\usepackage{todonotes}
+
+\newcommand{\lit}{\acro{lit}}
+\newcommand{\glb}{\acro{glb}}
+\newcommand{\loc}{\acro{loc}}
+
+\newcommand{\as}{\acro{as}}
+\renewcommand{\es}{\acro{es}}
+\renewcommand{\AE}{\as}
+\newcommand{\GE}{\es}
+\newcommand{\ea}{\acro{ea}}
+
+\newcommand{\lc}{\acro{lc}}
+\newcommand{\ec}{\acro{ec}}
+\newcommand{\LC}{\lc}
+\newcommand{\EC}{\ec}
+
+
+\title{K2 Analysis}
+\author{}
+\date{}
+
+
+\begin{document}
+\maketitle
+
+
+\section{Target Conditions}
+\label{sec:target-conditions}
+
+We excluded two participants from the analysis due to poor performance
+on control conditions (VPs 2 and 29).
+
+There were two critical sentence-sequence types, \as and \es, which
+are the levels in factor \textsc{Condition}. Factor \textsc{Accent}
+codes whether a sentence was neutral or accented. Every participant
+saw each critical sentence type six times, of which three times had
+neutral, three times constrastive stress intonation on the scalar
+item. We coded into factor \textsc{Position} whether a particular
+encounter of a critical sentence and intonation pattern was the first,
+second or third time for a participant. Finally, we coded judgements
+as either \emph{literal}, \emph{local}, \emph{global} or \emph{false}
+for form factor \emph{Response}. Given these factors, contingency
+tables of the observed frequencies are in
+Table~\ref{tab:CC-ContingencyTable}.
+%
+\begin{table}[h]
+
+\subfloat[][\as neutral]{\begin{tabular}{lcccc}
+    & \emph{literal} & \emph{local} & \emph{global} & \emph{false} \\
+    \midrule
+    Pos 1 & 35 &  0 & 0 & 3 \\
+    Pos 2 & 32 &  3 & 0 & 3 \\
+    Pos 3 & 33 &  3 & 0 & 2 \\ \addlinespace[0.15cm]
+    Total &100 &  6 & 0 & 8
+\end{tabular}}
+%
+\hspace{0.2cm}
+%
+\subfloat[][\es neutral]{\begin{tabular}{lcccc}
+    & \emph{literal} & \emph{local} & \emph{global} & \emph{false} \\
+    \midrule
+    Pos 1 & 19 &  5 & 0 & 14 \\
+    Pos 2 & 25 &  2 & 0 & 11 \\
+    Pos 3 & 21 &  6 & 0 & 11 \\ \addlinespace[0.15cm]
+    Total & 65 & 13 & 0 & 36
+\end{tabular}}
+
+\subfloat[][\as accented]{\begin{tabular}{lcccc}
+    & \emph{literal} & \emph{local} & \emph{global} & \emph{false} \\
+    \midrule
+    Pos 1 & 33 &  2 & 1 &  2 \\
+    Pos 2 & 31 &  4 & 1 &  2 \\
+    Pos 3 & 31 &  5 & 0 &  2 \\ \addlinespace[0.15cm]
+    Total & 95 & 11 & 2 &  6
+\end{tabular}}
+%
+\hspace{0.2cm}
+%
+\subfloat[][\es accented]{\begin{tabular}{lcccc}
+    & \emph{literal} & \emph{local} & \emph{global} & \emph{false} \\
+    \midrule
+    Pos 1 & 24 &  8 & 0 &  6 \\
+    Pos 2 & 22 &  7 & 0 &  9 \\
+    Pos 3 & 27 &  6 & 0 &  5 \\ \addlinespace[0.15cm]
+    Total & 73 & 21 & 0 & 20
+\end{tabular}}
+
+\caption{Contingency table of raw judgements for target condition.}
+\label{tab:CC-ContingencyTable}
+\end{table}
+
+To test which factors are relevant to explain the data distribution in
+Table~\ref{tab:CC-ContingencyTable}, we compute log-linear models
+\citep{KnokeBurke1980:Log-Linear-Mode}. The relevant factors are
+\textsc{Position}, \textsc{Response}, \textsc{Condition}, and
+\textsc{Accent}. As there are hardly any \emph{global} responses, we
+must lump levels \emph{global} and \emph{false} of factor
+\textsc{Response} into a single level \emph{other}, because otherwise
+log-linear regression is not applicable. We select the ``best''
+predictor of the data by a gradient search over hierarchical models in
+terms of AICs. The best model takes factors \textsc{Accent},
+\textsc{Response} and \textsc{Condition} into account, as well as the
+interaction terms \textsc{Response:Accent} and
+\textsc{Response:Condition} ($\chi^2 = 14.29$, $df=27$, $p = 0.98$,
+$AIC = 32.29$ (compared to $AIC=72$ of the saturated
+model)). Crucially, factor \textsc{Position} is spurious. Response
+patterns only depended on the type of the sentence and whether it was
+produced with accentuation. 
+
+\todo[inline]{ what's the argument to accept that there are local readings
+    for neutral accentuation in the first place? ; make plots with ``raw responses'' on position
+}
+
+
+
+
+\section{Preference-Related Controls}
+\label{sec:pref-relat-contr}
+
+For our preference-related control conditions the relevant factors
+are: \textsc{Condition} with levels \emph{lc} and \emph{ec} coding
+which reading could be judged first in a sequence, \textsc{Accent}
+with levels \emph{ntr}, \emph{lc} and \emph{ec} coding which reading
+was cued by intonation, \textsc{Response} with levels \emph{lc},
+\emph{ec} and \emph{false}, and finally \textsc{Position} encoding how
+frequently subjects had seen a given sentence-accentuation pair
+before. Some subjects saw three, others four trials, so that to ensure
+unbiased applicability of our log-linear models, we excluded every
+fourth encounter of the same sentence type and accentuation. The
+observed data under this classification is given in
+Table~\ref{tab:TF-ContingencyTable}.
+%
+\begin{table}[h]
+
+ \centering
+
+\subfloat[][\lc neutral]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 & 23 &  9 & 6  \\
+    Pos 2 & 23 & 11 & 4  \\
+    Pos 3 & 27 &  8 & 3  \\ \addlinespace[0.15cm]
+    Total & 73 & 28 & 13 
+\end{tabular}}
+%
+\hspace{0.4cm}
+%
+\subfloat[][\ec neutral]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  22 &   5 &  11 \\ 
+    Pos 2 &  28 &   5 &   5 \\ 
+    Pos 3 &  29 &   7 &   2 \\ \addlinespace[0.15cm]
+    Total &  79 &  17 &  18 
+\end{tabular}}
+
+\subfloat[][\lc with \lc cue]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  26 &   6 &   6 \\ 
+    Pos 2 &  30 &   5 &   3 \\ 
+    Pos 3 &  34 &   2 &   2 \\ 
+    \addlinespace[0.15cm]
+    Total & 90  & 13 & 11 
+\end{tabular}}
+%
+\hspace{0.4cm}
+%
+\subfloat[][\ec with \lc cue]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  30 &   4 &   4 \\ 
+    Pos 2 &  33 &   4 &   1 \\ 
+    Pos 3 &  31 &   4 &   3 \\ 
+    \addlinespace[0.15cm]
+    Total &  94 &  12 &  8 
+\end{tabular}}
+
+
+\subfloat[][\lc with \ec cue]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  15 &  18 &   5 \\ 
+    Pos 2 &  16 &  16 &   6 \\ 
+    Pos 3 &  15 &  16 &   6 \\
+    \addlinespace[0.15cm]
+    Total &  46 & 50 &  17 
+\end{tabular}}
+%
+\hspace{0.4cm}
+%
+\subfloat[][\ec with \ec cue]{\begin{tabular}{lccc}
+    & \emph{lc} & \emph{ec} & \emph{false} \\
+    \midrule
+    Pos 1 &  18 &  12 &   8 \\ 
+    Pos 2 &  18 &   9 &  11 \\ 
+    Pos 3 &  18 &  10 &  10 \\
+    \addlinespace[0.15cm]
+    Total &  54 &  31 &  29 
+\end{tabular}}
+
+\caption{Contingency table of raw judgements for target-related fillers.}
+\label{tab:TF-ContingencyTable}
+\end{table}
+
+Just like for the target conditions, the best hierarchical log-linear
+model (by $AIC$) includes factors \textsc{Response}, \textsc{Accent}
+and \textsc{Condition}, as well as the two-way interactions
+\textsc{Response:Accent} and \textsc{Response:Condition} ($\chi^2 =
+23.14$, $df=42$, $p=0.99$, $AIC=47.14$ (compared to $AIC=108$ of the
+saturated model)). Crucially, the observed response pattern does not
+differ significantly across conditions (i.e., which reading can be
+judged first), but does depend on intonational cues.
+
+\section{Loose Ends}
+\label{sec:loose-ends}
+
+If we only look at the judgement that subjects gave to the very first
+target condition that they saw (be it \as or \es), we obtain the
+following table:
+\begin{center}
+\begin{tabular}{lcccc}
+    & \emph{literal} & \emph{local} & \emph{global} & \emph{false} \\
+    \midrule
+    accented & 10 &  3 & 1 &  2 \\
+    neutral  & 15 &  0 & 0 &  7 \\ \addlinespace[0.15cm]
+    Total    & 25 &  3 & 0 &  9
+\end{tabular}
+\end{center}
+Notably, nobody gave a \emph{local} answer on the first encounter of a
+target condition with neutral accentuation. Pearson's $\chi^2$ test
+does reject the null hypothesis of an equal distribution of readings
+($\chi^2 = 7.0051$, $p \approx 0.034$).
+
+\printbibliography[heading=bibintoc]
+
+\end{document}
