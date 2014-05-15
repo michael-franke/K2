@@ -981,9 +981,8 @@ opinionated, informed \dots) it follows that
 (\ref{bsp:Plain-SI-Implicature}) should in fact be true.\fn{We are
   glossing here somewhat swiftly over the more nuanced details of the
   derivation of implicatures targeting the speaker's epistemic state
-  \citep[e.g.][]{Gazdar1979:Pragmatics:-Imp,Soames1982:How-Presupposit}. The
-  concluding Section~\ref{sec:conclusions} will come back to this in
-  more detail.}
+  \citep[e.g.][]{Gazdar1979:Pragmatics:-Imp,Soames1982:How-Presupposit}. Section~\ref{sec:discussion-1}
+  will come back to this in more detail.}
 
 \begin{exer}{bsp:Plain-SI}
   \ex 
@@ -1027,7 +1026,7 @@ global ones.\fn{We mention for clarity that although weak
   it might still predict an \emph{epistemically weak implicature},
   similar to the global reading, that the speaker is uncertain whether
   the stronger alternative is true. (See also the discussion in
-  Section~\ref{sec:conclusions}.)}
+  Section~\ref{sec:discussion-1})}
 
 Does traditionalism also predict local readings to be available? The
 answer is slightly different for \as- and the \es-sentences. For
@@ -2863,139 +2862,17 @@ Figure \ref{fig:JudgmentsK2}.
 %
 \begin{figure}[t]
 \centering
-\subfloat[][\as-neutral]{
-% \includegraphics[width=5cm]{../pictures/paper/graph_AE_NTR.jpg}
-\begin{tikzpicture}[scale=0.75]
 
-      \begin{axis}[ybar, 
-                  enlarge x limits=0.1,
-                  enlarge y limits=0.1,
-                  legend style={at={(0.3,0.95)}, anchor=north, legend columns=-1},
-                  ylabel={\% of answers (rounded)}, 
-                  % xlabel={position}, 
-                  symbolic x coords={1, 2, 3, 4, 5, 6, 7}, 
-                  xtick=data, 
-                  nodes near coords,
-                  nodes near coords align={vertical}, 
-                  x=20, y=1,
-                  ymin = 0, ymax = 100,
-                  bar width=2mm
-        ]
-
-        \addplot coordinates {(1,0) (2,0) (3,72) (4,1) (5,1) (6,0) (7,3)};
-
-        \addplot coordinates {(1,0) (2,0) (3,0) (4,0) (5,0) (6,0) (7,23)};
-
-        \legend{yes, no}
-
-      \end{axis}
-\end{tikzpicture}
-\label{fig:ReadingsAS-ntr}
-}
-\subfloat[][\es-neutral]{
-% \includegraphics[width=5cm]{../pictures/paper/graph_GE_NTR.jpg}
-\begin{tikzpicture}[scale=0.75]
-
-      \begin{axis}[ybar, 
-                  enlarge x limits=0.2,
-                  enlarge y limits=0.1,
-                  legend style={at={(0.4,0.95)}, anchor=north, legend columns=-1},
-                  % ylabel={\% of answers (rounded)}, 
-                  % xlabel={position}, 
-                  symbolic x coords={1, 2, 3, 4, 5}, 
-                  xtick=data, 
-                  nodes near coords,
-                  nodes near coords align={vertical}, 
-                  x=20, y=1,
-                  ymin = 0, ymax = 100,
-                  bar width=2mm
-        ]
-
-        \addplot coordinates {(1,1) (2,4) (3,3) (4,0) (5,30)};
-
-        \addplot coordinates {(1,14) (2,0) (3,48) (4,2) (5,0)};
-
-        \legend{yes, no}
-
-      \end{axis}
-
-\end{tikzpicture}
-\label{fig:ReadingsES-ntr}
-}
-
-\subfloat[][\as-accented]{
-% \includegraphics[width=5cm]{../pictures/paper/graph_AE_AKZ.jpg}
-\begin{tikzpicture}[scale=0.75]
-
-      \begin{axis}[ybar, 
-                  enlarge x limits=0.1,
-                  enlarge y limits=0.1,
-                  legend style={at={(0.3,0.95)}, anchor=north, legend columns=-1},
-                  ylabel={\% of answers (rounded)}, 
-                  % xlabel={position}, 
-                  symbolic x coords={1, 2, 3, 4, 5, 6, 7}, 
-                  xtick=data, 
-                  nodes near coords,
-                  nodes near coords align={vertical}, 
-                  x=20, y=1,
-                  ymin = 0, ymax = 100,
-                  bar width=2mm
-        ]
-
-        \addplot coordinates {(1,0) (2,1) (3,69) (4,1) (5,2) (6,0) (7,4)};
-
-        \addplot coordinates {(1,0) (2,0) (3,1) (4,0) (5,0) (6,0) (7,23)};
-
-        \legend{yes, no}
-
-      \end{axis}
-
-\end{tikzpicture}
-\label{fig:ReadingsAS-acc}
-}
-\subfloat[][\es-accented]{
-% \includegraphics[width=5cm]{../pictures/paper/graph_GE_AKZ.jpg}
-\begin{tikzpicture}[scale=0.75]
-
-      \begin{axis}[ybar, 
-                  enlarge x limits=0.2,
-                  enlarge y limits=0.1,
-                  legend style={at={(0.4,0.95)}, anchor=north, legend columns=-1},
-                  % ylabel={\% of answers (rounded)}, 
-                  % xlabel={position}, 
-                  symbolic x coords={1, 2, 3, 4, 5}, 
-                  xtick=data, 
-                  nodes near coords,
-                  nodes near coords align={vertical}, 
-                  x=20, y=1,
-                  ymin = 0, ymax = 100,
-                  bar width=2mm
-        ]
-
-        \addplot coordinates {(1,0) (2,11) (3,9) (4,1) (5,23)};
-
-        \addplot coordinates {(1,0) (2,1) (3,50) (4,4) (5,1)};
-
-        \legend{yes, no}
-
-      \end{axis}
-
-\end{tikzpicture}
-\label{fig:ReadingsES-acc}
-}
+\includegraphics[width=\textwidth]{positional_answers_critical.pdf}
 
 
-\caption{Positional judgments for the four target conditions. The
-  plots show rounded percentages of \emph{yes}/\emph{no} judgments
-  against the position within the trial. In the \as-conditions there
-  were seven positions. On the third position a \emph{yes} judgment
-  corresponded to a literal reading, while on the fifth position a
-  \emph{yes} judgment corresponded to a global reading.  A \emph{no}
-  judgment on the seventh position was only consistent with a local
-  reading. The \es-conditions had five positions. \emph{No} judgments
-  on positions two and three corresponded to global and literal
-  readings, respectively. A \emph{yes} judgment on the last segment
-  corresponded to a local reading.}
+\caption{Positional judgments for the four target conditions. Bars
+  show the total number of \emph{yes} (up) and \emph{no} judgments
+  (down) against the position within a sequence. E.g., we recorded a
+  total of 84 \emph{yes} judgments at the third position in the
+  \as-sequence with neutral intonation, which corresponds to 84
+  answers that were classified as \emph{literal} answers. Notice that
+  the \as-condition has seven positions, the \es-condition only five.}
 \label{fig:JudgmentsK2}
 \end{figure}
 %
