@@ -2801,9 +2801,8 @@ In the following, we will report the results for targets and
 preference-related controls separately. After providing the
 descriptive results, we present statistical analyses using log-linear
 models (i.e., generalized linear regression for count data). To
-complement the picture, we also provide a Bayesian analysis that
-probes specifically into the preference relations between candidate
-readings.
+complement the picture, we also report a Bayesian analysis that probes
+specifically into the preference relations between candidate readings.
 
 \paragraph{Target conditions and positional controls.}
 Performance on positional controls was overwhelmingly correct (90\%
@@ -2822,20 +2821,20 @@ Figure \ref{fig:JudgmentsK2}.
 \includegraphics[width=0.9\textwidth]{positional_answers_critical.pdf}
 
 
-\caption{Positional judgments for the four target conditions. Bars
-  show the total number of \emph{yes} (up) and \emph{no} judgments
-  (down) against the position within a sequence. E.g., we recorded a
-  total of 103 \emph{yes} judgments at the third position in the
-  \as-sequence with neutral intonation, which corresponds to 103
-  answers that were classified as \emph{literal} answers. Notice that
-  the \as-condition has seven positions, the \es-condition only five.}
+\caption{Answers for the \as- and \es-sequences. Bars show the total
+  number of \emph{yes} (up) and \emph{no} judgments (down) collected
+  at each step during a sequence. E.g., we recorded a total of 103
+  \emph{yes} judgments at the third position in the \as-sequence with
+  neutral intonation, which corresponds to 103 answers that were
+  classified as \emph{literal} answers. Notice that the \as-condition
+  had seven steps, the \es-condition only five.}
 \label{fig:JudgmentsK2}
 \end{figure}
 %
 We coded these answers as {\it literal}, {\it global} or {\it local}
 if they were as expected under one of these readings and as {\it
-  error} if not. The distribution of readings thus coded is presented
-in Table~\ref{tab:CC-ContingencyTable}. The table also classifies
+  error} if not. The distribution of readings thus coded is given in
+Table~\ref{tab:CC-ContingencyTable}. The table also classifies
 responses according to the position (1--3) in the experiment, i.e.,
 whether it was the first, second or third time that a participant saw
 the critical condition in question.
@@ -2895,31 +2894,38 @@ are more frequent (2.63\% / 7.02\% for neutral / accented
 The number of responses that fell out of our classification scheme
 differs substantially between \as- and \es-conditions. There are
 7.02\% / 4.39\% unclassifiable judgements in the neutral / accented
-\as-conditions, but 19.30\% / 17.54\% 'error' in the neutral /
-accented \es-conditions. A look at Figure~\ref{fig:JudgmentsK2}
-reveals that there is some systematicity in 'error' answers. Most
-answers that we classified as 'errors' are plausibly explained as a
-few random errors, a handful of mistakes resulting from confusing
-buttons for \emph{true} and \emph{false} and a few 'spill-overs' where
-participants gave responses one position too late. There is one
-notable exception, though. A substantial number of \emph{true}
-responses where given at the second position of \es-sequences (9.65\%
-/ 8.77\%) which is shown in Figure~\ref{fig:exseqES2}. Although this
-position in the sequence is the critical position to reveal a global
-reading, the latter would be indicated by a \emph{false} response. It
-appears that subjects read \es-sentences as if the non-monotonic
-quantifier \emph{exactly one} was a non-monotonic \emph{at least one},
-without pragmatic enrichment of \emph{some}. 16 out of the total 21
-answers in this category come from 5 subjects, while the remaining 5
-were single answers by 5 different subjects. \todo{subjects 1, 9, 12,
-  21, 84} This suggests that at least for some subjects non-monotonic
-quantifiers were problematic. \todo{how to deal with this in the future?}
+\as-conditions, but 19.30\% / 17.54\% in the neutral / accented
+\es-conditions. A look at Figure~\ref{fig:JudgmentsK2} reveals that
+there is some systematicity in 'error' answers. Most answers that we
+classified as 'errors' are plausibly explained as a few random errors,
+a handful of mistakes resulting from confusing buttons for \emph{true}
+and \emph{false} and a few 'spill-overs' where participants gave
+responses one position too late. There is one notable exception,
+though. A substantial number of \emph{true} responses where given at
+the second position of \es-sequences (9.65\% / 8.77\%) which is shown
+in Figure~\ref{fig:exseqES2}. Although this position in the sequence
+is the critical position to reveal a global reading, the latter would
+be indicated by a \emph{false} response. It appears that subjects read
+\es-sentences as if the non-monotonic quantifier \emph{exactly one}
+was a monotonic \emph{at least one}, without pragmatic enrichment of
+\emph{some}.\fn{If \emph{some} is pragmatically strengthened under the
+  scope of \emph{at least one}, we would expect \emph{true} judgements
+  at position 3. Although exactly 3 \emph{true} answers occurred there
+  for each neutral and accented \es-conditions, the main point to
+  notice is that this misreading of the non-monotonic quantifier does
+  not explain \emph{true} judgements at position 5. These are
+  therefore still indicative of local readings.} 16 out of the total
+21 answers in this category come from 5 subjects, while the remaining
+5 were single answers by 5 different subjects. \todo{subjects 1, 9,
+  12, 21, 84} This suggests that at least for some subjects
+non-monotonic quantifiers were problematic. \todo{how to deal with
+  this in the future?}
 
 We fitted generalized linear models to the contingency table data in
 Table~\ref{tab:CC-ContingencyTable}, using factors \textsc{Condition}
 with levels \as and \es, \textsc{Accent} with levels \emph{neutral}
 and \emph{accented}, and \textsc{Position} with levels 1 through 3 to
-predict the dependent factor \emph{Response} with levels
+predict the dependent factor \textsc{Reading} with levels
 \emph{literal}, \emph{local}, and \emph{other}. The latter levels
 lumps \emph{global} and \emph{error} responses together, because
 otherwise we would not have enough cell counts to apply log-linear
@@ -2936,22 +2942,31 @@ there were no learning or fatigation effects and that accentuation did
 not influence answer patterns significantly.
 
 In order to test whether there is support for the postulation of local
-readings, we compared the previous ``best'' model to a model that only
-differs from the former in that it subsumes the level \emph{local} of
-factor \textsc{Reading} under level \emph{other} as well
-\citep[e.g.][Chapter~15]{Crawley2007:The-R-Book}. Model comparison
-reveals that there is no significant improvement in explanatory power
-($Pr(|\chi|) = 0.2689$) of the more complex model that includes the
-level \emph{local} (df=30, residual deviance = 9.76) over the leaner
-model without this level (df=32, residual deviance = 12.39,
-AIC=156.63). This means that our data does not provide strong evidence
-for the maintenance of belief in \emph{local} readings in our
-setting. (Subsequent analysis will shed more light on this.)
+readings, we compared the previous ``best'' predictor to a model that
+only differs from the former in that it subsumes the level
+\emph{local} of factor \textsc{Reading} under level \emph{other} as
+well \citep[e.g.][Chapter~15]{Crawley2007:The-R-Book}. Model
+comparison reveals that there is no significant improvement in
+explanatory power ($Pr(|\chi|) = 0.2689$) of the more complex model
+that includes the level \emph{local} (df=30, residual deviance = 9.76)
+over the simpler model without this level (df=32, residual deviance =
+12.39, AIC=156.63). 
 
+This latter analysis suggests that our data does not provide strong
+evidence for the maintenance of belief in local readings in our
+setting. But we need to be careful. So far we have not taken into
+account the sequential structure of our task. It might be that local
+readings are infrequent because subjects tend to exit early in the
+sequence, rather than late. This is why we need preference-related
+controls.
 
 \paragraph{Preference-related controls.} Positional answers for our
 preference-related control conditions are shown in
-Figure~\ref{Fig:TF_judgments}.
+Figure~\ref{Fig:TF_judgments}.\fn{We removed 19 data points for the
+  \ec-conditions because of a coding mistake that presented subjects
+  with incongruent sentence-picture pairs. Including these and
+  classifying them as \emph{errors} does not change the results of the
+  reported analyses.}
 %
 \begin{figure}[]
 \centering
@@ -2968,18 +2983,22 @@ Figure~\ref{Fig:TF_judgments}.
 \includegraphics[width=0.9\textwidth]{positional_answers_TF_EC.pdf}
 }
 
-\caption{Positional answers for \lc-sequences and
-  \ec-sequences. \emph{True} judgements are plotted upwards on each
-  position, \emph{false} judgements downwards.}
+\caption{Answers for \lc-sequences and \ec-sequences. \emph{True}
+  judgements are plotted upwards for each step in the sequence,
+  \emph{false} judgements downwards.}
 \label{Fig:TF_judgments}
 \end{figure}
 %
 Judgments were coded as \ec or as \lc if they were as expected under
 one of these readings, and as \emph{error} if they were not. The
-distributions of readings thus coded, for each position at which this
-critical item occurred during the experiment, is given in
-Table~\ref{tab:CC-ContingencyTable-TF}.
-
+distributions of readings thus coded is given in
+Table~\ref{tab:CC-ContingencyTable-TF}. Some subjects saw 4 trials of
+some target-related control conditions, but the table and the
+subsequent analysis of the count data only looks at the data from the
+first three encounters. This is because otherwise we would see a
+spurious main effect of \textsc{Position} that is just needed to
+account for the less frequent occurrence of judgements at position 4.
+%
 \begin{table}[]
 \centering
 
@@ -2991,37 +3010,37 @@ Table~\ref{tab:CC-ContingencyTable-TF}.
   & Pos 1 & 27 &  7  & 4 \\
   & Pos 2 & 23 &  11 & 4 \\
   & Pos 3 & 26 &  9  & 3 \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{103} &  \textbf{3} & \textbf{0}  \\
+  & \textbf{Total} & \textbf{76} &  \textbf{27} & \textbf{1}  \\
   \addlinespace[0.25cm]
   \textbf{\lc with \lc cue} 
-  & Pos 1 & 26 &  6 & 5  \\
+  & Pos 1 & 26 &  7 & 5  \\
   & Pos 2 & 31 &  5 & 2  \\
   & Pos 3 & 33 &  3 & 2  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{99} &  \textbf{8} & \textbf{2}  \\
+  & \textbf{Total} & \textbf{90} &  \textbf{15} & \textbf{9}  \\
   \addlinespace[0.25cm]
   \textbf{\lc with \ec cue} 
-  & Pos 1 & 14 &  18 & 3  \\
-  & Pos 2 & 16 &  16 & 1  \\
-  & Pos 3 & 14 &  17 & 5  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{99} &  \textbf{8} & \textbf{2}  \\
+  & Pos 1 & 14 &  17 & 7  \\
+  & Pos 2 & 15 &  16 & 7  \\
+  & Pos 3 & 15 &  17 & 6  \\ \addlinespace[0.15cm]
+  & \textbf{Total} & \textbf{44} &  \textbf{50} & \textbf{20}  \\
   \addlinespace[0.25cm]
   \textbf{\ec neutral} 
-  & Pos 1 & 22 &  6 & 10  \\
+  & Pos 1 & 22 &  6 & 5  \\
   & Pos 2 & 28 &  6 & 4  \\
-  & Pos 3 & 28 &  8 & 2  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{99} &  \textbf{8} & \textbf{2}  \\
+  & Pos 3 & 29 &  7 & 2  \\ \addlinespace[0.15cm]
+  & \textbf{Total} & \textbf{79} &  \textbf{19} & \textbf{11}  \\
   \addlinespace[0.25cm]
   \textbf{\ec with \lc cue} 
-  & Pos 1 & 30 &  5 & 3  \\
-  & Pos 2 & 32 &  5 & 1  \\
-  & Pos 3 & 30 &  3 & 2  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{99} &  \textbf{8} & \textbf{2}  \\
+  & Pos 1 & 30 &  5 & 1  \\
+  & Pos 2 & 32 &  5 & 0  \\
+  & Pos 3 & 31 &  3 & 2  \\ \addlinespace[0.15cm]
+  & \textbf{Total} & \textbf{93} &  \textbf{13} & \textbf{3}  \\
   \addlinespace[0.25cm]
   \textbf{\ec with \ec cue} 
-  & Pos 1 & 19 &  10 & 9  \\
-  & Pos 2 & 19 &  7  & 12  \\
-  & Pos 3 & 19 &  7  & 12  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{99} &  \textbf{8} & \textbf{2}  \\
+  & Pos 1 & 19 &  10 & 7  \\
+  & Pos 2 & 19 &  7  & 9  \\
+  & Pos 3 & 19 &  7  & 11  \\ \addlinespace[0.15cm]
+  & \textbf{Total} & \textbf{57} &  \textbf{24} & \textbf{27}  \\
 \end{tabular}
 
 \caption{Contingency table of classified responses for the
@@ -3031,6 +3050,32 @@ Table~\ref{tab:CC-ContingencyTable-TF}.
 \label{tab:CC-ContingencyTable-TF}
 \end{table}
 
+As expected, most answers classify as \lc-readings, fewer as
+\ec-readings. Moreover, intonation does seem to have the expected
+effect as well: as compared to neutral intonation, \lc-cueing
+intonation ups the count for \lc-readings, while \ec-cueing ups the
+count for \ec-readings. If we compare the number of \lc- or
+\ec-readings for each intonation type across sequences, we see that
+there are always more answers indicative of the relevant readings when
+that reading can be judged later in the sequence.
+
+There are only very few answers that appear to be random
+mistakes. Some answers in the `error' category are plausibly
+`spill-over' errors. But on top of that, a substantial number of
+`error' answers occur on critical positions. In the \lc-sequence there
+are 23 \emph{true} answers at step 6 where \emph{false} answers would
+be taken as indicative of \ec-readings. In the \ec-sequence there are
+28 \emph{false} answers at step 5 where \emph{true} answers would be
+taken as indicative of \lc-readings. \todo{A general tendency to
+  answer later in the sequence does explain this. We don't see a
+  similar effect in the critical conditions because the literal
+  reading is so dominant.} Finally, intonation patterns that cue
+\ec-readings seem to have led to more mistakes than other intonation
+patterns.
+
+\begin{itemize}
+\item \textcolor{red}{LOG-LINEAR MODELS}
+\end{itemize}
 
 \bigskip
 
