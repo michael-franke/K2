@@ -2941,16 +2941,39 @@ response patterns only depend on the type of the sentence, but that
 there were no learning or fatigation effects and that accentuation did
 not influence answer patterns significantly.
 
-In order to test whether there is support for the postulation of local
-readings, we compared the previous ``best'' predictor to a model that
-only differs from the former in that it subsumes the level
-\emph{local} of factor \textsc{Reading} under level \emph{other} as
-well \citep[e.g.][Chapter~15]{Crawley2007:The-R-Book}. Model
-comparison reveals that there is no significant improvement in
-explanatory power ($Pr(|\chi|) = 0.2689$) of the more complex model
-that includes the level \emph{local} (df=30, residual deviance = 9.76)
-over the simpler model without this level (df=32, residual deviance =
-12.39, AIC=156.63). 
+\begin{table}
+  \centering
+  \begin{tabular}{lllll}
+    coefficient & estimate & std.~error & $z$-value & $\Pr(>|z|)$ \\
+    \midrule
+    \textsc{Intercept} & 1.679  &  0.134 &  12.499  & < 0.001 \\
+    \textsc{Reading}.\emph{literal} & -0.219  &  0.281 & -0.781 &
+    0.435 \\
+    \textsc{Reading}.\emph{local} & -2.249 &   0.172 & -13.084 & < 0.001 \\
+    \textsc{Condition}.\es & 0.592 &  0.159 & 3.732 &  < 0.001 \\
+    \textsc{Reading}.\emph{literal}:\textsc{Condition}.\es & -0.0186 &
+    0.328 & -0.057 &  0.95471 \\
+    \textsc{Reading}.\emph{local}:\textsc{Condition}.\es & 1.041 &
+    0.208 &  4.999 &  < 0.001
+  \end{tabular}
+  \caption{Coefficients of the ``best'' log-linear model for the count
+    data in Table~\ref{tab:CC-ContingencyTable}.}
+  \label{tab:Coefficients-CC}
+\end{table}
+
+Inspection of the coefficients of the ``best'' model suggests that the
+distinction between levels \emph{local} and \emph{other} in factor
+\textsc{Reading} might not be necessary. In order to test whether
+there is support for the postulation of local readings, we therefore
+compared the previous ``best'' predictor to a model that only differs
+from the former in that it subsumes the level \emph{local} of factor
+\textsc{Reading} under level \emph{other} as well
+\citep[e.g.][Chapter~15]{Crawley2007:The-R-Book}. Model comparison
+reveals that there is no significant improvement in explanatory power
+($Pr(|\chi|) = 0.2689$) of the more complex model that includes the
+level \emph{local} (df=30, residual deviance = 9.76) over the simpler
+model without this level (df=32, residual deviance = 12.39,
+AIC=156.63).
 
 This latter analysis suggests that our data does not provide strong
 evidence for the maintenance of belief in local readings in our
@@ -3010,7 +3033,7 @@ account for the less frequent occurrence of judgements at position 4.
   & Pos 1 & 27 &  7  & 4 \\
   & Pos 2 & 23 &  11 & 4 \\
   & Pos 3 & 26 &  9  & 3 \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{76} &  \textbf{27} & \textbf{1}  \\
+  & \textbf{Total} & \textbf{76} &  \textbf{27} & \textbf{11}  \\
   \addlinespace[0.25cm]
   \textbf{\lc with \lc cue} 
   & Pos 1 & 26 &  7 & 5  \\
@@ -3073,136 +3096,72 @@ taken as indicative of \lc-readings. \todo{A general tendency to
 \ec-readings seem to have led to more mistakes than other intonation
 patterns.
 
-\begin{itemize}
-\item \textcolor{red}{LOG-LINEAR MODELS}
-\end{itemize}
+As for the critical conditions, we compute logistic regression models
+including factors \textsc{Reading} with levels \lc, \ec and
+\emph{error}, \textsc{Accent} with levels \emph{neutral},
+\emph{\lc-cue} and \emph{\ec-cue}, \textsc{Position} with levels 1 to
+3, and \textsc{Condition} with levels \lc and \ec for the picture
+sequences. Starting search from the saturated model along a gradient
+of decreasing AICs, we find that the ``best'' predictor relies on main
+effects of \textsc{Reading}, \textsc{Accent} and \textsc{Condition}
+and two two-way interactions \textsc{Response:Condition} and
+\textsc{Response:Accent} ($\chi^2=18.34$, $df=42$, $p=0.99$,
+$AIC=256.63$ (compared to $AIC=322.3$ of the saturated model)). Factor
+\textsc{Position} again turned out to be spurious, suggesting that
+answer patterns are stable over the duration of the experiment. Unlike
+for the critical conditions, factor \textsc{Accent} is retained, and
+it interacts with \textsc{Reading}, suggesting that intonational cues
+significantly influenced the dominant reading.
 
-\bigskip
-
-
-Judgments were
-coded as \ec or as \lc if they were as expected under one of these
-readings, and as "other" if they were not. The distributions of
-readings thus coded is illustrated in Figure
-\ref{fig:response-type-freque-TRF}.  Overall, participants mainly gave
-answers corresponding to the \lc-reading (65\%).  Moreover, this
-pattern was constrained by prosody. When prosody supported a
-dispreferred \ec-reading, the number of \ec-decisions were increased
-and vice versa.
-
-In both \lc- and \ec-sequences, the number of \ec-answers was highest
-when this reading was supported by prosodic phrasing (30\% and
-32\%, respectively), and a bit lower with neutral prosody (24\% and
-25\%). When prosodic phrasing supported the \lc-reading, the number of
-\ec choices was lowest (12\% in both sequences). The number of
-erroneous answers did not differ between the single
-conditions. Finally, the availability of readings within a sequence
-did not yield any significant effects.
-
-
-In order to test statistically whether prosodic phrasing and
-sequential ordering had an effect on the number of \ec-choices, we
-contrasted the number of \ec-choices with non-\ec -choices (i.e.,
-\lc-answers and erroneous responses together), calculating log-linear
-model analyses with the factors {\it Reading}, {\it Prosody}, and {\it
-  Sequence}.
-
-An effect of {\it Reading} reflects that overall, readings were distributed inhomogeneously
-($LRCS_1 = 252.8, df_1 =1, p_1 < .001$; $LRCS_2 = 252.8, df_2 =1, p_2 < 001$). 
-As revealed by an interaction between {\it Prosody} and
-{\it Reading}, prosodic phrasing had an influence upon the distribution of readings 
-($LRCS_1 = 38.4, df_1 =2, p_1 < 001$; $LRCS_2 = 26.1, df_2 =2, p_2 < .001$). 
-
-
-
-\begin{figure}[t]
+\begin{table}
   \centering
-  \subfloat[][\LC-condition]{
-        \begin{tikzpicture}[scale=0.75]
+  \begin{tabular}{lllll}
+    coefficient & estimate & std.~error & $z$-value & $\Pr(>|z|)$ \\
+    \midrule
+    \textsc{Intercept} & 2.119  &   0.162 & 13.079   & < 0.001 \\
+    \textsc{Reading}.\emph{error} & -0.343 &  0.259 & -1.328 &  0.184
+    \\
+    \textsc{Reading}.\lc & 0.526 &  0.202 & 2.607 & < 0.01 \\
+    \textsc{Condition}.\lc & 0.497 &  0.170  & 2.929 & < 0.01 \\
+    \textsc{Accent}.\lc & -1.054 & 0.242 & -4.354 & < 0.001 \\
+    \textsc{Accent}.\emph{neutral} & -0.112 & 0.180 &  -0.626 &  0.531
+    \\
+    \textsc{Reading}.\emph{error}:\textsc{Condition}.\lc & -0.521 &
+    0.280 & -1.87 & 0.062 \\
+    \textsc{Reading}.\lc:\textsc{Condition}.\lc & -0.583 & 0.195 &
+    -2.997 &  < 0.01 \\
+    \textsc{Reading}.\emph{error}:\textsc{Accent}.\lc & -0.103 &
+    0.422 &  -0.245 & 0.807  \\
+    \textsc{Reading}.\lc:\textsc{Accent}.\lc & 1.657 &  0.279 & 5.943
+    & < 0.001 \\
+    \textsc{Reading}.\emph{error}:\textsc{Accent}.\emph{neutral} & 0.112 &
+    0.299  &  0.375 &  0.708 \\
+    \textsc{Reading}.\lc:\textsc{Accent}.\emph{neutral} & 1.065  &
+    0.222 &  4.800 & < 0.001 \\
+  \end{tabular}
+  \caption{Coefficients of the ``best'' log-linear model for the count
+    data in Table~\ref{tab:CC-ContingencyTable-TF}.}
+  \label{tab:Coefficients-TF}
+\end{table}
 
-  \begin{axis}[ybar, 
-               enlarge x limits=0.45,
-               enlarge y limits=0.25, 
-               legend style={at={(0.5,-0.15)},
-                 anchor=north,
-                 legend columns=-1}, 
-               ylabel={\% of answers (rounded)}, 
-               symbolic x coords={neutral,LC-pref,EC-pref}, 
-               xtick=data,
-               nodes near coords,
-               nodes near coords align={vertical},
-               x = 45, 
-               bar width = 3mm,
-               ymin = 8
-               ]
+Closer examination of the coefficients of the fitted model, shown in
+Table~\ref{tab:Coefficients-TF}, reveals that there were significantly
+more \ec-readings in the \lc-condition and vice versa. This is evident
+from the significant \emph{negative} deviation from the baseline of
+\ec-readings in the interaction coefficient for
+\textsc{Reading}.\lc:\textsc{Condition}.\lc. The log-linear model
+therefore suggests that there is a bias for late responses in a
+sequence. If such a preference for late responses holds for critical
+conditions as well, then the marginal numer of local responses that we
+observed is more likely overemphasized by our sequential decision task
+than that it is underemphasized. The following Bayesian analysis
+further probes into this matter in order to establish how strongly the
+sequence-effect might have emphasized local readings and, from there,
+whether we should uphold belief in local readings.
 
-    \addplot coordinates {(neutral, 69) (LC-pref, 77) (EC-pref, 52)}; 
 
-    \addplot coordinates {(neutral, 24) (LC-pref, 12) (EC-pref, 30)}; 
 
-    \addplot coordinates {(neutral, 7) (LC-pref, 11) (EC-pref, 19)}; 
-
-    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
-    %   (e-l, 100) (e-e, 75)}; 
-
-    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
-    %   (e-l, 16) (e-e, 43)}; 
-
-    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
-    %   (e-l, 15) (e-e, 17)}; 
-
-    \legend{LC, EC, error}
-
-  \end{axis}
-
-\end{tikzpicture}
-  }
-  \subfloat[][\ec-condition]{
-    \begin{tikzpicture}[scale=0.75]
-
-  \begin{axis}[ybar, 
-               enlarge x limits=0.45, 
-               enlarge y limits=0.25, 
-               legend style={at={(0.5,-0.15)},
-                 anchor=north,
-                 legend columns=-1}, 
-               % ylabel={\% of answers}, 
-               symbolic x coords={neutral,LC-pref,EC-pref}, 
-               xtick=data,
-               nodes near coords,
-               nodes near coords align={vertical},
-               x = 45, 
-               bar width = 3mm,
-               ymin = 8
-               ]
-
-    \addplot coordinates {(neutral, 63)
-      (LC-pref, 76) (EC-pref, 56)}; 
-
-    \addplot coordinates {(neutral, 25)
-      (LC-pref, 12) (EC-pref, 32)}; 
-
-    \addplot coordinates {(neutral, 12)
-      (LC-pref, 11) (EC-pref, 13)}; 
-
-    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
-    %   (e-l, 100) (e-e, 75)}; 
-
-    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
-    %   (e-l, 16) (e-e, 43)}; 
-
-    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
-    %   (e-l, 15) (e-e, 17)}; 
-
-    \legend{LC, EC, error}
-
-  \end{axis}
-
-\end{tikzpicture}
-}
-  \caption{Response type frequences for preference-related controls}
-  \label{fig:response-type-freque-TRF}
-\end{figure}
+\newpage
 
 
 \subsection{Discussion}
