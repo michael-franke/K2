@@ -97,6 +97,9 @@
     {dashed,black},
     {loosely dotted}}
 
+\usetikzlibrary{calc}
+\usepackage{nicefrac}
+
 %%%% Document
 
 \title{Embedded Scalars: {A}n Experimental Revisit} \author{Fabian
@@ -1825,24 +1828,24 @@ to. When they do, the trial ends.
 \paragraph{Target Conditions.} We present sequences of pictures
 depicting a set of four identical central elements (e.g., letters),
 which could be connected to surrounding elements (e.g., triangles), as
-shown in Figures~\ref{fig:exseqAS} and XYZ. Initially, any potential
-connections between central and surrounding elements were covered by
-dark gray color (see Figure~\ref{fig:exseqAS1}). Sentences to be
-judged were presented auditorily, and participants were asked to
-uncover the picture until they felt able to give a truth value
-judgment. Three options were available for participants at each step:
-(i) judge the sentence as true, (ii) judge the sentence as false,
-(iii) demand more information (unavailable when the picture was fully
-uncovered). Trials ended when a truth-value judgement was
-made. Importantly, each of the three potentially available readings
-corresponded to a specific step in the uncovering process where the
-truth value of that reading (and only of that reading) could be
-assessed for the first time. We refer to this step in the sequence as
-the {\it critical position} of a given reading. The critical position
-and the corresponding truth-value judgment differed between \as- and
-\es-sentences, as described presently. (This is, partly, because of
-the logical dependencies between readings, and, partly, also to rule
-out positional biases.)
+shown in Figures~\ref{fig:exseqAS}--\ref{fig:exec}. Initially,
+any potential connections between central and surrounding elements
+were covered by dark gray color (see
+Figure~\ref{fig:exseqAS1}). Sentences to be judged were presented
+auditorily, and participants were asked to uncover the picture until
+they felt able to give a truth value judgment. Three options were
+available for participants at each step: (i) judge the sentence as
+true, (ii) judge the sentence as false, (iii) demand more information
+(unavailable when the picture was fully uncovered). Trials ended when
+a truth-value judgement was made. Importantly, each of the three
+potentially available readings corresponded to a specific step in the
+uncovering process where the truth value of that reading (and only of
+that reading) could be assessed for the first time. We refer to this
+step in the sequence as the {\it critical position} of a given
+reading. The critical position and the corresponding truth-value
+judgment differed between \as- and \es-sentences, as described
+presently. (This is, partly, because of the logical dependencies
+between readings, and, partly, also to rule out positional biases.)
 
 \begin{figure}[]
 	\centering
@@ -2790,7 +2793,7 @@ included in each of these resulting lists.
 
 Forty native speakers of German took part in our study, none of which
 had any prior exposure to logic or formal semantics. We excluded two
-participant due to insufficient performance on controls ($\le 60\%$
+participants due to insufficient performance on controls ($\le 60\%$
 correct answers).
 
 
@@ -2926,9 +2929,9 @@ Table~\ref{tab:CC-ContingencyTable}, using factors \textsc{Condition}
 with levels \as and \es, \textsc{Accent} with levels \emph{neutral}
 and \emph{accented}, and \textsc{Position} with levels 1 through 3 to
 predict the dependent factor \textsc{Reading} with levels
-\emph{literal}, \emph{local}, and \emph{other}. The latter levels
-lumps \emph{global} and \emph{error} responses together, because
-otherwise we would not have enough cell counts to apply log-linear
+\emph{literal}, \emph{local}, and \emph{other}. The latter lumps
+\emph{global} and \emph{error} responses together, because otherwise
+we would not have enough cell counts to apply log-linear
 regression. We selected the ``best'' predictor of the data by a
 gradient search over hierarchical models in terms of AICs, starting
 from the saturated model. The best model takes main factors
@@ -2936,7 +2939,7 @@ from the saturated model. The best model takes main factors
 interaction term \textsc{Response:Condition} ($\chi^2 = 17.19$,
 $df=42$, $p = 0.99$, $AIC = 158.01$ (compared to $AIC=208.25$ of the
 saturated model)). Crucially, factors \textsc{Position} and
-\emph{Accent} are spurious in the best model. This suggests that
+\textsc{Accent} are spurious in the best model. This suggests that
 response patterns only depend on the type of the sentence, but that
 there were no learning or fatigation effects and that accentuation did
 not influence answer patterns significantly.
@@ -2946,50 +2949,60 @@ not influence answer patterns significantly.
   \begin{tabular}{lllll}
     coefficient & estimate & std.~error & $z$-value & $\Pr(>|z|)$ \\
     \midrule
-    \textsc{Intercept} & 1.679  &  0.134 &  12.499  & < 0.001 \\
-    \textsc{Reading}.\emph{literal} & -0.219  &  0.281 & -0.781 &
+    \textsc{Intercept} & 0.916  &  0.258 &  3.49  & < 0.001 \\
+    \textsc{Reading}.\emph{literal} & 2.600 &   0.268 & 9.716 & < 0.001 \\
+    \textsc{Reading}.\emph{local} & -0.310  &  0.397 & -0.781 &
     0.435 \\
-    \textsc{Reading}.\emph{local} & -2.249 &   0.172 & -13.084 & < 0.001 \\
-    \textsc{Condition}.\es & 0.592 &  0.159 & 3.732 &  < 0.001 \\
-    \textsc{Reading}.\emph{literal}:\textsc{Condition}.\es & -0.0186 &
-    0.328 & -0.057 &  0.95471 \\
-    \textsc{Reading}.\emph{local}:\textsc{Condition}.\es & 1.041 &
-    0.208 &  4.999 &  < 0.001
+    \textsc{Condition}.\es & 1.030 &  0.301 & 3.423 &  < 0.001 \\
+    \textsc{Reading}.\emph{literal}:\textsc{Condition}.\es & -1.288 &
+    0.319 & -4.036 &  < 0.001 \\
+    \textsc{Reading}.\emph{local}:\textsc{Condition}.\es & -0.026 &
+    0.463 &  -0.0579 &  0.955
   \end{tabular}
   \caption{Coefficients of the ``best'' log-linear model for the count
-    data in Table~\ref{tab:CC-ContingencyTable}.}
+    data in Table~\ref{tab:CC-ContingencyTable}. Notice that factor
+    levels \emph{local} do not cause a significant shift in counts,
+    given reference level
+    \emph{false}.}
   \label{tab:Coefficients-CC}
 \end{table}
 
 Inspection of the coefficients of the ``best'' model suggests that the
 distinction between levels \emph{local} and \emph{other} in factor
-\textsc{Reading} might not be necessary. In order to test whether
-there is support for the postulation of local readings, we therefore
-compared the previous ``best'' predictor to a model that only differs
-from the former in that it subsumes the level \emph{local} of factor
+\textsc{Reading} might not be necessary (see
+Table~\ref{tab:Coefficients-CC}). In order to test whether there is
+support for the postulation of local readings, we therefore compared
+the previous ``best'' predictor to a model that only differs from the
+former in that it subsumes the level \emph{local} of factor
 \textsc{Reading} under level \emph{other} as well
 \citep[e.g.][Chapter~15]{Crawley2007:The-R-Book}. Model comparison
 reveals that there is no significant improvement in explanatory power
 ($Pr(|\chi|) = 0.2689$) of the more complex model that includes the
-level \emph{local} (df=30, residual deviance = 9.76) over the simpler
-model without this level (df=32, residual deviance = 12.39,
-AIC=156.63).
+level \emph{local} (residual df=30, residual deviance = 10.497) over the simpler
+model without this level (residual df=32, residual deviance = 13.124,
+AIC=157.268).
 
 This latter analysis suggests that our data does not provide strong
 evidence for the maintenance of belief in local readings in our
-setting. But we need to be careful. So far we have not taken into
-account the sequential structure of our task. It might be that local
-readings are infrequent because subjects tend to exit early in the
-sequence, rather than late. This is why we need preference-related
-controls.
+setting. But we need to be careful. The regression analysis tells us
+that the number of errors and the number of local readings were
+similar in all conditions. But the distribution of answers in
+Figure~\ref{fig:JudgmentsK2} shows that small error counts occur at
+many different steps, whereas we do see a concentrated rise in answers
+at the critical position for local readings. Also, so far we have not
+taken into account the sequential structure of our task. It might be
+that local readings are infrequent because subjects tend to exit early
+in the sequence, rather than late. This is why we need
+preference-related controls and a more fine-grained analysis
+eventually.
 
 \paragraph{Preference-related controls.} Positional answers for our
 preference-related control conditions are shown in
 Figure~\ref{Fig:TF_judgments}.\fn{We removed 19 data points for the
   \ec-conditions because of a coding mistake that presented subjects
   with incongruent sentence-picture pairs. Including these and
-  classifying them as \emph{errors} does not change the results of the
-  reported analyses.}
+  classifying them as \emph{errors} does not change the qualitative
+  results of the reported analyses.}
 %
 \begin{figure}[]
 \centering
@@ -3076,25 +3089,28 @@ account for the less frequent occurrence of judgements at position 4.
 As expected, most answers classify as \lc-readings, fewer as
 \ec-readings. Moreover, intonation does seem to have the expected
 effect as well: as compared to neutral intonation, \lc-cueing
-intonation ups the count for \lc-readings, while \ec-cueing ups the
-count for \ec-readings. If we compare the number of \lc- or
-\ec-readings for each intonation type across sequences, we see that
+intonation increases the count for \lc-readings, while \ec-cueing
+increases the count for \ec-readings. If we compare the number of \lc-
+or \ec-readings for each intonation type across sequences, we see that
 there are always more answers indicative of the relevant readings when
-that reading can be judged later in the sequence.
+that reading can be judged later in the sequence. This suggests a
+general tendency to answer later in the sequence, rather than at the
+earliest possible step.
 
 There are only very few answers that appear to be random
 mistakes. Some answers in the `error' category are plausibly
-`spill-over' errors. But on top of that, a substantial number of
-`error' answers occur on critical positions. In the \lc-sequence there
+`spill-over errors', where participants gave answers one step too
+late. But on top of that, a substantial number of `error' answers
+occurs on critical positions. For example, in the \lc-sequence there
 are 23 \emph{true} answers at step 6 where \emph{false} answers would
 be taken as indicative of \ec-readings. In the \ec-sequence there are
 28 \emph{false} answers at step 5 where \emph{true} answers would be
-taken as indicative of \lc-readings. \todo{A general tendency to
-  answer later in the sequence does explain this. We don't see a
-  similar effect in the critical conditions because the literal
-  reading is so dominant.} Finally, intonation patterns that cue
-\ec-readings seem to have led to more mistakes than other intonation
-patterns.
+taken as indicative of \lc-readings.\fn{A general tendency to answer
+  later in the sequence would explain this. The reason why we do not
+  see a similar effect in the critical conditions, might be because
+  the literal reading is so dominant.} Finally, intonation patterns
+that cue \ec-readings seem to have led to more mistakes than other
+intonation patterns.
 
 As for the critical conditions, we compute logistic regression models
 including factors \textsc{Reading} with levels \lc, \ec and
@@ -3159,6 +3175,179 @@ further probes into this matter in order to establish how strongly the
 sequence-effect might have emphasized local readings and, from there,
 whether we should uphold belief in local readings.
 
+\subsubsection{Probabilistic salience competition.} 
+
+Our previous regression-based analyses did not take the sequential
+nature of the task into account. We initially hypothesized that
+subjects might exit as early as possible, but the data from the
+target-related controls suggests otherwise. In order to estimate this
+bias and the preference for candidate readings, we use a simple
+Bayesian cognitive model that computes the likelihood of answer
+patterns for different latent sequential biases and reading
+preferences. We use the data to estimate the posterior likelihood of
+these latent parameters to gain insight into the likely preference
+relations and the salience of local readings.
+
+\paragraph{The model.} We outline a simple probabilistic model that
+quantifies the positional bias and the competing strength of available
+readings. Take the AS-conditions as an example. There are three
+potential readings. The relative strength between these is given by a
+probability vector $\myvec{p}^\text{as-n} =
+\tuple{p^\text{as-n}_{\text{lit}},p^\text{as-n}_{\text{loc}},p^\text{as-n}_{\text{glb}}}$. We
+think of $p^\text{as-n}_{\text{lit}}$, for instance, as the salience
+of the literal reading for \as-sentences with neutral prosody,
+relative to the global and local reading. If there were no potential
+effects of sequentiality and no errors (or other readings that we
+classify as errors), the vector $\myvec{p}^\text{as-n}$ would be our
+prediction of observed frequencies of answer patterns. We look at four
+such three-placed vectors, one for each target condition.
+
+For the preference-related control conditions we look at three vectors
+$p^k = \tuple{p^{\text{k}}_{\text{\lc}}, p^{\text{k}}_{\text{\ec}}}$,
+where $k \in \set{text{ntr}, \text{\lc-cue}, \text{\ec-cue}}$. These
+vectors give the relative salience of \lc- and \ec-readings for
+different types of intonation. The salience of readings is independent
+of the pictorial sequence. If there is a tendency to judge sentences
+earlier in the sequence, rather than later, that is to be attributed
+to the sequential bias, not a difference in general, task-independent
+salience of readings.
+
+To add potential effects of sequentiality, we assume that there is a
+constant bias factor $q \in [0;1]$. This bias is held constant over
+all conditions, because we assume that there is a global tendency to
+answer early or late, independent of the sentence subjects are
+confronted with. The bias factor captures whether there is a tendency
+to answer early ($q > .5$) or later ($q <.5$) in the sequence. In the
+\as-sequences, the literal reading can be judged first, then the local
+and then the global reading. So we will assume that $p_{\text{lit}}$
+is multiplied by $q$, that $p_{\text{loc}}$ is multiplied by $(1-q)q$
+and that $p_{\text{glb}}$ is multiplied by $(1-q)^2$.
+
+Finally, we also allow for the chance of subjects making mistakes. To
+keep things as simple as possible (no consideration for spill-overs,
+late decisions, preferences to unravel completely before judging
+etc.), we assume that there is a fixed error rate $e^k \in [0;1]$ for
+each sentence-intonation pair $k$. We allow for different error
+rates for different sentence-intonation pairs, because we want to
+allow for the possibility that non-monotonic quantifiers might be
+harder to process, or that some kind of intonation (like the \ec-cue)
+is harder than others. A decision can be wrong but incidentally
+coincide with a reading that is indicative of a relevant
+reading. Error rates multiply in proportion to the number of steps in
+a sequence: more choice, more chance to be wrong.
+
+\bigskip
+
+HERE
+
+Taking this together we calculate, for each critical
+sentence-intonation pair $k$ a target probability vector $\myvec{t}^k
+=
+\tuple{t^k_{\text{lit}},t^k_{\text{loc}},t^k_{\text{glb}},t^k_{\text{err}}}$
+with which we expect an answer to be classified as LIT, LOC, GLB or as
+an error. For example, for AS-N, where LIT can be judged before GLB
+before LOC, we get:
+\begin{align*}
+  t^{\text{as-n}}_{\text{lit}} & \propto q \
+  p^\text{as-n}_{\text{lit}} + e^\text{as-n} &   t^{\text{as-n}}_{\text{loc}} & \propto (1-q)^2 \
+  p^\text{as-n}_{\text{loc}} + e^\text{as-n} \\
+  t^{\text{as-n}}_{\text{glb}} & \propto (1-q)q \
+  p^\text{as-n}_{\text{glb}} + e^\text{as-n} &   t^{\text{as-n}}_{\text{err}} &
+  \propto 12 e^\text{as-n}
+\end{align*}
+Two remarks. The vector $\myvec{t}^k$ should be normalized eventually,
+which is why $\propto$ is used instead of $=$. Also, the probability
+of error $t^{\text{as-n}}_{\text{err}}$ comes from the observation
+that there are 15 positions in total in an AS-sequence at which
+subjects can make an erroneous choice, but we have accounted for three
+of these already as adding to the count of answers indicative of
+relevant readings.
+
+Similarly, we compute a target probability $\myvec{t}^k =
+\tuple{t^k_{\text{late}},t^k_{\text{early}},t^k_{\text{err}}}$ for
+each preference-related control condition $k$, taking into account
+which reading can be judged first and the length of the respective
+sequences.
+
+The full probabilistic model is visualized in
+Figure~\ref{fig:model_graph}. As indicated there, we assume largely
+uninformative priors. Any positional bias $q \in [0;1]$ is assumed to
+be equally likely. The error rates for each condition should be small,
+so we sample uniformly from interval $[0,.2]$. The biases
+$\myvec{p}_k$ are also determined uniformly at random, by sampling from a
+Dirichlet distribution with equal weights on all dimensions.
+
+\begin{figure}[t]
+  \centering
+  \begin{tikzpicture}[node distance = 2.5cm, 
+    double distance = 2pt,
+    minimum size=1.25cm,
+    thick]
+    
+    \node[rectangle, draw=black, fill=black!30] (obs)
+    {obs$_k$};
+
+    \node[rectangle, draw=black, fill=black!30,
+    right of = obs] (n) {$n_k$};
+
+    \node[below of = n, node distance= 1.5cm]
+    (anchor) {};
+
+    \node[left of = anchor, node distance= 0.5cm] (k) {$k \in
+      \set{\text{as-n, as-e, \dots}}$};
+
+    \node[circle, double, draw=black,
+    above of = obs] (t) {$\myvec{t}_k$};
+
+    \node[circle, draw=black, 
+    above of = t] (p) {$\myvec{p}_k$};
+
+    \node[circle, draw=black, 
+    right of = p] (e) {$e_k$};
+
+    \node[circle, draw=black, 
+    left of = p] (q) {$q$};
+
+    \draw[->] (t)--(obs);
+
+    \draw[->] (n)--(obs);
+
+    \draw[->] (q)--(t);
+
+    \draw[->] (p)--(t);
+
+    \draw[->] (e)--(t);
+
+    \begin{pgfonlayer}{background}
+       \node [rounded corners,
+       very thick,draw=black!40,fit={($(obs.south)+(0,-30pt)$) 
+                                 ($(n.east)+(+5pt,0)$) 
+                                 ($(e.north)+(0,+5pt)$) 
+                                 ($(p.west)+(-5pt,0)$)}] {};
+    \end{pgfonlayer}
+
+    \begin{scope}[xshift = 7.5cm, node distance = 1cm]
+
+      \node[] (obsd) {$\text{obs}_k \sim \text{Multinomial}(\myvec{t}_k,n_k)$};
+
+      \node[above of = obsd] (td) {$\myvec{t}_k = \text{as described
+          in text}$};
+
+      \node[above of = td] (pd) {$\myvec{p}_k =
+        \text{Dirichlet}(\tuple{\nicefrac{1}{k}, \nicefrac{1}{k}, \dots})$};
+
+      \node[above of = pd] (ed) {$e_k \sim \mathcal{U}(0,.2)$};
+
+      \node[above of = ed] (qd) {$q \sim \mathcal{U}(0,1)$};
+
+
+
+    \end{scope}
+
+  \end{tikzpicture}
+  \caption{Probabilistic graphical model}
+  \label{fig:model_graph}
+\end{figure}
 
 
 \newpage
