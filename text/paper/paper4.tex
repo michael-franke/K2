@@ -3273,7 +3273,7 @@ so we sample uniformly from interval $[0,.2]$. The biases
 $\myvec{p}_k$ are also determined uniformly at random, by sampling from a
 Dirichlet distribution with equal weights on all dimensions.
 
-\begin{figure}[t]
+\begin{figure}[]
   \centering
   \begin{tikzpicture}[node distance = 2.5cm, 
     double distance = 2pt,
@@ -3289,8 +3289,8 @@ Dirichlet distribution with equal weights on all dimensions.
     \node[below of = n, node distance= 1.5cm]
     (anchor) {};
 
-    \node[left of = anchor, node distance= 0.5cm] (k) {$k \in
-      \set{\text{as-n, as-e, \dots}}$};
+    \node[left of = anchor, node distance= 0.95cm] (k) {$k \in
+      \set{\text{\as-ntr, \as-acc, \dots}}$};
 
     \node[circle, double, draw=black,
     above of = obs] (t) {$\myvec{t}_k$};
@@ -3308,11 +3308,11 @@ Dirichlet distribution with equal weights on all dimensions.
 
     \draw[->] (n)--(obs);
 
-    \draw[->] (q)--(t);
+    \draw[->,shorten >=0.05cm] (q)--(t);
 
-    \draw[->] (p)--(t);
+    \draw[->,shorten >=0.05cm] (p)--(t);
 
-    \draw[->] (e)--(t);
+    \draw[->,shorten >=0.05cm] (e)--(t);
 
     \begin{pgfonlayer}{background}
        \node [rounded corners,
@@ -3322,32 +3322,182 @@ Dirichlet distribution with equal weights on all dimensions.
                                  ($(p.west)+(-5pt,0)$)}] {};
     \end{pgfonlayer}
 
-    \begin{scope}[xshift = 7.5cm, node distance = 1cm]
+    \begin{scope}[xshift = 6.5cm, node distance = 1cm]
 
       \node[] (obsd) {$\text{obs}_k \sim \text{Multinomial}(\myvec{t}_k,n_k)$};
 
       \node[above of = obsd] (td) {$\myvec{t}_k = \text{as described
           in text}$};
 
-      \node[above of = td] (pd) {$\myvec{p}_k =
-        \text{Dirichlet}(\tuple{\nicefrac{1}{k}, \nicefrac{1}{k}, \dots})$};
+      \node[above of = td] (pd) {$\myvec{p}_k \sim
+        \text{unbiased Dirichlet}$};
 
       \node[above of = pd] (ed) {$e_k \sim \mathcal{U}(0,.2)$};
 
       \node[above of = ed] (qd) {$q \sim \mathcal{U}(0,1)$};
 
-
-
     \end{scope}
 
   \end{tikzpicture}
-  \caption{Probabilistic graphical model}
+  \caption{Probabilistic graphical model. All nodes represent
+    variables, arrows represent functional relations between them.
+    Using conventions of \citet{LeeWagenmakers2013:Bayesian-Cognit},
+    the higher a node, the more latent it is. Square nodes represent
+    discrete-valued variables, circular squares represent
+    continuous-valued variables. Gray squares show the observable
+    variables. Double-lined nodes show deterministic dependency on
+    values of input nodes. The variables in the box are repeated for
+    each of the $k$ relevant conditions.}
   \label{fig:model_graph}
 \end{figure}
 
+\paragraph{Model fitting.} We use JAGS
+\citep{Plummer2003:JAGS:-A-Program} to estimate the posteriors over
+paramater values given our data. Results reported here are based on
+two chains of 10.000 samples from the joint posterior distribution
+MCMC sampling, obtained after an initial burn-in of 10.000 steps. The
+latter guaranteed convergence.
 
-\newpage
+, we obtain estimates
+for the posterior of the latent parameters given the data. To check
+whether the model yields sensible results we first look at the
+preference-related control conditions.
+%
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{pics/post_salience_TF.pdf}
+  \caption{Estimated posteriors for the relative salience of \lc- and
+    \ec-readings for different intonational cues. The lines under the
+    curves mark the estimated 95\% HDIs (see Footnote~\ref{fn:HDI}).}
+  \label{fig:Posterior_TF}
+\end{figure}
+%
+Estimates for the posteriors over relative salience levels for
+target-related controls are plotted in
+Figure~\ref{fig:Posterior_TF}. The results are exactly as we would
+expect them to be. Given our data, we should believe that the
+\lc-reading is most prominent. But the level of prominence varies with
+accentuation. Under prosody that we hypothesized would favor the
+\lc-reading, the contrast is most pronounced. Contrarily, accentuation
+that we hypothesized favors the \ec-reading we are no longer justified
+in believing that the late-closure reading is certainly preferred
+(witness the clearly overlapping 95\% HDIs).\footnote{\label{fn:HDI} A
+  95\% Highest Density Interval (HDI) is a convex region of values
+  over which 95\% of the distribution's probability density is
+  divided, such that no value outside of that region has higher
+  probability density than any point within
+  \citep{Kruschke2011:Doing-Bayesian-}. Intuitively speaking, the 95\%
+  HDI is the set of values which we may believe to be true with some
+  confidence; what falls outside this region is what can be excluded
+  with relative safety.}
 
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{pics/post_salience.pdf}
+  \caption{Posteriors over relative salience of target readings in
+    critical conditions.}
+  \label{fig:Posterior_T}
+\end{figure}
+
+Estimates of posteriors over salience of readings in the target
+conditions are given in Figure~\ref{fig:Posterior_T}. In the
+\es-conditions, literal readings are by far the most salient, followed
+by local, followed by global readings. There does not appear to be a
+significant effect of intonation (by visual comparison of 95\%
+HDIs). For \as-sentences, the same preference order holds in tendency,
+but we cannot assert with full confidence that local readings are
+attested or that they are preferred over global readings (see below). 
+ 
+Posteriors over error rates are conceptually less interesting, and we
+will skip them here. Posteriors over the sequential bias parameter are
+shown in Figure~\ref{fig:post_q}, and show that, given the model and
+our data, we have reason for believing in a bias for late responses.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.5\textwidth]{pics/post_q.pdf}
+  \caption{Estimated Posteriors over global sequential bias parameter
+    $q$.}
+  \label{fig:post_q}
+\end{figure}
+
+\paragraph{Model validation.} As a crude sanity check that our model
+is able to predict the observed data, we gathered 10.000 random values
+from the posterior predictive distribution and found a highly
+significant correlation between these and the observed data ($R^2 =
+0.987$, $p < 0.001$).
+
+\paragraph{Hypothesis testing.} We are chiefly interested in two
+questions: (i) which readings are available? and (ii) what is the
+preference order over readings?
+
+The first question can be answered by looking at the HDIs of the
+posteriors of the candidate readings. The HDIs give the region of the
+95\% least unbelievable parameter values, given the data and the
+model. We would like to check the hypothesis that a given reading is
+unavailable, i.e., its activation value in the probabilistic model is
+equal to 0, or close to zero for practical purposes (Region of
+Practical Equivalence, ROPE). We reject the ``null-hypothesis'' that
+the true value is 0 if its ROPE lies entirely outside the 95\% HDI; we
+accept the ``null-hypothesis'' if the ROPE lies entirely within the
+95\% HDI \citep[][Ch.~12]{Kruschke2011:Doing-Bayesian-}. The following
+table lists approximations of the 95\% HDIs for each condition and
+reading:
+
+\begin{center}
+  \begin{tabular}{lllllll}
+    & lit & loc & glb & \\ \midrule
+    \as-ntr & $(0.924 , 1)$ & $(0 , 0.068)$
+    & $(0 , 0.022)$ \\
+    \as-acc 
+    & $(0.816 , 0.964)$
+    & $(0.028 , 0.152)$
+    & $(0 , 0.066)$ \\
+    \es-ntr 
+    & $(0.665 , 0.873)$
+    & $(0.117 , 0.323)$
+    & $(0 , 0.024)$ \\
+    \es-acc 
+    & $(0.634 , 0.851)$
+    & $(0.139 , 0.356)$
+    & $(0 , 0.022)$ 
+  \end{tabular}
+\end{center}
+
+\noindent We should thus accept the hypothesis that there are no
+global readings at all, and no local readings for \as-sentence under
+neutral intonation. There is support for a belief in local readings in
+the \as-acc condition up to a ROPE of $[0;0.028)$.
+
+The question after the preference relations between readings can be
+answered in a similar way. Here, we look at the posterior beliefs
+about the differences of activation strengths and ask whether these
+posterior beliefs allow us to safely conclude that differences are
+bigger than zero or not. It is obvious enough that literal readings
+are always the most preferred, and that local readings are preferred
+over global readings for \es-sentences. Figure~\ref{fig:PostDiffTAS}
+shows the posteriors over differences between local and global
+readings for \as-sentences. Since the 95\% HDIs include 0, the data
+provides no ground for confidence that, given the model, local
+readings of \as-sentences are preferred over global ones, despite the
+obvious tendency. In sum, with the exception of remaining uncertainty
+about local readings of \as-sentences, the model and the data suggest
+that global readings are absent entirely, while literal readings are
+preferred over local readings.
+
+\begin{figure}
+  \centering
+  \subfloat[neutral][]{
+      \includegraphics[width=0.45\textwidth]{PostDiffT_ASntr.pdf}
+  }
+  \hfill
+  \subfloat[accented][]{
+      \includegraphics[width=0.45\textwidth]{PostDiffT_ASntr.pdf}
+  }
+  \caption{Posteriors over differences between salience levels for
+    local and global readings of \as-sentences.}
+  \label{fig:PostDiffTAS}
+\end{figure}
 
 \subsection{Discussion}
 \label{sec:discussion-1}
