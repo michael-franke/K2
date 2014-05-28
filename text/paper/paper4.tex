@@ -3177,16 +3177,15 @@ whether we should uphold belief in local readings.
 
 \subsubsection{Probabilistic salience competition.} 
 
-Our previous regression-based analyses did not take the sequential
+The previous regression-based analyses did not take the sequential
 nature of the task into account. We initially hypothesized that
 subjects might exit as early as possible, but the data from the
-target-related controls suggests otherwise. In order to estimate this
-bias and the preference for candidate readings, we use a simple
-Bayesian cognitive model that computes the likelihood of answer
-patterns for different latent sequential biases and reading
-preferences. We use the data to estimate the posterior likelihood of
-these latent parameters to gain insight into the likely preference
-relations and the salience of local readings.
+target-related controls suggests otherwise. The following paragraphs
+spell out a simple Bayesian cognitive model that computes the
+likelihood of answer patterns for different latent sequential biases
+and reading preferences. We use the data to estimate the posterior
+likelihood of these latent parameters to gain insight into the likely
+preference relations and the salience of local readings.
 
 \paragraph{The model.} We outline a simple probabilistic model that
 quantifies the positional bias and the competing strength of available
@@ -3200,53 +3199,50 @@ relative to the global and local reading. If there were no potential
 effects of sequentiality and no errors (or other readings that we
 classify as errors), the vector $\myvec{p}^\text{as-n}$ would be our
 prediction of observed frequencies of answer patterns. We look at four
-such three-placed vectors, one for each target condition.
+such three-placed vectors, one for each target sentence-intonation
+pair.
 
 For the preference-related control conditions we look at three vectors
 $p^k = \tuple{p^{\text{k}}_{\text{\lc}}, p^{\text{k}}_{\text{\ec}}}$,
-where $k \in \set{text{ntr}, \text{\lc-cue}, \text{\ec-cue}}$. These
+where $k \in \set{\text{ntr}, \text{\lc-cue}, \text{\ec-cue}}$. These
 vectors give the relative salience of \lc- and \ec-readings for
 different types of intonation. The salience of readings is independent
 of the pictorial sequence. If there is a tendency to judge sentences
 earlier in the sequence, rather than later, that is to be attributed
-to the sequential bias, not a difference in general, task-independent
-salience of readings.
+to the sequential bias.
 
 To add potential effects of sequentiality, we assume that there is a
-constant bias factor $q \in [0;1]$. This bias is held constant over
-all conditions, because we assume that there is a global tendency to
-answer early or late, independent of the sentence subjects are
-confronted with. The bias factor captures whether there is a tendency
-to answer early ($q > .5$) or later ($q <.5$) in the sequence. In the
-\as-sequences, the literal reading can be judged first, then the local
-and then the global reading. So we will assume that $p_{\text{lit}}$
-is multiplied by $q$, that $p_{\text{loc}}$ is multiplied by $(1-q)q$
-and that $p_{\text{glb}}$ is multiplied by $(1-q)^2$.
+bias factor $q \in [0;1]$. This bias is a global parameter held
+constant over all conditions, because we think of it as a general
+tendency to answer early or late in the incremental verification
+task. The bias factor captures whether there is a tendency to access
+readings that appear earlier ($q > .5$) or later ($q <.5$) in the
+sequence. In the \as-sequences, the literal reading can be judged
+first, then the local and then the global reading. So we will assume
+that $p_{\text{lit}}$ is multiplied by $q$, that $p_{\text{loc}}$ is
+multiplied by $(1-q)q$ and that $p_{\text{glb}}$ is multiplied by
+$(1-q)^2$, when determining the eventual weights of readings.
 
-Finally, we also allow for the chance of subjects making mistakes. To
-keep things as simple as possible (no consideration for spill-overs,
-late decisions, preferences to unravel completely before judging
-etc.), we assume that there is a fixed error rate $e^k \in [0;1]$ for
-each sentence-intonation pair $k$. We allow for different error
-rates for different sentence-intonation pairs, because we want to
-allow for the possibility that non-monotonic quantifiers might be
-harder to process, or that some kind of intonation (like the \ec-cue)
-is harder than others. A decision can be wrong but incidentally
-coincide with a reading that is indicative of a relevant
-reading. Error rates multiply in proportion to the number of steps in
-a sequence: more choice, more chance to be wrong.
+Finally, we also allow for mistakes. To keep things as simple as
+possible (no consideration for spill-overs, late decisions,
+preferences to unravel completely before judging etc.), we assume that
+there is a fixed error rate $e^k \in [0;1]$ for each relevant
+condition $k$. We allow for different error rates for different
+conditions, because we want to allow for the possibility that some
+sentence types (e.g., non-monotonic quantifiers) or some kind of
+intonation (e.g., the \ec-cues) might be harder to process. A decision
+can be wrong but incidentally coincide with an answer that is
+indicative of a relevant reading. Error rates multiply in proportion
+to the number of steps in a sequence: more choice, more chance to be
+wrong.
 
-\bigskip
-
-HERE
-
-Taking this together we calculate, for each critical
-sentence-intonation pair $k$ a target probability vector $\myvec{t}^k
-=
+Taking this together we calculate, for each pair $k$ of target
+sentence type and intonation type, a probability vector $\myvec{t}^k =
 \tuple{t^k_{\text{lit}},t^k_{\text{loc}},t^k_{\text{glb}},t^k_{\text{err}}}$
-with which we expect an answer to be classified as LIT, LOC, GLB or as
-an error. For example, for AS-N, where LIT can be judged before GLB
-before LOC, we get:
+with which we expect an answer to be classified as literal, local,
+global or as error. For example, for \as-sentences with neutral
+intonation, where literal can be judged before global before local, we
+get:
 \begin{align*}
   t^{\text{as-n}}_{\text{lit}} & \propto q \
   p^\text{as-n}_{\text{lit}} + e^\text{as-n} &   t^{\text{as-n}}_{\text{loc}} & \propto (1-q)^2 \
@@ -3256,18 +3252,18 @@ before LOC, we get:
   \propto 12 e^\text{as-n}
 \end{align*}
 Two remarks. The vector $\myvec{t}^k$ should be normalized eventually,
-which is why $\propto$ is used instead of $=$. Also, the probability
-of error $t^{\text{as-n}}_{\text{err}}$ comes from the observation
-that there are 15 positions in total in an AS-sequence at which
-subjects can make an erroneous choice, but we have accounted for three
-of these already as adding to the count of answers indicative of
+which is why `$\propto$' is used above instead of `$=$.' Also, the
+probability of error $t^{\text{as-n}}_{\text{err}}$ comes from the
+observation that there are 15 positions in total in an \as-sequence at
+which subjects can make an erroneous choice, but we have accounted for
+three of these already as adding to the count of answers indicative of
 relevant readings.
 
 Similarly, we compute a target probability $\myvec{t}^k =
 \tuple{t^k_{\text{late}},t^k_{\text{early}},t^k_{\text{err}}}$ for
-each preference-related control condition $k$, taking into account
-which reading can be judged first and the length of the respective
-sequences.
+each preference-related control sentence under intonation $k$, taking
+into account which reading can be judged first and the length of the
+respective sequences.
 
 The full probabilistic model is visualized in
 Figure~\ref{fig:model_graph}. As indicated there, we assume largely
