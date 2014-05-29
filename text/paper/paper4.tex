@@ -2803,9 +2803,10 @@ correct answers).
 In the following, we will report the results for targets and
 preference-related controls separately. After providing the
 descriptive results, we present statistical analyses using log-linear
-models (i.e., generalized linear regression for count data). To
-complement the picture, we also report a Bayesian analysis that probes
-specifically into the preference relations between candidate readings.
+models. We complement these with a Bayesian analysis that is sensitive
+to the sequential nature of the incremental verification task and
+probes specifically into the preference relations between candidate
+readings.
 
 \paragraph{Target conditions and positional controls.}
 Performance on positional controls was overwhelmingly correct (90\%
@@ -2815,100 +2816,145 @@ truth-value judgments at the adequate point in a sequence. In
 general, they were not affected by inessential features of the picture
 materials or general response biases.
 
-The answers obtained for the four target conditions are depicted in
-Figure \ref{fig:JudgmentsK2}.
+% \begin{figure}[t] 
+% \centering
+
+% \includegraphics[width=0.9\textwidth]{positional_answers_critical.pdf}
+
+
+% \caption{Answers for the \as- and \es-sequences. Bars show the total
+%   number of \emph{yes} (up) and \emph{no} judgments (down) collected
+%   at each step during a sequence. E.g., we recorded a total of 103
+%   \emph{yes} judgments at the third position in the \as-sequence with
+%   neutral intonation, which corresponds to 103 answers that were
+%   classified as \emph{literal} answers. Notice that the \as-condition
+%   had seven steps, the \es-condition only five.}
+% \label{fig:JudgmentsK2}
+% \end{figure}
 %
-\begin{figure}[t]
-\centering
 
-\includegraphics[width=0.9\textwidth]{positional_answers_critical.pdf}
-
-
-\caption{Answers for the \as- and \es-sequences. Bars show the total
-  number of \emph{yes} (up) and \emph{no} judgments (down) collected
-  at each step during a sequence. E.g., we recorded a total of 103
-  \emph{yes} judgments at the third position in the \as-sequence with
-  neutral intonation, which corresponds to 103 answers that were
-  classified as \emph{literal} answers. Notice that the \as-condition
-  had seven steps, the \es-condition only five.}
-\label{fig:JudgmentsK2}
-\end{figure}
-%
-We coded these answers as {\it literal}, {\it global} or {\it local}
-if they were as expected under one of these readings and as {\it
-  error} if not. The distribution of readings thus coded is given in
-Table~\ref{tab:CC-ContingencyTable}. The table also classifies
-responses according to the position (1--3) in the experiment, i.e.,
-whether it was the first, second or third time that a participant saw
-the critical condition in question.
-%
-\begin{table}[h]
-\centering
-
-\begin{tabular}{lccccc}
-  condition & position & \multicolumn{4}{c}{response type} \\ \cmidrule(r){3-6}
-  && \emph{literal} & \emph{local} & \emph{global} & \emph{error} \\
-  \midrule \addlinespace[0.15cm]
-  \textbf{\as neutral} 
-  & Pos 1 & 35 &  0 & 0 & 3 \\
-  & Pos 2 & 35 &  1 & 0 & 2 \\
-  & Pos 3 & 33 &  2 & 0 & 3 \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{103} &  \textbf{3} & \textbf{0} &
-  \textbf{8} \\
-  \addlinespace[0.25cm]
-  \textbf{\as accented} 
-  & Pos 1 & 33 &  2 & 1 & 2 \\
-  & Pos 2 & 33 &  3 & 1 & 1 \\
-  & Pos 3 & 33 &  3 & 0 & 2 \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{99} &  \textbf{8} & \textbf{2} &
-  \textbf{5} \\
-  \addlinespace[0.25cm]
-  \textbf{\es neutral} 
-  & Pos 1 & 26 &  5 & 0 & 7 \\
-  & Pos 2 & 26 &  3 & 0 & 9 \\
-  & Pos 3 & 26 &  6 & 0 & 6 \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{78} &  \textbf{14} & \textbf{0} &
-  \textbf{22} \\
-  \addlinespace[0.25cm]
-  \textbf{\es accented} 
-  & Pos 1 & 26 &  6 & 0 & 6 \\
-  & Pos 2 & 24 &  5 & 0 & 9 \\
-  & Pos 3 & 28 &  5 & 0 & 5 \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{78} &  \textbf{16} & \textbf{0} &
-  \textbf{20}
-\end{tabular}
-
-\caption{Contingency table of classified responses for the critical
-  conditions. The factor position encodes whether participants saw the
-  condition in question for the first, second or third time during the
-  whole experiment.}
-\label{tab:CC-ContingencyTable}
+\begin{table}
+  \centering
+  \begin{tabular}{lcccccccc@{\hskip 0.6cm}cccc}
+    && \multicolumn{7}{c}{truth value at step}
+    & \multicolumn{4}{c}{classification}
+    \\ \cmidrule(l){3-9} \cmidrule(r){10-13}
+    condition &
+    & 1
+    & 2
+    & 3
+    & 4
+    & 5
+    & 6
+    & 7
+    & \lit
+    & \loc
+    & \glb
+    & err \\ \midrule
+    \as-ntr 
+    & T & 1 & 1 & \textbf{103} & 2 & \textbf{0} & 0 & 2 
+    & 103 & 3 & 0 & 8 \\
+    & F & 0 & 0 & 0 & 0 & 2 & 0 & \textbf{3} \\ 
+    \addlinespace[0.25cm]
+    \as-acc
+    & T & 0 & 1 & \textbf{99} & 2 & \textbf{2} & 0 & 1 
+    & 99 & 8 & 5 & 5 \\
+    & F & 0 & 0 & 1 & 0 & 0 & 0 & \textbf{8} \\
+    \addlinespace[0.25cm]
+    \es-ntr
+    & T & 0 & 11 & 3 & 1 & \textbf{14} & - & - 
+    & 78 & 14 & 0 & 22 \\
+    & F & 0 & \textbf{0} & \textbf{78} & 5 & 2 & - & - \\
+    \addlinespace[0.25cm]
+    \es-acc
+    & T & 0 & 10 & 3 & 0 & \textbf{16} & - & - 
+    & 78 & 16 & 0 & 20 \\
+    & F & 0 & \textbf{0} & \textbf{78} & 5 & 2 & - & -
+  \end{tabular}
+  \caption{Observed truth-value judgments in critical conditions. The
+    left-hand part of the table shows the number of \emph{true} and
+    \emph{false} responses obtained at each step in the sequence. The
+    right-hand part shows the count for our imposed classification
+    scheme. The answer counts indicative of relevant readings are
+    given in bold-face on the left-hand side.}
+  \label{tab:count_data_CC}
 \end{table}
+
+
 %
-The majority of answers are indicative of a literal reading (90.35\% /
-86.84\% in neutral / accented \as-conditions, and 68.42\% in both
-neutral / accented \es-conditions). Only two answers across all
-critical conditions fall into the category indicative of global
+% \begin{table}[h]
+% \centering
+
+% \begin{tabular}{lccccc}
+%   condition & position & \multicolumn{4}{c}{response type} \\ \cmidrule(r){3-6}
+%   && \emph{literal} & \emph{local} & \emph{global} & \emph{error} \\
+%   \midrule \addlinespace[0.15cm]
+%   \textbf{\as neutral} 
+%   & Pos 1 & 35 &  0 & 0 & 3 \\
+%   & Pos 2 & 35 &  1 & 0 & 2 \\
+%   & Pos 3 & 33 &  2 & 0 & 3 \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{103} &  \textbf{3} & \textbf{0} &
+%   \textbf{8} \\
+%   \addlinespace[0.25cm]
+%   \textbf{\as accented} 
+%   & Pos 1 & 33 &  2 & 1 & 2 \\
+%   & Pos 2 & 33 &  3 & 1 & 1 \\
+%   & Pos 3 & 33 &  3 & 0 & 2 \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{99} &  \textbf{8} & \textbf{2} &
+%   \textbf{5} \\
+%   \addlinespace[0.25cm]
+%   \textbf{\es neutral} 
+%   & Pos 1 & 26 &  5 & 0 & 7 \\
+%   & Pos 2 & 26 &  3 & 0 & 9 \\
+%   & Pos 3 & 26 &  6 & 0 & 6 \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{78} &  \textbf{14} & \textbf{0} &
+%   \textbf{22} \\
+%   \addlinespace[0.25cm]
+%   \textbf{\es accented} 
+%   & Pos 1 & 26 &  6 & 0 & 6 \\
+%   & Pos 2 & 24 &  5 & 0 & 9 \\
+%   & Pos 3 & 28 &  5 & 0 & 5 \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{78} &  \textbf{16} & \textbf{0} &
+%   \textbf{20}
+% \end{tabular}
+
+% \caption{Contingency table of classified responses for the critical
+%   conditions. The factor position encodes whether participants saw the
+%   condition in question for the first, second or third time during the
+%   whole experiment.}
+% \label{tab:CC-ContingencyTable}
+% \end{table}
+%
+
+Judgements obtained for the four target conditions are listed in
+Table~\ref{tab:count_data_CC}. We coded these answers as {\it
+  literal}, {\it global} or {\it local} if they were as expected under
+one of these readings and as {\it error} if not. The majority of
+answers are indicative of a literal reading (90.35\% / 86.84\% in
+neutral / accented \as-conditions, and 68.42\% in both neutral /
+accented \es-conditions). Only two answers across all critical
+conditions fall into the category indicative of global
 readings. Judgements indicative of local readings, on the other hand,
 are more frequent (2.63\% / 7.02\% for neutral / accented
 \as-conditions, and 12.28\% / 14.04\% for neutral / accented
-\es-conditions). 
+\es-conditions).
 
 The number of responses that fell out of our classification scheme
 differs substantially between \as- and \es-conditions. There are
 7.02\% / 4.39\% unclassifiable judgements in the neutral / accented
 \as-conditions, but 19.30\% / 17.54\% in the neutral / accented
-\es-conditions. A look at Figure~\ref{fig:JudgmentsK2} reveals that
-there is some systematicity in 'error' answers. Most answers that we
-classified as 'errors' are plausibly explained as a few random errors,
-a handful of mistakes resulting from confusing buttons for \emph{true}
-and \emph{false} and a few 'spill-overs' where participants gave
-responses one position too late. There is one notable exception,
-though. A substantial number of \emph{true} responses where given at
-the second position of \es-sequences (9.65\% / 8.77\%) which is shown
-in Figure~\ref{fig:exseqES2}. Although this position in the sequence
-is the critical position to reveal a global reading, the latter would
-be indicated by a \emph{false} response. It appears that subjects read
+\es-conditions. A look at the right-hand side of
+Table~\ref{tab:count_data_CC} reveals that there is some systematicity
+in 'error' answers. Most answers that we classified as 'errors' are
+plausibly explained as a few random errors, a handful of mistakes
+resulting from confusing buttons for \emph{true} and \emph{false} and
+a few 'spill-over errors' where participants gave responses one
+position too late. There is one notable exception, though. A
+substantial number of \emph{true} responses where given at the second
+position of \es-sequences (9.65\% / 8.77\%) which is shown in
+Figure~\ref{fig:exseqES2}. Although this position in the sequence is
+the critical position to reveal a global reading, the latter would be
+indicated by a \emph{false} response. It appears that subjects read
 \es-sentences as if the non-monotonic quantifier \emph{exactly one}
 was a monotonic \emph{at least one}, without pragmatic enrichment of
 \emph{some}.\fn{If \emph{some} is pragmatically strengthened under the
@@ -2919,30 +2965,32 @@ was a monotonic \emph{at least one}, without pragmatic enrichment of
   not explain \emph{true} judgements at position 5. These are
   therefore still indicative of local readings.} 16 out of the total
 21 answers in this category come from 5 subjects, while the remaining
-5 were single answers by 5 different subjects. \todo{subjects 1, 9,
-  12, 21, 84} This suggests that at least for some subjects
-non-monotonic quantifiers were problematic. \todo{how to deal with
-  this in the future?}
+5 were single answers by 5 different subjects.
+% subjects 1, 9, 12, 21, 84
+This suggests that at least for some subjects non-monotonic
+quantifiers were problematic. (We will come back to this point later.)
 
-We fitted generalized linear models to the contingency table data in
-Table~\ref{tab:CC-ContingencyTable}, using factors \textsc{Condition}
-with levels \as and \es, \textsc{Accent} with levels \emph{neutral}
-and \emph{accented}, and \textsc{Position} with levels 1 through 3 to
-predict the dependent factor \textsc{Reading} with levels
-\emph{literal}, \emph{local}, and \emph{other}. The latter lumps
-\emph{global} and \emph{error} responses together, because otherwise
-we would not have enough cell counts to apply log-linear
-regression. We selected the ``best'' predictor of the data by a
-gradient search over hierarchical models in terms of AICs, starting
-from the saturated model. The best model takes main factors
-\textsc{Response} and \textsc{Condition} into account, as well as the
-interaction term \textsc{Response:Condition} ($\chi^2 = 17.19$,
-$df=42$, $p = 0.99$, $AIC = 158.01$ (compared to $AIC=208.25$ of the
-saturated model)). Crucially, factors \textsc{Position} and
+We fitted generalized linear models to the count data in
+Table~\ref{tab:count_data_CC}, using factors \textsc{Condition} with
+levels \as and \es, \textsc{Accent} with levels \emph{neutral} and
+\emph{accented}, and \textsc{Position} with levels 1 through 3 (coding
+whether it was the first, second or third time that a participant saw
+a critical condition during the experiment) to predict the dependent
+factor \textsc{Reading} with levels \emph{literal}, \emph{local}, and
+\emph{other}. The latter lumps \emph{global} and \emph{error}
+responses together, because otherwise we would not have enough cell
+counts to apply log-linear regression. We determined the ``best''
+predictor of the data by a gradient search over hierarchical models in
+terms of AICs, starting from the saturated model. The best model takes
+main factors \textsc{Response} and \textsc{Condition} into account, as
+well as the interaction term \textsc{Response:Condition} ($\chi^2 =
+17.19$, $df=42$, $p = 0.99$, $AIC = 158.01$ (compared to $AIC=208.25$
+of the saturated model)). Crucially, factors \textsc{Position} and
 \textsc{Accent} are spurious in the best model. This suggests that
 response patterns only depend on the type of the sentence, but that
 there were no learning or fatigation effects and that accentuation did
-not influence answer patterns significantly.
+not influence answer patterns significantly (at this level of
+abstraction).
 
 \begin{table}
   \centering
@@ -2960,27 +3008,25 @@ not influence answer patterns significantly.
     0.463 &  -0.0579 &  0.955
   \end{tabular}
   \caption{Coefficients of the ``best'' log-linear model for the count
-    data in Table~\ref{tab:CC-ContingencyTable}. Notice that factor
-    levels \emph{local} do not cause a significant shift in counts,
-    given reference level
-    \emph{false}.}
+    data in Table~\ref{tab:count_data_CC}.}
   \label{tab:Coefficients-CC}
 \end{table}
 
-Inspection of the coefficients of the ``best'' model suggests that the
-distinction between levels \emph{local} and \emph{other} in factor
-\textsc{Reading} might not be necessary (see
-Table~\ref{tab:Coefficients-CC}). In order to test whether there is
-support for the postulation of local readings, we therefore compared
-the previous ``best'' predictor to a model that only differs from the
-former in that it subsumes the level \emph{local} of factor
-\textsc{Reading} under level \emph{other} as well
-\citep[e.g.][Chapter~15]{Crawley2007:The-R-Book}. Model comparison
-reveals that there is no significant improvement in explanatory power
-($Pr(|\chi|) = 0.2689$) of the more complex model that includes the
-level \emph{local} (residual df=30, residual deviance = 10.497) over the simpler
-model without this level (residual df=32, residual deviance = 13.124,
-AIC=157.268).
+Inspection of the coefficients of the ``best'' model in
+Table~\ref{tab:Coefficients-CC} suggests that the distinction between
+levels \emph{local} and \emph{other} in factor \textsc{Reading} might
+not be necessary: factor levels \emph{local} do not cause a
+significant shift in counts, given reference level \emph{false}. In
+order to test whether there is support for the postulation of local
+readings, we therefore compared the previous ``best'' predictor to a
+model that only differs from the former in that it subsumes the level
+\emph{local} of factor \textsc{Reading} under level \emph{other} as
+well \citep[e.g.][Chapter~15]{Crawley2007:The-R-Book}. Model
+comparison reveals that there is no significant improvement in
+explanatory power ($Pr(|\chi|) = 0.2689$) of the more complex model
+that includes the level \emph{local} (residual df=30, residual
+deviance = 10.497) over the simpler model without this level (residual
+df=32, residual deviance = 13.124, AIC=157.268).
 
 This latter analysis suggests that our data does not provide strong
 evidence for the maintenance of belief in local readings in our
@@ -2992,110 +3038,160 @@ many different steps, whereas we do see a concentrated rise in answers
 at the critical position for local readings. Also, so far we have not
 taken into account the sequential structure of our task. It might be
 that local readings are infrequent because subjects tend to exit early
-in the sequence, rather than late. This is why we need
-preference-related controls and a more fine-grained analysis
-eventually.
+in the sequence, rather than late. Or it might be that our count for
+local answers is exaggerated by a bias to answer later in the
+sequence. This is why we need preference-related controls and a more
+fine-grained analysis eventually.
 
 \paragraph{Preference-related controls.} Positional answers for our
 preference-related control conditions are shown in
-Figure~\ref{Fig:TF_judgments}.\fn{We removed 19 data points for the
+Table~\ref{tab:count_data_TF}.\fn{We removed 19 data points for the
   \ec-conditions because of a coding mistake that presented subjects
   with incongruent sentence-picture pairs. Including these and
   classifying them as \emph{errors} does not change the qualitative
-  results of the reported analyses.}
-%
-\begin{figure}[]
-\centering
+  results of the reported analyses.} Judgments were coded as \ec or as
+\lc if they were as expected under one of these readings, and as
+\emph{error} if they were not. As expected, most answers classify as
+\lc-readings, fewer as \ec-readings. Moreover, intonation does seem to
+have the expected effect as well: as compared to neutral intonation,
+\lc-cueing intonation increases the count for \lc-readings, while
+\ec-cueing increases the count for \ec-readings. If we compare the
+number of \lc- or \ec-readings for each intonation type across
+sequences, we see that there are always more answers indicative of the
+relevant readings when that reading can be judged later in the
+sequence. This suggests a general tendency to answer later in the
+sequence, rather than at the earliest possible step.
 
- \subfloat[][\LC-sequence]{
-
-
-\includegraphics[width=0.9\textwidth]{positional_answers_TF_LC.pdf}
-}
-
- \subfloat[][\EC-sequence]{
-
-
-\includegraphics[width=0.9\textwidth]{positional_answers_TF_EC.pdf}
-}
-
-\caption{Answers for \lc-sequences and \ec-sequences. \emph{True}
-  judgements are plotted upwards for each step in the sequence,
-  \emph{false} judgements downwards.}
-\label{Fig:TF_judgments}
-\end{figure}
-%
-Judgments were coded as \ec or as \lc if they were as expected under
-one of these readings, and as \emph{error} if they were not. The
-distributions of readings thus coded is given in
-Table~\ref{tab:CC-ContingencyTable-TF}. Some subjects saw 4 trials of
-some target-related control conditions, but the table and the
-subsequent analysis of the count data only looks at the data from the
-first three encounters. This is because otherwise we would see a
-spurious main effect of \textsc{Position} that is just needed to
-account for the less frequent occurrence of judgements at position 4.
-%
-\begin{table}[]
-\centering
-
-\begin{tabular}{lcccc}
-  condition & position & \multicolumn{3}{c}{response type} \\ \cmidrule(r){3-5}
-  && \emph{LC} & \emph{EC} & \emph{error}  \\
-  \midrule \addlinespace[0.15cm]
-  \textbf{\lc neutral} 
-  & Pos 1 & 27 &  7  & 4 \\
-  & Pos 2 & 23 &  11 & 4 \\
-  & Pos 3 & 26 &  9  & 3 \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{76} &  \textbf{27} & \textbf{11}  \\
-  \addlinespace[0.25cm]
-  \textbf{\lc with \lc cue} 
-  & Pos 1 & 26 &  7 & 5  \\
-  & Pos 2 & 31 &  5 & 2  \\
-  & Pos 3 & 33 &  3 & 2  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{90} &  \textbf{15} & \textbf{9}  \\
-  \addlinespace[0.25cm]
-  \textbf{\lc with \ec cue} 
-  & Pos 1 & 14 &  17 & 7  \\
-  & Pos 2 & 15 &  16 & 7  \\
-  & Pos 3 & 15 &  17 & 6  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{44} &  \textbf{50} & \textbf{20}  \\
-  \addlinespace[0.25cm]
-  \textbf{\ec neutral} 
-  & Pos 1 & 22 &  6 & 5  \\
-  & Pos 2 & 28 &  6 & 4  \\
-  & Pos 3 & 29 &  7 & 2  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{79} &  \textbf{19} & \textbf{11}  \\
-  \addlinespace[0.25cm]
-  \textbf{\ec with \lc cue} 
-  & Pos 1 & 30 &  5 & 1  \\
-  & Pos 2 & 32 &  5 & 0  \\
-  & Pos 3 & 31 &  3 & 2  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{93} &  \textbf{13} & \textbf{3}  \\
-  \addlinespace[0.25cm]
-  \textbf{\ec with \ec cue} 
-  & Pos 1 & 19 &  10 & 7  \\
-  & Pos 2 & 19 &  7  & 9  \\
-  & Pos 3 & 19 &  7  & 11  \\ \addlinespace[0.15cm]
-  & \textbf{Total} & \textbf{57} &  \textbf{24} & \textbf{27}  \\
-\end{tabular}
-
-\caption{Contingency table of classified responses for the
-  preference-related controls. As before, the factor position encodes
-  whether participants saw the condition in question for the first,
-  second or third time during the whole experiment.}
-\label{tab:CC-ContingencyTable-TF}
+\begin{table}
+  \centering
+  \begin{tabular}{lcccccccc@{\hskip 0.6cm}ccc}
+    && \multicolumn{7}{c}{truth value at step}
+    & \multicolumn{3}{c}{classification}
+    \\ \cmidrule(l){3-9} \cmidrule(r){10-12}
+    condition &
+    & 1
+    & 2
+    & 3
+    & 4
+    & 5
+    & 6
+    & 7
+    & \lc
+    & \ec
+    & err \\ \midrule
+    \lc-ntr 
+    & T & 0 & 0 & \textbf{87} & 1 & 0 & 9 & 0 
+    & 87 & 32 & 13 \\
+    & F & 0 & 0 & 3 & 0 & 0 & \textbf{32} & 0 \\
+    \addlinespace[0.25cm]
+    \lc-\lc-cue
+    & T & 0 & 0 & \textbf{108} & 1 & 1 & 7 & 0 
+    & 108 & 16 & 10 \\
+    & F & 0 & 0 & 1 & 0 & 0 & \textbf{16} & 0 \\
+    \addlinespace[0.25cm]
+    \lc-\ec-cue
+    & T & 0 & 0 & \textbf{51} & 4 & 0 & 7 & 0 
+    & 51 & 59 & 25 \\
+    & F & 2 & 1 & 7 & 0 & 0 & \textbf{59} & 1 \\
+    \addlinespace[0.25cm]
+    \ec-ntr
+    & T & 0 & 0 & 0 & 0 & \textbf{92} & - & - 
+    & 92 & 22 & 13 \\
+    & F & 1 & 0 & \textbf{22} & 6 & 6 & - & - \\
+    \addlinespace[0.25cm]
+    \ec-\lc-cue
+    & T & 0 & 0 & 0 & 0 & \textbf{112} & - & - 
+    & 112 & 13 & 4 \\
+    & F & 0 & 1 & \textbf{13} & 1 & 2 & - & - \\
+    \addlinespace[0.25cm]
+    \ec-\ec-cue
+    & T & 0 & 0 & 0 & 0 & \textbf{65} & - & - 
+    & 65 & 31 & 30 \\
+    & F & 2 & 0 & \textbf{31} & 8 & 20 & - & - \\
+    \addlinespace[0.25cm]
+    
+  \end{tabular}
+  \caption{Observed truth-value judgments in preference-related controls.}
+  \label{tab:count_data_TF}
 \end{table}
 
-As expected, most answers classify as \lc-readings, fewer as
-\ec-readings. Moreover, intonation does seem to have the expected
-effect as well: as compared to neutral intonation, \lc-cueing
-intonation increases the count for \lc-readings, while \ec-cueing
-increases the count for \ec-readings. If we compare the number of \lc-
-or \ec-readings for each intonation type across sequences, we see that
-there are always more answers indicative of the relevant readings when
-that reading can be judged later in the sequence. This suggests a
-general tendency to answer later in the sequence, rather than at the
-earliest possible step.
+
+
+% \begin{figure}[]
+% \centering
+
+%  \subfloat[][\LC-sequence]{
+
+
+% \includegraphics[width=0.9\textwidth]{positional_answers_TF_LC.pdf}
+% }
+
+%  \subfloat[][\EC-sequence]{
+
+
+% \includegraphics[width=0.9\textwidth]{positional_answers_TF_EC.pdf}
+% }
+
+% \caption{Answers for \lc-sequences and \ec-sequences. \emph{True}
+%   judgements are plotted upwards for each step in the sequence,
+%   \emph{false} judgements downwards.}
+% \label{Fig:TF_judgments}
+% \end{figure}
+
+
+
+% \begin{table}[]
+% \centering
+
+% \begin{tabular}{lcccc}
+%   condition & position & \multicolumn{3}{c}{response type} \\ \cmidrule(r){3-5}
+%   && \emph{LC} & \emph{EC} & \emph{error}  \\
+%   \midrule \addlinespace[0.15cm]
+%   \textbf{\lc neutral} 
+%   & Pos 1 & 27 &  7  & 4 \\
+%   & Pos 2 & 23 &  11 & 4 \\
+%   & Pos 3 & 26 &  9  & 3 \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{76} &  \textbf{27} & \textbf{11}  \\
+%   \addlinespace[0.25cm]
+%   \textbf{\lc with \lc cue} 
+%   & Pos 1 & 26 &  7 & 5  \\
+%   & Pos 2 & 31 &  5 & 2  \\
+%   & Pos 3 & 33 &  3 & 2  \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{90} &  \textbf{15} & \textbf{9}  \\
+%   \addlinespace[0.25cm]
+%   \textbf{\lc with \ec cue} 
+%   & Pos 1 & 14 &  17 & 7  \\
+%   & Pos 2 & 15 &  16 & 7  \\
+%   & Pos 3 & 15 &  17 & 6  \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{44} &  \textbf{50} & \textbf{20}  \\
+%   \addlinespace[0.25cm]
+%   \textbf{\ec neutral} 
+%   & Pos 1 & 22 &  6 & 5  \\
+%   & Pos 2 & 28 &  6 & 4  \\
+%   & Pos 3 & 29 &  7 & 2  \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{79} &  \textbf{19} & \textbf{11}  \\
+%   \addlinespace[0.25cm]
+%   \textbf{\ec with \lc cue} 
+%   & Pos 1 & 30 &  5 & 1  \\
+%   & Pos 2 & 32 &  5 & 0  \\
+%   & Pos 3 & 31 &  3 & 2  \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{93} &  \textbf{13} & \textbf{3}  \\
+%   \addlinespace[0.25cm]
+%   \textbf{\ec with \ec cue} 
+%   & Pos 1 & 19 &  10 & 7  \\
+%   & Pos 2 & 19 &  7  & 9  \\
+%   & Pos 3 & 19 &  7  & 11  \\ \addlinespace[0.15cm]
+%   & \textbf{Total} & \textbf{57} &  \textbf{24} & \textbf{27}  \\
+% \end{tabular}
+
+% \caption{Contingency table of classified responses for the
+%   preference-related controls. As before, the factor position encodes
+%   whether participants saw the condition in question for the first,
+%   second or third time during the whole experiment.}
+% \label{tab:CC-ContingencyTable-TF}
+% \end{table}
+
+
 
 There are only very few answers that appear to be random
 mistakes. Some answers in the `error' category are plausibly
@@ -3105,14 +3201,15 @@ occurs on critical positions. For example, in the \lc-sequence there
 are 23 \emph{true} answers at step 6 where \emph{false} answers would
 be taken as indicative of \ec-readings. In the \ec-sequence there are
 28 \emph{false} answers at step 5 where \emph{true} answers would be
-taken as indicative of \lc-readings.\fn{A general tendency to answer
-  later in the sequence would explain this. The reason why we do not
-  see a similar effect in the critical conditions, might be because
-  the literal reading is so dominant.} Finally, intonation patterns
+taken as indicative of \lc-readings.% \fn{A general tendency to answer
+% later in the sequence would explain this. The reason why we do not
+% see a similar effect in the critical conditions, might be because
+% the literal reading is so dominant.}
+Finally, intonation patterns
 that cue \ec-readings seem to have led to more mistakes than other
 intonation patterns.
 
-As for the critical conditions, we compute logistic regression models
+As for the critical conditions, we computed logistic regression models
 including factors \textsc{Reading} with levels \lc, \ec and
 \emph{error}, \textsc{Accent} with levels \emph{neutral},
 \emph{\lc-cue} and \emph{\ec-cue}, \textsc{Position} with levels 1 to
@@ -3156,7 +3253,7 @@ significantly influenced the dominant reading.
     0.222 &  4.800 & < 0.001 \\
   \end{tabular}
   \caption{Coefficients of the ``best'' log-linear model for the count
-    data in Table~\ref{tab:CC-ContingencyTable-TF}.}
+    data in Table~\ref{tab:count_data_TF}.}
   \label{tab:Coefficients-TF}
 \end{table}
 
@@ -3168,30 +3265,31 @@ from the significant \emph{negative} deviation from the baseline of
 \textsc{Reading}.\lc:\textsc{Condition}.\lc. The log-linear model
 therefore suggests that there is a bias for late responses in a
 sequence. If such a preference for late responses holds for critical
-conditions as well, then the marginal numer of local responses that we
-observed is more likely overemphasized by our sequential decision task
-than that it is underemphasized. The following Bayesian analysis
-further probes into this matter in order to establish how strongly the
-sequence-effect might have emphasized local readings and, from there,
-whether we should uphold belief in local readings.
+conditions as well, then the rather small numer of local responses
+that we observed is more likely overemphasized by our sequential
+decision task than that it is underemphasized. The following Bayesian
+analysis further probes into this matter in order to establish how
+strongly the sequence-effect might have emphasized local readings and,
+from there, whether we should uphold belief in local readings.
 
 \subsubsection{Probabilistic salience competition.} 
 
 The previous regression-based analyses did not take the sequential
-nature of the task into account. We initially hypothesized that
-subjects might exit as early as possible, but the data from the
-target-related controls suggests otherwise. The following paragraphs
-spell out a simple Bayesian cognitive model that computes the
-likelihood of answer patterns for different latent sequential biases
-and reading preferences. We use the data to estimate the posterior
-likelihood of these latent parameters to gain insight into the likely
-preference relations and the salience of local readings.
+nature of the task into account. The following paragraphs therefore
+spell out a generative Bayesian model which computes the
+likelihood of answer patterns for different latent relative saliencies
+of candidate readings and biases to answer early or late in a
+sequence. We use the data to estimate the posterior likelihood of
+these latent parameters to gain insight into the likely ordering
+relations over the strength of latent salience of candidate readings.
 
-\paragraph{The model.} We outline a simple probabilistic model that
-quantifies the positional bias and the competing strength of available
-readings. Take the AS-conditions as an example. There are three
-potential readings. The relative strength between these is given by a
-probability vector $\myvec{p}^\text{as-n} =
+\paragraph{The model.} We present a model that aims to capture the
+competition between candidate readings, all of which have a given
+latent level of relative salience, in the incremental verification
+task, where some readings can be judged before others. Take the
+AS-conditions with its three candidate readings. The relative strength
+between these is given by a probability vector $\myvec{p}^\text{as-n}
+=
 \tuple{p^\text{as-n}_{\text{lit}},p^\text{as-n}_{\text{loc}},p^\text{as-n}_{\text{glb}}}$. We
 think of $p^\text{as-n}_{\text{lit}}$, for instance, as the salience
 of the literal reading for \as-sentences with neutral prosody,
@@ -3199,39 +3297,37 @@ relative to the global and local reading. If there were no potential
 effects of sequentiality and no errors (or other readings that we
 classify as errors), the vector $\myvec{p}^\text{as-n}$ would be our
 prediction of observed frequencies of answer patterns. We look at four
-such three-placed vectors, one for each target sentence-intonation
-pair.
-
-For the preference-related control conditions we look at three vectors
-$p^k = \tuple{p^{\text{k}}_{\text{\lc}}, p^{\text{k}}_{\text{\ec}}}$,
-where $k \in \set{\text{ntr}, \text{\lc-cue}, \text{\ec-cue}}$. These
+such three-placed vectors for the critical conditions, one for each
+target sentence-intonation pair. For the preference-related control
+conditions, we look at three vectors $p^k =
+\tuple{p^{\text{k}}_{\text{\lc}}, p^{\text{k}}_{\text{\ec}}}$, where
+$k \in \set{\text{ntr}, \text{\lc-cue}, \text{\ec-cue}}$. These
 vectors give the relative salience of \lc- and \ec-readings for
 different types of intonation. The salience of readings is independent
 of the pictorial sequence. If there is a tendency to judge sentences
 earlier in the sequence, rather than later, that is to be attributed
 to the sequential bias.
 
-To add potential effects of sequentiality, we assume that there is a
-bias factor $q \in [0;1]$. This bias is a global parameter held
-constant over all conditions, because we think of it as a general
-tendency to answer early or late in the incremental verification
-task. The bias factor captures whether there is a tendency to access
-readings that appear earlier ($q > .5$) or later ($q <.5$) in the
-sequence. In the \as-sequences, the literal reading can be judged
-first, then the local and then the global reading. So we will assume
-that $p_{\text{lit}}$ is multiplied by $q$, that $p_{\text{loc}}$ is
-multiplied by $(1-q)q$ and that $p_{\text{glb}}$ is multiplied by
-$(1-q)^2$, when determining the eventual weights of readings.
+To add potential effects of sequentiality, consider bias factor $q
+\in [0;1]$. This bias is a global parameter held constant over all
+conditions, because we think of it as a general tendency to answer
+early or late in the incremental verification task. The bias factor
+captures whether there is a tendency to access readings that appear
+earlier ($q > .5$) or later ($q <.5$) in the sequence. In the
+\as-sequences, the literal reading can be judged first, then the local
+and then the global reading. So we will assume that $p_{\text{lit}}$
+is multiplied by $q$, that $p_{\text{loc}}$ is multiplied by $(1-q)q$
+and that $p_{\text{glb}}$ is multiplied by $(1-q)^2$, when determining
+the eventual weights of readings.
 
-Finally, we also allow for mistakes. To keep things as simple as
-possible (no consideration for spill-overs, late decisions,
-preferences to unravel completely before judging etc.), we assume that
-there is a fixed error rate $e^k \in [0;1]$ for each relevant
-condition $k$. We allow for different error rates for different
-conditions, because we want to allow for the possibility that some
-sentence types (e.g., non-monotonic quantifiers) or some kind of
-intonation (e.g., the \ec-cues) might be harder to process. A decision
-can be wrong but incidentally coincide with an answer that is
+Finally, we also allow for mistakes. To keep things simple (no
+differential consideration for spill-overs, button mix-ups etc.), we
+assume that there is a fixed error rate $e^k \in [0;1]$ for each
+relevant condition $k$. We allow for different error rates for
+different conditions, because we want to allow for the possibility
+that some sentence types (e.g., non-monotonic quantifiers) or some
+kind of intonation (e.g., \ec-cues) might be harder to process. A
+decision can be wrong but incidentally coincide with an answer that is
 indicative of a relevant reading. Error rates multiply in proportion
 to the number of steps in a sequence: more choice, more chance to be
 wrong.
@@ -3275,7 +3371,7 @@ Dirichlet distribution with equal weights on all dimensions.
 
 \begin{figure}[]
   \centering
-  \begin{tikzpicture}[node distance = 2.5cm, 
+  \begin{tikzpicture}[node distance = 2cm, 
     double distance = 2pt,
     minimum size=1.25cm,
     thick]
@@ -3343,53 +3439,51 @@ Dirichlet distribution with equal weights on all dimensions.
     variables, arrows represent functional relations between them.
     Using conventions of \citet{LeeWagenmakers2013:Bayesian-Cognit},
     the higher a node, the more latent it is. Square nodes represent
-    discrete-valued variables, circular squares represent
-    continuous-valued variables. Gray squares show the observable
-    variables. Double-lined nodes show deterministic dependency on
-    values of input nodes. The variables in the box are repeated for
-    each of the $k$ relevant conditions.}
+    discrete-valued variables, circular nodes represent
+    continuous-valued variables. Gray nodes show the observable
+    variables. Values at double-lined nodes are derived
+    deterministically. The variables in the box are repeated for each
+    of the $k$ relevant cases.}
   \label{fig:model_graph}
 \end{figure}
 
-\paragraph{Model fitting.} We use JAGS
+\paragraph{Model fitting.} We used JAGS
 \citep{Plummer2003:JAGS:-A-Program} to estimate the posteriors over
 paramater values given our data. Results reported here are based on
-two chains of 10.000 samples from the joint posterior distribution
-MCMC sampling, obtained after an initial burn-in of 10.000 steps. The
+two chains of 10.000 MCMC samples from the joint posterior
+distribution, obtained after an initial burn-in of 10.000 steps. The
 latter guaranteed convergence.
 
-, we obtain estimates
-for the posterior of the latent parameters given the data. To check
-whether the model yields sensible results we first look at the
-preference-related control conditions.
+To check whether the model yields sensible results we first look at
+the preference-related control conditions.
 %
 \begin{figure}
   \centering
   \includegraphics[width=0.8\textwidth]{pics/post_salience_TF.pdf}
-  \caption{Estimated posteriors for the relative salience of \lc- and
-    \ec-readings for different intonational cues. The lines under the
-    curves mark the estimated 95\% HDIs (see Footnote~\ref{fn:HDI}).}
+  \caption{Estimated posteriors for the salience of \lc- and
+    \ec-readings for different intonational cues. Lines under curves
+    mark are 95\% HDIs (see Footnote~\ref{fn:HDI}).}
   \label{fig:Posterior_TF}
 \end{figure}
 %
-Estimates for the posteriors over relative salience levels for
-target-related controls are plotted in
+Estimates for the (marginalized) posteriors over relative salience
+levels for target-related controls are plotted in
 Figure~\ref{fig:Posterior_TF}. The results are exactly as we would
 expect them to be. Given our data, we should believe that the
-\lc-reading is most prominent. But the level of prominence varies with
+\lc-reading is most prominent. The level of prominence varies with
 accentuation. Under prosody that we hypothesized would favor the
-\lc-reading, the contrast is most pronounced. Contrarily, accentuation
-that we hypothesized favors the \ec-reading we are no longer justified
-in believing that the late-closure reading is certainly preferred
-(witness the clearly overlapping 95\% HDIs).\footnote{\label{fn:HDI} A
-  95\% Highest Density Interval (HDI) is a convex region of values
-  over which 95\% of the distribution's probability density is
-  divided, such that no value outside of that region has higher
-  probability density than any point within
+\lc-reading, the contrast is most pronounced. Under accentuation that
+we hypothesized favors the \ec-reading we are no longer justified in
+believing with certainty that the \lc-reading is preferred (by
+comparison of 95\% HDIs, see below).\footnote{\label{fn:HDI} A 95\%
+  Highest Density Interval (HDI) is a convex region of values over
+  which 95\% of the distribution's probability density is divided,
+  such that no value outside of that region has higher probability
+  density than any point within
   \citep{Kruschke2011:Doing-Bayesian-}. Intuitively speaking, the 95\%
   HDI is the set of values which we may believe to be true with some
   confidence; what falls outside this region is what can be excluded
-  with relative safety.}
+  safely.}
 
 \begin{figure}
   \centering
@@ -3399,19 +3493,20 @@ in believing that the late-closure reading is certainly preferred
   \label{fig:Posterior_T}
 \end{figure}
 
-Estimates of posteriors over salience of readings in the target
+Estimates of posteriors over salience of readings in the critical
 conditions are given in Figure~\ref{fig:Posterior_T}. In the
 \es-conditions, literal readings are by far the most salient, followed
 by local, followed by global readings. There does not appear to be a
 significant effect of intonation (by visual comparison of 95\%
 HDIs). For \as-sentences, the same preference order holds in tendency,
 but we cannot assert with full confidence that local readings are
-attested or that they are preferred over global readings (see below). 
+attested or that they are preferred over global readings (see below).
  
 Posteriors over error rates are conceptually less interesting, and we
-will skip them here. Posteriors over the sequential bias parameter are
-shown in Figure~\ref{fig:post_q}, and show that, given the model and
-our data, we have reason for believing in a bias for late responses.
+will skip them here. The posterior over the sequential bias parameter
+is shown in Figure~\ref{fig:post_q}. Since the 95\% is clearly
+entirely below .5, we have reason for believing, given the model and
+our data, in a bias for late responses.
 
 \begin{figure}
   \centering
@@ -3432,17 +3527,15 @@ questions: (i) which readings are available? and (ii) what is the
 preference order over readings?
 
 The first question can be answered by looking at the HDIs of the
-posteriors of the candidate readings. The HDIs give the region of the
-95\% least unbelievable parameter values, given the data and the
-model. We would like to check the hypothesis that a given reading is
-unavailable, i.e., its activation value in the probabilistic model is
-equal to 0, or close to zero for practical purposes (Region of
-Practical Equivalence, ROPE). We reject the ``null-hypothesis'' that
-the true value is 0 if its ROPE lies entirely outside the 95\% HDI; we
-accept the ``null-hypothesis'' if the ROPE lies entirely within the
-95\% HDI \citep[][Ch.~12]{Kruschke2011:Doing-Bayesian-}. The following
-table lists approximations of the 95\% HDIs for each condition and
-reading:
+posteriors of the candidate readings. We would like to check the
+hypothesis that a given reading is unavailable, i.e., its activation
+value in the probabilistic model is equal to 0, or close to zero for
+practical purposes (Region of Practical Equivalence, ROPE). We reject
+the ``null-hypothesis'' that the true value is 0 if its ROPE lies
+entirely outside the 95\% HDI; we accept the ``null-hypothesis'' if
+the ROPE lies entirely within the 95\% HDI
+\citep[][Ch.~12]{Kruschke2011:Doing-Bayesian-}. The following table
+lists approximations of the 95\% HDIs for each condition and reading:
 
 \begin{center}
   \begin{tabular}{lllllll}
@@ -3469,21 +3562,21 @@ global readings at all, and no local readings for \as-sentence under
 neutral intonation. There is support for a belief in local readings in
 the \as-acc condition up to a ROPE of $[0;0.028)$.
 
-The question after the preference relations between readings can be
-answered in a similar way. Here, we look at the posterior beliefs
-about the differences of activation strengths and ask whether these
-posterior beliefs allow us to safely conclude that differences are
-bigger than zero or not. It is obvious enough that literal readings
-are always the most preferred, and that local readings are preferred
-over global readings for \es-sentences. Figure~\ref{fig:PostDiffTAS}
-shows the posteriors over differences between local and global
-readings for \as-sentences. Since the 95\% HDIs include 0, the data
-provides no ground for confidence that, given the model, local
-readings of \as-sentences are preferred over global ones, despite the
-obvious tendency. In sum, with the exception of remaining uncertainty
-about local readings of \as-sentences, the model and the data suggest
-that global readings are absent entirely, while literal readings are
-preferred over local readings.
+The preference relations between readings can be checked in a similar
+way. We look at the posterior beliefs about the \emph{differences} of
+activation strengths and ask whether these posterior beliefs allow us
+to safely conclude that differences are bigger than zero or not. It is
+obvious enough that literal readings are always the most preferred,
+and that local readings are preferred over global readings for
+\es-sentences. Figure~\ref{fig:PostDiffTAS} shows the posteriors over
+differences for the only non-trivial cases, namely those between local
+and global readings for \as-sentences. Since the 95\% HDIs include 0,
+the data provides no ground for confidence that, given the model,
+local readings of \as-sentences are preferred over global ones,
+despite the obvious tendency. In sum, with the exception of remaining
+uncertainty about local readings of \as-sentences, the model and the
+data suggest that global readings are absent entirely, while literal
+readings are preferred over local readings.
 
 \begin{figure}
   \centering
