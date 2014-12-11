@@ -1,0 +1,88 @@
+\documentclass{article}
+
+\usepackage[palatino]{mypackages}
+
+\usepackage{mycommands}
+
+\usepackage[]{mathdesign}
+%\usepackage{MnSymbol}
+% \usepackage{ulsy}
+\usepackage{wasysym}
+\usepackage{ascii}
+\usepackage{marvosym}
+\usepackage{pifont}
+\usepackage{phaistos}
+\usepackage{epsdice}
+\usepackage{skak}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{20pt}
+
+\usetikzlibrary{shapes.geometric}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+\begin{document}
+\begin{tikzpicture}[node distance = 3cm]
+
+    \tikzset{ctype/.style={circle,thick,minimum
+      width=18mm},
+      htype/.style={},
+      p6type/.style={thick,minimum width=20mm},
+      p4type/.style={thick,minimum width=20mm},
+      arrow/.style={-,very thick}}
+\begin{pgfonlayer}{background}
+      \node at (0,0) [circle,draw=black!70,fill=gray!20,minimum size = 8.5cm] {};
+    \end{pgfonlayer}\begin{pgfonlayer}{foreground}
+      
+      \node at (0,0)  [ctype,draw=black!70,fill=brown!20] 
+      (c0)   {\textcolor{black}{\Huge{$\text{\Letter}$}}}; 
+
+    \end{pgfonlayer}
+\begin{pgfonlayer}{foreground}
+
+\node [p6type,regular polygon, regular polygon sides=3,draw=black!70,fill=blue!50, above left of = c0]  (p0)   {};
+
+\node [p6type,regular polygon, regular polygon sides=3,draw=black!70,fill=blue!50, above of = c0]  (p1)   {};
+
+\node [p6type,regular polygon, regular polygon sides=3,draw=black!70,fill=blue!50, above right of = c0]  (p2)   {};
+
+\node [p6type,regular polygon, regular polygon sides=3,draw=black!70,fill=blue!50, below right of = c0]  (p3)   {};
+
+\node [p6type,regular polygon, regular polygon sides=3,draw=black!70,fill=blue!50, below of = c0]  (p4)   {};
+
+\node [p6type,regular polygon, regular polygon sides=3,draw=black!70,fill=blue!50, below left of = c0]  (p5)   {};
+
+\draw [arrow, dashed] (c0) to (p3) node[midway, above] {\Large{?}};
+
+\draw [arrow, dashed] (c0) to (p4) node[midway, left] {\Large{?}};
+
+\draw [arrow, dashed] (c0) to (p5) node[midway, above] {\Large{?}};
+
+\end{pgfonlayer}
+
+\draw [arrow] (c0) to (p0);
+
+\draw [arrow] (c0) to (p1);
+
+\draw [arrow] (c0) to (p2);
+
+
+        
+                %  \begin{scope}
+
+                %       \clip (-4.1,-4.1) rectangle (4.1,0);
+
+                %       \node at (0,0) [circle,draw=gray!80,fill=gray!80,minimum size = 8.1cm] {};
+
+                % \end{scope}
+        
+        \begin{pgfonlayer}{background}
+      \node at (0,0) [circle,draw=black!70,fill=gray!20,minimum size = 8.5cm] {};
+    \end{pgfonlayer}
+
+\end{tikzpicture}
+
+\end{document}
