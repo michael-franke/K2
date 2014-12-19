@@ -1,0 +1,68 @@
+
+\documentclass{article}
+
+\usepackage[palatino]{mypackages}\usepackage{mycommands}
+
+\usepackage[]{mathdesign}
+%\usepackage{MnSymbol}
+\usepackage{wasysym}
+\usepackage{ascii}
+\usepackage{marvosym}
+\usepackage{pifont}
+\usepackage{phaistos}
+\usepackage{epsdice}
+\usepackage{skak}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{20pt}
+
+\usetikzlibrary{shapes.geometric}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+\begin{document}
+\begin{tikzpicture}[node distance = 3cm]
+
+    \tikzset{ctype/.style={circle,thick,minimum
+      width=18mm},
+      htype/.style={},
+      p6type/.style={thick,minimum width=14mm},
+      p4type/.style={thick,minimum width=14mm},
+      arrow/.style={-,very thick}}
+\begin{pgfonlayer}{background}
+      \node at (0,0) [circle,draw=black!70,fill=gray!20,minimum size = 8.5cm] {};
+    \end{pgfonlayer}\begin{pgfonlayer}{foreground}
+      
+      \node at (0,0)  [ctype,draw=black!70,fill=brown!20] 
+      (c0)   {\textcolor{black}{\Huge{$\text{\Rightscissors}$}}}; 
+
+    \end{pgfonlayer}
+\begin{pgfonlayer}{foreground}
+
+\node [p6type,circle,draw=black!70,fill=blue!50, above left of = c0]  (p0)   {};
+
+\node [p6type,circle,draw=black!70,fill=blue!50, above of = c0]  (p1)   {};
+
+\node [p6type,circle,draw=black!70,fill=blue!50, above right of = c0]  (p2)   {};
+
+\node [p6type,circle,draw=black!70,fill=blue!50, below right of = c0]  (p3)   {};
+
+\node [p6type,circle,draw=black!70,fill=blue!50, below of = c0]  (p4)   {};
+
+\node [p6type,circle,draw=black!70,fill=blue!50, below left of = c0]  (p5)   {};
+
+\end{pgfonlayer}
+
+
+
+      
+        
+        \begin{pgfonlayer}{background}
+      \node at (0,0) [circle,draw=black!70,fill=gray!20,minimum size =
+      8.5cm] {};
+      \node at (0,0) [rectangle,minimum size = 11cm] {};
+    \end{pgfonlayer}\end{tikzpicture}
+
+\end{document}
