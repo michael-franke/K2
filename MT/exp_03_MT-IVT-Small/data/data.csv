@@ -1,0 +1,401 @@
+id,itemTime,1,2,3,4,correct,type,sentence
+A11NPNK8885N99:3ATTHHXXWBWP7VVXH2QKINKHBEPIXX,1419456083848,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A11NPNK8885N99:3ATTHHXXWBWP7VVXH2QKINKHBEPIXX,1419456102071,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A11NPNK8885N99:3ATTHHXXWBWP7VVXH2QKINKHBEPIXX,1419456137983,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A11NPNK8885N99:3ATTHHXXWBWP7VVXH2QKINKHBEPIXX,1419456143654,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A11NPNK8885N99:3ATTHHXXWBWP7VVXH2QKINKHBEPIXX,1419456149239,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+A11NPNK8885N99:3ATTHHXXWBWP7VVXH2QKINKHBEPIXX,1419456160766,0,0.0,0.0,-4.0,False,control,The letter is connected to more than half of the rectangles.
+A11NPNK8885N99:3ATTHHXXWBWP7VVXH2QKINKHBEPIXX,1419456166326,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A11NPNK8885N99:3ATTHHXXWBWP7VVXH2QKINKHBEPIXX,1419456174031,1,,,,True,control,There are more than three triangles.
+A142ZRU284W9O:3SB4CE2TJW3A1DCZ5EY71PWYY6KAXL,1419455772519,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A142ZRU284W9O:3SB4CE2TJW3A1DCZ5EY71PWYY6KAXL,1419455780062,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A142ZRU284W9O:3SB4CE2TJW3A1DCZ5EY71PWYY6KAXL,1419455784499,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A142ZRU284W9O:3SB4CE2TJW3A1DCZ5EY71PWYY6KAXL,1419455788225,0,-2.0,,,False,control,There are more than three triangles.
+A142ZRU284W9O:3SB4CE2TJW3A1DCZ5EY71PWYY6KAXL,1419455796719,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A142ZRU284W9O:3SB4CE2TJW3A1DCZ5EY71PWYY6KAXL,1419455803712,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+A142ZRU284W9O:3SB4CE2TJW3A1DCZ5EY71PWYY6KAXL,1419455809216,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+A142ZRU284W9O:3SB4CE2TJW3A1DCZ5EY71PWYY6KAXL,1419455812081,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A150GMV1YQWWB3:3GS6S824SR52WW1Y4D7QLC2ROBDNWP,1419456267367,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A150GMV1YQWWB3:3GS6S824SR52WW1Y4D7QLC2ROBDNWP,1419456288331,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A150GMV1YQWWB3:3GS6S824SR52WW1Y4D7QLC2ROBDNWP,1419456305614,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+A150GMV1YQWWB3:3GS6S824SR52WW1Y4D7QLC2ROBDNWP,1419456310741,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A150GMV1YQWWB3:3GS6S824SR52WW1Y4D7QLC2ROBDNWP,1419456315547,1,,,,True,control,There are more than three triangles.
+A150GMV1YQWWB3:3GS6S824SR52WW1Y4D7QLC2ROBDNWP,1419456325993,0,0.0,0.0,-4.0,False,control,The letter is connected to more than half of the rectangles.
+A150GMV1YQWWB3:3GS6S824SR52WW1Y4D7QLC2ROBDNWP,1419456335616,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+A150GMV1YQWWB3:3GS6S824SR52WW1Y4D7QLC2ROBDNWP,1419456343332,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A175PJR0W3LO8I:3OS4RQUCRANYK1Q6BYSHQTGXCJ1BFI,1419430382505,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A175PJR0W3LO8I:3OS4RQUCRANYK1Q6BYSHQTGXCJ1BFI,1419430391850,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A175PJR0W3LO8I:3OS4RQUCRANYK1Q6BYSHQTGXCJ1BFI,1419430415597,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+A175PJR0W3LO8I:3OS4RQUCRANYK1Q6BYSHQTGXCJ1BFI,1419430419587,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+A175PJR0W3LO8I:3OS4RQUCRANYK1Q6BYSHQTGXCJ1BFI,1419430425634,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+A175PJR0W3LO8I:3OS4RQUCRANYK1Q6BYSHQTGXCJ1BFI,1419430431867,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+A175PJR0W3LO8I:3OS4RQUCRANYK1Q6BYSHQTGXCJ1BFI,1419430438082,0,0.0,0.0,4.0,True,critical,The letter is connected to some of the rectangles.
+A175PJR0W3LO8I:3OS4RQUCRANYK1Q6BYSHQTGXCJ1BFI,1419430441540,1,,,,True,control,There are more than three triangles.
+A1ETJBNTO9ZWZ8:37C0GNLMHGBVG5VFO1GJRDRKM5ID6W,1419455899642,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1ETJBNTO9ZWZ8:37C0GNLMHGBVG5VFO1GJRDRKM5ID6W,1419455909742,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1ETJBNTO9ZWZ8:37C0GNLMHGBVG5VFO1GJRDRKM5ID6W,1419455929759,0,2.0,,,True,control,There are no connections from the rectangles to the letter.
+A1ETJBNTO9ZWZ8:37C0GNLMHGBVG5VFO1GJRDRKM5ID6W,1419455950207,0,0.0,0.0,4.0,True,critical,The letter is connected to some of the rectangles.
+A1ETJBNTO9ZWZ8:37C0GNLMHGBVG5VFO1GJRDRKM5ID6W,1419455954959,1,,,,True,control,There are more than three circles.
+A1ETJBNTO9ZWZ8:37C0GNLMHGBVG5VFO1GJRDRKM5ID6W,1419455964271,0,0.0,3.0,,True,control,The letter is connected to more than half of the rectangles.
+A1ETJBNTO9ZWZ8:37C0GNLMHGBVG5VFO1GJRDRKM5ID6W,1419455973055,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+A1ETJBNTO9ZWZ8:37C0GNLMHGBVG5VFO1GJRDRKM5ID6W,1419455981672,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A1I6FS3V0246CX:3PB5A5BD0WEHWPJB91MJ3CUDU8IG78,1419455842199,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1I6FS3V0246CX:3PB5A5BD0WEHWPJB91MJ3CUDU8IG78,1419455853100,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1I6FS3V0246CX:3PB5A5BD0WEHWPJB91MJ3CUDU8IG78,1419455860083,1,,,,True,control,There are more than three circles.
+A1I6FS3V0246CX:3PB5A5BD0WEHWPJB91MJ3CUDU8IG78,1419455866808,0,0.0,3.0,,True,control,The scissors are connected to more than half of the circles.
+A1I6FS3V0246CX:3PB5A5BD0WEHWPJB91MJ3CUDU8IG78,1419455871308,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A1I6FS3V0246CX:3PB5A5BD0WEHWPJB91MJ3CUDU8IG78,1419455876172,0,0.0,-3.0,,False,control,There are no connections from the circles to the scissors.
+A1I6FS3V0246CX:3PB5A5BD0WEHWPJB91MJ3CUDU8IG78,1419455889091,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A1I6FS3V0246CX:3PB5A5BD0WEHWPJB91MJ3CUDU8IG78,1419455894831,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A1IRKCYXCJGI7T:3Q5ZZ9ZEVPNNG6ZA2AVYDFZJFJA582,1419457013871,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1IRKCYXCJGI7T:3Q5ZZ9ZEVPNNG6ZA2AVYDFZJFJA582,1419457045001,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1IRKCYXCJGI7T:3Q5ZZ9ZEVPNNG6ZA2AVYDFZJFJA582,1419457057137,0,0.0,-3.0,,False,critical,The scissors are connected to some of the circles.
+A1IRKCYXCJGI7T:3Q5ZZ9ZEVPNNG6ZA2AVYDFZJFJA582,1419457065111,0,0.0,-3.0,,False,control,There are more than three circles.
+A1IRKCYXCJGI7T:3Q5ZZ9ZEVPNNG6ZA2AVYDFZJFJA582,1419457073946,0,0.0,-3.0,,False,control,The bell is not connected to more than 3 of the triangles.
+A1IRKCYXCJGI7T:3Q5ZZ9ZEVPNNG6ZA2AVYDFZJFJA582,1419457082603,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+A1IRKCYXCJGI7T:3Q5ZZ9ZEVPNNG6ZA2AVYDFZJFJA582,1419457092263,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+A1IRKCYXCJGI7T:3Q5ZZ9ZEVPNNG6ZA2AVYDFZJFJA582,1419457100502,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+A1J2JURNEFOO0L:3QY7M81QH8UMYBFUZS7Y14M61PZK7F,1419462902733,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1J2JURNEFOO0L:3QY7M81QH8UMYBFUZS7Y14M61PZK7F,1419462918973,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1J2JURNEFOO0L:3QY7M81QH8UMYBFUZS7Y14M61PZK7F,1419462930965,0,0.0,0.0,-4.0,False,control,The scissors are not connected to more than 3 of the circles.
+A1J2JURNEFOO0L:3QY7M81QH8UMYBFUZS7Y14M61PZK7F,1419462935061,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A1J2JURNEFOO0L:3QY7M81QH8UMYBFUZS7Y14M61PZK7F,1419462940853,0,0.0,0.0,-4.0,False,control,There are more than three circles.
+A1J2JURNEFOO0L:3QY7M81QH8UMYBFUZS7Y14M61PZK7F,1419462945701,0,0.0,3.0,,True,control,The letter is connected to more than half of the rectangles.
+A1J2JURNEFOO0L:3QY7M81QH8UMYBFUZS7Y14M61PZK7F,1419462948940,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+A1J2JURNEFOO0L:3QY7M81QH8UMYBFUZS7Y14M61PZK7F,1419462954205,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A1J9Q6RSHU9IM4:3VZLGYJEYMIB2LK7H6E6IIN77RHZX1,1419430324834,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1J9Q6RSHU9IM4:3VZLGYJEYMIB2LK7H6E6IIN77RHZX1,1419430338833,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1J9Q6RSHU9IM4:3VZLGYJEYMIB2LK7H6E6IIN77RHZX1,1419430352899,0,0.0,0.0,-4.0,False,control,There are no connections from the rectangles to the letter.
+A1J9Q6RSHU9IM4:3VZLGYJEYMIB2LK7H6E6IIN77RHZX1,1419430358250,0,0.0,-3.0,,False,critical,The scissors are connected to some of the circles.
+A1J9Q6RSHU9IM4:3VZLGYJEYMIB2LK7H6E6IIN77RHZX1,1419430364449,0,0.0,0.0,-4.0,False,control,The bell is connected to more than half of the triangles.
+A1J9Q6RSHU9IM4:3VZLGYJEYMIB2LK7H6E6IIN77RHZX1,1419430370633,0,0.0,-3.0,,False,control,The letter is not connected to more than 3 of the rectangles.
+A1J9Q6RSHU9IM4:3VZLGYJEYMIB2LK7H6E6IIN77RHZX1,1419430372968,0,0.0,-3.0,,False,critical,The bell is connected to some of the triangles.
+A1J9Q6RSHU9IM4:3VZLGYJEYMIB2LK7H6E6IIN77RHZX1,1419430376553,0,-2.0,,,False,control,There are more than three circles.
+A1P47Q6LZPLQ6P:3IFS6Q0HJJRHBE9YNSKXJF3PWZMSIY,1419455830820,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1P47Q6LZPLQ6P:3IFS6Q0HJJRHBE9YNSKXJF3PWZMSIY,1419455845551,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1P47Q6LZPLQ6P:3IFS6Q0HJJRHBE9YNSKXJF3PWZMSIY,1419455853409,0,0.0,-3.0,,False,control,There are no connections from the circles to the scissors.
+A1P47Q6LZPLQ6P:3IFS6Q0HJJRHBE9YNSKXJF3PWZMSIY,1419455858499,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A1P47Q6LZPLQ6P:3IFS6Q0HJJRHBE9YNSKXJF3PWZMSIY,1419455866935,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+A1P47Q6LZPLQ6P:3IFS6Q0HJJRHBE9YNSKXJF3PWZMSIY,1419455871618,1,,,,True,control,There are more than three circles.
+A1P47Q6LZPLQ6P:3IFS6Q0HJJRHBE9YNSKXJF3PWZMSIY,1419455883212,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A1P47Q6LZPLQ6P:3IFS6Q0HJJRHBE9YNSKXJF3PWZMSIY,1419455888517,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A1QTQISKEHWSKZ:36WLNQG780I6ENQAGN8B8BVX0IMBE0,1419432215710,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1QTQISKEHWSKZ:36WLNQG780I6ENQAGN8B8BVX0IMBE0,1419432232293,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1QTQISKEHWSKZ:36WLNQG780I6ENQAGN8B8BVX0IMBE0,1419432243949,0,0.0,-3.0,,False,control,There are no connections from the circles to the scissors.
+A1QTQISKEHWSKZ:36WLNQG780I6ENQAGN8B8BVX0IMBE0,1419432252916,0,0.0,0.0,-4.0,False,control,The bell is not connected to more than 3 of the triangles.
+A1QTQISKEHWSKZ:36WLNQG780I6ENQAGN8B8BVX0IMBE0,1419432256348,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A1QTQISKEHWSKZ:36WLNQG780I6ENQAGN8B8BVX0IMBE0,1419432263308,0,0.0,0.0,-4.0,False,control,The letter is connected to more than half of the rectangles.
+A1QTQISKEHWSKZ:36WLNQG780I6ENQAGN8B8BVX0IMBE0,1419432266164,1,,,,True,control,There are more than three circles.
+A1QTQISKEHWSKZ:36WLNQG780I6ENQAGN8B8BVX0IMBE0,1419432272261,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A1UTBDKOQ2MKUD:3X66WABAJXQZV6IO7PJTQVIXP6O3GI,1419430376478,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1UTBDKOQ2MKUD:3X66WABAJXQZV6IO7PJTQVIXP6O3GI,1419430385068,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1UTBDKOQ2MKUD:3X66WABAJXQZV6IO7PJTQVIXP6O3GI,1419430395775,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A1UTBDKOQ2MKUD:3X66WABAJXQZV6IO7PJTQVIXP6O3GI,1419430399848,1,,,,True,control,There are more than three rectangles.
+A1UTBDKOQ2MKUD:3X66WABAJXQZV6IO7PJTQVIXP6O3GI,1419430411595,0,0.0,-3.0,,False,control,There are no connections from the rectangles to the letter.
+A1UTBDKOQ2MKUD:3X66WABAJXQZV6IO7PJTQVIXP6O3GI,1419430422488,0,0.0,0.0,-4.0,False,control,The scissors are connected to more than half of the circles.
+A1UTBDKOQ2MKUD:3X66WABAJXQZV6IO7PJTQVIXP6O3GI,1419430436237,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+A1UTBDKOQ2MKUD:3X66WABAJXQZV6IO7PJTQVIXP6O3GI,1419430441546,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A1WOMFPK86YSOK:3EA3QWIZ4J3IQEMDCSPNTKZBYI1ITE,1419455850789,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1WOMFPK86YSOK:3EA3QWIZ4J3IQEMDCSPNTKZBYI1ITE,1419455876233,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1WOMFPK86YSOK:3EA3QWIZ4J3IQEMDCSPNTKZBYI1ITE,1419455887910,0,0.0,-3.0,,False,control,The letter is connected to more than half of the rectangles.
+A1WOMFPK86YSOK:3EA3QWIZ4J3IQEMDCSPNTKZBYI1ITE,1419455897378,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A1WOMFPK86YSOK:3EA3QWIZ4J3IQEMDCSPNTKZBYI1ITE,1419455909761,-1,,,,False,control,The bell is not connected to more than 3 of the triangles.
+A1WOMFPK86YSOK:3EA3QWIZ4J3IQEMDCSPNTKZBYI1ITE,1419455920581,1,,,,True,control,There are more than three triangles.
+A1WOMFPK86YSOK:3EA3QWIZ4J3IQEMDCSPNTKZBYI1ITE,1419455927717,-1,,,,False,control,There are no connections from the triangles to the bell.
+A1WOMFPK86YSOK:3EA3QWIZ4J3IQEMDCSPNTKZBYI1ITE,1419455940781,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A1XLGIFFGB01EU:3EQHHY4HQT029L5SL87M5SGH32NG5T,1419455777537,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A1XLGIFFGB01EU:3EQHHY4HQT029L5SL87M5SGH32NG5T,1419455785684,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A1XLGIFFGB01EU:3EQHHY4HQT029L5SL87M5SGH32NG5T,1419455796014,0,0.0,0.0,-4.0,False,control,The scissors are connected to more than half of the circles.
+A1XLGIFFGB01EU:3EQHHY4HQT029L5SL87M5SGH32NG5T,1419455798919,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A1XLGIFFGB01EU:3EQHHY4HQT029L5SL87M5SGH32NG5T,1419455802254,0,2.0,,,True,control,There are no connections from the rectangles to the letter.
+A1XLGIFFGB01EU:3EQHHY4HQT029L5SL87M5SGH32NG5T,1419455808050,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+A1XLGIFFGB01EU:3EQHHY4HQT029L5SL87M5SGH32NG5T,1419455810389,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A1XLGIFFGB01EU:3EQHHY4HQT029L5SL87M5SGH32NG5T,1419455814002,0,-2.0,,,False,control,There are more than three rectangles.
+A2AGQGMZVSZVUJ:34Q075JO1YL6AZTO6JG7HAGKK5T01S,1419455973692,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2AGQGMZVSZVUJ:34Q075JO1YL6AZTO6JG7HAGKK5T01S,1419455999920,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2AGQGMZVSZVUJ:34Q075JO1YL6AZTO6JG7HAGKK5T01S,1419456022581,0,0.0,3.0,,True,control,The letter is connected to more than half of the rectangles.
+A2AGQGMZVSZVUJ:34Q075JO1YL6AZTO6JG7HAGKK5T01S,1419456030270,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A2AGQGMZVSZVUJ:34Q075JO1YL6AZTO6JG7HAGKK5T01S,1419456038606,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+A2AGQGMZVSZVUJ:34Q075JO1YL6AZTO6JG7HAGKK5T01S,1419456073299,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+A2AGQGMZVSZVUJ:34Q075JO1YL6AZTO6JG7HAGKK5T01S,1419456082451,1,,,,True,control,There are more than three rectangles.
+A2AGQGMZVSZVUJ:34Q075JO1YL6AZTO6JG7HAGKK5T01S,1419456087522,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A2BLQ1GVEHJR8T:3ITXP059PXRD6PT45A5XVGIP9EBSJA,1419455831187,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2BLQ1GVEHJR8T:3ITXP059PXRD6PT45A5XVGIP9EBSJA,1419455850721,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2BLQ1GVEHJR8T:3ITXP059PXRD6PT45A5XVGIP9EBSJA,1419455873526,0,0.0,3.0,,True,control,The scissors are connected to more than half of the circles.
+A2BLQ1GVEHJR8T:3ITXP059PXRD6PT45A5XVGIP9EBSJA,1419455877679,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A2BLQ1GVEHJR8T:3ITXP059PXRD6PT45A5XVGIP9EBSJA,1419455884859,0,0.0,0.0,-4.0,False,control,The scissors are not connected to more than 3 of the circles.
+A2BLQ1GVEHJR8T:3ITXP059PXRD6PT45A5XVGIP9EBSJA,1419455889670,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+A2BLQ1GVEHJR8T:3ITXP059PXRD6PT45A5XVGIP9EBSJA,1419455893023,1,,,,True,control,There are more than three circles.
+A2BLQ1GVEHJR8T:3ITXP059PXRD6PT45A5XVGIP9EBSJA,1419455896691,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A2CEXG9VDKI9NP:3S0TNUHWKUQIKJE3HGDHBRNBS0ZD89,1419430378535,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2CEXG9VDKI9NP:3S0TNUHWKUQIKJE3HGDHBRNBS0ZD89,1419430387552,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2CEXG9VDKI9NP:3S0TNUHWKUQIKJE3HGDHBRNBS0ZD89,1419430401519,0,0.0,-3.0,,False,control,There are no connections from the rectangles to the letter.
+A2CEXG9VDKI9NP:3S0TNUHWKUQIKJE3HGDHBRNBS0ZD89,1419430404972,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A2CEXG9VDKI9NP:3S0TNUHWKUQIKJE3HGDHBRNBS0ZD89,1419430408495,1,,,,True,control,There are more than three triangles.
+A2CEXG9VDKI9NP:3S0TNUHWKUQIKJE3HGDHBRNBS0ZD89,1419430415138,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+A2CEXG9VDKI9NP:3S0TNUHWKUQIKJE3HGDHBRNBS0ZD89,1419430420052,0,0.0,0.0,-4.0,False,critical,The bell is connected to some of the triangles.
+A2CEXG9VDKI9NP:3S0TNUHWKUQIKJE3HGDHBRNBS0ZD89,1419430425646,0,0.0,0.0,-4.0,False,control,The scissors are connected to more than half of the circles.
+A2F79GFUWU5O96:3IFS6Q0HJJRHBE9YNSKXJF3PWZNISP,1419456226677,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2F79GFUWU5O96:3IFS6Q0HJJRHBE9YNSKXJF3PWZNISP,1419456241105,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2F79GFUWU5O96:3IFS6Q0HJJRHBE9YNSKXJF3PWZNISP,1419456248102,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A2F79GFUWU5O96:3IFS6Q0HJJRHBE9YNSKXJF3PWZNISP,1419456251854,1,,,,True,control,There are more than three rectangles.
+A2F79GFUWU5O96:3IFS6Q0HJJRHBE9YNSKXJF3PWZNISP,1419456262215,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+A2F79GFUWU5O96:3IFS6Q0HJJRHBE9YNSKXJF3PWZNISP,1419456270085,0,0.0,-3.0,,False,control,There are no connections from the rectangles to the letter.
+A2F79GFUWU5O96:3IFS6Q0HJJRHBE9YNSKXJF3PWZNISP,1419456282212,0,0.0,3.0,,True,control,The scissors are connected to more than half of the circles.
+A2F79GFUWU5O96:3IFS6Q0HJJRHBE9YNSKXJF3PWZNISP,1419456287366,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A2HBI8BAE2C5QH:3DY46V3X3QQ4TOG84COV1VPSDT9550,1419455910247,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2HBI8BAE2C5QH:3DY46V3X3QQ4TOG84COV1VPSDT9550,1419455920743,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2HBI8BAE2C5QH:3DY46V3X3QQ4TOG84COV1VPSDT9550,1419455931704,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A2HBI8BAE2C5QH:3DY46V3X3QQ4TOG84COV1VPSDT9550,1419455937425,0,2.0,,,True,control,There are no connections from the rectangles to the letter.
+A2HBI8BAE2C5QH:3DY46V3X3QQ4TOG84COV1VPSDT9550,1419455942152,1,,,,True,control,There are more than three rectangles.
+A2HBI8BAE2C5QH:3DY46V3X3QQ4TOG84COV1VPSDT9550,1419455951023,0,0.0,3.0,,True,control,The scissors are connected to more than half of the circles.
+A2HBI8BAE2C5QH:3DY46V3X3QQ4TOG84COV1VPSDT9550,1419455966322,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A2HBI8BAE2C5QH:3DY46V3X3QQ4TOG84COV1VPSDT9550,1419455969775,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A2I5MNPSIK59SW:3TVRFO09GLNRXW3325NXA3C9SIIXLP,1419455847481,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2I5MNPSIK59SW:3TVRFO09GLNRXW3325NXA3C9SIIXLP,1419455861129,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2I5MNPSIK59SW:3TVRFO09GLNRXW3325NXA3C9SIIXLP,1419455884670,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A2I5MNPSIK59SW:3TVRFO09GLNRXW3325NXA3C9SIIXLP,1419455890165,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A2I5MNPSIK59SW:3TVRFO09GLNRXW3325NXA3C9SIIXLP,1419455895983,1,,,,True,control,There are more than three circles.
+A2I5MNPSIK59SW:3TVRFO09GLNRXW3325NXA3C9SIIXLP,1419455904205,0,2.0,,,True,control,There are no connections from the rectangles to the letter.
+A2I5MNPSIK59SW:3TVRFO09GLNRXW3325NXA3C9SIIXLP,1419455916273,0,0.0,3.0,,True,control,The letter is connected to more than half of the rectangles.
+A2I5MNPSIK59SW:3TVRFO09GLNRXW3325NXA3C9SIIXLP,1419455922582,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A2IPGJ1VALGMET:3LS2AMNW5GYFUK5OTJ8X8CKAQK1QO3,1419455819328,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2IPGJ1VALGMET:3LS2AMNW5GYFUK5OTJ8X8CKAQK1QO3,1419455831263,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2IPGJ1VALGMET:3LS2AMNW5GYFUK5OTJ8X8CKAQK1QO3,1419455851071,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A2IPGJ1VALGMET:3LS2AMNW5GYFUK5OTJ8X8CKAQK1QO3,1419455856921,1,,,,True,control,There are more than three circles.
+A2IPGJ1VALGMET:3LS2AMNW5GYFUK5OTJ8X8CKAQK1QO3,1419455868840,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A2IPGJ1VALGMET:3LS2AMNW5GYFUK5OTJ8X8CKAQK1QO3,1419455873209,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A2IPGJ1VALGMET:3LS2AMNW5GYFUK5OTJ8X8CKAQK1QO3,1419455882927,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+A2IPGJ1VALGMET:3LS2AMNW5GYFUK5OTJ8X8CKAQK1QO3,1419455888208,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+A2J5DN5UMU0A3Z:3ATPCQ38J9IZ1I29AAK9K3370CEAYR,1419456182898,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2J5DN5UMU0A3Z:3ATPCQ38J9IZ1I29AAK9K3370CEAYR,1419456201762,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2J5DN5UMU0A3Z:3ATPCQ38J9IZ1I29AAK9K3370CEAYR,1419456213306,1,,,,True,control,There are more than three rectangles.
+A2J5DN5UMU0A3Z:3ATPCQ38J9IZ1I29AAK9K3370CEAYR,1419456217892,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A2J5DN5UMU0A3Z:3ATPCQ38J9IZ1I29AAK9K3370CEAYR,1419456224725,0,0.0,0.0,-4.0,False,control,The letter is not connected to more than 3 of the rectangles.
+A2J5DN5UMU0A3Z:3ATPCQ38J9IZ1I29AAK9K3370CEAYR,1419456234213,0,0.0,0.0,-4.0,False,control,The scissors are connected to more than half of the circles.
+A2J5DN5UMU0A3Z:3ATPCQ38J9IZ1I29AAK9K3370CEAYR,1419456239398,0,0.0,-3.0,,False,critical,The bell is connected to some of the triangles.
+A2J5DN5UMU0A3Z:3ATPCQ38J9IZ1I29AAK9K3370CEAYR,1419456247158,0,0.0,0.0,-4.0,False,control,There are no connections from the circles to the scissors.
+A2NFKOH8HAAL1P:3MAOD8E57RIHLW6OEI3CNVGYXDJNXI,1419458215157,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2NFKOH8HAAL1P:3MAOD8E57RIHLW6OEI3CNVGYXDJNXI,1419458227519,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2NFKOH8HAAL1P:3MAOD8E57RIHLW6OEI3CNVGYXDJNXI,1419458244632,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A2NFKOH8HAAL1P:3MAOD8E57RIHLW6OEI3CNVGYXDJNXI,1419458255468,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+A2NFKOH8HAAL1P:3MAOD8E57RIHLW6OEI3CNVGYXDJNXI,1419458261521,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+A2NFKOH8HAAL1P:3MAOD8E57RIHLW6OEI3CNVGYXDJNXI,1419458265289,1,,,,True,control,There are more than three rectangles.
+A2NFKOH8HAAL1P:3MAOD8E57RIHLW6OEI3CNVGYXDJNXI,1419458271154,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A2NFKOH8HAAL1P:3MAOD8E57RIHLW6OEI3CNVGYXDJNXI,1419458278974,0,0.0,3.0,,True,control,The scissors are connected to more than half of the circles.
+A2PXJTMWGUE5DC:3FE2ERCCZYGUU849T6T887U0LOEPOA,1419455883096,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2PXJTMWGUE5DC:3FE2ERCCZYGUU849T6T887U0LOEPOA,1419455897077,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2PXJTMWGUE5DC:3FE2ERCCZYGUU849T6T887U0LOEPOA,1419455926714,0,0.0,0.0,4.0,True,critical,The letter is connected to some of the rectangles.
+A2PXJTMWGUE5DC:3FE2ERCCZYGUU849T6T887U0LOEPOA,1419455935190,0,0.0,3.0,,True,control,The letter is connected to more than half of the rectangles.
+A2PXJTMWGUE5DC:3FE2ERCCZYGUU849T6T887U0LOEPOA,1419455947782,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A2PXJTMWGUE5DC:3FE2ERCCZYGUU849T6T887U0LOEPOA,1419455961786,0,0.0,0.0,4.0,True,critical,The letter is connected to some of the rectangles.
+A2PXJTMWGUE5DC:3FE2ERCCZYGUU849T6T887U0LOEPOA,1419455969706,1,,,,True,control,There are more than three triangles.
+A2PXJTMWGUE5DC:3FE2ERCCZYGUU849T6T887U0LOEPOA,1419455977837,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+A2QPB42Q1XO8GZ:3V0Z7YWSIZ8TSLC0SK4A7MGF67JV2V,1419455828512,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2QPB42Q1XO8GZ:3V0Z7YWSIZ8TSLC0SK4A7MGF67JV2V,1419455840039,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2QPB42Q1XO8GZ:3V0Z7YWSIZ8TSLC0SK4A7MGF67JV2V,1419455855654,0,0.0,0.0,4.0,True,critical,The scissors are connected to some of the circles.
+A2QPB42Q1XO8GZ:3V0Z7YWSIZ8TSLC0SK4A7MGF67JV2V,1419455863582,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+A2QPB42Q1XO8GZ:3V0Z7YWSIZ8TSLC0SK4A7MGF67JV2V,1419455872179,0,0.0,0.0,-4.0,False,control,The letter is connected to more than half of the rectangles.
+A2QPB42Q1XO8GZ:3V0Z7YWSIZ8TSLC0SK4A7MGF67JV2V,1419455879710,0,0.0,0.0,4.0,True,critical,The scissors are connected to some of the circles.
+A2QPB42Q1XO8GZ:3V0Z7YWSIZ8TSLC0SK4A7MGF67JV2V,1419455889252,0,0.0,0.0,-4.0,False,control,There are more than three rectangles.
+A2QPB42Q1XO8GZ:3V0Z7YWSIZ8TSLC0SK4A7MGF67JV2V,1419455897284,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+A2V3P1XE33NYC3:3G0WWMR1UWSXCZ5CS48KTNK50AWQNO,1419455870788,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2V3P1XE33NYC3:3G0WWMR1UWSXCZ5CS48KTNK50AWQNO,1419455910004,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2V3P1XE33NYC3:3G0WWMR1UWSXCZ5CS48KTNK50AWQNO,1419455921504,-1,,,,False,control,There are no connections from the triangles to the bell.
+A2V3P1XE33NYC3:3G0WWMR1UWSXCZ5CS48KTNK50AWQNO,1419455929327,1,,,,True,control,There are more than three circles.
+A2V3P1XE33NYC3:3G0WWMR1UWSXCZ5CS48KTNK50AWQNO,1419455936427,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A2V3P1XE33NYC3:3G0WWMR1UWSXCZ5CS48KTNK50AWQNO,1419455946390,0,-2.0,,,False,control,The letter is connected to more than half of the rectangles.
+A2V3P1XE33NYC3:3G0WWMR1UWSXCZ5CS48KTNK50AWQNO,1419455968430,0,0.0,-3.0,,False,control,The bell is not connected to more than 3 of the triangles.
+A2V3P1XE33NYC3:3G0WWMR1UWSXCZ5CS48KTNK50AWQNO,1419455981140,0,0.0,0.0,-4.0,False,critical,The bell is connected to some of the triangles.
+A2Y5DDEPG81LLJ:3MTMREQS4WQVCD79V92LZ6IRP4EAWS,1419455886119,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A2Y5DDEPG81LLJ:3MTMREQS4WQVCD79V92LZ6IRP4EAWS,1419455897258,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A2Y5DDEPG81LLJ:3MTMREQS4WQVCD79V92LZ6IRP4EAWS,1419455915607,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A2Y5DDEPG81LLJ:3MTMREQS4WQVCD79V92LZ6IRP4EAWS,1419455925363,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+A2Y5DDEPG81LLJ:3MTMREQS4WQVCD79V92LZ6IRP4EAWS,1419455931467,1,,,,True,control,There are more than three rectangles.
+A2Y5DDEPG81LLJ:3MTMREQS4WQVCD79V92LZ6IRP4EAWS,1419455940609,0,0.0,0.0,-4.0,False,control,There are no connections from the circles to the scissors.
+A2Y5DDEPG81LLJ:3MTMREQS4WQVCD79V92LZ6IRP4EAWS,1419455945698,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A2Y5DDEPG81LLJ:3MTMREQS4WQVCD79V92LZ6IRP4EAWS,1419455956201,0,0.0,3.0,,True,control,The letter is connected to more than half of the rectangles.
+A37EV8RZ82WT8E:3OCHAWUVGPSGDQLLH5BWV3ZU3IDXKM,1419456018646,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A37EV8RZ82WT8E:3OCHAWUVGPSGDQLLH5BWV3ZU3IDXKM,1419456030223,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A37EV8RZ82WT8E:3OCHAWUVGPSGDQLLH5BWV3ZU3IDXKM,1419456040286,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A37EV8RZ82WT8E:3OCHAWUVGPSGDQLLH5BWV3ZU3IDXKM,1419456044382,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+A37EV8RZ82WT8E:3OCHAWUVGPSGDQLLH5BWV3ZU3IDXKM,1419456052887,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+A37EV8RZ82WT8E:3OCHAWUVGPSGDQLLH5BWV3ZU3IDXKM,1419456065551,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A37EV8RZ82WT8E:3OCHAWUVGPSGDQLLH5BWV3ZU3IDXKM,1419456068270,1,,,,True,control,There are more than three circles.
+A37EV8RZ82WT8E:3OCHAWUVGPSGDQLLH5BWV3ZU3IDXKM,1419456076950,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+A38DC3BG1ZCVZ2:33C7UALJVM6OSOYR1NTMAPM233581N,1419455777929,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A38DC3BG1ZCVZ2:33C7UALJVM6OSOYR1NTMAPM233581N,1419455786642,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A38DC3BG1ZCVZ2:33C7UALJVM6OSOYR1NTMAPM233581N,1419455795090,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A38DC3BG1ZCVZ2:33C7UALJVM6OSOYR1NTMAPM233581N,1419455797481,1,,,,True,control,There are more than three triangles.
+A38DC3BG1ZCVZ2:33C7UALJVM6OSOYR1NTMAPM233581N,1419455802938,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A38DC3BG1ZCVZ2:33C7UALJVM6OSOYR1NTMAPM233581N,1419455812338,0,0.0,0.0,-4.0,False,control,The letter is connected to more than half of the rectangles.
+A38DC3BG1ZCVZ2:33C7UALJVM6OSOYR1NTMAPM233581N,1419455816421,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A38DC3BG1ZCVZ2:33C7UALJVM6OSOYR1NTMAPM233581N,1419455819801,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+A3ASF4ZVP6BUGO:3PWWM24LHT6VH9GNKRT0F8W7V9J824,1419456487556,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A3ASF4ZVP6BUGO:3PWWM24LHT6VH9GNKRT0F8W7V9J824,1419456493700,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A3ASF4ZVP6BUGO:3PWWM24LHT6VH9GNKRT0F8W7V9J824,1419456505322,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+A3ASF4ZVP6BUGO:3PWWM24LHT6VH9GNKRT0F8W7V9J824,1419456508108,1,,,,True,control,There are more than three triangles.
+A3ASF4ZVP6BUGO:3PWWM24LHT6VH9GNKRT0F8W7V9J824,1419456516322,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+A3ASF4ZVP6BUGO:3PWWM24LHT6VH9GNKRT0F8W7V9J824,1419456521036,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+A3ASF4ZVP6BUGO:3PWWM24LHT6VH9GNKRT0F8W7V9J824,1419456529312,0,0.0,3.0,,True,control,The letter is connected to more than half of the rectangles.
+A3ASF4ZVP6BUGO:3PWWM24LHT6VH9GNKRT0F8W7V9J824,1419456535962,0,0.0,0.0,4.0,True,critical,The scissors are connected to some of the circles.
+A3F52KE1584441:3A7Y0R2P2PWL26F3ZKBKUOZHOTDXJN,1419455805550,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A3F52KE1584441:3A7Y0R2P2PWL26F3ZKBKUOZHOTDXJN,1419455814543,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A3F52KE1584441:3A7Y0R2P2PWL26F3ZKBKUOZHOTDXJN,1419455830727,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+A3F52KE1584441:3A7Y0R2P2PWL26F3ZKBKUOZHOTDXJN,1419455838773,0,0.0,3.0,,True,control,The scissors are connected to more than half of the circles.
+A3F52KE1584441:3A7Y0R2P2PWL26F3ZKBKUOZHOTDXJN,1419455842878,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A3F52KE1584441:3A7Y0R2P2PWL26F3ZKBKUOZHOTDXJN,1419455846318,1,,,,True,control,There are more than three circles.
+A3F52KE1584441:3A7Y0R2P2PWL26F3ZKBKUOZHOTDXJN,1419455852734,0,0.0,-3.0,,False,control,There are no connections from the circles to the scissors.
+A3F52KE1584441:3A7Y0R2P2PWL26F3ZKBKUOZHOTDXJN,1419455858662,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+A3FAH5S2RGZ5AK:34J10VATJG65YYULVOVSOFOOEB2IQ0,1419455883675,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A3FAH5S2RGZ5AK:34J10VATJG65YYULVOVSOFOOEB2IQ0,1419455932000,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A3FAH5S2RGZ5AK:34J10VATJG65YYULVOVSOFOOEB2IQ0,1419455954215,0,0.0,0.0,4.0,True,critical,The scissors are connected to some of the circles.
+A3FAH5S2RGZ5AK:34J10VATJG65YYULVOVSOFOOEB2IQ0,1419455959444,1,,,,True,control,There are more than three triangles.
+A3FAH5S2RGZ5AK:34J10VATJG65YYULVOVSOFOOEB2IQ0,1419455970492,0,0.0,0.0,-4.0,False,control,The letter is not connected to more than 3 of the rectangles.
+A3FAH5S2RGZ5AK:34J10VATJG65YYULVOVSOFOOEB2IQ0,1419455980580,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+A3FAH5S2RGZ5AK:34J10VATJG65YYULVOVSOFOOEB2IQ0,1419455991985,0,0.0,0.0,-4.0,False,control,There are no connections from the triangles to the bell.
+A3FAH5S2RGZ5AK:34J10VATJG65YYULVOVSOFOOEB2IQ0,1419456003039,0,0.0,0.0,-4.0,False,control,The scissors are connected to more than half of the circles.
+A3HTLXAPOBCVVO:3MHW492WW1LJZPGT22NUMVUDCC0MVD,1419455864680,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A3HTLXAPOBCVVO:3MHW492WW1LJZPGT22NUMVUDCC0MVD,1419455875096,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A3HTLXAPOBCVVO:3MHW492WW1LJZPGT22NUMVUDCC0MVD,1419455896752,0,0.0,0.0,4.0,True,critical,The scissors are connected to some of the circles.
+A3HTLXAPOBCVVO:3MHW492WW1LJZPGT22NUMVUDCC0MVD,1419455902275,1,,,,True,control,There are more than three circles.
+A3HTLXAPOBCVVO:3MHW492WW1LJZPGT22NUMVUDCC0MVD,1419455915948,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+A3HTLXAPOBCVVO:3MHW492WW1LJZPGT22NUMVUDCC0MVD,1419455924171,0,0.0,0.0,4.0,True,critical,The letter is connected to some of the rectangles.
+A3HTLXAPOBCVVO:3MHW492WW1LJZPGT22NUMVUDCC0MVD,1419455933211,0,0.0,3.0,,True,control,The letter is connected to more than half of the rectangles.
+A3HTLXAPOBCVVO:3MHW492WW1LJZPGT22NUMVUDCC0MVD,1419455939715,0,0.0,-3.0,,False,control,There are no connections from the rectangles to the letter.
+A3QLGMZOLGMBQ1:39LNWE0K4V4XQR12CXFXYGLDHWZIUW,1419430417405,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A3QLGMZOLGMBQ1:39LNWE0K4V4XQR12CXFXYGLDHWZIUW,1419430455279,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A3QLGMZOLGMBQ1:39LNWE0K4V4XQR12CXFXYGLDHWZIUW,1419430471286,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A3QLGMZOLGMBQ1:39LNWE0K4V4XQR12CXFXYGLDHWZIUW,1419430481961,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+A3QLGMZOLGMBQ1:39LNWE0K4V4XQR12CXFXYGLDHWZIUW,1419430489405,0,0.0,-3.0,,False,control,There are no connections from the circles to the scissors.
+A3QLGMZOLGMBQ1:39LNWE0K4V4XQR12CXFXYGLDHWZIUW,1419430497709,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A3QLGMZOLGMBQ1:39LNWE0K4V4XQR12CXFXYGLDHWZIUW,1419430515097,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A3QLGMZOLGMBQ1:39LNWE0K4V4XQR12CXFXYGLDHWZIUW,1419430527476,1,,,,True,control,There are more than three triangles.
+A3RMV9ZGFJ0HHF:32N49TQG3HQIXO745ZXPD4ZDIVCAVI,1419455816515,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A3RMV9ZGFJ0HHF:32N49TQG3HQIXO745ZXPD4ZDIVCAVI,1419455825617,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A3RMV9ZGFJ0HHF:32N49TQG3HQIXO745ZXPD4ZDIVCAVI,1419455844676,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+A3RMV9ZGFJ0HHF:32N49TQG3HQIXO745ZXPD4ZDIVCAVI,1419455857952,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+A3RMV9ZGFJ0HHF:32N49TQG3HQIXO745ZXPD4ZDIVCAVI,1419455872211,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A3RMV9ZGFJ0HHF:32N49TQG3HQIXO745ZXPD4ZDIVCAVI,1419455878665,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+A3RMV9ZGFJ0HHF:32N49TQG3HQIXO745ZXPD4ZDIVCAVI,1419455889105,1,,,,True,control,There are more than three circles.
+A3RMV9ZGFJ0HHF:32N49TQG3HQIXO745ZXPD4ZDIVCAVI,1419455899580,0,0.0,0.0,4.0,True,critical,The scissors are connected to some of the circles.
+A3U74S280Z4B0:39GXDJN2OUM4E0EP81DBHDTIS748V4,1419430389481,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A3U74S280Z4B0:39GXDJN2OUM4E0EP81DBHDTIS748V4,1419430400312,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A3U74S280Z4B0:39GXDJN2OUM4E0EP81DBHDTIS748V4,1419430414353,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+A3U74S280Z4B0:39GXDJN2OUM4E0EP81DBHDTIS748V4,1419430418798,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A3U74S280Z4B0:39GXDJN2OUM4E0EP81DBHDTIS748V4,1419430423428,1,,,,True,control,There are more than three triangles.
+A3U74S280Z4B0:39GXDJN2OUM4E0EP81DBHDTIS748V4,1419430433209,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+A3U74S280Z4B0:39GXDJN2OUM4E0EP81DBHDTIS748V4,1419430437887,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A3U74S280Z4B0:39GXDJN2OUM4E0EP81DBHDTIS748V4,1419430445330,0,0.0,3.0,,True,control,The scissors are connected to more than half of the circles.
+A3VP27UUQ34OXK:3URFVVM166QJLHQCC13JYBO3D99UZD,1419455964661,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A3VP27UUQ34OXK:3URFVVM166QJLHQCC13JYBO3D99UZD,1419455983920,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A3VP27UUQ34OXK:3URFVVM166QJLHQCC13JYBO3D99UZD,1419455995188,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+A3VP27UUQ34OXK:3URFVVM166QJLHQCC13JYBO3D99UZD,1419456006832,0,0.0,0.0,4.0,True,critical,The letter is connected to some of the rectangles.
+A3VP27UUQ34OXK:3URFVVM166QJLHQCC13JYBO3D99UZD,1419456036548,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+A3VP27UUQ34OXK:3URFVVM166QJLHQCC13JYBO3D99UZD,1419456044091,1,,,,True,control,There are more than three triangles.
+A3VP27UUQ34OXK:3URFVVM166QJLHQCC13JYBO3D99UZD,1419456054991,0,0.0,0.0,4.0,True,critical,The scissors are connected to some of the circles.
+A3VP27UUQ34OXK:3URFVVM166QJLHQCC13JYBO3D99UZD,1419456068769,0,2.0,,,True,control,There are no connections from the rectangles to the letter.
+A8L450UGY77XB:3DUZQ9U6SNWMXKTYMZJGY4TJ41ASVN,1419430352978,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A8L450UGY77XB:3DUZQ9U6SNWMXKTYMZJGY4TJ41ASVN,1419430363088,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A8L450UGY77XB:3DUZQ9U6SNWMXKTYMZJGY4TJ41ASVN,1419430370988,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+A8L450UGY77XB:3DUZQ9U6SNWMXKTYMZJGY4TJ41ASVN,1419430377016,0,0.0,0.0,-4.0,False,control,There are more than three rectangles.
+A8L450UGY77XB:3DUZQ9U6SNWMXKTYMZJGY4TJ41ASVN,1419430383466,0,0.0,0.0,-4.0,False,control,The bell is not connected to more than 3 of the triangles.
+A8L450UGY77XB:3DUZQ9U6SNWMXKTYMZJGY4TJ41ASVN,1419430387980,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+A8L450UGY77XB:3DUZQ9U6SNWMXKTYMZJGY4TJ41ASVN,1419430392997,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+A8L450UGY77XB:3DUZQ9U6SNWMXKTYMZJGY4TJ41ASVN,1419430398396,0,0.0,0.0,-4.0,False,control,The scissors are connected to more than half of the circles.
+A9KLWB70I12U7:39GAF6DQWS8M30U49G4W236AE15V1E,1419455825525,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+A9KLWB70I12U7:39GAF6DQWS8M30U49G4W236AE15V1E,1419455836917,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+A9KLWB70I12U7:39GAF6DQWS8M30U49G4W236AE15V1E,1419455849466,0,0.0,0.0,4.0,True,critical,The letter is connected to some of the rectangles.
+A9KLWB70I12U7:39GAF6DQWS8M30U49G4W236AE15V1E,1419455856084,0,0.0,0.0,-4.0,False,control,There are more than three rectangles.
+A9KLWB70I12U7:39GAF6DQWS8M30U49G4W236AE15V1E,1419455864985,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+A9KLWB70I12U7:39GAF6DQWS8M30U49G4W236AE15V1E,1419455876641,0,0.0,0.0,-4.0,False,control,The letter is connected to more than half of the rectangles.
+A9KLWB70I12U7:39GAF6DQWS8M30U49G4W236AE15V1E,1419455883025,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+A9KLWB70I12U7:39GAF6DQWS8M30U49G4W236AE15V1E,1419455895622,0,0.0,-3.0,,False,control,There are no connections from the circles to the scissors.
+AAXYYH9MI3PJM:3BXQMRHWK06JMARTXCDPQ9SUY5RMUO,1419456761628,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AAXYYH9MI3PJM:3BXQMRHWK06JMARTXCDPQ9SUY5RMUO,1419456781025,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AAXYYH9MI3PJM:3BXQMRHWK06JMARTXCDPQ9SUY5RMUO,1419456789825,0,0.0,0.0,-4.0,False,control,The letter is connected to more than half of the rectangles.
+AAXYYH9MI3PJM:3BXQMRHWK06JMARTXCDPQ9SUY5RMUO,1419456796092,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+AAXYYH9MI3PJM:3BXQMRHWK06JMARTXCDPQ9SUY5RMUO,1419456800177,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+AAXYYH9MI3PJM:3BXQMRHWK06JMARTXCDPQ9SUY5RMUO,1419456803545,0,-2.0,,,False,control,There are more than three triangles.
+AAXYYH9MI3PJM:3BXQMRHWK06JMARTXCDPQ9SUY5RMUO,1419456810442,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+AAXYYH9MI3PJM:3BXQMRHWK06JMARTXCDPQ9SUY5RMUO,1419456813601,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+AD1WGUMVD6KED:3WMOAN2SRC5PH71TE32UZAJDH2BNVF,1419456711337,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AD1WGUMVD6KED:3WMOAN2SRC5PH71TE32UZAJDH2BNVF,1419457342193,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AD1WGUMVD6KED:3WMOAN2SRC5PH71TE32UZAJDH2BNVF,1419457351257,0,2.0,,,True,control,There are no connections from the rectangles to the letter.
+AD1WGUMVD6KED:3WMOAN2SRC5PH71TE32UZAJDH2BNVF,1419457361889,0,0.0,0.0,-4.0,False,control,The letter is connected to more than half of the rectangles.
+AD1WGUMVD6KED:3WMOAN2SRC5PH71TE32UZAJDH2BNVF,1419457372882,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+AD1WGUMVD6KED:3WMOAN2SRC5PH71TE32UZAJDH2BNVF,1419457382090,1,,,,True,control,There are more than three triangles.
+AD1WGUMVD6KED:3WMOAN2SRC5PH71TE32UZAJDH2BNVF,1419457397034,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+AD1WGUMVD6KED:3WMOAN2SRC5PH71TE32UZAJDH2BNVF,1419457703394,0,0.0,0.0,4.0,True,critical,The scissors are connected to some of the circles.
+AECIP6RO3TXXW:3OE22WJIGJWA7PPLP5K67ICZ86PQUG,1419456229382,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AECIP6RO3TXXW:3OE22WJIGJWA7PPLP5K67ICZ86PQUG,1419456253242,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AECIP6RO3TXXW:3OE22WJIGJWA7PPLP5K67ICZ86PQUG,1419456268489,1,,,,True,control,There are more than three circles.
+AECIP6RO3TXXW:3OE22WJIGJWA7PPLP5K67ICZ86PQUG,1419456276349,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+AECIP6RO3TXXW:3OE22WJIGJWA7PPLP5K67ICZ86PQUG,1419456283551,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+AECIP6RO3TXXW:3OE22WJIGJWA7PPLP5K67ICZ86PQUG,1419456291704,0,0.0,3.0,,True,control,The letter is connected to more than half of the rectangles.
+AECIP6RO3TXXW:3OE22WJIGJWA7PPLP5K67ICZ86PQUG,1419456302587,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+AECIP6RO3TXXW:3OE22WJIGJWA7PPLP5K67ICZ86PQUG,1419456310553,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+AJ34WB9Z37ILU:3MRNMEIQW6EDZQYMB5MLGW9HC07LDC,1419456099451,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AJ34WB9Z37ILU:3MRNMEIQW6EDZQYMB5MLGW9HC07LDC,1419456109099,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AJ34WB9Z37ILU:3MRNMEIQW6EDZQYMB5MLGW9HC07LDC,1419456122531,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+AJ34WB9Z37ILU:3MRNMEIQW6EDZQYMB5MLGW9HC07LDC,1419456126231,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+AJ34WB9Z37ILU:3MRNMEIQW6EDZQYMB5MLGW9HC07LDC,1419456130231,1,,,,True,control,There are more than three triangles.
+AJ34WB9Z37ILU:3MRNMEIQW6EDZQYMB5MLGW9HC07LDC,1419456137051,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+AJ34WB9Z37ILU:3MRNMEIQW6EDZQYMB5MLGW9HC07LDC,1419456145914,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+AJ34WB9Z37ILU:3MRNMEIQW6EDZQYMB5MLGW9HC07LDC,1419456150633,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+AKO4O0L9613K5:3FPRZHYEPZFID38JWKIFQWL7CLJV36,1419455906025,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AKO4O0L9613K5:3FPRZHYEPZFID38JWKIFQWL7CLJV36,1419455946206,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AKO4O0L9613K5:3FPRZHYEPZFID38JWKIFQWL7CLJV36,1419455971742,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+AKO4O0L9613K5:3FPRZHYEPZFID38JWKIFQWL7CLJV36,1419455984086,0,0.0,-3.0,,False,control,There are no connections from the rectangles to the letter.
+AKO4O0L9613K5:3FPRZHYEPZFID38JWKIFQWL7CLJV36,1419455994604,0,-2.0,,,False,control,There are more than three circles.
+AKO4O0L9613K5:3FPRZHYEPZFID38JWKIFQWL7CLJV36,1419456003392,0,0.0,-3.0,,False,critical,The letter is connected to some of the rectangles.
+AKO4O0L9613K5:3FPRZHYEPZFID38JWKIFQWL7CLJV36,1419456015411,0,0.0,0.0,-4.0,False,control,The bell is connected to more than half of the triangles.
+AKO4O0L9613K5:3FPRZHYEPZFID38JWKIFQWL7CLJV36,1419456029125,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+AOAZMLP27GD81:3MYYFCXHJ4FKD21S73OC00A336SG4O,1419456372635,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AOAZMLP27GD81:3MYYFCXHJ4FKD21S73OC00A336SG4O,1419456381555,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AOAZMLP27GD81:3MYYFCXHJ4FKD21S73OC00A336SG4O,1419456389490,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+AOAZMLP27GD81:3MYYFCXHJ4FKD21S73OC00A336SG4O,1419456398251,0,0.0,0.0,4.0,True,control,The scissors are not connected to more than 3 of the circles.
+AOAZMLP27GD81:3MYYFCXHJ4FKD21S73OC00A336SG4O,1419456404130,1,,,,True,control,There are more than three rectangles.
+AOAZMLP27GD81:3MYYFCXHJ4FKD21S73OC00A336SG4O,1419456410562,0,2.0,,,True,control,There are no connections from the circles to the scissors.
+AOAZMLP27GD81:3MYYFCXHJ4FKD21S73OC00A336SG4O,1419456423882,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+AOAZMLP27GD81:3MYYFCXHJ4FKD21S73OC00A336SG4O,1419456427595,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+ASB8T0H7L99RF:39LOEL67OTDK2RC6OR75YI1Z1NJ83F,1419455903299,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+ASB8T0H7L99RF:39LOEL67OTDK2RC6OR75YI1Z1NJ83F,1419455907973,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+ASB8T0H7L99RF:39LOEL67OTDK2RC6OR75YI1Z1NJ83F,1419455914720,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+ASB8T0H7L99RF:39LOEL67OTDK2RC6OR75YI1Z1NJ83F,1419455917118,1,,,,True,control,There are more than three circles.
+ASB8T0H7L99RF:39LOEL67OTDK2RC6OR75YI1Z1NJ83F,1419455920510,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+ASB8T0H7L99RF:39LOEL67OTDK2RC6OR75YI1Z1NJ83F,1419455925435,0,0.0,0.0,4.0,True,control,The bell is not connected to more than 3 of the triangles.
+ASB8T0H7L99RF:39LOEL67OTDK2RC6OR75YI1Z1NJ83F,1419455932996,0,0.0,3.0,,True,control,The scissors are connected to more than half of the circles.
+ASB8T0H7L99RF:39LOEL67OTDK2RC6OR75YI1Z1NJ83F,1419455936133,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+AVI7K876BV3QL:3X73LLYYQ2MKZ6699ELQK9S49NRNHG,1419431019244,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AVI7K876BV3QL:3X73LLYYQ2MKZ6699ELQK9S49NRNHG,1419431044804,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AVI7K876BV3QL:3X73LLYYQ2MKZ6699ELQK9S49NRNHG,1419431063131,0,2.0,,,True,critical,The scissors are connected to some of the circles.
+AVI7K876BV3QL:3X73LLYYQ2MKZ6699ELQK9S49NRNHG,1419431076995,0,2.0,,,True,control,There are no connections from the triangles to the bell.
+AVI7K876BV3QL:3X73LLYYQ2MKZ6699ELQK9S49NRNHG,1419431106660,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+AVI7K876BV3QL:3X73LLYYQ2MKZ6699ELQK9S49NRNHG,1419431115269,1,,,,True,control,There are more than three circles.
+AVI7K876BV3QL:3X73LLYYQ2MKZ6699ELQK9S49NRNHG,1419431126619,0,0.0,0.0,-4.0,False,control,The letter is connected to more than half of the rectangles.
+AVI7K876BV3QL:3X73LLYYQ2MKZ6699ELQK9S49NRNHG,1419431134395,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+AXZ2RM4ANINXM:369J354OFEIYSP56QRHRXYUHZXYG69,1419455875343,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AXZ2RM4ANINXM:369J354OFEIYSP56QRHRXYUHZXYG69,1419455895597,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AXZ2RM4ANINXM:369J354OFEIYSP56QRHRXYUHZXYG69,1419455911477,0,0.0,3.0,,True,control,The bell is connected to more than half of the triangles.
+AXZ2RM4ANINXM:369J354OFEIYSP56QRHRXYUHZXYG69,1419455924932,0,0.0,0.0,4.0,True,critical,The scissors are connected to some of the circles.
+AXZ2RM4ANINXM:369J354OFEIYSP56QRHRXYUHZXYG69,1419455931644,0,2.0,,,True,control,There are no connections from the rectangles to the letter.
+AXZ2RM4ANINXM:369J354OFEIYSP56QRHRXYUHZXYG69,1419455936548,1,,,,True,control,There are more than three circles.
+AXZ2RM4ANINXM:369J354OFEIYSP56QRHRXYUHZXYG69,1419455944522,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+AXZ2RM4ANINXM:369J354OFEIYSP56QRHRXYUHZXYG69,1419455950731,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+AYPDBZJ4NVAPC:3AMW0RGHOEACCN4XSRTVTIUVVE9PNV,1419455802276,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AYPDBZJ4NVAPC:3AMW0RGHOEACCN4XSRTVTIUVVE9PNV,1419455842452,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AYPDBZJ4NVAPC:3AMW0RGHOEACCN4XSRTVTIUVVE9PNV,1419455869039,1,,,,True,control,There are more than three triangles.
+AYPDBZJ4NVAPC:3AMW0RGHOEACCN4XSRTVTIUVVE9PNV,1419455880178,0,-2.0,,,False,control,There are no connections from the triangles to the bell.
+AYPDBZJ4NVAPC:3AMW0RGHOEACCN4XSRTVTIUVVE9PNV,1419455887925,0,2.0,,,True,critical,The letter is connected to some of the rectangles.
+AYPDBZJ4NVAPC:3AMW0RGHOEACCN4XSRTVTIUVVE9PNV,1419455902014,0,0.0,0.0,-4.0,False,control,The letter is not connected to more than 3 of the rectangles.
+AYPDBZJ4NVAPC:3AMW0RGHOEACCN4XSRTVTIUVVE9PNV,1419455909691,0,0.0,0.0,-4.0,False,control,The bell is connected to more than half of the triangles.
+AYPDBZJ4NVAPC:3AMW0RGHOEACCN4XSRTVTIUVVE9PNV,1419455917456,0,2.0,,,True,critical,The bell is connected to some of the triangles.
+AZIY6IFOS4CVC:3FE7TXL1LJV1NDGJ6LA01ZH7PFWQ2O,1419430416819,0,0.0,0.0,4.0,True,training,The letter is not connected to any of the rectangles.
+AZIY6IFOS4CVC:3FE7TXL1LJV1NDGJ6LA01ZH7PFWQ2O,1419430438900,0,0.0,3.0,,True,training,The bell is connected to at most two of the triangles.
+AZIY6IFOS4CVC:3FE7TXL1LJV1NDGJ6LA01ZH7PFWQ2O,1419430465376,0,0.0,0.0,4.0,True,critical,The letter is connected to some of the rectangles.
+AZIY6IFOS4CVC:3FE7TXL1LJV1NDGJ6LA01ZH7PFWQ2O,1419430485366,0,0.0,0.0,4.0,True,control,The letter is not connected to more than 3 of the rectangles.
+AZIY6IFOS4CVC:3FE7TXL1LJV1NDGJ6LA01ZH7PFWQ2O,1419430495413,0,0.0,0.0,-4.0,False,control,There are more than three circles.
+AZIY6IFOS4CVC:3FE7TXL1LJV1NDGJ6LA01ZH7PFWQ2O,1419430503864,0,0.0,0.0,-4.0,False,control,The scissors are connected to more than half of the circles.
+AZIY6IFOS4CVC:3FE7TXL1LJV1NDGJ6LA01ZH7PFWQ2O,1419430513256,0,0.0,0.0,4.0,True,critical,The bell is connected to some of the triangles.
+AZIY6IFOS4CVC:3FE7TXL1LJV1NDGJ6LA01ZH7PFWQ2O,1419430520485,0,0.0,-3.0,,False,control,There are no connections from the rectangles to the letter.
