@@ -1,0 +1,99 @@
+\documentclass{article}
+
+\usepackage[palatino]{mypackages}\usepackage{mycommands}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+\usepackage{pgfplots}
+\pgfplotsset{width=15cm,compat=1.4}
+
+\begin{document}
+
+\begin{tikzpicture}
+
+  \begin{axis}[ybar, 
+               enlargelimits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of answer types}, 
+               symbolic x coords={ae-ntr,ae-acc,dummy,ge-ntr,ge-acc}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               ymin = 15
+               ]
+
+    \addplot coordinates {(ae-ntr,73) (ae-acc,70) (ge-ntr,47) (ge-acc,49)}; 
+
+    \addplot coordinates {(ae-ntr,23) (ae-acc,22) (ge-ntr,29) (ge-acc,23)}; 
+
+    \addplot coordinates {(ae-ntr,1) (ae-acc,2) (ge-ntr,0) (ge-acc,1)};
+
+    \addplot coordinates {(ae-ntr,4) (ae-acc,6) (ge-ntr,25) (ge-acc,27)};
+
+    % \addplot coordinates {(ae-ntr,83) (ae-acc,80) (ge-ntr,53) (ge-acc,56)}; 
+
+    % \addplot coordinates {(ae-ntr,26) (ae-acc,25) (ge-ntr,33) (ge-acc,26)}; 
+
+    % \addplot coordinates {(ae-ntr,1) (ae-acc,2) (ge-ntr,0) (ge-acc,1)};
+
+    % \addplot coordinates {(ae-ntr,4) (ae-acc,7) (ge-ntr,28) (ge-acc,31)};
+
+    \legend{literal, local, global, false}
+
+  \end{axis}
+
+
+
+
+\end{tikzpicture}
+
+
+\begin{tikzpicture}
+
+  \begin{axis}[ybar, 
+               enlargelimits=0.25, 
+               legend style={at={(0.5,-0.15)},
+                 anchor=north,
+                 legend columns=-1}, 
+               ylabel={\% of answer types}, 
+               symbolic x coords={l-ntr,l-l,l-e,dummy,e-ntr,e-l,e-e,}, 
+               xtick=data,
+               nodes near coords,
+               nodes near coords align={vertical},
+               ymin = 15
+               ]
+
+    \addplot coordinates {(l-ntr, 69) (l-l, 77) (l-e, 52) (e-ntr, 63)
+      (e-l, 76) (e-e, 56)}; 
+
+    \addplot coordinates {(l-ntr, 24) (l-l, 12) (l-e, 30) (e-ntr, 25)
+      (e-l, 12) (e-e, 32)}; 
+
+    \addplot coordinates {(l-ntr, 7) (l-l, 11) (l-e, 19) (e-ntr, 12)
+      (e-l, 11) (e-e, 13)}; 
+
+    % \addplot coordinates {(l-ntr, 93) (l-l, 101) (l-e, 70) (e-ntr, 85)
+    %   (e-l, 100) (e-e, 75)}; 
+
+    % \addplot coordinates {(l-ntr, 33) (l-l, 16) (l-e, 40) (e-ntr, 34)
+    %   (e-l, 16) (e-e, 43)}; 
+
+    % \addplot coordinates {(l-ntr, 9) (l-l, 14) (l-e, 25) (e-ntr, 16)
+    %   (e-l, 15) (e-e, 17)}; 
+
+    \legend{LC, EC, false}
+
+  \end{axis}
+
+
+
+
+\end{tikzpicture}
+
+
+\end{document}
+
