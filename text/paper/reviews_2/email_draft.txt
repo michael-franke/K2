@@ -2,33 +2,31 @@ Dear Rick,
 
 thank you very much for your work on this. We believe that the remaining issues raised by the reviewers can mostly be addressed by careful reformulation. You suggested to get back in touch with you to "propose a route ahead." This is what we would like to do here. 
 
-Attached is a mock response letter, detailing the changes to our paper in response to all comments, as if we had already implemented them. They basically overlap with what we write here, but it might provide additional insight to you to see how we would like to react to individual issues. Essentially, if you accord with all of this, the mock response letter would turn into our to-do list.
+Attached is a mock response letter, detailing the changes to our paper in response to all comments, as if we had already implemented them. If you are busy, which you surely are, and if this email gives you enough of an idea of what we want to do, please choose not to read the mock response letter at all.
 
 As we see it, you raise two major points that you would like to see addressed:
 
-1.) We should "have a good think about the balanced conclusion you draw (the data are hard for both sides of the theoretical divide --- reviewer 2: the data clearly favours grammaticalism) and address the reviewer's worry as good as you can (s/he can't be the only one interpreting your paper like that)."
+	1.) We should "have a good think about the balanced conclusion you draw (the data are hard for both sides of the theoretical divide --- reviewer 2: the data clearly favours grammaticalism) and address the reviewer's worry as good as you can (s/he can't be the only one interpreting your paper like that)."
 
-2.) We should "rethink the value of the fine-grained description of the landscape of theoretical options (section 3.1/3.2)."
+	2.) We should "rethink the value of the fine-grained description of the landscape of theoretical options (section 3.1/3.2)."
 
 Seeing especially reviewer 2's reaction, we fully agree with you that the paper should be improved in both of these points. 
 
 As to your first point, we agree that our previous version has not been ideally clear on this. It is not our intention to polarize by misleading rhetorics. We would try to make very clear in the current version (by reformulating carefully all relevant passages in abstract, introduction, reflection and conclusion) that our main conclusions from our data are these:
 
-a. grammaticalism qua "core theory" is compatible with our data, while traditionalism is not; 
-b. still, it should also be noted that grammaticalism qua "core theory" is /trivially/ compatible with our data, because it would not be inconsistent with any possible outcome of our experiment concerning availability and/or preference; 
-c. we would also still like to maintain that the only auxiliary assumption for grammaticalism that is directly applicable to our experiment (selecting reading preferences in terms of logical strength alone) is /not/ compatible with our data.
+	a. grammaticalism qua "core theory" is compatible with our data, while traditionalism is not; 
+	b. still, it should also be noted that grammaticalism qua "core theory" is /trivially/ compatible with our data, because it would not be inconsistent with any possible outcome of our experiment concerning availability and/or preference; 
+	c. we would also still like to maintain that the only auxiliary assumption for grammaticalism that is directly applicable to our experiment (selecting reading preferences in terms of logical strength alone) is /not/ compatible with our data.
 
-It was an oversight of ours not to mention that Chemla & Spector have already discussed their experimental data as evidence against the Strongest Meaning Hypothesis as a selection principle for grammaticalism. We will correct that (see also below and the mock response letter for more about our position with regard to Chemla & Spector's results).
-
-As to your second point, there should be no issue here. We are happy to shorten the text accordingly. We had thought that it might be helpful to the reader to spell out all possible predictable reading preferences, but, indeed, there are also very good arguments for shortening, since only very little of these fine-grained distinctions turn out relevant in the light of our data and our later discussion. So, we will scrap everything that is not strictly relevant for understanding the motivation of the experiment in Section 3.
+As to your second point, there should be no issue here. We are happy to shorten the text accordingly. 
 
 On top of the two points that you flag as most important, our reading of reviewer 2's comments is that she/he has two further issues.
 
-1.) The paper should be streamlined because our main question-answer structure is unclear, and, by making it clearer, we could make recourse to previous results, especially Chemla & Spector, because we only add insights pertaining to the effects of prosodic markedness, but nothing more up and above Chemla & Spector when it comes to preferences/availability of readings.
+	1.) The paper should be streamlined because our main question-answer structure is unclear, and, by making it clearer, we could make recourse to previous results, especially Chemla & Spector, because we only add insights pertaining to the effects of prosodic markedness, but nothing more up and above Chemla & Spector when it comes to preferences/availability of readings.
 
-2.) There is no reason to focus on the "Strongest Meaning Hypothesis."
+	2.) There is no reason to focus on the "Strongest Meaning Hypothesis."
 
-As to the first point, we think that the reviewer may have missed part of the main motivation for the incremental verification task. This is our fault, and so we would stress the relevance of this change in design better and clearer in introduction, Section 4.4 and in the reflection/discussion. The reviewer seems not to pay much mind to the criticism of Geurts and van Tiel, but we do. Not because we think that they are obviously right, but because we are not deeply convinced that they are not. We would like to be careful and take into consideration effects of pictorial preferences/typicality/contrasts, as well as "silent prosody". That's why we cannot bring ourselves to simply take Chemla & Spector's interpretation of their results for gospel. We propose to resolve this issue by emphasizing better this motivation for our task. 
+As to the first point, we think that we need to stress more clearly the relevance and motivation for our design. Our study is design to avoid potential confounds (of, e.g., Chemla & Spector's study): (i) effects of pictorial preferences/typicality/contrasts (the Geurts & van Tiel critique), as well as (ii) possible "silent prosody" effects. That's why we cannot simply take Chemla & Spector's results for granted, even if we reach superficially similar conclusions. We propose to resolve this issue by emphasizing better the motivation for our task and the relation to previous accounts. 
 
 As to the second point, we believe that careful reformulations at relevant positions will also help resolve this issue in as far as it is resolvable. We may not have been sufficiently clear on our notion of /ex ante/ predictions, and we will remedy that. We do not want to pin grammaticalism to a naive application of the Strongest Meaning Hypothesis, and we will make sure that no impression to the contrary arises in the presentation of our results. However, we also want to stick to our guns at least in so far as that, to the best of our knowledge, disambiguation in terms of logical strength is the only seriously proposed disambiguation criterion in published work by means of which grammaticalism can be brought to predict any preference pattern in our abstract experiment. This, and the fact that it is, or has been, a prominent suggestion in much of the relevant literature (despite Chemla & Spector's empirical arguments against it) is reason for us to look at it, because otherwise we cannot say anything reasonable at all about grammaticalism.
 
