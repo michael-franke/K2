@@ -3,9 +3,13 @@
 The main changes from the previous version are:
 
 1. careful reformulation of conclusions to be drawn from our data in line with reviewer 2's suggestions; concretely:
+
 	a. we stress (even more than before) that grammaticalism qua "core theory" is compatible with our data, while traditionalism is not; 
+
 	b. still, we maintain that grammaticalism qua "core theory" is *trivially* compatible with our data, because it would not be inconsistent with any possible outcome of our experiment; 
+
 	c. the only auxiliary assumption for grammaticalism that is directly applicable to our experiment (selecting reading preferences in terms of logical strength alone) is not compatible with our data.
+
 2. shortening of section 3 to remove unnecessary detail in predictions of "core theories"
 3. addition of a few elements of emphasis in introduction, Section 4 and reflection section 6, in response to reviewer 2's comments showing that the previous version may not have made the motivation of our design sufficiently clear
 
@@ -21,14 +25,16 @@ The main changes from the previous version are:
 We agree that our previous version has not been ideally clear on this. It is not our intention to polarize by misleading rhetorics. We have tried to make very clear in the current version that our main conclusions from our data are (as already stated above):
 
 a. we stress (even more than before) that grammaticalism qua "core theory" is compatible with our data, while traditionalism is not; 
+
 b. still, we maintain that grammaticalism qua "core theory" is *trivially* compatible with our data, because it would not be inconsistent with any possible outcome of our experiment; 
+
 c. the only auxiliary assumption for grammaticalism that is directly applicable to our experiment (selecting reading preferences in terms of logical strength alone) is not compatible with our data.
 
 
 >(2) rethink the value of the fine-grained description of the landscape of theoretical options (section 3.1/3.2).
 
 
-Although we had thought that it would be good for the readers to see the full space of possible predictions about preference patterns that relevant "core theories" + "auxiliary hypotheses" give, we agree that it is not strictly necessary to introduce all of these distinctions. We have therefore removed those chunks of Section 3 which are not strictly relevant for late discussions (including Table 2, which summarized the predictions). Some particular "auxiliary assumptions" are taken up in the discussion section 6, but only those that are relevant for the overall discussion, like Magri's appeal to obligatory exhaustification, which is an example for how grammaticalism could predict our data.
+Although we had thought that it would be good for the readers to see the full space of possible predictions about preference patterns that relevant "core theories" + "auxiliary hypotheses" give, we agree that it is not strictly necessary to introduce all of these distinctions. We have therefore removed those chunks of Section 3 which are not strictly relevant for later discussions (including Table 2, which summarized the predictions). Some particular "auxiliary assumptions" are taken up in the discussion section 6, but only those that are relevant for the overall discussion, like Magri's appeal to obligatory exhaustification, which is an example for how grammaticalism could predict our data.
 
 ## Reviewer 1
 
