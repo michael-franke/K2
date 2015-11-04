@@ -10,6 +10,8 @@ The main changes from the previous version are:
 
 3. addition of a few elements of emphasis in introduction, Section 4 and reflection section 6, in response to reviewer 2's comments showing that the previous version may not have made the motivation of our design sufficiently clear.
 
+All significant changes from the previous to this version are highlighted in a separately attached PDF.
+
 In the following we will give detailed responses to the comments.
 
 ## Editor comments
@@ -74,7 +76,7 @@ reviewer herself/himself or the editor.
 >
 >I believe the paper answers (i) quite nicely, but it burdens the reader with too much irrelevant information in setting up and addressing the question (much of section 3 of the paper up to but not including section 3.3 on the Prosodic Marking Hypothesis). Concerning question (ii), the paper leaves it unresolved, which would be fine had the authors not mischaracterized the question by invoking the Strongest Meaning Hypothesis in the way that they did (as I hope to clarify below). If these issues could be resolved in a revised version, I would have no serious objection to publication.
 
-We are sorry that we didn't specify these points clearly enough in our previous manuscript. We feel that this description of what the paper is about is unfortunately not entirely as we intended. This could lead to certain misunderstandings, so we clarify our position in the present manuscript. We have also added to the text (introduction, especially the relevant Section 4.4, section 6) to strengthen our view of and the motivation for out study.
+We are sorry that we didn't specify these points clearly enough in our previous manuscript. We feel that this description of what the paper is about is unfortunately not entirely as we intended. This could lead to certain misunderstandings, so we clarify our position in the present manuscript. We have also modified the text (introduction, especially the relevant Section 4.4, section 6) to strengthen our view of and the motivation for out study.
 
 One of our main goals in this paper is, indeed, to address the effects of prosody, but with a particular motivation, namely to rule out effects of "silent prosody" as confounds in the interpretation of earlier data. This is important because all previous experimental results that depend on visual presentation of sentences could, in principle, be subject to doubt if we hypothesize (like many do) that prosody plays a role in this domain. This also includes the results of Chemla & Spector. This is why we want to be more careful in this paper and not take for granted the conclusions of Chemla & Spector.
 
