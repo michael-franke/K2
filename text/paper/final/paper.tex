@@ -1,6 +1,6 @@
 \documentclass[fleqn,reqno,10pt]{article}
 
-
+\usepackage{etex}
 \usepackage[natbib=true,
             style=authoryear-comp,
             backend=bibtex,
@@ -9,7 +9,6 @@
             doi=false,
             url=false]{biblatex}
 \bibliography{extracted-bib}
-% \bibliography{paper}
 
 \usepackage[final,            % override "draft" which means "no nothing"
             colorlinks,       % rather than outlining them in boxes
@@ -1377,8 +1376,8 @@ method]{Chemla2009:Presuppositions}.
       \label{fig:Chemla-Spector}
   \begin{minipage}{0.45\linewidth}
     \begin{center}
-      \includegraphics[scale=0.25]{pictures/paper/Chemla_Spector_2010_Critical_AE.png}\\
-      \includegraphics[scale=0.25]{pictures/paper/Chemla_Spector_2010_RatingBar.png}
+      \includegraphics[scale=0.25]{Chemla_Spector_2010_Critical_AE.png}\\
+      \includegraphics[scale=0.25]{Chemla_Spector_2010_RatingBar.png}
     \end{center}
 
   \end{minipage}
@@ -1386,12 +1385,12 @@ method]{Chemla2009:Presuppositions}.
    \begin{minipage}{6cm}
      \subfloat[][Results \as-condition]{
     \label{fig:CS-Results-as}
-        \includegraphics[width=5.5cm]{pictures/paper/Chemla_Spector_2010_Results_AE.png}
+        \includegraphics[width=5.5cm]{Chemla_Spector_2010_Results_AE.png}
   }
 
   \subfloat[test][Results \es-condition]{
     \label{fig:CS-Results-es}
-    \includegraphics[width=5.5cm]{pictures/paper/Chemla_Spector_2010_Results_GE.png}
+    \includegraphics[width=5.5cm]{Chemla_Spector_2010_Results_GE.png}
   }  
    \end{minipage}
    \caption{Example trial and results of \citeauthor{ChemlaSpector2010:Experimental-Ev}'s
@@ -1399,64 +1398,25 @@ method]{Chemla2009:Presuppositions}.
      the left where: ``Every letter is connected to some of its circles.''}
 \end{figure}
 
-% \begin{figure}[t]
-%   \centering
-%       \includegraphics[scale=0.25]{../pictures/paper/Chemla_Spector_2010_Critical_AE.png}\\
-%       \includegraphics[scale=0.25]{../pictures/paper/Chemla_Spector_2010_RatingBar.png}
-%         \caption{Example of critical trial for \as-condition by
-%           \citeauthor{ChemlaSpector2010:Experimental-Ev}'s
-%           (\citeyear{ChemlaSpector2010:Experimental-Ev})}
-%   \label{fig:Chemla-Spector}
-% \end{figure}
-
-\citeauthor{ChemlaSpector2010:Experimental-Ev} hypothesized that the
-degree to which a sentence is rated acceptable is proportional to the
-number of available true readings. Observed averaged clicking
-positions are shown in Figures~\ref{fig:CS-Results-as} and
-\ref{fig:CS-Results-es}.
-%
-% \begin{figure}
-%   \centering
-%   \subfloat[][\as-condition]{
-%     \label{fig:CS-Results-as}
-%         \includegraphics[width=5.5cm]{../pictures/paper/Chemla_Spector_2010_Results_AE.png}
-%   }
-%   \subfloat[test][\es-condition]{
-%     \label{fig:CS-Results-es}
-%     \includegraphics[width=5.5cm]{../pictures/paper/Chemla_Spector_2010_Results_GE.png}
-%   }
-%   \caption{Results from
-%     \citeauthor{ChemlaSpector2010:Experimental-Ev}'s
-%     (\citeyear{ChemlaSpector2010:Experimental-Ev}) study}
-%   \label{fig:Chemla-Spector-Results}
-% \end{figure}
-%
-According to \citeauthor{ChemlaSpector2010:Experimental-Ev}, the
-crucial piece of evidence for the availability of local readings for
-\as-sentences is that these sentences yielded higher graded
-acceptability scores for the strong situation than for the weak
-situation (although these differ only with respect to the truth value
-of the local reading). Evidence for the availability
-of the local reading for \es-sentences comes from the difference
-between the local and the literal situation. Strikingly, \es-sentences
-received an average 73\% degree of acceptability in the local
-situation although the literal and global readings are false in this
-case.
+\citeauthor{ChemlaSpector2010:Experimental-Ev} hypothesized that the degree to which a sentence
+is rated acceptable is proportional to the number of available true readings. Observed averaged
+clicking positions are shown in Figures~\ref{fig:CS-Results-as} and
+\ref{fig:CS-Results-es}. According to \citeauthor{ChemlaSpector2010:Experimental-Ev}, the
+crucial piece of evidence for the availability of local readings for \as-sentences is that
+these sentences yielded higher graded acceptability scores for the strong situation than for
+the weak situation (although these differ only with respect to the truth value of the local
+reading). Evidence for the availability of the local reading for \es-sentences comes from the
+difference between the local and the literal situation. Strikingly, \es-sentences received an
+average 73\% degree of acceptability in the local situation although the literal and global
+readings are false in this case.
 
 \subsection{Reflection}
 \label{sec:local-read-categ}
 
-Summing up, three experimental studies have presented diverging pieces
-of evidence. % \citet{GeurtsPouscoulous2009:Embedded-Implic} did not
-% observe any truth value-judgments that would indicate local readings
-% in a picture verification task and thus conclude that these readings
-% are unavailable. \citet{CliftonDube2010:Embedded-Implic} and
-% \citet{ChemlaSpector2010:Experimental-Ev} employed different designs
-% intended to be sensitive enough to reveal local readings. Both studies
-% found putative evidence in support of local readings.
-Differences in results might be due to differences in experimental design, in particular due to
-the type of elicited judgement and the possibility of conflating pictorial effects. Also, we
-should consider potential effects of ``silent prosody.''
+Summing up, three experimental studies have presented diverging pieces of evidence. Differences
+in results might be due to differences in experimental design, in particular due to the type of
+elicited judgement and the possibility of conflating pictorial effects. Also, we should
+consider potential effects of ``silent prosody.''
 
 \paragraph{Judgement Type.} We could draw a distinction between
 categorical truth-value judgments and other potentially more sensitive
@@ -1604,33 +1564,33 @@ between readings, and, partly, also to rule out positional biases.)
 \begin{figure}[]
 	\centering
 	\subfloat[][Step 1]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/ae_01_1.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ae_01_1.pdf}}
 	    \label{fig:exseqAS1}
 	}
 	\subfloat[][Step 2]{
-		\fbox{\includegraphics[width=3.5cm]{pictures/ae_01_2.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ae_01_2.pdf}}
 	    \label{fig:exseqAS2}
 	}
 	\subfloat[][Step 3 (\lit true)]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/ae_01_3.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ae_01_3.pdf}}
 	    \label{fig:exseqAS3}
 	}
         \\
 	\subfloat[][Step 4]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/ae_01_4.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ae_01_4.pdf}}
 	    \label{fig:exseqAS4}
 	}
 	\subfloat[][Step 5 (\glb true)]{
-		\fbox{\includegraphics[width=3.5cm]{pictures/ae_01_5.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ae_01_5.pdf}}
 	    \label{fig:exseqAS5}
 	}
 	\subfloat[][Step 6]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/ae_01_6.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ae_01_6.pdf}}
 	    \label{fig:exseqAS6}
 	}
         \\
 	\subfloat[][Step 7 (\loc false)]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/ae_01_7.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ae_01_7.pdf}}
 	    \label{fig:exseqAS7}
 	} 
                 \hspace*{7.85cm} 
@@ -1676,24 +1636,24 @@ which truth-value judgments can be made.
 \begin{figure}[t]
 	\centering
 	\subfloat[][Step 1]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/ge_01_1.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ge_01_1.pdf}}
 	    \label{fig:exseqES1}
 	}
 	\subfloat[][Step 2 (\glb false)]{
-		\fbox{\includegraphics[width=3.5cm]{pictures/ge_01_2.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ge_01_2.pdf}}
 	    \label{fig:exseqES2}
 	}
 	\subfloat[][Step 3 (\lit false)]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/ge_01_3.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ge_01_3.pdf}}
 	    \label{fig:exseqES3}
 	}
         \\
 	\subfloat[][Step 4]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/ge_01_4.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ge_01_4.pdf}}
 	    \label{fig:exseqES4}
 	}
 	\subfloat[][Step 5 (\loc true)]{
-		\fbox{\includegraphics[width=3.5cm]{pictures/ge_01_5.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{ge_01_5.pdf}}
 	    \label{fig:exseqES5}
 	}
                 \hspace*{3.9cm} 
@@ -1837,29 +1797,29 @@ preferred \lc-reading could be judged first (Figure~\ref{fig:exlc}),
 \begin{figure}[]
 	\centering
 	\subfloat[][Step 2]{ 
-		\fbox{\includegraphics[width=5cm]{pictures/lc_01_2.pdf}}
+		\fbox{\includegraphics[width=5cm]{lc_01_2.pdf}}
 	    \label{fig:exlc2}
 	}
 	\subfloat[][Step 3 (\lc true)]{
-		\fbox{\includegraphics[width=5cm]{pictures/lc_01_3.pdf}}
+		\fbox{\includegraphics[width=5cm]{lc_01_3.pdf}}
 	    \label{fig:exlc3}
 	}
         \\
 	\subfloat[][Step 4]{
-		\fbox{\includegraphics[width=5cm]{pictures/lc_01_4.pdf}}
+		\fbox{\includegraphics[width=5cm]{lc_01_4.pdf}}
 	    \label{fig:exlc4}
 	}
   	\subfloat[][Step 5]{
-		\fbox{\includegraphics[width=5cm]{pictures/lc_01_5.pdf}}
+		\fbox{\includegraphics[width=5cm]{lc_01_5.pdf}}
 	    \label{fig:exlc5}
 	}
         \\
 	\subfloat[][Step 6 (\ec false)]{
-		\fbox{\includegraphics[width=5cm]{pictures/lc_01_6.pdf}}
+		\fbox{\includegraphics[width=5cm]{lc_01_6.pdf}}
 	    \label{fig:exlc6}
 	}
 	\subfloat[][Step 7]{
-		\fbox{\includegraphics[width=5cm]{pictures/lc_01_7.pdf}}
+		\fbox{\includegraphics[width=5cm]{lc_01_7.pdf}}
 	    \label{fig:exlc7}
 	}
 	\caption[]{Example of an \lc-sequence for sentence
@@ -1875,20 +1835,20 @@ first (Figure~\ref{fig:exec}).
 \begin{figure}[]
 	\centering
 	\subfloat[][Step 2]{ 
-		\fbox{\includegraphics[width=5cm]{pictures/ec_01_2.pdf}}
+		\fbox{\includegraphics[width=5cm]{ec_01_2.pdf}}
 	    \label{fig:exec1}
 	}
 	\subfloat[][Step 3 (\ec false)]{
-		\fbox{\includegraphics[width=5cm]{pictures/ec_01_3.pdf}}
+		\fbox{\includegraphics[width=5cm]{ec_01_3.pdf}}
 	    \label{fig:exec2}
 	}
         \\
 	\subfloat[][Step 4]{
-		\fbox{\includegraphics[width=5cm]{pictures/ec_01_4.pdf}}
+		\fbox{\includegraphics[width=5cm]{ec_01_4.pdf}}
 	    \label{fig:exec2}
 	}
 	\subfloat[][Step 5 (\lc true)]{
-		\fbox{\includegraphics[width=5cm]{pictures/ec_01_5.pdf}}
+		\fbox{\includegraphics[width=5cm]{ec_01_5.pdf}}
 	    \label{fig:exec2}
 	}
 	\caption[]{Example of an \ec-sequence for sentence
@@ -1937,23 +1897,19 @@ accentuation is the driving force for local readings, we would expect
 a higher proportion of local readings in the former than in the latter
 version of the sentences.
 
-Preference-related controls also differed prosodically. Modifier
-attachment ambiguities have been shown to be sensitive to differences
-in prosodic phrasing. Though there has been discussion as to whether
-speakers reliably \textit{produce} disambiguating cues in such
-constructions
-\citep[e.g.][]{Allbritton96,Schafer00,Snedeker03,Kraljik05}, overt
-prosodic boundaries are generally acknowledged to guide interpretive
-processes of attachment ambiguities in \textit{comprehension}
+Preference-related controls also differed prosodically. Modifier attachment ambiguities have
+been shown to be sensitive to differences in prosodic phrasing. Though there has been
+discussion as to whether speakers reliably \textit{produce} disambiguating cues in such
+constructions \citep[e.g.][]{Allbritton96,Schafer00,Snedeker03,Kraljik05}, overt prosodic
+boundaries are generally acknowledged to guide interpretive processes of attachment ambiguities
+in \textit{comprehension}
 \citep[e.g.][]{Beach1991,KjelgaardSpeer1999,Steinhauer99,SchaferSpeerWarrenWhite2000,CliftonCarlsonFrazier2002,Augurzky06}.
-Specifically, it has been shown that prosodically separating a
-modifier from the directly preceding material supports an \ec-reading,
-whereas separating the two potential attachment sites is supportive of
-an \lc-reading
-\citep[e.g.][]{CliftonCarlsonFrazier2002,Fodor02,Jun2003}.  Thus, a
-phrase boundary between {\it squares} and {\it with} in
-(\ref{bsp:target-related}) supports an \ec-reading, whereas a prosodic
-phrase boundary following {\it circles} supports an \lc-reading.
+Specifically, it has been shown that prosodically separating a modifier from the directly
+preceding material supports an \ec-reading, whereas separating the two potential attachment
+sites is supportive of an \lc-reading
+\citep[e.g.][]{CliftonCarlsonFrazier2002,Fodor02,Jun2003}.  Thus, a phrase boundary between
+{\it squares} and {\it with} in (\ref{bsp:target-related}) supports an \ec-reading, whereas a
+prosodic phrase boundary following {\it circles} supports an \lc-reading.
 
 To test whether prosodic information could generally have an effect on
 answer patterns in our task, we presented sentences in both of these
@@ -3212,7 +3168,7 @@ the preference-related control conditions.
 %
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\textwidth]{pics/post_salience_TF_small.png}
+  \includegraphics[width=0.8\textwidth]{post_salience_TF_small.png}
   \caption{Estimated posteriors for the salience of \lc- and
     \ec-readings for different prosodic cues. Lines under curves
     indicate 95\% HDIs (see Footnote~\ref{fn:HDI}).}
@@ -3240,7 +3196,7 @@ comparison of 95\% HDIs, see below).\footnote{\label{fn:HDI} A 95\%
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.8\textwidth]{pics/post_salience_small.png}
+  \includegraphics[width=0.8\textwidth]{post_salience_small.png}
   \caption{Posteriors over relative salience of target readings in
     critical conditions.}
   \label{fig:Posterior_T}
@@ -3263,7 +3219,7 @@ our data, in a bias for late responses.
 
 \begin{figure}
   \centering
-  \includegraphics[width=0.5\textwidth]{pics/post_q.pdf}
+  \includegraphics[width=0.5\textwidth]{post_q.pdf}
   \caption{Estimated Posteriors over global sequential bias parameter
     $q$.}
   \label{fig:post_q}
@@ -3334,11 +3290,11 @@ readings are preferred over local readings.
 \begin{figure}
   \centering
   \subfloat[][neutral]{
-      \includegraphics[width=0.45\textwidth]{pics/PostDiffT_ASntr.pdf}
+      \includegraphics[width=0.45\textwidth]{PostDiffT_ASntr.pdf}
   }
   \hfill
   \subfloat[][accented]{
-      \includegraphics[width=0.45\textwidth]{pics/PostDiffT_ASacc.pdf}
+      \includegraphics[width=0.45\textwidth]{PostDiffT_ASacc.pdf}
   }
   \caption{Posteriors over differences between salience levels for
     local and global readings of \as-sentences. As zero is contained
@@ -3712,15 +3668,15 @@ connection with sequences like in Figure~\ref{fig:Trial-PostExp}.
 \begin{figure}[t]
 	\centering
 	\subfloat[][Step 2  (\lit true)]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/PostExp_2.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{PostExp_2.pdf}}
 	    \label{fig:exseqPost1}
 	}
 	\subfloat[][Step 3]{
-		\fbox{\includegraphics[width=3.5cm]{pictures/PostExp_3.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{PostExp_3.pdf}}
 	    \label{fig:exseqPost2}
 	}
 	\subfloat[][Step 4 (\acro{prag} false)]{ 
-		\fbox{\includegraphics[width=3.5cm]{pictures/PostExp_4.pdf}}
+		\fbox{\includegraphics[width=3.5cm]{PostExp_4.pdf}}
 	    \label{fig:exseqPost3}
 	}
 	\caption{Example sequence for critical trial in
@@ -3890,7 +3846,7 @@ model of the data generating process for optimal data analysis.
 \begin{table}[!hp]
   \centering
   
-  \includegraphics[width=\textwidth]{pictures/Acoustics/Table-B.png}
+  \includegraphics[width=\textwidth]{Table-B.png}
 
   \caption{Difference between minimal and maximal F0 values in Hz for
     each of the single words in the target sentences. Region 6
@@ -3902,7 +3858,7 @@ model of the data generating process for optimal data analysis.
 \begin{table}[!hp]
   \centering
   
-  \includegraphics[width=\textwidth]{pictures/Acoustics/Table-A.png}
+  \includegraphics[width=\textwidth]{Table-A.png}
 
   \caption{Durational values in ms for each of the single regions in the target sentences. 
   Region 6 corresponds to the determiner \emph{einigen}.}
@@ -3913,7 +3869,7 @@ model of the data generating process for optimal data analysis.
 \begin{table}[hp]
   \centering
   
-  \includegraphics[width=\textwidth]{pictures/Acoustics/Table-D.png}
+  \includegraphics[width=\textwidth]{Table-D.png}
 
   \caption{Difference between minimal and maximal F0 values in Hz  
   for each of the single regions in
@@ -3926,7 +3882,7 @@ model of the data generating process for optimal data analysis.
 \begin{table}[hp]
   \centering
   
-  \includegraphics[width=\textwidth]{pictures/Acoustics/Table-C.png}
+  \includegraphics[width=\textwidth]{Table-C.png}
 
   \caption{Durational values in ms for each of the single regions in
     the preference-related controls. Regions 5 and 7 correspond to the
